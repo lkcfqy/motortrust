@@ -1,0 +1,209 @@
+MOTORTRUST SCIENTIFIC SNAPSHOT: DATA SOURCES AND LICENSES
+
+Prepared for a public research snapshot on 2026-10-08.
+This file records third-party dataset attribution and component-specific licenses.
+Source records and exact fetched license-text checksums are preserved in
+SOURCE_METADATA.json and FETCH_MANIFEST.json in this directory.
+Dataset licenses below apply to the identified dataset components. This notice
+makes no new license declaration for independently authored MotorTrust code.
+
+1. KAIST THREE-PHASE PMSM STATOR-FAULT DATA
+
+Local locations:
+  data/raw/kaist_faults/1.0kW.zip
+  data/raw/kaist_faults/1.5kW.zip
+  data/raw/kaist_faults/3.0kW.zip
+  data/raw/kaist_faults/current_tdms/
+Title:
+  Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous
+  Motors with Stator Faults
+Contributors credited by the official source:
+  Wonho Jung; SungHyun Yun; Yoon-Seop Lim; Sungjin Cheong; Yong-Hwa Park
+Dataset version: 5
+Dataset DOI: https://doi.org/10.17632/rgn5brrgrn.5
+Source: https://data.mendeley.com/datasets/rgn5brrgrn/5
+Related data article DOI recorded in MotorTrust docs:
+  https://doi.org/10.1016/j.dib.2023.108952
+License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+License text: CC-BY-4.0.txt
+License URL: https://creativecommons.org/licenses/by/4.0/
+Snapshot treatment:
+  Original archives and extracted current TDMS files are source data.
+  MotorTrust current features, resampling and diagnostic result tables are
+  processed research artifacts derived from the attributed source recordings.
+  Keep source attribution and license references, and identify processing changes.
+
+2. DUAL-THREE-PHASE PMSM INTERTURN SHORT-CIRCUIT DATA
+
+Local location:
+  data/raw/external_validation/dual_three_phase_health/
+  (Despite the directory name, this restored directory contains eight healthy
+   and 48 fault MAT files.)
+Title:
+  Measurement of interturn short-circuits emulation on dual three-phase PMS motor
+Creator field as credited by the official Zenodo record:
+  Matus, Kozovsky (ORCID: 0000-0002-1547-1003)
+Dataset version: 1.0
+Dataset DOI: https://doi.org/10.5281/zenodo.13889418
+Source: https://zenodo.org/records/13889418
+Official metadata: https://zenodo.org/api/records/13889418
+Related machine-description DOI:
+  https://doi.org/10.1109/IECON49645.2022.9968364
+License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+License text: CC-BY-4.0.txt
+License URL: https://creativecommons.org/licenses/by/4.0/
+Snapshot treatment:
+  Preserve the original MAT files and source attribution.
+  MotorTrust health/fault features and Paper 1/Paper 3 development analyses are
+  derived research artifacts; identify their processing and keep attribution.
+
+3. TRANSIENT INTERTURN SHORT-CIRCUIT DATA: 200 W / 20 kW PMSMS
+
+Local locations:
+  data/raw/transient_cross_capacity/OpenData.zip
+  data/raw/transient_cross_capacity/extracted/OpenData/
+  data/raw/external_validation/transient_cross_capacity/
+  (The external_validation directory contains a duplicate earlier copy.)
+Title:
+  Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators
+  Estimation - Dataset
+Creators credited by the official Zenodo record:
+  Zezula, Lukas [source spelling: Lukáš]; Kozovsky, Matus; Blaha, Petr
+Dataset DOI: https://doi.org/10.5281/zenodo.15631383
+Source: https://zenodo.org/records/15631383
+Official metadata: https://zenodo.org/api/records/15631383
+Related article DOI: https://doi.org/10.1109/TIE.2024.3363775
+License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+License text: CC-BY-4.0.txt
+License URL: https://creativecommons.org/licenses/by/4.0/
+Snapshot treatment:
+  Keep the original authors' OpenData README with the source files.
+  Preserve source attribution for MotorTrust processed features and compatibility
+  audits, including the recorded parser failure and post-reveal repair status.
+  A recovery package can keep one verified copy and document the duplicate paths.
+
+4. PMSM GEOMETRICAL PARAMETERS AND TORQUE SIGNALS
+
+Local locations:
+  data/raw/PMSM_torque_data.zip
+  data/raw/PMSM_torque_data/
+Title: PMSM geometrical parameters and torque signals
+Creators credited by the official Zenodo record:
+  Schöps, Sebastian; Loukrezis, Dimitrios; Partovizadeh, Aylar
+Dataset version: v1
+Dataset DOI: https://doi.org/10.5281/zenodo.15688397
+Source: https://zenodo.org/records/15688397
+Official metadata: https://zenodo.org/api/records/15688397
+Related article:
+  Partovizadeh, Aylar; Schöps, Sebastian; Loukrezis, Dimitrios.
+  Fourier-enhanced reduced-order surrogate modeling for uncertainty
+  quantification in electric machine design.
+  https://doi.org/10.1007/s00366-025-02123-1
+License designated by the official dataset metadata:
+  GNU General Public License v3.0 or later (GPL-3.0-or-later)
+License text: GPL-3.0.txt
+License URL: https://www.gnu.org/licenses/gpl-3.0.html
+GPL-3.0-or-later designation:
+  The official record specifies version 3 or any later version. The accompanying
+  file contains the official GNU GPL version 3 text; the source's 'or later'
+  designation is retained here.
+Snapshot treatment:
+  The original dataset archive/tables retain their source GPL-3.0-or-later
+  designation. Preserve their author attribution, original readme.txt and this
+  license reference with any redistributed copy. They are simulated torque data.
+
+5. ELECTRIC MOTOR TEMPERATURE: SOURCE 52 kW PMSM
+
+Local locations:
+  data/raw/electric_motor_temperature/measures_v2.csv
+  data/raw/electric_motor_temperature/provenance.json
+Title: Electric Motor Temperature
+Publisher account credited by official Kaggle metadata:
+  Kirgsn (account: wkirgsn)
+Local source version: 3
+Source: https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature
+Official metadata:
+  https://www.kaggle.com/api/v1/datasets/view/wkirgsn/electric-motor-temperature
+Dataset DOI recorded in MotorTrust configuration:
+  https://doi.org/10.34740/KAGGLE/DSV/2161054
+License confirmed by official Kaggle metadata:
+  Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
+License text: CC-BY-SA-4.0.txt
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+Snapshot treatment:
+  Preserve source attribution and provenance. Identify MotorTrust harmonization,
+  resampling and profile splitting as processing changes.
+  When redistributing adapted dataset material, retain the applicable ShareAlike
+  license obligations. The unchanged source CSV retains CC-BY-SA-4.0.
+
+6. LPTN-INFORMED LSTM IPMSM DATASET / UPSTREAM REPOSITORY
+
+Local location:
+  data/raw/lptn_informed_lstm/dataset/
+  data/raw/lptn_informed_lstm/LICENSE
+Source: https://github.com/Zirui24/lptn_informed_LSTM
+Fixed upstream commit: 98e4566b5fb7c70499996fda18dd73179ec16509
+Fixed license source:
+  https://github.com/Zirui24/lptn_informed_LSTM/blob/98e4566b5fb7c70499996fda18dd73179ec16509/LICENSE
+Copyright notice: Copyright (c) 2024 Zirui Liu
+License: MIT
+License text: MIT-LPTN-Liu-2024.txt
+Related article identified in the upstream README:
+  Liu, Zirui; Kong, Wubin; Fan, Xinggang; Li, Zimin; Peng, Kai; Qu, Ronghai.
+  Hybrid Thermal Modeling with LPTNInformed Neural Network for Multi-Node
+  Temperature Estimation in PMSM.
+  https://doi.org/10.1109/TPEL.2024.3409388
+Snapshot treatment:
+  The upstream README explicitly provides its dataset. Its root MIT LICENSE
+  and copyright notice are retained; no separate dataset restriction was found.
+  Preserve the MIT notice when distributing upstream files. A public snapshot
+  can omit the nested .git database and regenerated MATLAB build caches while
+  retaining the data, source references and original LICENSE.
+
+7. PAPER 3 INDEPENDENT PMSG CONFIRMATION SOURCE: RAW FILES ABSENT LOCALLY
+
+Available local derived artifacts:
+  data/processed/paper3_pmsg_confirmation_features.csv.gz
+  data/processed/paper3_pmsg_confirmation_features.csv.metadata.json
+  results/paper3_pmsg_confirmation/
+  related Paper 3 confirmation, audit and diagnostic outputs
+Title: InnovaPower/MitDev-Eletrica: Release with 3-Phase PMSG Dataset
+Creator credited by the official Zenodo record:
+  Rafael Noboro Tominaga
+Dataset DOI: https://doi.org/10.5281/zenodo.15741561
+Source: https://zenodo.org/records/15741561
+Official metadata: https://zenodo.org/api/records/15741561
+Upstream release: https://github.com/InnovaPower/MitDev-Eletrica/tree/v1.1.0
+Frozen commit recorded by MotorTrust:
+  e02fba475cf82b375412a7382143dc29da5241ef
+Related data article DOI recorded by MotorTrust:
+  https://doi.org/10.1016/j.dib.2025.112040
+License: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+License text: CC-BY-4.0.txt
+License URL: https://creativecommons.org/licenses/by/4.0/
+Restore status:
+  The original 225 MAT files were previously read from
+  tmp/pmsg3_metadata_repo/PMSG-3phase-Dataset. The migration archive excluded tmp,
+  so those raw MAT files are not present in the restored MotorTrust project.
+  This snapshot retains processed features, input hashes, protocols and results.
+  Obtain the original data from the credited official release to rebuild features.
+Official archive:
+  InnovaPower/MitDev-Eletrica-v1.1.0.zip
+  Size: 2,404,737,837 bytes (official Zenodo metadata checked for this notice)
+  Download source:
+  https://zenodo.org/api/records/15741561/files/InnovaPower/MitDev-Eletrica-v1.1.0.zip/content
+Snapshot treatment:
+  Keep source attribution and identify MotorTrust feature processing.
+  Do not describe this snapshot as containing the missing raw PMSG MAT files.
+
+INTEGRITY AND SCOPE
+
+- Exact source-record metadata and license names checked for this notice are
+  retained in SOURCE_METADATA.json.
+- FETCH_MANIFEST.json records official license URLs, fetched byte counts,
+  retrieval timestamps and SHA-256 values. License text files were saved without
+  editing; the upstream LPTN MIT file was copied byte-for-byte.
+- Existing MotorTrust manifests and metadata record the original data hashes.
+- Folder names and generated table titles do not replace original creator credit.
+- Preserve the source license and attribution of a dataset when copying its files
+  into a combined research snapshot.

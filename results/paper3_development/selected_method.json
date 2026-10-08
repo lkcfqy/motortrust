@@ -1,0 +1,50 @@
+{
+  "selected_method": "spline_residual",
+  "selected_spec": {
+    "name": "spline_residual",
+    "family": "conditional",
+    "mean_model": "spline",
+    "local_scale": false
+  },
+  "selection_rule": {
+    "eligibility": "on interpolation loads only: health_block_actionable_far <= 0.05 and fault_abstention <= 0.2",
+    "objective": "maximize primary_record_macro_actionable_detection",
+    "tie_breaks": [
+      "lower health_block_actionable_far",
+      "lower fault_abstention",
+      "earlier frozen method order"
+    ]
+  },
+  "selected_development_metrics": {
+    "health_blocks": 64,
+    "health_actionable_alarms": 1,
+    "health_block_actionable_far": 0.015625,
+    "health_far_wilson_lower": 0.002763541923337512,
+    "health_far_wilson_upper": 0.08334101600094262,
+    "health_block_abstention": 0.25,
+    "healthy_records_with_any_actionable_alarm": 1,
+    "primary_health_blocks": 48,
+    "primary_health_actionable_alarms": 1,
+    "primary_health_block_actionable_far": 0.020833333333333332,
+    "primary_health_block_abstention": 0.0,
+    "fault_blocks": 384,
+    "fault_actionable_detection": 0.6171875,
+    "fault_supported_detection": 0.8229166666666666,
+    "fault_abstention": 0.25,
+    "primary_fault_blocks": 288,
+    "primary_fault_actionable_detection": 0.8229166666666666,
+    "primary_fault_supported_detection": 0.8229166666666666,
+    "primary_fault_abstention": 0.0,
+    "fault_records": 48,
+    "record_macro_actionable_detection": 0.6171875,
+    "record_macro_raw_detection": 0.8333333333333334,
+    "record_any_actionable_detection": 0.75,
+    "primary_fault_records": 36,
+    "primary_record_macro_actionable_detection": 0.8229166666666666,
+    "primary_record_any_actionable_detection": 1.0,
+    "auroc": 0.8601481119791666,
+    "auprc": 0.9226438472597844,
+    "selection_eligible": true
+  },
+  "warning": "Development fault labels selected the method. The independent PMSG bench must be parsed only after this method and its confirmation protocol are frozen."
+}

@@ -1,0 +1,275 @@
+{
+  "dummy__base_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque"
+    ],
+    "train_seconds": 0.004128100001253188,
+    "inference_seconds": 0.000837799976579845,
+    "metrics": {
+      "pm": {
+        "mae": 18.015773583795053,
+        "rmse": 21.1686694660796,
+        "r2": -0.015694675748650466
+      },
+      "stator_yoke": {
+        "mae": 15.746379501732232,
+        "rmse": 19.020657929920045,
+        "r2": -0.00026830685642820207
+      },
+      "stator_tooth": {
+        "mae": 19.44095637050316,
+        "rmse": 22.725730657006363,
+        "r2": -8.072209733511748e-05
+      },
+      "stator_winding": {
+        "mae": 24.11101029862855,
+        "rmse": 29.52348768974167,
+        "r2": -0.0019198219720513165
+      },
+      "macro": {
+        "mae": 19.32852993866475,
+        "rmse": 23.10963643568692,
+        "r2": -0.004490881668616276
+      }
+    },
+    "worst_profile_rmse_macro": 28.95291138479631,
+    "p90_profile_rmse_macro": 28.491821705536882
+  },
+  "ridge__base_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque"
+    ],
+    "train_seconds": 0.012353900005109608,
+    "inference_seconds": 0.0013850999530404806,
+    "metrics": {
+      "pm": {
+        "mae": 9.899013258199766,
+        "rmse": 13.1164945714284,
+        "r2": 0.610047579835709
+      },
+      "stator_yoke": {
+        "mae": 5.739632718134912,
+        "rmse": 7.582131245994826,
+        "r2": 0.8410545743875192
+      },
+      "stator_tooth": {
+        "mae": 8.769031702731077,
+        "rmse": 11.661908638212816,
+        "r2": 0.7366467908493672
+      },
+      "stator_winding": {
+        "mae": 12.015793778288947,
+        "rmse": 15.834999892100539,
+        "r2": 0.7117735868767697
+      },
+      "macro": {
+        "mae": 9.105867864338675,
+        "rmse": 12.048883586934146,
+        "r2": 0.7248806329873413
+      }
+    },
+    "worst_profile_rmse_macro": 19.409892051147462,
+    "p90_profile_rmse_macro": 15.848398362313926
+  },
+  "hist_gbr__base_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque"
+    ],
+    "train_seconds": 2.6429993000347167,
+    "inference_seconds": 1.5071062999777496,
+    "metrics": {
+      "pm": {
+        "mae": 8.514139589119946,
+        "rmse": 10.917710207664246,
+        "r2": 0.7298287218607356
+      },
+      "stator_yoke": {
+        "mae": 4.2741515818438,
+        "rmse": 6.149049287774733,
+        "r2": 0.8954602670365471
+      },
+      "stator_tooth": {
+        "mae": 6.382299141622387,
+        "rmse": 9.148861860035877,
+        "r2": 0.8379184856276614
+      },
+      "stator_winding": {
+        "mae": 8.059205391193114,
+        "rmse": 11.807227883205023,
+        "r2": 0.8397516603975962
+      },
+      "macro": {
+        "mae": 6.807448925944811,
+        "rmse": 9.50571230966997,
+        "r2": 0.8257397837306351
+      }
+    },
+    "worst_profile_rmse_macro": 14.77267255153809,
+    "p90_profile_rmse_macro": 11.781916184262526
+  },
+  "dummy__physics_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque",
+      "current_magnitude",
+      "voltage_magnitude",
+      "copper_loss_proxy",
+      "electrical_power_proxy",
+      "mechanical_power_proxy"
+    ],
+    "train_seconds": 0.004774799977894872,
+    "inference_seconds": 0.0011802000226452947,
+    "metrics": {
+      "pm": {
+        "mae": 18.015773583795053,
+        "rmse": 21.1686694660796,
+        "r2": -0.015694675748650466
+      },
+      "stator_yoke": {
+        "mae": 15.746379501732232,
+        "rmse": 19.020657929920045,
+        "r2": -0.00026830685642820207
+      },
+      "stator_tooth": {
+        "mae": 19.44095637050316,
+        "rmse": 22.725730657006363,
+        "r2": -8.072209733511748e-05
+      },
+      "stator_winding": {
+        "mae": 24.11101029862855,
+        "rmse": 29.52348768974167,
+        "r2": -0.0019198219720513165
+      },
+      "macro": {
+        "mae": 19.32852993866475,
+        "rmse": 23.10963643568692,
+        "r2": -0.004490881668616276
+      }
+    },
+    "worst_profile_rmse_macro": 28.95291138479631,
+    "p90_profile_rmse_macro": 28.491821705536882
+  },
+  "ridge__physics_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque",
+      "current_magnitude",
+      "voltage_magnitude",
+      "copper_loss_proxy",
+      "electrical_power_proxy",
+      "mechanical_power_proxy"
+    ],
+    "train_seconds": 0.018889400002080947,
+    "inference_seconds": 0.0025325000169686973,
+    "metrics": {
+      "pm": {
+        "mae": 8.88138691902107,
+        "rmse": 11.613307410109641,
+        "r2": 0.6943053087640172
+      },
+      "stator_yoke": {
+        "mae": 5.080763460380466,
+        "rmse": 6.8322979667552906,
+        "r2": 0.870937808643192
+      },
+      "stator_tooth": {
+        "mae": 7.612766036591045,
+        "rmse": 10.269418132574602,
+        "r2": 0.7957834102376715
+      },
+      "stator_winding": {
+        "mae": 10.327560708043023,
+        "rmse": 13.869976275451556,
+        "r2": 0.7788692779220191
+      },
+      "macro": {
+        "mae": 7.975619281008901,
+        "rmse": 10.646249946222772,
+        "r2": 0.7849739513917249
+      }
+    },
+    "worst_profile_rmse_macro": 14.776228508566597,
+    "p90_profile_rmse_macro": 13.874373618663597
+  },
+  "hist_gbr__physics_features": {
+    "features": [
+      "ambient",
+      "coolant",
+      "u_d",
+      "u_q",
+      "i_d",
+      "i_q",
+      "motor_speed",
+      "torque",
+      "current_magnitude",
+      "voltage_magnitude",
+      "copper_loss_proxy",
+      "electrical_power_proxy",
+      "mechanical_power_proxy"
+    ],
+    "train_seconds": 2.4660292000044137,
+    "inference_seconds": 1.623090000008233,
+    "metrics": {
+      "pm": {
+        "mae": 7.866124226899449,
+        "rmse": 10.456075396821083,
+        "r2": 0.7521930600876383
+      },
+      "stator_yoke": {
+        "mae": 4.614960848510951,
+        "rmse": 6.417903129951159,
+        "r2": 0.8861188737663045
+      },
+      "stator_tooth": {
+        "mae": 6.226195490888143,
+        "rmse": 8.950068228398704,
+        "r2": 0.8448856284841915
+      },
+      "stator_winding": {
+        "mae": 9.66296163501998,
+        "rmse": 13.338301579270805,
+        "r2": 0.7954974570081429
+      },
+      "macro": {
+        "mae": 7.092560550329631,
+        "rmse": 9.790587083610438,
+        "r2": 0.8196737548365693
+      }
+    },
+    "worst_profile_rmse_macro": 13.233169480597917,
+    "p90_profile_rmse_macro": 12.062542642288264
+  }
+}

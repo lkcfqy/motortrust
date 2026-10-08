@@ -1,0 +1,15 @@
+motor_id,record_id,fault_family,severity_percent,macroblocks,detected_macroblocks,block_detection_rate,any_alarm,mean_score
+1kW,1kW_coil_current_0p68pct,intercoil,0.68,60,60,1.0,True,7659515.159316022
+1kW,1kW_coil_current_0p81pct,intercoil,0.81,60,60,1.0,True,7868748.6788962
+1kW,1kW_coil_current_1p01pct,intercoil,1.01,60,60,1.0,True,520.2536867700242
+1kW,1kW_coil_current_1p34pct,intercoil,1.34,60,60,1.0,True,7342170.725370407
+1kW,1kW_coil_current_2pct,intercoil,2.0,60,60,1.0,True,9384.036343546772
+1kW,1kW_coil_current_3p93pct,intercoil,3.93,60,60,1.0,True,7532060.190362012
+1kW,1kW_coil_current_7p56pct,intercoil,7.56,60,60,1.0,True,846.2166657879437
+1kW,1kW_turn_current_12p17pct,interturn,12.17,60,60,1.0,True,2852590.1483206726
+1kW,1kW_turn_current_21p69pct,interturn,21.69,60,60,1.0,True,21365.459352980168
+1kW,1kW_turn_current_2p26pct,interturn,2.26,60,60,1.0,True,6533855.100697267
+1kW,1kW_turn_current_2p7pct,interturn,2.7,60,60,1.0,True,5754126.111162778
+1kW,1kW_turn_current_3p35pct,interturn,3.35,60,60,1.0,True,8410.240472209121
+1kW,1kW_turn_current_4p41pct,interturn,4.41,60,60,1.0,True,4743072.525925691
+1kW,1kW_turn_current_6p48pct,interturn,6.48,60,60,1.0,True,6489.8655196555

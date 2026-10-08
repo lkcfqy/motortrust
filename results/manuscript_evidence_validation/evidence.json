@@ -1,0 +1,190 @@
+{
+  "external": {
+    "fault_turn_phase_fully_crossed": false,
+    "fault_turn_phase_mapping": {
+      "1": [
+        "u"
+      ],
+      "2": [
+        "v"
+      ],
+      "3": [
+        "u"
+      ],
+      "4": [
+        "v"
+      ],
+      "5": [
+        "u"
+      ],
+      "6": [
+        "u"
+      ]
+    },
+    "paired_target_mcd_minus_proposed": 0.4505208333333333,
+    "proposed": {
+      "block_auroc": 0.6354166666666666,
+      "false_alarms": 1,
+      "fault_alarms": 96,
+      "fault_blocks": 384,
+      "fault_records": 48,
+      "h1_empirical_pass": false,
+      "health_test_blocks": 32,
+      "health_test_records": 4,
+      "max_load_false_alarm_rate": 0.125,
+      "record_any_alarm_rate": 1.0,
+      "record_macro_detection_rate": 0.25,
+      "wilson_lower": 0.005537860164003122,
+      "wilson_upper": 0.15744263820012558
+    },
+    "proposed_alarm_counts_by_block": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 5,
+      "4": 7,
+      "5": 11,
+      "6": 25,
+      "7": 48
+    },
+    "proposed_detection_by_load_nm": {
+      "0": 0.5625,
+      "10": 0.2708333333333333,
+      "15": 0.1875,
+      "20": 0.1875,
+      "25": 0.16666666666666666,
+      "30": 0.14583333333333334,
+      "35": 0.125,
+      "5": 0.3541666666666667
+    },
+    "sampling_rate_sensitivity": {
+      "auroc_100khz": 0.6354166666666666,
+      "auroc_10khz": 0.6331380208333334,
+      "detection_100khz": 0.25,
+      "detection_10khz": 0.2473958333333333,
+      "false_alarms_100khz": 1,
+      "false_alarms_10khz": 1
+    },
+    "target_min_cov_det": {
+      "block_auroc": 0.9267578125,
+      "false_alarms": 0,
+      "fault_alarms": 269,
+      "fault_blocks": 384,
+      "fault_records": 48,
+      "h1_empirical_pass": true,
+      "health_test_blocks": 32,
+      "health_test_records": 4,
+      "max_load_false_alarm_rate": 0.0,
+      "record_any_alarm_rate": 1.0,
+      "record_macro_detection_rate": 0.7005208333333334,
+      "wilson_lower": 0.0,
+      "wilson_upper": 0.1071791982550706
+    },
+    "target_min_cov_det_seed_sensitivity": {
+      "detection_max": 0.7708333333333334,
+      "detection_min": 0.6536458333333334,
+      "false_alarms_max": 2,
+      "false_alarms_min": 0,
+      "h1_pass_seeds": 3,
+      "seeds": 5
+    }
+  },
+  "kaist": {
+    "balanced_isolation_forest": {
+      "false_alarms": 0,
+      "fault_records": 42,
+      "healthy_records": 3,
+      "healthy_test_blocks": 42,
+      "record_macro_detection_rate": 0.9607142857142857,
+      "worst_motor_detection_rate": 0.9071428571428571
+    },
+    "paired": {
+      "ci_lower": -0.0392857142857142,
+      "ci_upper": 0.0345238095238095,
+      "fault_records": 42,
+      "proposed_minus_isolation_forest": -0.0035714285714285
+    },
+    "proposed": {
+      "false_alarms": 0,
+      "fault_alarms": 1608,
+      "fault_blocks": 1680,
+      "fault_records": 42,
+      "folds": [
+        {
+          "block_auroc": 1.0,
+          "detection_rate": 1.0,
+          "false_alarms": 0,
+          "fault_alarms": 560,
+          "fault_blocks": 560,
+          "fault_records": 14,
+          "healthy_test_blocks": 14,
+          "target_motor": "1kW"
+        },
+        {
+          "block_auroc": 0.9998724489795918,
+          "detection_rate": 0.9,
+          "false_alarms": 0,
+          "fault_alarms": 504,
+          "fault_blocks": 560,
+          "fault_records": 14,
+          "healthy_test_blocks": 14,
+          "target_motor": "1.5kW"
+        },
+        {
+          "block_auroc": 0.9980867346938775,
+          "detection_rate": 0.9714285714285714,
+          "false_alarms": 0,
+          "fault_alarms": 544,
+          "fault_blocks": 560,
+          "fault_records": 14,
+          "healthy_test_blocks": 14,
+          "target_motor": "3kW"
+        }
+      ],
+      "healthy_records": 3,
+      "healthy_test_blocks": 42,
+      "mean_block_auroc": 0.9993197278911564,
+      "mean_detection_rate": 0.9571428571428572,
+      "worst_motor_detection_rate": 0.9
+    }
+  },
+  "manuscript_text_checks": [
+    "95.71% fault-block detection",
+    "96.07% record-macro detection",
+    "1/32 = 3.125%",
+    "25.00% of the 384 ordered fault blocks",
+    "70.05% detection",
+    "AUROC 0.9268",
+    "40.62--49.48%",
+    "fault-turn count and fault phase are not fully crossed",
+    "primary two-dataset analysis"
+  ],
+  "transient": {
+    "post_reveal_200w": {
+      "log_euclidean_entity_covariance": {
+        "false_alarms": 8,
+        "healthy_windows": 176,
+        "mean_record_auroc": 0.540553991931701,
+        "record_macro_detection_rate": 0.0
+      },
+      "target_min_cov_det": {
+        "false_alarms": 9,
+        "healthy_windows": 176,
+        "mean_record_auroc": 0.5638873252650343,
+        "record_macro_detection_rate": 0.0
+      }
+    },
+    "primary_official_records": 21,
+    "primary_parser_compatible": 0,
+    "repaired_by_motor": {
+      "200W": {
+        "compatible": 12,
+        "official": 12
+      },
+      "20kW": {
+        "compatible": 4,
+        "official": 9
+      }
+    }
+  }
+}

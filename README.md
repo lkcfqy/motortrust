@@ -1,5 +1,18 @@
 # When Healthy-Only Transfer Fails: PMSM Cross-Dataset Evaluation
 
+## MotorTrust 文件恢复与完整数据快照
+
+代码、论文、处理后的数据、训练模型和现有实验结果已纳入本仓库。冻结结果按原始字节
+保存，避免跨平台换行转换改变科学证据的 SHA-256。原始数据及现有科研文件的完整快照
+通过 [2026-10-08 分卷 Release](https://github.com/lkcfqy/motortrust/releases/tag/research-snapshot-2026-10-08)
+提供；普通 `git clone` 不会下载这些 Release 附件。
+
+重装后恢复步骤见 [`recovery/RESTORE_CN.txt`](recovery/RESTORE_CN.txt)，Mac arm64 环境版本
+见 [`recovery/environment.macos-arm64.yml`](recovery/environment.macos-arm64.yml)。各数据集的来源、
+署名和许可证见 [`recovery/licenses/DATA_SOURCES_AND_LICENSES.txt`](recovery/licenses/DATA_SOURCES_AND_LICENSES.txt)。
+PMSG 的 225 个原始 MAT 文件此前已不在本地项目内；处理数据和结果仍保留，原始数据的官方
+恢复来源已记录。快照不含 Python 环境二进制、Git 认证信息或缓存，环境需要重新创建。
+
 本仓库服务于博士主线：**科学机器学习 × 工业数字孪生 × 电驱动健康管理**。
 
 首篇论文已经收敛为一个由冻结外部实验直接证伪、但更具科学价值的问题：

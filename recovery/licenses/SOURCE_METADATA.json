@@ -1,0 +1,171 @@
+{
+  "dual_three_phase": {
+    "metadata_url": "https://zenodo.org/api/records/13889418",
+    "record_url": "https://zenodo.org/records/13889418",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "Measurement of interturn short-circuits emulation on dual three-phase PMS motor",
+    "creators": [
+      {
+        "name": "Matus, Kozovsky",
+        "affiliation": "Central European Institute of Technology",
+        "orcid": "0000-0002-1547-1003"
+      }
+    ],
+    "doi": "10.5281/zenodo.13889418",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "access_right": "open",
+    "related_identifiers": [
+      {
+        "identifier": "10.1109/IECON49645.2022.9968364",
+        "relation": "describes",
+        "resource_type": "publication-conferencepaper",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.4230/OASIcs.DX.2024.18",
+        "relation": "isReferencedBy",
+        "resource_type": "publication-conferencepaper",
+        "scheme": "doi"
+      }
+    ]
+  },
+  "transient_cross_capacity": {
+    "metadata_url": "https://zenodo.org/api/records/15631383",
+    "record_url": "https://zenodo.org/records/15631383",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators Estimation - Dataset",
+    "creators": [
+      {
+        "name": "Zezula, Lukáš",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0002-3183-2438"
+      },
+      {
+        "name": "Kozovsky, Matus",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0002-1547-1003"
+      },
+      {
+        "name": "Blaha, Petr",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0001-5534-2065"
+      }
+    ],
+    "doi": "10.5281/zenodo.15631383",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "access_right": "open",
+    "related_identifiers": [
+      {
+        "identifier": "10.1109/TIE.2024.3363775",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ]
+  },
+  "geometry_torque": {
+    "metadata_url": "https://zenodo.org/api/records/15688397",
+    "record_url": "https://zenodo.org/records/15688397",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "PMSM geometrical parameters and torque signals",
+    "creators": [
+      {
+        "name": "Schöps, Sebastian",
+        "affiliation": "Technische Universität Darmstadt",
+        "orcid": "0000-0001-9150-0219"
+      },
+      {
+        "name": "Loukrezis, Dimitrios",
+        "affiliation": "Siemens (Germany)",
+        "orcid": "0000-0003-1264-1182"
+      },
+      {
+        "name": "Partovizadeh, Aylar",
+        "affiliation": "Technische Universität Darmstadt"
+      }
+    ],
+    "doi": "10.5281/zenodo.15688397",
+    "license": {
+      "id": "gpl-3.0-or-later"
+    },
+    "access_right": "open",
+    "related_identifiers": [
+      {
+        "identifier": "10.1007/s00366-025-02123-1",
+        "relation": "isPartOf",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "arXiv:2412.06485",
+        "relation": "isPartOf",
+        "resource_type": "publication-preprint",
+        "scheme": "arxiv"
+      }
+    ]
+  },
+  "pmsg_confirmation": {
+    "metadata_url": "https://zenodo.org/api/records/15741561",
+    "record_url": "https://zenodo.org/records/15741561",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "InnovaPower/MitDev-Eletrica: Release with 3-Phase PMSG Dataset",
+    "creators": [
+      {
+        "name": "Rafael Noboro Tominaga",
+        "affiliation": null
+      }
+    ],
+    "doi": "10.5281/zenodo.15741561",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "access_right": "open",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/InnovaPower/MitDev-Eletrica/tree/v1.1.0",
+        "relation": "isSupplementTo",
+        "resource_type": "software",
+        "scheme": "url"
+      }
+    ]
+  },
+  "electric_motor_temperature": {
+    "metadata_url": "https://www.kaggle.com/api/v1/datasets/view/wkirgsn/electric-motor-temperature",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "Electric Motor Temperature",
+    "owner_name": "Kirgsn",
+    "owner_reference": "wkirgsn",
+    "license": "CC BY-SA 4.0",
+    "current_version_number": 3,
+    "local_version": 3,
+    "source_url": "https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature"
+  },
+  "kaist_stator_faults": {
+    "source_url": "https://data.mendeley.com/datasets/rgn5brrgrn/5",
+    "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+    "title": "Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous Motors with Stator Faults",
+    "version": 5,
+    "doi": "10.17632/rgn5brrgrn.5",
+    "contributors": [
+      "Wonho Jung",
+      "SungHyun Yun",
+      "Yoon-Seop Lim",
+      "Sungjin Cheong",
+      "Yong-Hwa Park"
+    ],
+    "license": "CC BY 4.0",
+    "verification": "Official Mendeley dataset v5 page lists these contributors and CC BY 4.0; corroborated by project docs/data_sources.yaml."
+  },
+  "lptn_informed_lstm": {
+    "source_url": "https://github.com/Zirui24/lptn_informed_LSTM",
+    "fixed_commit": "98e4566b5fb7c70499996fda18dd73179ec16509",
+    "license_url": "https://github.com/Zirui24/lptn_informed_LSTM/blob/98e4566b5fb7c70499996fda18dd73179ec16509/LICENSE",
+    "copyright": "Copyright (c) 2024 Zirui Liu",
+    "license": "MIT",
+    "verification": "Original upstream repository LICENSE retained. Repository README explicitly provides the dataset; no separate dataset restriction was found."
+  }
+}

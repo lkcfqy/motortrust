@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1.5kW,1.5kW_coil_current_0pct,intercoil,0.0,True,target_ocsvm_rbf,20260820,14,0,0.0,0.24890325562316226,0.3119737099660379
+1.5kW,1.5kW_coil_current_13p12pct,intercoil,13.12,False,target_ocsvm_rbf,20260820,40,29,0.725,0.38475351312322187,0.3894312213270549
+1.5kW,1.5kW_coil_current_23p2pct,intercoil,23.2,False,target_ocsvm_rbf,20260820,40,40,1.0,0.38946340724347495,0.3894634072434755
+1.5kW,1.5kW_coil_current_37p66pct,intercoil,37.66,False,target_ocsvm_rbf,20260820,40,37,0.925,0.3888636648153885,0.3894545375957971
+1.5kW,1.5kW_coil_current_4p79pct,intercoil,4.79,False,target_ocsvm_rbf,20260820,40,40,1.0,0.38946340724347545,0.3894634072434755
+1.5kW,1.5kW_coil_current_5p7pct,intercoil,5.7,False,target_ocsvm_rbf,20260820,40,40,1.0,0.38946340724347545,0.3894634072434755
+1.5kW,1.5kW_coil_current_7p02pct,intercoil,7.02,False,target_ocsvm_rbf,20260820,40,24,0.6,0.38052679705430764,0.3892037600503963
+1.5kW,1.5kW_coil_current_9p15pct,intercoil,9.15,False,target_ocsvm_rbf,20260820,40,40,1.0,0.3894634072434752,0.3894634072434755
+1.5kW,1.5kW_turn_current_16p08pct,interturn,16.08,False,target_ocsvm_rbf,20260820,40,40,1.0,0.3894634072426633,0.3894634072434748
+1.5kW,1.5kW_turn_current_1p57pct,interturn,1.57,False,target_ocsvm_rbf,20260820,40,40,1.0,0.38946340724328987,0.38946340724346873
+1.5kW,1.5kW_turn_current_1p88pct,interturn,1.88,False,target_ocsvm_rbf,20260820,40,40,1.0,0.3894634072434749,0.3894634072434755
+1.5kW,1.5kW_turn_current_2p34pct,interturn,2.34,False,target_ocsvm_rbf,20260820,40,1,0.025,0.34694768489673267,0.38924354698704366
+1.5kW,1.5kW_turn_current_3p1pct,interturn,3.1,False,target_ocsvm_rbf,20260820,40,40,1.0,0.3894634072434755,0.3894634072434755
+1.5kW,1.5kW_turn_current_4p57pct,interturn,4.57,False,target_ocsvm_rbf,20260820,40,33,0.825,0.3869328274399999,0.38944344631294675
+1.5kW,1.5kW_turn_current_8p74pct,interturn,8.74,False,target_ocsvm_rbf,20260820,40,40,1.0,0.3894634072434755,0.3894634072434755

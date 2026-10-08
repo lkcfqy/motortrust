@@ -1,0 +1,2095 @@
+{
+  "created_utc": "2026-08-21T08:55:59.186555+00:00",
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scipy": "1.18.0",
+  "input_dir": "C:\\lkc\\phd sci\\tmp\\pmsg3_metadata_repo\\PMSG-3phase-Dataset",
+  "container_audit": "C:\\lkc\\phd sci\\results\\paper3_confirmation_reveal\\container_audit.csv",
+  "container_audit_sha256": "c6d6f2efaaf443e272dfadf961289990fd4240b2f5b8718de15185558d502e6f",
+  "output": "C:\\lkc\\phd sci\\data\\processed\\paper3_pmsg_confirmation_features.csv.gz",
+  "output_sha256": "78bbc520ada5bcfe6f3dc419968e64892aaba48743f5976443cdf4f136346040",
+  "mat_variables_deserialized": [
+    "t",
+    "Ia",
+    "Ib",
+    "Ic"
+  ],
+  "forbidden_variables_deserialized": false,
+  "context_features": [
+    "speed_rpm",
+    "torque_setting_code"
+  ],
+  "development_context_schema_names": [
+    "commanded_speed_rpm",
+    "load_nm"
+  ],
+  "outcome_features": [
+    "sequence_unbalance",
+    "fundamental_amplitude_cv",
+    "phase_rms_cv",
+    "clarke_radius_cv",
+    "zero_sequence_ratio",
+    "spectral_entropy",
+    "sideband_lower_ratio",
+    "sideband_upper_ratio",
+    "harmonic_2_ratio_mean",
+    "harmonic_2_ratio_max",
+    "harmonic_3_ratio_mean",
+    "harmonic_3_ratio_max",
+    "harmonic_4_ratio_mean",
+    "harmonic_4_ratio_max",
+    "harmonic_5_ratio_mean",
+    "harmonic_5_ratio_max",
+    "thd_2_to_5_mean",
+    "rms_ratio_a",
+    "crest_a",
+    "kurtosis_a",
+    "rms_ratio_b",
+    "crest_b",
+    "kurtosis_b",
+    "rms_ratio_c",
+    "crest_c",
+    "kurtosis_c"
+  ],
+  "rows": 2493,
+  "records": 225,
+  "segment_rows": {
+    "recovery": 1296,
+    "pre_fault": 648,
+    "fault_active": 432,
+    "health_analysis": 117
+  },
+  "standalone_roles": {
+    "fit": 52,
+    "calibration": 39,
+    "standalone_health_test": 26
+  },
+  "files": [
+    {
+      "filename": "HEALTHY_S1200_T52.mat",
+      "sha256": "3a30b871ad69938f5e2ac6a839d1a97dba0f20ca7fc367fee36d6d19ee1a1db5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "fit",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1200_T64.mat",
+      "sha256": "9de767ce482fd822374586940846686ef602cca87fc96dff437e3a11267d520c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "calibration",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1200_T80.mat",
+      "sha256": "ee0feaed81649bb6ee2fbb9bcec2a221a3592ee256911a058d29f949ca39accf",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "fit",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1500_T52.mat",
+      "sha256": "dc17adaadbb3857ad350046095e2cf02262432b05943830040558652b398be6d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "standalone_health_test",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1500_T64.mat",
+      "sha256": "689046d38ab03f49c710f9accd6a8ef947cf893078cf4f6041c9529f2911f91b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "calibration",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1500_T80.mat",
+      "sha256": "6f1ec900863620d9819a55808d7298347e289024fb50c68a4e893a9becaf0951",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "standalone_health_test",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1800_T52.mat",
+      "sha256": "325a1c4dfa70c3658c1125efc94fc0a864f9e98ab8509b5456c50e5af5c8266c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "fit",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1800_T64.mat",
+      "sha256": "8923424e382c1b4bc1ad0780f3f6c6969f7a3e31fdca36cf94968336d672b127",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "calibration",
+      "feature_rows": 13
+    },
+    {
+      "filename": "HEALTHY_S1800_T80.mat",
+      "sha256": "76abed7e09dcf49b277ba4f372db9f34af72f2a82135db32fddc9e872a188726",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": true,
+      "standalone_role": "fit",
+      "feature_rows": 13
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1200_T52.mat",
+      "sha256": "37a877fe58c8a51a0e3e6ab9e3b6f412ce24614e853f6fd7b500634f8973dc4e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1200_T64.mat",
+      "sha256": "0366f1dc3da85cb6c05cb57b63e5763b84d795f481517fdddfe5e89cf0e7d1fb",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1200_T80.mat",
+      "sha256": "ccd63808fd8284418a7735d25d0bff83a41c17e703d90db5a8d2c31aff5131ee",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1500_T52.mat",
+      "sha256": "073cdcad6846255b7f5c6457406b3c43b1620f8d7af115e9369b9e15ab552e93",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1500_T64.mat",
+      "sha256": "3a70fa5d94696cb2d59955c99a03e498104253216a27769e2f49ebcca9eb496f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1500_T80.mat",
+      "sha256": "6bae5f7d80d73e86e4a479e023629661f931c31261446b135490cc8316638bcf",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1800_T52.mat",
+      "sha256": "3d6df2e54a001df59d460bcaccf7035bf8e8fe563a4260b3695b9beb4c623b51",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1800_T64.mat",
+      "sha256": "7d25fa8c2a2fecde5c89b25591762a8807f5299d477ea0e597b1f464931ccbde",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D01_D04_R026_S1800_T80.mat",
+      "sha256": "cf3cb428611c24bf8634ab3edcc3d097d31954d65b6ab8497e8d9d94e5259d6b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1200_T52.mat",
+      "sha256": "857418445860bd593651f0234a9795a1047585e8968b2fe97be1c002f83a5107",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1200_T64.mat",
+      "sha256": "ba9eb81bfbadf4ed64e9a959105683d3a148b48403cbe079384e9a49cb172723",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1200_T80.mat",
+      "sha256": "e8e1f1f478bf3423c47f177a5850becca12652617a28f9f873c6d156d6303622",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1500_T52.mat",
+      "sha256": "db8d0924a693f04671f254b286ea3660f8a8940122646ecff44098ca1bda90fc",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1500_T64.mat",
+      "sha256": "d837601918941d27106accb54583d88a6ff6fc7fa462dea5b6636045ca830f7a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1500_T80.mat",
+      "sha256": "7ac6b0afbdf6c179c513c64889d232577f94813f970495fc030daf864be084e2",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1800_T52.mat",
+      "sha256": "f370b316599f91f0218ab661cc42b04dc2b8b146fe7c4e4e40b945a530f534df",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1800_T64.mat",
+      "sha256": "60a2274f8bc83f0d6d49ad657ff8d0111bc8e59c83f3d92171d3ada3f537adfd",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D02_D03_R026_S1800_T80.mat",
+      "sha256": "8f326dd6ab00117da25d3092d59914d41d90b76064daed7479e79833ed4fedb4",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1200_T52.mat",
+      "sha256": "2f50a2c479b3d4bf6dcc5d3cfcfdae695e8abbce3b2e7a686a84af3fbd5196d1",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1200_T64.mat",
+      "sha256": "26aec3a832691b8c89c52f7aadcc8e370d487a464c8a976576e1fcee59af572b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1200_T80.mat",
+      "sha256": "016ff9baa9e0d1dbffd80333fcda14861600280f86d710e15216b38650612b66",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1500_T52.mat",
+      "sha256": "832ae194843f47da598865ce2d99a76fb23425fab304225e7840d9bb699b1cde",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1500_T64.mat",
+      "sha256": "8b91f0cf039e6a4123dc4c5528dc5a003f099daddc2a44a1d54ce1d5ee9d56d5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1500_T80.mat",
+      "sha256": "0349d2af839ed6de716c74eb760af40388670f1338114accb3f52f7636bf12a9",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1800_T52.mat",
+      "sha256": "0e7772673f2bb255141bdd9a2df57b4fed9b2d2feee7605f086272c2f33488ce",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1800_T64.mat",
+      "sha256": "b92fe02af333b64841c4768c039f1a0d7cc70bddb485a7274e1577722fe5383e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D05_D08_R026_S1800_T80.mat",
+      "sha256": "8cbb08af100950a0b379fa4390a9d68de1c52fdfdedd80ed56f947f8a9130378",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1200_T52.mat",
+      "sha256": "020046f86ee3b496b9e848a9581be0bd39ba52569a874fa492bd1e8ff7a3d58d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1200_T64.mat",
+      "sha256": "bc1b45b91489ab8533bbef36a3bed354f6ad73a23c20a2ff6505ecc7253c54ad",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1200_T80.mat",
+      "sha256": "3b2266fb5bb44ba9519dc5cb43953f58034f1b4aee9aec5c8f9ca7e54ed63fba",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1500_T52.mat",
+      "sha256": "f6ae41335c23ebc2fa81d7e445b2961d454ca2d327e03876d353ecc289852a49",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1500_T64.mat",
+      "sha256": "8632a229191b20042544cf34a3bf97bc63293163a301b5d69b636cc3d1c8f276",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1500_T80.mat",
+      "sha256": "5c8e36388e7548e58a943f459350dbbbe441972800770d0d61d0a2410deda247",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1800_T52.mat",
+      "sha256": "a5d6926739ca64af43c42331f4f5d68970b4c59a0f947ec36537f4816389b382",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1800_T64.mat",
+      "sha256": "f87dc88e8d10be1088a9323617729d7c8212a26c4b564fdce5cba18ec05b346b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D06_D07_R026_S1800_T80.mat",
+      "sha256": "073f83bddba37dab1ebdf1590cdcc30636a178d58131d448b1fc4b98ee2cd0a2",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1200_T52.mat",
+      "sha256": "69038d937b09698e2fc80a61d52db0e736784998120a1c2cf1df1c762bba3f19",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1200_T64.mat",
+      "sha256": "feb5b6448ee268f1f18f6774903bb4d5024d642ddd3fcabb0b1df3c0c02c0cd3",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1200_T80.mat",
+      "sha256": "ac7196aa420fed6e17b92eb074f6934dfea02cc287f53ae744507419a9f52a0e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1500_T52.mat",
+      "sha256": "73fa33e56bb68bc6dc9748983f952fd700f3a861d4c16ddb74c172ce0e22f203",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1500_T64.mat",
+      "sha256": "8387ae3f4cc107246837c3e0315dbc6991df6cff9160cf9ae4b488858a548465",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1500_T80.mat",
+      "sha256": "7af0240bde3ab14a2d52abf27821b4f44a8ee3876fcebb9240ff9fc329d498dc",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1800_T52.mat",
+      "sha256": "3cdfc42bfc1780f152a44765b07d902232c0c63ecb416dd40d1f938b50f1b461",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1800_T64.mat",
+      "sha256": "99caf2fec65af2639e9a391789ad0ad8149394129ec8521ced798c8699c38384",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D09_D10_R026_S1800_T80.mat",
+      "sha256": "a23b44537fa75e5fef00a03b93ff32a2cd17c5caaf2a79fc51e2374239edf7f6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1200_T52.mat",
+      "sha256": "1316edba3f07f031e78dedd042a4ed5fb3d739baa668c6dd756645ad8dccff1f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1200_T64.mat",
+      "sha256": "31048a5fbe1376a2346c44ca2122a6a56a09205de22f5e0cf1ccdbf411ce3804",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1200_T80.mat",
+      "sha256": "a8f13e8aa42682b8fda7f7425c04816557a93f21eac7c68a24b864476796146a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1500_T52.mat",
+      "sha256": "21b227a47da7f49bebd9ba96b421460614470f7446cc932dd1027c9290408534",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1500_T64.mat",
+      "sha256": "c8f28dd5c438f74313237521aaede23a7b09c7d67f62c1e82dbb8e3925cac16c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1500_T80.mat",
+      "sha256": "35ecb90d73a42cc039e08e51b6c31db72737ddf10afa1304c330370285a4fc75",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1800_T52.mat",
+      "sha256": "0d556aff78d202939a14b71fbe9a2e4c40a27f8f670f5f2d6b6ffbaf489fe43d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1800_T64.mat",
+      "sha256": "f95d323d3601ebcd265e306269129e1894fac53f181fc9cc4dfdfd5602546619",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D11_D12_R026_S1800_T80.mat",
+      "sha256": "4932da9748a849f31626a6a25afb16e7d3ee54b416fc6d08cb491d2a586686d4",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1200_T52.mat",
+      "sha256": "c61595798ffcfaba0e96a4a104d6777c3bd4488799619250b9880bdd57d4a64d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1200_T64.mat",
+      "sha256": "ca1dbecc84f38918ac7a22c8db7dd26084264a104daacafc960593e89222caad",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1200_T80.mat",
+      "sha256": "e1884e8e21f9b42e3648f71564151f5c0818d554d411920afd7fafa931690467",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1500_T52.mat",
+      "sha256": "9b67c3e1293f8bf98e64a9782d6aed89ce824f28b0dcb04c47063ddfd9b386e9",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1500_T64.mat",
+      "sha256": "f66b47469947a788744a6f74add807b1795c282ca3efb20a1fe09c6ebab1e97d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1500_T80.mat",
+      "sha256": "afc0e576958abdcfb110ae7d0e89c05025619e054be738c52fa3482e079b7f90",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1800_T52.mat",
+      "sha256": "3f5bbb9b19498e54360408549a2133e3e1e3576878f7c5389af6c02b5ff42662",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1800_T64.mat",
+      "sha256": "5c06261ab08e981e5c67426c852c5e0ded43f0a849152f8725202576d6ac1f0b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D13_D16_R026_S1800_T80.mat",
+      "sha256": "772606faf014d65bcbe2b7d09133971eb9f0b8eb7c0f5870c8505d2eb7ced74c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1200_T52.mat",
+      "sha256": "c2c7aeccc3d9e2d16d6d34820f53f757a2d636c1bb98ffbcb60d98d922b655c7",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1200_T64.mat",
+      "sha256": "59131fd339bb77c25db3e0915ddaa66c6391e5b8351a788186f5ff7d2cc80baa",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1200_T80.mat",
+      "sha256": "a6590b77a8ea35eae88753b9a5bd579cf767beb1c5a3abec912f132864c0a21b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1500_T52.mat",
+      "sha256": "72d7a5ba128ce5b12bc0a07740d95fb7730babd44513da45cc93a781118834a1",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1500_T64.mat",
+      "sha256": "1cfe23ecb341b85d285f2a3336e60a99bf1102bbae5354be22397cc581d30186",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1500_T80.mat",
+      "sha256": "fee289222ac33cd987a1b3c134c310567d06b61b1b5dfb413f575ea66f3a0e68",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1800_T52.mat",
+      "sha256": "a0ab3139785e83f98f47848e6681578bef64e6eb707afc0875c7c4af12ccde0b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1800_T64.mat",
+      "sha256": "4da1fa13d67b8f7b91ad147bf2b98b52d15f628519601408f5e3d03c089697a4",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D14_D15_R026_S1800_T80.mat",
+      "sha256": "857ed298488ec0e4069cd7eb6a70f8815f2e1226e5c4fde1c6b212a63213f89a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1200_T52.mat",
+      "sha256": "6d55cadec185fb0b85733e4d6a7d3fd3af3230fdd3eac8987a7a86b555d20431",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1200_T64.mat",
+      "sha256": "1ebe57ec7f1120b4357fdcf75fca6daaf0f28e0424c59873fa159fcd471d0117",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1200_T80.mat",
+      "sha256": "a99c70e18b8c20e112ae6b05d72c7249e94a7146b6fd4ec3aff0d1a76cca70e5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1500_T52.mat",
+      "sha256": "d8d8ab24ff3481d205599929d670018bb461b9afa569f7cddcb9c0d8e0f93d9d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1500_T64.mat",
+      "sha256": "bc21baf1be751c409358d8492e18b6d3718998708b499a41c5304cc59c6b9446",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1500_T80.mat",
+      "sha256": "4ef56fdb5867480b797c6fed4b044b46b92d4d3af13d992054ce5b725ea9cf4e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1800_T52.mat",
+      "sha256": "c459743772db1b2822ff2e6f09265be400a105b38dab0e51dc82a7f95f01a7ce",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1800_T64.mat",
+      "sha256": "c0417fd226207ce75faaf20c294efa6a9de1e4f4406dfa030354d22cbd064153",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D17_D20_R026_S1800_T80.mat",
+      "sha256": "bddc4b7ced75640fc34a5a4b968fa83e5e2e2905335e954875d101ba4711b08e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1200_T52.mat",
+      "sha256": "c75fa970bac69b1366c06abc5d39517a878f00aa0b1cfef1731a9b5a2eae1c13",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1200_T64.mat",
+      "sha256": "c1a32260d46c914a79471248259c62c0f426ae6372f32cb1279c0d525d29c71c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1200_T80.mat",
+      "sha256": "fdf2f816342add85a01e6f07d89f4f9d1f6402f7ef650564c53574ec399b4ab3",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1500_T52.mat",
+      "sha256": "ceebf9dfc7a685941637b7a821625a94395154ae3503f4f1738c2567750955ce",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1500_T64.mat",
+      "sha256": "2488e1c15385b400619d5482a2cf32775686290e29fe3eb6cff1e91d8e322f85",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1500_T80.mat",
+      "sha256": "2de2a88d5242ebc001e659e96a0040fe6a67f706c437f537f0d5273287411dc9",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1800_T52.mat",
+      "sha256": "abbb0aee9613ada2f86040b8d8ca9f472a1a22d1d72a8c860104610e0da4f7d5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1800_T64.mat",
+      "sha256": "7667bfffa8a77f2379dcf4da24312a4a124efa1707a003f9639fa97a3f883144",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D18_D19_R026_S1800_T80.mat",
+      "sha256": "d03fe99c35c82a95626589073be74453ec86e9bab41835cd88e2abec228753bc",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1200_T52.mat",
+      "sha256": "d93ba1b08c54d386f7fc65a0e81ea7f79f90a6b30d3109a8de7857f057af4359",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1200_T64.mat",
+      "sha256": "25dbea202710a6063ac0d52560d64a0441d34dd9e9d63eb4a0c08cc823b71873",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1200_T80.mat",
+      "sha256": "4b2cf0dc762634486ab12671ce13c5f4a9fde89ac4539e8d3f659512d2ef4098",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1500_T52.mat",
+      "sha256": "59f466b9602d1c08d63034bf3f90ef213d1b30944525cce0a34fbb604dba9dba",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1500_T64.mat",
+      "sha256": "bdd2ef00d1d4bd1242721395e0a6f4e9fcd758edfb3f34f57c5f59d2bef258aa",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1500_T80.mat",
+      "sha256": "cdcdb4d1056a5ad94357d293709d19821495562f16cb863f0b59d76239514f1d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1800_T52.mat",
+      "sha256": "5731b7937cb3a58d84d3e42558ed7839f9c88e963af1f8fa28d8efbaa8b22c0a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1800_T64.mat",
+      "sha256": "239e118a4e2f27dd845dca6525134e21c71bc1a1cbb04971a8a8898523fa8c9d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D21_D22_R026_S1800_T80.mat",
+      "sha256": "c0278d92ff7d6c754fc8314e7d77fdbfb47edd211466ccdaefeaa4588c3fe1dc",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1200_T52.mat",
+      "sha256": "90f34270bf005804c71a98b1eff9e679db6bfa37b38fc9334df35cee322ee65e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1200_T64.mat",
+      "sha256": "3d87208226290f4a2ae6f12c41f2fa3e7534cbf20aca102960dedba6bff6546b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1200_T80.mat",
+      "sha256": "b4bac0c1b1353e710732d91b72fb1c6f2d8baea6ae14c245d1f7a6b0d5312941",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1500_T52.mat",
+      "sha256": "1c75ae2c9bd16a632382e56061b24842de1852a57d21570b88883c3be7da4cbf",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1500_T64.mat",
+      "sha256": "82dd69e6be8372f0db92529f1aef9130dff686c2a96236dc4c41107ef2e844bf",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1500_T80.mat",
+      "sha256": "62743dffa32252b32ce6552368eb94c6e0594cfef3838dc91046c54c0106aaac",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1800_T52.mat",
+      "sha256": "7b101cca9d241a509c71aa3907f3de368215f7f55a4a36dbeb1f9ee587d148c8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1800_T64.mat",
+      "sha256": "5d6ff07feb3dc0b9a1a2d7f80ed9f1008fb7a5250f23226c9c0f48e7771fe025",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_TURNS_D23_D24_R026_S1800_T80.mat",
+      "sha256": "17aa90ef039a1da4d3925c9f6a508a0d1435f4218a40e46503d42d5356a15255",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1200_T52.mat",
+      "sha256": "8e131bcd36775dd38ecf354b5103acebb6c156e82bace52e2a3381e89701fa72",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1200_T64.mat",
+      "sha256": "a0fbbd1999225d2976ebbe855362a26039947a3d266d8fc19e22fdfc3921b7d0",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1200_T80.mat",
+      "sha256": "d273cf548ca68ae147785109c1f86f0a967889272c3691c96d2b50c7212afbf9",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1500_T52.mat",
+      "sha256": "eeb321a223aea8d8fd79949e8d3eaa5d5862bddf37564267475015f0d381c869",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1500_T64.mat",
+      "sha256": "bd0d2b718a35dcc750fe80113f6f0ebf85750ad7e7b723cecebc65557796ffa7",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1500_T80.mat",
+      "sha256": "dae0961d5b80ca3388e44c9f8f9f5694ecc54d4be2495fa31c039ab24997ecbf",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1800_T52.mat",
+      "sha256": "c95ab52ebe1ad5d1ba9381fa6439adde64c961bd386e838e602165c23decdd6d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1800_T64.mat",
+      "sha256": "0cb1de7e00be8df11c4071700493f5f6cde2cac86982ac1d852987c47fd042d2",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D06_R026_S1800_T80.mat",
+      "sha256": "78946e2a58359a28e13217f964c2e13b3f3bd5c939cb43394e51dc212686422c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1200_T52.mat",
+      "sha256": "038921f5b46adb422c19cf676492e2a61ac4326e17e71c606cc94f82cc63fda8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1200_T64.mat",
+      "sha256": "86e02ae01e0702dd69de7478fe2ea078ef892405f073c8d70288e2e929161a65",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1200_T80.mat",
+      "sha256": "9b161a6371cad3b156f2cc350f15bec3133d80a4516574955233c6c4318e890a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1500_T52.mat",
+      "sha256": "b51e449cc44f8053e36bbba599e045a06287715d2d826582388003227365cf3d",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1500_T64.mat",
+      "sha256": "bd9620f4039980a5b0a9af4642b7aaf1c89ed81621df005c259d0dc882f762fc",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1500_T80.mat",
+      "sha256": "b5c0a74d30fe3eab2db2418d13363fbbb69f5a3b69107a5d584e705d227111a6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1800_T52.mat",
+      "sha256": "809050f1e4032e86b5292b5c6b8fba5d26332120830fd3699014157a8b05e787",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1800_T64.mat",
+      "sha256": "01a9066adc06100e32e874b5d47d41f296a57cfdafdc112b5b07a9b08456d9e8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D01_D07_R026_S1800_T80.mat",
+      "sha256": "8063792e88b6b8ce8f90a3e7a7f0720ef6327f10ee3df9e346c83cd7792ea9f5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1200_T52.mat",
+      "sha256": "46d9b5cb7f10f6c60adcb7bed5e8be9a817fef4f99a65a075892a841cf677c0f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1200_T64.mat",
+      "sha256": "ebf5a2354916f445932b327e1b826be64c47f919c00574894c74291783350e83",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1200_T80.mat",
+      "sha256": "0f03398cae55a513c64fed28525be234880cd3209e50af7c8fc914f5b9a60ed6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1500_T52.mat",
+      "sha256": "0fd81c86b424a61dc750ac6368e43555ddd4c7b0a6cff25a4079326f0a707590",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1500_T64.mat",
+      "sha256": "c572c2d211deedf939cf7b90b4ec619a5b82c8ca7f3197bb61fbdb25aff2e76a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1500_T80.mat",
+      "sha256": "f0802965f2d6c8cb9474c0054eada3130c2c1bc06e6222618257b00e3634a8b2",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1800_T52.mat",
+      "sha256": "715702b35c3a987848bad9b094422ee1be83142ac07a19f438e7fd67aea8c10c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1800_T64.mat",
+      "sha256": "53c216c8be5a7aecbdcf232da716379fb2b42a715c8269cd0a307b378305b11c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D06_R026_S1800_T80.mat",
+      "sha256": "e1fc72af8b68e2414fb114b3a4e55d459e4a81698279822d5c935ae2aca95178",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1200_T52.mat",
+      "sha256": "a00b59809ef39307986497949c854b09ddfb338fc347eee0647cdc45ced977d8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1200_T64.mat",
+      "sha256": "1c1e03b9ffc2e6a2853bdfe4d39917bfb7ad7ffae1e494f9ff1e0a31870246b6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1200_T80.mat",
+      "sha256": "f9db5b9a36792571024191f5657326e20795b16705864b9e1e81d2eaba588ff7",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1500_T52.mat",
+      "sha256": "54771cb316c62d8627e3dd459f539c81147b7b3ee656f1d88b11f786736c2fe4",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1500_T64.mat",
+      "sha256": "7a3924f3722ef5ae24f54689ceedf6cbacab76f7b0f1f66bb5a6f0e3e32b27e5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1500_T80.mat",
+      "sha256": "0438087d8c09af82906e35fef76d72208717f34c06224dc4a0e7d117167216b5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1800_T52.mat",
+      "sha256": "d596090af524c6c8eda4282475e85c477dcd06e6574c75f8198d628de55b7cea",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1800_T64.mat",
+      "sha256": "86224901c6921c145e4fdee51ac052c2cab45ba3e8e5957494e685fcc112df91",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D04_D07_R026_S1800_T80.mat",
+      "sha256": "49a1d7889628b047510a38acc686198342b8ca943081eb7efc0add15e28c748c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1200_T52.mat",
+      "sha256": "badf1696f6ed3e39547cf812222b97e152337c035af20cf0e8a6811bee2a6a09",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1200_T64.mat",
+      "sha256": "e7e4f40c4bf085c5787ac2eb12774f009b9cdb314867e5bd0eec8d9fb69e00f0",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1200_T80.mat",
+      "sha256": "e180c1a99fae92e2fc7a131d645b4919110c37e31ed56b71034076dc06a27f1e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1500_T52.mat",
+      "sha256": "a8f7787bedd1f4a1839dad2bc8f4c811211ceab3970e214f3213a2e26262cc10",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1500_T64.mat",
+      "sha256": "f647110512baa4f4728f33ec66e4f21086a035ce0e0063393c4b310d3e45f317",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1500_T80.mat",
+      "sha256": "4de081b76c08e8ccdd68ade814aba2252d4f57763b307e26c66b5b5c834308d5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1800_T52.mat",
+      "sha256": "7ef0d4895cfa0fb83299c948ea79afe6fd18db1fd8dca6ff9fb7c4bf23ee00e0",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1800_T64.mat",
+      "sha256": "b25ae1544c4f24a23f25bd79f72d71331d6e645daa7f0ef64b433dea4074634b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D21_R026_S1800_T80.mat",
+      "sha256": "04946cb4d1421f009331508be3666652225c16bbd8cdf2b8673e77c5fbce9a0e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1200_T52.mat",
+      "sha256": "bac349bfa65b856282542186c36f9660401975574f4e2942064d0c9d784fd225",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1200_T64.mat",
+      "sha256": "dea49a64c51f2f113d6a7e3c66ccc8e56747b65376555872e033ef19bddef30a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1200_T80.mat",
+      "sha256": "2969c97fd05cc7c2659433eb619e8ce4fd42145569d8b924c7a1a7398609d380",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1500_T52.mat",
+      "sha256": "4cd44b03dcab85f0d202664963b8496f267f13b93e29b631d17d1a552e422981",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1500_T64.mat",
+      "sha256": "8b05549ae523e151c1ba3ea7158a1042e0239dda8b1725b867c15126906f8496",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1500_T80.mat",
+      "sha256": "bdf78231c558a49dc648224fd0ca521b7dd3cc80809b25a15bb7a7afb6321443",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1800_T52.mat",
+      "sha256": "94fb6be12fb0d9e25f1b741a1083454438a8fad181ab70eb39ba3b8baaccc00a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1800_T64.mat",
+      "sha256": "ae063a671f36f475717122277f7dfc5d40594c7d90e6da49a8436565ac5cc26f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D11_D22_R026_S1800_T80.mat",
+      "sha256": "a226ade960893205e8bf41a6f81a5c7cec74c9b70c4760b9ccdf34405b3b03d3",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1200_T52.mat",
+      "sha256": "7dcada5bd5e0fc44479fe1476b2727cfbb328a889e5dcdc92131559ca1bb7e68",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1200_T64.mat",
+      "sha256": "e8cd390d579df8f2f43c070fb5be787a48665354dec0f51905a849c595174a19",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1200_T80.mat",
+      "sha256": "96493afd7e27d7da3a71b32aff6f0c76d5c10434fe587a31556f398c73fbaa2a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1500_T52.mat",
+      "sha256": "a7b1f0810c18bb55579defede22dd5e6921f1d0a1a0739a693742581c46802a1",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1500_T64.mat",
+      "sha256": "873dd94e224ba71f337c631d905a7504db07f5b1c773fc5453c016875944533b",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1500_T80.mat",
+      "sha256": "36a8dcec9c37bb91b36dead5af921c0df6e97673c0a502813af46fab9441e883",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1800_T52.mat",
+      "sha256": "507b74dae7b3d3eb495fbcf611a0aa2c4b44a9a4b2c59a49de18602d69a0099f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1800_T64.mat",
+      "sha256": "1a6b8503d5ef69b9cb08bac72ab5b1c782014c4e39a2b2d0673e42311cdef994",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D21_R026_S1800_T80.mat",
+      "sha256": "aceb5aff02956f1b30751d3f83d75ad3e3d898fa33c67d4ce9ef678ab70cd169",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1200_T52.mat",
+      "sha256": "44adc9bf0eca248af30e854d4f1f127eb678b8ebb34a590b5008e7eb2c07f5e5",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1200_T64.mat",
+      "sha256": "7f4f5d3d9ea4e92d9a50140a24ad2170460c88494622c91605b87d3d8e01a95f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1200_T80.mat",
+      "sha256": "43f23c8f0683c309a7223b4ff2b370f62738d9d3dd262bc688fc3f70a8f67efa",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1500_T52.mat",
+      "sha256": "48342e4a3e1e1b480dd7d488e6d7262938bed1742ca44df1817fac0bbacd7960",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1500_T64.mat",
+      "sha256": "1a8e19295146616fccc7b8303c99939162b0df66973c145f14205006992bcc07",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1500_T80.mat",
+      "sha256": "16ec3a4c63eafe1e3c0149e2cafa010d0f4f9f3e1c0bfb67e34d8a05cb402a67",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1800_T52.mat",
+      "sha256": "4d6d90393caf5df7679cc1cce2357c6715298467bf1a44dd1d3e0bcc21aa94ce",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1800_T64.mat",
+      "sha256": "f06885798560b28fe1c40f8ddc70632bab50fa3adc888353f1f906de90f42d39",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D12_D22_R026_S1800_T80.mat",
+      "sha256": "5da34b740f80d8389b0b1f5ac139512e8a468a9990794b8b5b41ec4e40545d62",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1200_T52.mat",
+      "sha256": "790bf5f7e1fcfbad22729d7d2cbff645328df973adfa1d1a141bb28d29f36cde",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1200_T64.mat",
+      "sha256": "44d418e775e47239b3de1f851aeb01d2f869c78f0295ece239e2cf4a21dd66fd",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1200_T80.mat",
+      "sha256": "1617b65c20e6d13ca4756f1283f4d5a19f95aa816eafa708ef2cea5bb8029d3e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1500_T52.mat",
+      "sha256": "72d0dd5c737aed7626e9add3124d3b466c4591b12a29b1441fd94d7264ececbb",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1500_T64.mat",
+      "sha256": "793ef11ce6d1b0611425c60b84bb3805ca36c864890edc9716cdd9b6b49ebb92",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1500_T80.mat",
+      "sha256": "13353c96e021032bd576c437ffeae5bc8245e78194d296b69a7f5163c13848dd",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1800_T52.mat",
+      "sha256": "59786a84710cf0b00858dc53825cbb5bd67c56a21198993861a281b72a448c36",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1800_T64.mat",
+      "sha256": "ad58c6f561c033321ed75ca1454a29abf8f6f821a1d989e29d3e63cb7eae0767",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D18_R026_S1800_T80.mat",
+      "sha256": "9835a23b88cd5984bfef660f899073f1db26d88b9e6631e27e59348d9d725167",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1200_T52.mat",
+      "sha256": "63f08cb2848de31f34ea76a293fb96c44e53daf4b80b5cc7f28cc3e31bc1cac6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1200_T64.mat",
+      "sha256": "21766ebb9af085bb501ec45e808281c6b2a3e07c34fe925765c4f14c4569e05e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1200_T80.mat",
+      "sha256": "d45d42d3ab40903a62c1dea0a0b5e47b0c633653bff01dd4ea022812e9b83fec",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1500_T52.mat",
+      "sha256": "2605f0be6126d3ae27a07c4086a0c0c452a6824b5c1fe09b9c02f2e859b2a840",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1500_T64.mat",
+      "sha256": "990636126939e15714f6707200be8c528d26503041ab91e8caa07495c07f20c0",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1500_T80.mat",
+      "sha256": "3178707f0954c02257fa69f51c454f97037facec55596ea6553aad68cb5eabba",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1800_T52.mat",
+      "sha256": "c88cba243c05cec049223961faeec0c4ed9b50acb3bba1ac877bd71465d55349",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1800_T64.mat",
+      "sha256": "8838fca223585159f1e5e50ff67909e2b7223905f017916e7ae00b140389a9ff",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D13_D19_R026_S1800_T80.mat",
+      "sha256": "63cfd1985bcf6f35b0b1fb1d84a07ab50b46620dad1a9916435497f5308eeff6",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1200_T52.mat",
+      "sha256": "4b8341b8feddaed946f097a7f98b5531c1271dcb829ce058c4592a15c3f7baac",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1200_T64.mat",
+      "sha256": "c7a62e623b8f613913184a4414ed1650f8f2da7b5928fdfcdd9d40f62ffabac8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1200_T80.mat",
+      "sha256": "82abfcd0690f5c151a655139faca5f0184e05b5afb9f604ae9950fdb179ad017",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1500_T52.mat",
+      "sha256": "9dd4b84ad436e0515ca008fad7c17ebcf802f1125ec88be6192215c285c03110",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1500_T64.mat",
+      "sha256": "b87ac903f5de6571fff401d56af6a4e51478f8e115d1acdea8fdf60a3d79cbc3",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1500_T80.mat",
+      "sha256": "d1e13c699ef7409431d6388eb4a2cc253368efc987334c696d98d40d7bd0b30e",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1800_T52.mat",
+      "sha256": "24a995ec38c56b39a0013a08179fafd7877637c6af7a6d4b10851750d493b987",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1800_T64.mat",
+      "sha256": "18084b9e27ec1790d4105bae72a01c052b7659a45fb4c8812b354a215e44e1be",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D18_R026_S1800_T80.mat",
+      "sha256": "760406943963573cfa975a436bb019038a89fc34e0e96cfc3d8557067d5231b1",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1200_T52.mat",
+      "sha256": "98330d4be0a346cda3e66d163b1b44c701e3e21257e4ee110f33f38ae557f55f",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1200_T64.mat",
+      "sha256": "a83126788fb2d4d568d81036a36e29c7d83acbc6e273b746ea769037889f9ca0",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1200_T80.mat",
+      "sha256": "b6e551842865bcc8231c7c478dc9b85062b3c7f731b5e4a90eedb66e16a41319",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1500_T52.mat",
+      "sha256": "8246846a9ef209f2403851463f93532caf1676ec85d85355236ccbe0ebb9a198",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1500_T64.mat",
+      "sha256": "ac7aa1e32137c31c3fa9d1b1f9080611dff603aabff09fd15be9c117291ee48a",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1500_T80.mat",
+      "sha256": "d1df1ed3f8bdfcedb5c42001889c1c183190526770455533c607388cb6958860",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1800_T52.mat",
+      "sha256": "168b2a1b9a4eb1b22cfa25108c97cfc2c5c59941497aa067c23d165059ee83c8",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1800_T64.mat",
+      "sha256": "a4539dcf20a754ebf61dcbed8e571bbaebb1b18660e5552d403acd327d441c78",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    },
+    {
+      "filename": "FAULT_WINDINGS_D16_D19_R026_S1800_T80.mat",
+      "sha256": "cae76bd71b5397a7159922c8540645f9cce17ef5e6b0ab50679246636f8a820c",
+      "samples": 60001,
+      "sample_rate_hz": 20000.0000000022,
+      "is_healthy": false,
+      "standalone_role": "fault_record",
+      "feature_rows": 11
+    }
+  ]
+}

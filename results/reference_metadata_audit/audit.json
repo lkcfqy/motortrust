@@ -1,0 +1,650 @@
+{
+  "as_of": "2026-08-21",
+  "cited_references": 34,
+  "passed": 34,
+  "resolved": 34,
+  "rows": [
+    {
+      "author_match": true,
+      "identifier": "10.1561/2200000101",
+      "key": "angelopoulos2023conformal",
+      "local_first_author": "angelopoulos",
+      "local_title": "Conformal Prediction: A Gentle Introduction",
+      "local_year": 2023,
+      "provider": "Crossref",
+      "remote_first_author": "angelopoulos",
+      "remote_title": "Conformal Prediction: A Gentle Introduction",
+      "remote_years": [
+        2023
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1561/2200000101",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1002/mrm.20965",
+      "key": "arsigny2006logeuclidean",
+      "local_first_author": "arsigny",
+      "local_title": "Log-Euclidean Metrics for Fast and Simple Calculus on Diffusion Tensors",
+      "local_year": 2006,
+      "provider": "Crossref",
+      "remote_first_author": "arsigny",
+      "remote_title": "Log\u2010Euclidean metrics for fast and simple calculus on diffusion tensors",
+      "remote_years": [
+        2006
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1002/mrm.20965",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": null,
+      "identifier": "https://proceedings.mlr.press/v313/barber26a.html",
+      "key": "barber2026timeseriesconformal",
+      "local_first_author": "barber",
+      "local_title": "Predictive Inference for Time Series: Why Is Split Conformal Effective Despite Temporal Dependence?",
+      "local_year": 2026,
+      "provider": "Publisher URL",
+      "remote_first_author": "",
+      "remote_title": "Predictive Inference for Time Series: Why Is Split Conformal Effective Despite Temporal Dependence?",
+      "remote_years": [],
+      "resolved": true,
+      "source_url": "https://proceedings.mlr.press/v313/barber26a.html",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": null
+    },
+    {
+      "author_match": null,
+      "identifier": "https://proceedings.mlr.press/v75/chernozhukov18a.html",
+      "key": "chernozhukov2018dependentconformal",
+      "local_first_author": "chernozhukov",
+      "local_title": "Exact and Robust Conformal Inference Methods for Predictive Machine Learning with Dependent Data",
+      "local_year": 2018,
+      "provider": "Publisher URL",
+      "remote_first_author": "",
+      "remote_title": "Exact and Robust Conformal Inference Methods for Predictive Machine Learning with Dependent Data",
+      "remote_years": [],
+      "resolved": true,
+      "source_url": "https://proceedings.mlr.press/v75/chernozhukov18a.html",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": null
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.jprocont.2025.103495",
+      "key": "diallo2025falsealarms",
+      "local_first_author": "diallo",
+      "local_title": "Reducing False Alarms in Fault Detection: A Comparative Analysis Between Conformal Prediction and Classical Methods Applied to {PCA} and Autoencoders",
+      "local_year": 2025,
+      "provider": "Crossref",
+      "remote_first_author": "diallo",
+      "remote_title": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+      "remote_years": [
+        2025
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.jprocont.2025.103495",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.neucom.2021.08.016",
+      "key": "farouq2021mondrianfleet",
+      "local_first_author": "farouq",
+      "local_title": "Mondrian Conformal Anomaly Detection for Fault Sequence Identification in Heterogeneous Fleets",
+      "local_year": 2021,
+      "provider": "Crossref",
+      "remote_first_author": "farouq",
+      "remote_title": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+      "remote_years": [
+        2021
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.neucom.2021.08.016",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.eswa.2022.116864",
+      "key": "farouq2022conformalfleet",
+      "local_first_author": "farouq",
+      "local_title": "A Conformal Anomaly Detection Based Industrial Fleet Monitoring Framework: A Case Study in District Heating",
+      "local_year": 2022,
+      "provider": "Crossref",
+      "remote_first_author": "farouq",
+      "remote_title": "A conformal anomaly detection based industrial fleet monitoring framework: A case study in district heating",
+      "remote_years": [
+        2022
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.eswa.2022.116864",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.jprocont.2026.103701",
+      "key": "heddoub2026opensetconformal",
+      "local_first_author": "heddoub",
+      "local_title": "Class-Conditional Conformal Prediction with Discriminant-Analysis Backbones for Reliable Open-Set Fault Diagnosis in Safety-Critical Industrial Systems",
+      "local_year": 2026,
+      "provider": "Crossref",
+      "remote_first_author": "heddoub",
+      "remote_title": "Class-conditional conformal prediction with discriminant-analysis backbones for reliable open-set fault diagnosis in safety-critical industrial systems",
+      "remote_years": [
+        2026
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.jprocont.2026.103701",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.2307/1942661",
+      "key": "hurlbert1984pseudoreplication",
+      "local_first_author": "hurlbert",
+      "local_title": "Pseudoreplication and the Design of Ecological Field Experiments",
+      "local_year": 1984,
+      "provider": "Crossref",
+      "remote_first_author": "hurlbert",
+      "remote_title": "Pseudoreplication and the Design of Ecological Field Experiments",
+      "remote_years": [
+        1984
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.2307/1942661",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/TIE.2017.2677355",
+      "key": "jeong2017negativesequence",
+      "local_first_author": "jeong",
+      "local_title": "An Early Stage Interturn Fault Diagnosis of {PMSM}s by Using Negative-Sequence Components",
+      "local_year": 2017,
+      "provider": "Crossref",
+      "remote_first_author": "jeong",
+      "remote_title": "An Early Stage Interturn Fault Diagnosis of PMSMs by Using Negative-Sequence Components",
+      "remote_years": [
+        2017
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/tie.2017.2677355",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.17632/rgn5brrgrn.5",
+      "key": "jung2022pmsmfaultdataset",
+      "local_first_author": "jung",
+      "local_title": "Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous Motors with Stator Faults",
+      "local_year": 2022,
+      "provider": "DataCite",
+      "remote_first_author": "wonho jung",
+      "remote_title": "Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous Motors with Stator Faults",
+      "remote_years": [
+        2022
+      ],
+      "resolved": true,
+      "source_url": "https://data.mendeley.com/datasets/rgn5brrgrn/5",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.dib.2023.108952",
+      "key": "jung2023pmsmfaultdata",
+      "local_first_author": "jung",
+      "local_title": "Vibration and Current Dataset of Three-Phase Permanent Magnet Synchronous Motors with Stator Faults",
+      "local_year": 2023,
+      "provider": "Crossref",
+      "remote_first_author": "jung",
+      "remote_title": "Vibration and current dataset of three-phase permanent magnet synchronous motors with stator faults",
+      "remote_years": [
+        2023
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.dib.2023.108952",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/IECON49645.2022.9968364",
+      "key": "kozovsky2022dualthreephasemodel",
+      "local_first_author": "kozovsky",
+      "local_title": "Interturn Short Circuit Modelling in Dual Three-Phase {PMSM}",
+      "local_year": 2022,
+      "provider": "Crossref",
+      "remote_first_author": "kozovsky",
+      "remote_title": "Interturn short circuit modelling in dual three-phase PMSM",
+      "remote_years": [
+        2022
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/iecon49645.2022.9968364",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.5281/zenodo.13889418",
+      "key": "kozovsky2024dualthreephasepmsm",
+      "local_first_author": "kozovsky",
+      "local_title": "Measurement of Interturn Short-Circuits Emulation on Dual Three-Phase {PMS} Motor",
+      "local_year": 2024,
+      "provider": "DataCite",
+      "remote_first_author": "matus kozovsky",
+      "remote_title": "Measurement of interturn short-circuits emulation on dual three-phase PMS motor",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://zenodo.org/doi/10.5281/zenodo.13889418",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/TIM.2024.3476610",
+      "key": "kumar2024negativetransfer",
+      "local_first_author": "kumarmp",
+      "local_title": "Mitigating Negative Transfer Learning in Source Free-Unsupervised Domain Adaptation for Rotating Machinery Fault Diagnosis",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "kumarmp",
+      "remote_title": "Mitigating Negative Transfer Learning in Source Free-Unsupervised Domain Adaptation for Rotating Machinery Fault Diagnosis",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/tim.2024.3476610",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/TIE.2020.2978690",
+      "key": "lee2021attentionseverity",
+      "local_first_author": "lee",
+      "local_title": "Attention Recurrent Neural Network-Based Severity Estimation Method for Interturn Short-Circuit Fault in Permanent Magnet Synchronous Machines",
+      "local_year": 2021,
+      "provider": "Crossref",
+      "remote_first_author": "lee",
+      "remote_title": "Attention Recurrent Neural Network-Based Severity Estimation Method for Interturn Short-Circuit Fault in Permanent Magnet Synchronous Machines",
+      "remote_years": [
+        2021
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/tie.2020.2978690",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.neucom.2020.05.014",
+      "key": "li2020domaingeneralization",
+      "local_first_author": "li",
+      "local_title": "Domain Generalization in Rotating Machinery Fault Diagnostics Using Deep Neural Networks",
+      "local_year": 2020,
+      "provider": "Crossref",
+      "remote_first_author": "li",
+      "remote_title": "Domain generalization in rotating machinery fault diagnostics using deep neural networks",
+      "remote_years": [
+        2020
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.neucom.2020.05.014",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/TII.2022.3174711",
+      "key": "li2023causalconsistency",
+      "local_first_author": "li",
+      "local_title": "Causal Consistency Network: A Collaborative Multimachine Generalization Method for Bearing Fault Diagnosis",
+      "local_year": 2023,
+      "provider": "Crossref",
+      "remote_first_author": "li",
+      "remote_title": "Causal Consistency Network: A Collaborative Multimachine Generalization Method for Bearing Fault Diagnosis",
+      "remote_years": [
+        2023
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/tii.2022.3174711",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1587/elex.21.20240550",
+      "key": "li2024negativesequence",
+      "local_first_author": "li",
+      "local_title": "Detection and Location of Inter-Turn Short-Circuit in a {PMSM} Based on Square of Negative Sequence Current Vector Modulus",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "li",
+      "remote_title": "Detection and location of inter-turn short-circuit in a PMSM based on square of negative sequence current vector modulus",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1587/elex.21.20240550",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.engappai.2024.107938",
+      "key": "li2024physicaldatapmsm",
+      "local_first_author": "li",
+      "local_title": "Permanent Magnet Synchronous Motor Inter-Turn Short Circuit Diagnosis Based on Physical-Data Dual Model Under Oil-Drilling Environment",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "li",
+      "remote_title": "Permanent magnet synchronous motor inter-turn short circuit diagnosis based on physical-data dual model under oil-drilling environment",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.engappai.2024.107938",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/ICDM.2008.17",
+      "key": "liu2008isolationforest",
+      "local_first_author": "liu",
+      "local_title": "Isolation Forest",
+      "local_year": 2008,
+      "provider": "Crossref",
+      "remote_first_author": "liu",
+      "remote_title": "Isolation Forest",
+      "remote_years": [
+        2008
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/icdm.2008.17",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.measurement.2025.116989",
+      "key": "liu2025frequencyguided",
+      "local_first_author": "liu",
+      "local_title": "Frequency Domain Guided Latent Diffusion Model for Domain Generalization in Cross-Machine Fault Diagnosis",
+      "local_year": 2025,
+      "provider": "Crossref",
+      "remote_first_author": "liu",
+      "remote_title": "Frequency domain guided latent diffusion model for domain generalization in cross-machine fault diagnosis",
+      "remote_years": [
+        2025
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.measurement.2025.116989",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1111/ecog.02881",
+      "key": "roberts2017structuredcv",
+      "local_first_author": "roberts",
+      "local_title": "Cross-Validation Strategies for Data with Temporal, Spatial, Hierarchical, or Phylogenetic Structure",
+      "local_year": 2017,
+      "provider": "Crossref",
+      "remote_first_author": "roberts",
+      "remote_title": "Cross\u2010validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+      "remote_years": [
+        2017
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1111/ecog.02881",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1080/00401706.1999.10485670",
+      "key": "rousseeuw1999mcd",
+      "local_first_author": "rousseeuw",
+      "local_title": "A Fast Algorithm for the Minimum Covariance Determinant Estimator",
+      "local_year": 1999,
+      "provider": "Crossref",
+      "remote_first_author": "rousseeuw",
+      "remote_title": "A Fast Algorithm for the Minimum Covariance Determinant Estimator",
+      "remote_years": [
+        1999
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1080/00401706.1999.10485670",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1162/089976601750264965",
+      "key": "scholkopf2001support",
+      "local_first_author": "scholkopf",
+      "local_title": "Estimating the Support of a High-Dimensional Distribution",
+      "local_year": 2001,
+      "provider": "Crossref",
+      "remote_first_author": "scholkopf",
+      "remote_title": "Estimating the Support of a High-Dimensional Distribution",
+      "remote_years": [
+        2001
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1162/089976601750264965",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1023/B:MACH.0000008084.60811.49",
+      "key": "tax2004svdd",
+      "local_first_author": "tax",
+      "local_title": "Support Vector Data Description",
+      "local_year": 2004,
+      "provider": "Crossref",
+      "remote_first_author": "tax",
+      "remote_title": "Support Vector Data Description",
+      "remote_years": [
+        2004
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1023/b:mach.0000008084.60811.49",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/TPEL.2012.2198077",
+      "key": "urresty2013nonstationary",
+      "local_first_author": "urresty",
+      "local_title": "Diagnosis of Interturn Faults in {PMSM}s Operating Under Nonstationary Conditions by Applying Order Tracking Filtering",
+      "local_year": 2013,
+      "provider": "Crossref",
+      "remote_first_author": "urresty",
+      "remote_title": "Diagnosis of Interturn Faults in PMSMs Operating Under Nonstationary Conditions by Applying Order Tracking Filtering",
+      "remote_years": [
+        2013
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/tpel.2012.2198077",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/CVPR.2019.01155",
+      "key": "wang2019negativetransfer",
+      "local_first_author": "wang",
+      "local_title": "Characterizing and Avoiding Negative Transfer",
+      "local_year": 2019,
+      "provider": "Crossref",
+      "remote_first_author": "wang",
+      "remote_title": "Characterizing and Avoiding Negative Transfer",
+      "remote_years": [
+        2019
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/cvpr.2019.01155",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/ACCESS.2024.3497716",
+      "key": "wheat2024dataleakage",
+      "local_first_author": "wheat",
+      "local_title": "Impact of Data Leakage in Vibration Signals Used for Bearing Fault Diagnosis",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "wheat",
+      "remote_title": "Impact of Data Leakage in Vibration Signals Used for Bearing Fault Diagnosis",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/access.2024.3497716",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.aei.2024.103063",
+      "key": "xiao2025dgsurvey",
+      "local_first_author": "xiao",
+      "local_title": "Domain Generalization for Rotating Machinery Fault Diagnosis: A Survey",
+      "local_year": 2025,
+      "provider": "Crossref",
+      "remote_first_author": "xiao",
+      "remote_title": "Domain generalization for rotating machinery fault diagnosis: A survey",
+      "remote_years": [
+        2025
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.aei.2024.103063",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.3390/app14010221",
+      "key": "yoon2024deeponeclass",
+      "local_first_author": "yoon",
+      "local_title": "Machinery Fault Signal Detection with Deep One-Class Classification",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "yoon",
+      "remote_title": "Machinery Fault Signal Detection with Deep One-Class Classification",
+      "remote_years": [
+        2023
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.3390/app14010221",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1109/JESTPE.2018.2811538",
+      "key": "zafarani2018itscreview",
+      "local_first_author": "zafarani",
+      "local_title": "Interturn Short-Circuit Faults in Permanent Magnet Synchronous Machines: An Extended Review and Comprehensive Analysis",
+      "local_year": 2018,
+      "provider": "Crossref",
+      "remote_first_author": "zafarani",
+      "remote_title": "Interturn Short-Circuit Faults in Permanent Magnet Synchronous Machines: An Extended Review and Comprehensive Analysis",
+      "remote_years": [
+        2018
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1109/jestpe.2018.2811538",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.5281/zenodo.15631383",
+      "key": "zezula2024transientpmsm",
+      "local_first_author": "zezula",
+      "local_title": "Diagnostics of Interturn Short Circuits in {PMSM}s With Online Fault Indicators Estimation -- Dataset",
+      "local_year": 2024,
+      "provider": "DataCite",
+      "remote_first_author": "zezula lukas",
+      "remote_title": "Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators Estimation - Dataset",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://zenodo.org/doi/10.5281/zenodo.15631383",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    },
+    {
+      "author_match": true,
+      "identifier": "10.1016/j.ress.2024.109964",
+      "key": "zhao2024dgbenchmark",
+      "local_first_author": "zhao",
+      "local_title": "Domain Generalization for Cross-Domain Fault Diagnosis: An Application-Oriented Perspective and a Benchmark Study",
+      "local_year": 2024,
+      "provider": "Crossref",
+      "remote_first_author": "zhao",
+      "remote_title": "Domain generalization for cross-domain fault diagnosis: An application-oriented perspective and a benchmark study",
+      "remote_years": [
+        2024
+      ],
+      "resolved": true,
+      "source_url": "https://doi.org/10.1016/j.ress.2024.109964",
+      "status": "pass",
+      "title_similarity": 1.0,
+      "year_match": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-08-21T06:48:06.204143+00:00",
+  "source_doi": "10.5281/zenodo.15688397",
+  "source_article_doi": "10.1007/s00366-025-02123-1",
+  "license": "GPL-3.0-or-later",
+  "expected_files": {
+    "train_test": [
+      "train_test_parameters.csv",
+      "train_test_torque.csv"
+    ],
+    "uq_uniform": [
+      "uq_uniform_parameters_11k.csv",
+      "uq_uniform_torque_11k.csv"
+    ],
+    "uq_gauss": [
+      "uq_gauss_parameters_10k.csv",
+      "uq_gauss_torque_10k.csv"
+    ]
+  },
+  "validated_datasets": [
+    "train_test",
+    "uq_uniform",
+    "uq_gauss"
+  ],
+  "total_designs": 23250,
+  "expected_total_designs": 23250,
+  "all_pairs_row_aligned": true,
+  "all_values_finite": true,
+  "duplicate_parameter_rows": 0,
+  "duplicate_torque_rows": 0,
+  "cross_table_parameter_overlap": 0,
+  "angle_grid": {
+    "points": 120,
+    "start_deg": 0.0,
+    "stop_exclusive_deg": 30.0,
+    "step_deg": 0.25
+  },
+  "status": "pass",
+  "important_scope_limit": "All outputs are simulations of one two-dimensional quarter-symmetry PMSM model; the dataset does not validate another topology, a three-dimensional model, or hardware."
+}

@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1.5kW,1.5kW_coil_current_0pct,intercoil,0.0,True,source_target_min_cov_det,20260820,14,0,0.0,121.98853105329796,181.94709034435093
+1.5kW,1.5kW_coil_current_13p12pct,intercoil,13.12,False,source_target_min_cov_det,20260820,40,13,0.325,256.68465891299405,374.0432132469572
+1.5kW,1.5kW_coil_current_23p2pct,intercoil,23.2,False,source_target_min_cov_det,20260820,40,40,1.0,1147.5134555026189,1318.1119279754435
+1.5kW,1.5kW_coil_current_37p66pct,intercoil,37.66,False,source_target_min_cov_det,20260820,40,33,0.825,356.87044568805516,522.2329960466853
+1.5kW,1.5kW_coil_current_4p79pct,intercoil,4.79,False,source_target_min_cov_det,20260820,40,40,1.0,1690.336694706204,2007.6322939315862
+1.5kW,1.5kW_coil_current_5p7pct,intercoil,5.7,False,source_target_min_cov_det,20260820,40,40,1.0,1804.2347501010045,2008.3443639667923
+1.5kW,1.5kW_coil_current_7p02pct,intercoil,7.02,False,source_target_min_cov_det,20260820,40,4,0.1,232.69114683132858,334.77725403002887
+1.5kW,1.5kW_coil_current_9p15pct,intercoil,9.15,False,source_target_min_cov_det,20260820,40,40,1.0,1287.12743002327,1548.6908570976188
+1.5kW,1.5kW_turn_current_16p08pct,interturn,16.08,False,source_target_min_cov_det,20260820,40,40,1.0,652.9193500511484,752.9566805651372
+1.5kW,1.5kW_turn_current_1p57pct,interturn,1.57,False,source_target_min_cov_det,20260820,40,40,1.0,1225.3203712060513,1402.1293492745451
+1.5kW,1.5kW_turn_current_1p88pct,interturn,1.88,False,source_target_min_cov_det,20260820,40,40,1.0,1566.092476454575,1909.349867952536
+1.5kW,1.5kW_turn_current_2p34pct,interturn,2.34,False,source_target_min_cov_det,20260820,40,3,0.075,195.89818260671228,389.8422977160007
+1.5kW,1.5kW_turn_current_3p1pct,interturn,3.1,False,source_target_min_cov_det,20260820,40,40,1.0,1743.3983419353408,1876.692541504893
+1.5kW,1.5kW_turn_current_4p57pct,interturn,4.57,False,source_target_min_cov_det,20260820,40,1,0.025,240.03576130428155,287.4732433659707
+1.5kW,1.5kW_turn_current_8p74pct,interturn,8.74,False,source_target_min_cov_det,20260820,40,40,1.0,2440.865970915517,2556.6837957190132

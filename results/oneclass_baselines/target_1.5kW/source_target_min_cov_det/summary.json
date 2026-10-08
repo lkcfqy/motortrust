@@ -1,0 +1,41 @@
+{
+  "target_motor": "1.5kW",
+  "method": "source_target_min_cov_det",
+  "seed": 20260820,
+  "alpha": 0.05,
+  "threshold": 260.6803416999211,
+  "adaptation_blocks": 4,
+  "calibration_blocks": 20,
+  "healthy_test_blocks": 14,
+  "fault_test_blocks": 560,
+  "fault_records": 14,
+  "false_alarms": 0,
+  "false_alarm_rate": 0.0,
+  "detected_fault_blocks": 489,
+  "detection_rate": 0.8732142857142857,
+  "fault_record_macro_detection_rate": 0.8732142857142858,
+  "fault_records_with_any_alarm": 14,
+  "fault_record_any_alarm_rate": 1.0,
+  "block_auroc": 0.997704081632653,
+  "block_auprc": 0.9999422192157857,
+  "estimator_kind": "min_cov_det",
+  "training_scope": "source_target_balanced",
+  "training_rows": 180,
+  "training_rows_by_motor": {
+    "1.5kW": 60,
+    "1kW": 60,
+    "3kW": 60
+  },
+  "fit_warning_count": 0,
+  "fit_warnings": [],
+  "input_features": 27,
+  "retained_features": 26,
+  "dropped_rank_redundant_features": [
+    "fundamental_hz"
+  ],
+  "covariance_rank": 26,
+  "covariance_dimension": 26,
+  "covariance_condition_number": 3063.4398690411945,
+  "raw_support_rows": 104,
+  "final_support_rows": 105
+}

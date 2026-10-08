@@ -1,0 +1,4 @@
+outer_fold,fit_bucket,calibration_bucket,test_bucket,fit_healthy_records,calibration_healthy_records,test_records,threshold,pre_false_alarms,pre_session_far,fault_records_detected,fault_record_detection
+0,2,1,0,72,72,72,35.14902738483925,7,0.09722222222222222,62,0.8611111111111112
+1,0,2,1,72,72,72,88.07532810081307,1,0.013888888888888888,39,0.5416666666666666
+2,1,0,2,72,72,72,53.925297866443756,6,0.08333333333333333,52,0.7222222222222222

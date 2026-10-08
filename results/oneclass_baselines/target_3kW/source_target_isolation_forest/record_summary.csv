@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+3kW,3kW_coil_current_0pct,intercoil,0.0,True,source_target_isolation_forest,20260820,14,0,0.0,0.5232877884697317,0.5468507805285353
+3kW,3kW_coil_current_13p3pct,intercoil,13.3,False,source_target_isolation_forest,20260820,40,40,1.0,0.6763804685380376,0.6851684876010025
+3kW,3kW_coil_current_23p48pct,intercoil,23.48,False,source_target_isolation_forest,20260820,40,40,1.0,0.6742445255282525,0.6821910071419806
+3kW,3kW_coil_current_2p49pct,intercoil,2.49,False,source_target_isolation_forest,20260820,40,40,1.0,0.6612636529132366,0.6716469698637926
+3kW,3kW_coil_current_2p98pct,intercoil,2.98,False,source_target_isolation_forest,20260820,40,40,1.0,0.6739864607599092,0.6803475205069273
+3kW,3kW_coil_current_3p69pct,intercoil,3.69,False,source_target_isolation_forest,20260820,40,40,1.0,0.6751398059364198,0.6834102550749858
+3kW,3kW_coil_current_4p86pct,intercoil,4.86,False,source_target_isolation_forest,20260820,40,40,1.0,0.6754136257779926,0.6834900518284209
+3kW,3kW_coil_current_7p12pct,intercoil,7.12,False,source_target_isolation_forest,20260820,40,40,1.0,0.6758642041032484,0.6840861538143408
+3kW,3kW_turn_current_17p86pct,interturn,17.86,False,source_target_isolation_forest,20260820,40,39,0.975,0.6071398159567888,0.7060447869093177
+3kW,3kW_turn_current_1p78pct,interturn,1.78,False,source_target_isolation_forest,20260820,40,40,1.0,0.6173513956291915,0.6443621586797788
+3kW,3kW_turn_current_2p13pct,interturn,2.13,False,source_target_isolation_forest,20260820,40,40,1.0,0.6538230155765015,0.6744816211479989
+3kW,3kW_turn_current_2p65pct,interturn,2.65,False,source_target_isolation_forest,20260820,40,38,0.95,0.5755810370056719,0.5958949925563104
+3kW,3kW_turn_current_3p5pct,interturn,3.5,False,source_target_isolation_forest,20260820,40,40,1.0,0.6266134558543016,0.6618307301662656
+3kW,3kW_turn_current_5p16pct,interturn,5.16,False,source_target_isolation_forest,20260820,40,29,0.725,0.5685753941421429,0.610899211037147
+3kW,3kW_turn_current_9p81pct,interturn,9.81,False,source_target_isolation_forest,20260820,40,40,1.0,0.6111506658003363,0.6521065208882387

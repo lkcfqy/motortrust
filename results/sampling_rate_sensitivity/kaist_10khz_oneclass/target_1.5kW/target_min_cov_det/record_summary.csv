@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1.5kW,1.5kW_coil_current_0pct,intercoil,0.0,True,target_min_cov_det,20260820,14,0,0.0,261.5108424157957,460.16847587048943
+1.5kW,1.5kW_coil_current_13p12pct,intercoil,13.12,False,target_min_cov_det,20260820,40,10,0.25,623.1975263003212,1295.1540003575922
+1.5kW,1.5kW_coil_current_23p2pct,intercoil,23.2,False,target_min_cov_det,20260820,40,40,1.0,7302.274793500827,8354.711437924117
+1.5kW,1.5kW_coil_current_37p66pct,intercoil,37.66,False,target_min_cov_det,20260820,40,34,0.85,925.3638177117642,1490.6020803173226
+1.5kW,1.5kW_coil_current_4p79pct,intercoil,4.79,False,target_min_cov_det,20260820,40,40,1.0,7232.611018593547,8689.706327548163
+1.5kW,1.5kW_coil_current_5p7pct,intercoil,5.7,False,target_min_cov_det,20260820,40,40,1.0,7362.818032034399,9291.683895090122
+1.5kW,1.5kW_coil_current_7p02pct,intercoil,7.02,False,target_min_cov_det,20260820,40,2,0.05,500.0849215690517,709.5255163489687
+1.5kW,1.5kW_coil_current_9p15pct,intercoil,9.15,False,target_min_cov_det,20260820,40,40,1.0,7375.5399930770345,10400.561151117157
+1.5kW,1.5kW_turn_current_16p08pct,interturn,16.08,False,target_min_cov_det,20260820,40,40,1.0,1023.9999172295456,1291.4103829337744
+1.5kW,1.5kW_turn_current_1p57pct,interturn,1.57,False,target_min_cov_det,20260820,40,40,1.0,5167.4888445789675,5725.357203124505
+1.5kW,1.5kW_turn_current_1p88pct,interturn,1.88,False,target_min_cov_det,20260820,40,40,1.0,6205.287974861279,6802.851365904274
+1.5kW,1.5kW_turn_current_2p34pct,interturn,2.34,False,target_min_cov_det,20260820,40,0,0.0,344.6226344851274,559.4979553393083
+1.5kW,1.5kW_turn_current_3p1pct,interturn,3.1,False,target_min_cov_det,20260820,40,40,1.0,6316.033596005554,7056.1580283032745
+1.5kW,1.5kW_turn_current_4p57pct,interturn,4.57,False,target_min_cov_det,20260820,40,0,0.0,422.74248934483796,588.9508431474918
+1.5kW,1.5kW_turn_current_8p74pct,interturn,8.74,False,target_min_cov_det,20260820,40,40,1.0,6244.065023102834,6640.808343290227

@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1.5kW,1.5kW_coil_current_0pct,intercoil,0.0,True,source_target_ocsvm_rbf,20260820,14,0,0.0,0.3318758433486666,0.5226797173114204
+1.5kW,1.5kW_coil_current_13p12pct,intercoil,13.12,False,source_target_ocsvm_rbf,20260820,40,34,0.85,0.7123034223177698,0.7350127713299038
+1.5kW,1.5kW_coil_current_23p2pct,intercoil,23.2,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123395594891,0.7357123396639648
+1.5kW,1.5kW_coil_current_37p66pct,intercoil,37.66,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7322789265619972,0.7355487285400645
+1.5kW,1.5kW_coil_current_4p79pct,intercoil,4.79,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123396379108,0.7357123396652836
+1.5kW,1.5kW_coil_current_5p7pct,intercoil,5.7,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123396525413,0.7357123396649237
+1.5kW,1.5kW_coil_current_7p02pct,intercoil,7.02,False,source_target_ocsvm_rbf,20260820,40,29,0.725,0.7002516669362155,0.7320893653835245
+1.5kW,1.5kW_coil_current_9p15pct,intercoil,9.15,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123396242253,0.7357123396621915
+1.5kW,1.5kW_turn_current_16p08pct,interturn,16.08,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123269078316,0.7357123395714585
+1.5kW,1.5kW_turn_current_1p57pct,interturn,1.57,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123393330173,0.7357123396484555
+1.5kW,1.5kW_turn_current_1p88pct,interturn,1.88,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.735712339660425,0.7357123396654297
+1.5kW,1.5kW_turn_current_2p34pct,interturn,2.34,False,source_target_ocsvm_rbf,20260820,40,6,0.15,0.5917047154527376,0.727521704989003
+1.5kW,1.5kW_turn_current_3p1pct,interturn,3.1,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123396654146,0.7357123396654613
+1.5kW,1.5kW_turn_current_4p57pct,interturn,4.57,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7139357381211623,0.7342142972048922
+1.5kW,1.5kW_turn_current_8p74pct,interturn,8.74,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.7357123396654616,0.7357123396654616

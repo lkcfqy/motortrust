@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+3kW,3kW_coil_current_0pct,intercoil,0.0,True,target_min_cov_det,20260820,14,0,0.0,317.4258044102967,533.364243489942
+3kW,3kW_coil_current_13p3pct,intercoil,13.3,False,target_min_cov_det,20260820,40,40,1.0,4162034.813805421,4224944.056089319
+3kW,3kW_coil_current_23p48pct,intercoil,23.48,False,target_min_cov_det,20260820,40,40,1.0,4270150.066936211,4359414.547171856
+3kW,3kW_coil_current_2p49pct,intercoil,2.49,False,target_min_cov_det,20260820,40,40,1.0,3903766.553792154,3958274.7169141257
+3kW,3kW_coil_current_2p98pct,intercoil,2.98,False,target_min_cov_det,20260820,40,40,1.0,4164514.7295271554,4254196.319511404
+3kW,3kW_coil_current_3p69pct,intercoil,3.69,False,target_min_cov_det,20260820,40,40,1.0,4129870.9320139885,4213627.67116571
+3kW,3kW_coil_current_4p86pct,intercoil,4.86,False,target_min_cov_det,20260820,40,40,1.0,4134440.372814941,4225174.991641855
+3kW,3kW_coil_current_7p12pct,intercoil,7.12,False,target_min_cov_det,20260820,40,40,1.0,4143340.953904775,4240328.169186791
+3kW,3kW_turn_current_17p86pct,interturn,17.86,False,target_min_cov_det,20260820,40,21,0.525,245246.16226072243,1238289.3164634046
+3kW,3kW_turn_current_1p78pct,interturn,1.78,False,target_min_cov_det,20260820,40,40,1.0,2272.825029744613,4510.109489956765
+3kW,3kW_turn_current_2p13pct,interturn,2.13,False,target_min_cov_det,20260820,40,40,1.0,1731.783089768155,2665.305693525458
+3kW,3kW_turn_current_2p65pct,interturn,2.65,False,target_min_cov_det,20260820,40,2,0.05,637.426966970189,1319.2349103392235
+3kW,3kW_turn_current_3p5pct,interturn,3.5,False,target_min_cov_det,20260820,40,40,1.0,1889.8314535946258,3155.9772908286377
+3kW,3kW_turn_current_5p16pct,interturn,5.16,False,target_min_cov_det,20260820,40,8,0.2,632.174779885904,1750.139673862964
+3kW,3kW_turn_current_9p81pct,interturn,9.81,False,target_min_cov_det,20260820,40,40,1.0,2482.0966977626604,4170.348337496464

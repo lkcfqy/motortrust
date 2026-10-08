@@ -3,3 +3,8 @@
 *.pdf binary
 *.png binary
 *.zip binary
+
+# Frozen research artifacts must retain their original bytes across platforms.
+results/** -text
+data/processed/** -text
+recovery/licenses/** -text

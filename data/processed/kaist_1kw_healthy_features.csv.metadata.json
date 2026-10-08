@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-08-20T13:07:25.293542+00:00",
+  "python": "3.12.13",
+  "numpy": "2.5.2",
+  "records": [
+    {
+      "member_path": "data/raw/kaist_faults/current_tdms/1kW/1000W_0_00_current_intercoil.tdms",
+      "filename": "1000W_0_00_current_intercoil.tdms",
+      "motor_watts": 1000,
+      "severity_percent": 0.0,
+      "modality": "current",
+      "fault_family": "intercoil",
+      "motor_id": "1kW",
+      "is_healthy": true,
+      "record_id": "1kW_coil_current_0pct",
+      "path": "C:\\lkc\\phd sci\\data\\raw\\kaist_faults\\current_tdms\\1kW\\1000W_0_00_current_intercoil.tdms",
+      "samples": 12000000,
+      "sample_rate_hz": 100000.00000000028,
+      "duration_seconds": 119.99999999999967,
+      "channels": [
+        "cDAQ1Mod2/ai0",
+        "cDAQ1Mod2/ai2",
+        "cDAQ1Mod2/ai3"
+      ]
+    },
+    {
+      "member_path": "data/raw/kaist_faults/current_tdms/1kW/1000W_0_00_current_interturn.tdms",
+      "filename": "1000W_0_00_current_interturn.tdms",
+      "motor_watts": 1000,
+      "severity_percent": 0.0,
+      "modality": "current",
+      "fault_family": "interturn",
+      "motor_id": "1kW",
+      "is_healthy": true,
+      "record_id": "1kW_turn_current_0pct",
+      "path": "C:\\lkc\\phd sci\\data\\raw\\kaist_faults\\current_tdms\\1kW\\1000W_0_00_current_interturn.tdms",
+      "samples": 12000000,
+      "sample_rate_hz": 100000.00000000028,
+      "duration_seconds": 119.99999999999967,
+      "channels": [
+        "cDAQ1Mod2/ai0",
+        "cDAQ1Mod2/ai2",
+        "cDAQ1Mod2/ai3"
+      ]
+    }
+  ],
+  "window_seconds": 0.2,
+  "stride_seconds": 0.2,
+  "block_seconds": 2.0,
+  "rows": 1200,
+  "columns": [
+    "member_path",
+    "filename",
+    "motor_watts",
+    "severity_percent",
+    "modality",
+    "fault_family",
+    "motor_id",
+    "is_healthy",
+    "record_id",
+    "block_id",
+    "window_id",
+    "start_sample",
+    "stop_sample",
+    "fundamental_hz",
+    "sequence_unbalance",
+    "phase_rms_cv",
+    "clarke_radius_mean",
+    "clarke_radius_cv",
+    "zero_sequence_rms",
+    "rms_a",
+    "crest_a",
+    "kurtosis_a",
+    "rms_b",
+    "crest_b",
+    "kurtosis_b",
+    "rms_c",
+    "crest_c",
+    "kurtosis_c"
+  ]
+}

@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+3kW,3kW_coil_current_0pct,intercoil,0.0,True,target_isolation_forest,20260820,14,1,0.07142857142857142,0.5549164256815157,0.5753521453302144
+3kW,3kW_coil_current_13p3pct,intercoil,13.3,False,target_isolation_forest,20260820,40,40,1.0,0.6485388344590898,0.6515458122445636
+3kW,3kW_coil_current_23p48pct,intercoil,23.48,False,target_isolation_forest,20260820,40,40,1.0,0.649686229039407,0.6541309283165163
+3kW,3kW_coil_current_2p49pct,intercoil,2.49,False,target_isolation_forest,20260820,40,40,1.0,0.6462858126396032,0.6531622735734949
+3kW,3kW_coil_current_2p98pct,intercoil,2.98,False,target_isolation_forest,20260820,40,40,1.0,0.6486123444938297,0.6566959051213894
+3kW,3kW_coil_current_3p69pct,intercoil,3.69,False,target_isolation_forest,20260820,40,40,1.0,0.6485126302499725,0.6571910984904911
+3kW,3kW_coil_current_4p86pct,intercoil,4.86,False,target_isolation_forest,20260820,40,40,1.0,0.648065854949873,0.653186686007876
+3kW,3kW_coil_current_7p12pct,intercoil,7.12,False,target_isolation_forest,20260820,40,40,1.0,0.6481948522259346,0.6510934459762842
+3kW,3kW_turn_current_17p86pct,interturn,17.86,False,target_isolation_forest,20260820,40,40,1.0,0.6087637274877744,0.6740818110211196
+3kW,3kW_turn_current_1p78pct,interturn,1.78,False,target_isolation_forest,20260820,40,40,1.0,0.6164538527788758,0.6453695755624093
+3kW,3kW_turn_current_2p13pct,interturn,2.13,False,target_isolation_forest,20260820,40,40,1.0,0.6300946324596515,0.6555050180846899
+3kW,3kW_turn_current_2p65pct,interturn,2.65,False,target_isolation_forest,20260820,40,40,1.0,0.597857976267113,0.6202948989473134
+3kW,3kW_turn_current_3p5pct,interturn,3.5,False,target_isolation_forest,20260820,40,40,1.0,0.6238196293596309,0.6621111243696223
+3kW,3kW_turn_current_5p16pct,interturn,5.16,False,target_isolation_forest,20260820,40,32,0.8,0.5882383430623545,0.6179971535097666
+3kW,3kW_turn_current_9p81pct,interturn,9.81,False,target_isolation_forest,20260820,40,38,0.95,0.6019195923874285,0.6281917874811754

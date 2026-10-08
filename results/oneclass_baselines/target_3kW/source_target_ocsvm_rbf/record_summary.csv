@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+3kW,3kW_coil_current_0pct,intercoil,0.0,True,source_target_ocsvm_rbf,20260820,14,0,0.0,0.40083223256015643,0.631039440903496
+3kW,3kW_coil_current_13p3pct,intercoil,13.3,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_23p48pct,intercoil,23.48,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_2p49pct,intercoil,2.49,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_2p98pct,intercoil,2.98,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_3p69pct,intercoil,3.69,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_4p86pct,intercoil,4.86,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_coil_current_7p12pct,intercoil,7.12,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051249809243602,0.8051249809243602
+3kW,3kW_turn_current_17p86pct,interturn,17.86,False,source_target_ocsvm_rbf,20260820,40,12,0.3,0.6908339179380637,0.8051249809243602
+3kW,3kW_turn_current_1p78pct,interturn,1.78,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051226581501985,0.8051247025913947
+3kW,3kW_turn_current_2p13pct,interturn,2.13,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051247521901759,0.8051249786978288
+3kW,3kW_turn_current_2p65pct,interturn,2.65,False,source_target_ocsvm_rbf,20260820,40,7,0.175,0.685953300810801,0.7860934324709115
+3kW,3kW_turn_current_3p5pct,interturn,3.5,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051227038854277,0.8051249800585352
+3kW,3kW_turn_current_5p16pct,interturn,5.16,False,source_target_ocsvm_rbf,20260820,40,5,0.125,0.642408340146164,0.7985344050765337
+3kW,3kW_turn_current_9p81pct,interturn,9.81,False,source_target_ocsvm_rbf,20260820,40,40,1.0,0.8051239124187483,0.8051248596327565

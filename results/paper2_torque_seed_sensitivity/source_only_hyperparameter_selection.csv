@@ -1,0 +1,6 @@
+seed,model,candidate_id,parameters,cv_waveform_mae,cv_mean_curve_max_error,selection_basis,selected
+20260821,ard_gaussian_process,0,"{'dimensions': 20.0, 'length_scale_upper': 10.0}",,,fit-only log marginal likelihood,1
+1201,ard_gaussian_process,0,"{'dimensions': 20.0, 'length_scale_upper': 10.0}",,,fit-only log marginal likelihood,1
+2402,ard_gaussian_process,0,"{'dimensions': 20.0, 'length_scale_upper': 10.0}",,,fit-only log marginal likelihood,1
+3603,ard_gaussian_process,0,"{'dimensions': 20.0, 'length_scale_upper': 10.0}",,,fit-only log marginal likelihood,1
+4804,ard_gaussian_process,0,"{'dimensions': 20.0, 'length_scale_upper': 10.0}",,,fit-only log marginal likelihood,1

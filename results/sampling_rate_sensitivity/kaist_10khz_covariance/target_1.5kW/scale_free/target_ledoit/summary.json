@@ -1,0 +1,22 @@
+{
+  "target_motor": "1.5kW",
+  "method": "target_ledoit",
+  "feature_arm": "scale_free",
+  "alpha": 0.05,
+  "threshold": 159.11397286677527,
+  "adaptation_blocks": 4,
+  "calibration_blocks": 20,
+  "healthy_test_blocks": 14,
+  "fault_test_blocks": 560,
+  "false_alarms": 0,
+  "false_alarm_rate": 0.0,
+  "detected_fault_blocks": 382,
+  "detection_rate": 0.6821428571428572,
+  "lowest_two_severity_detection_rate": 1.0,
+  "block_auroc": 0.9933673469387755,
+  "block_auprc": 0.9998327242881291,
+  "severity_spearman": {
+    "intercoil": -0.5,
+    "interturn": 0.07142857142857144
+  }
+}

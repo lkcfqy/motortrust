@@ -1,0 +1,4 @@
+model,feature_arm,healthy_test_blocks,false_alarms,pooled_false_alarm_rate,pooled_far_wilson_lower,pooled_far_wilson_upper,max_motor_false_alarm_rate,h1_empirical_pass,mean_detection_rate,mean_block_auroc
+logistic,all_features,42,0,0.0,0.0,0.08379879086570388,0.0,True,0.5291666666666667,0.7488095238095238
+logistic,healthy_relative,42,0,0.0,0.0,0.08379879086570388,0.0,True,0.5952380952380952,0.6850340136054421
+logistic,scale_free,42,0,0.0,0.0,0.08379879086570388,0.0,True,0.49583333333333335,0.7164965986394559

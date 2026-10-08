@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1kW,1kW_coil_current_0p68pct,intercoil,0.68,False,source_target_min_cov_det,20260820,40,40,1.0,1204636.958358682,1324371.4221621775
+1kW,1kW_coil_current_0p81pct,intercoil,0.81,False,source_target_min_cov_det,20260820,40,40,1.0,1060805.1731214698,1247063.963932398
+1kW,1kW_coil_current_0pct,intercoil,0.0,True,source_target_min_cov_det,20260820,14,1,0.07142857142857142,612.9193473629065,1657.382002922439
+1kW,1kW_coil_current_1p01pct,intercoil,1.01,False,source_target_min_cov_det,20260820,40,40,1.0,4950.627441634586,7700.132379291796
+1kW,1kW_coil_current_1p34pct,intercoil,1.34,False,source_target_min_cov_det,20260820,40,40,1.0,1186556.646038667,1318078.5682889193
+1kW,1kW_coil_current_2pct,intercoil,2.0,False,source_target_min_cov_det,20260820,40,40,1.0,24948.167107243637,112164.35477481257
+1kW,1kW_coil_current_3p93pct,intercoil,3.93,False,source_target_min_cov_det,20260820,40,40,1.0,1202603.731855786,1342180.2463045253
+1kW,1kW_coil_current_7p56pct,intercoil,7.56,False,source_target_min_cov_det,20260820,40,40,1.0,3127.3701571817123,3990.565114637512
+1kW,1kW_turn_current_12p17pct,interturn,12.17,False,source_target_min_cov_det,20260820,40,40,1.0,794742.1179483703,839537.7048309266
+1kW,1kW_turn_current_21p69pct,interturn,21.69,False,source_target_min_cov_det,20260820,40,40,1.0,174213.09528662908,363042.9341035471
+1kW,1kW_turn_current_2p26pct,interturn,2.26,False,source_target_min_cov_det,20260820,40,40,1.0,902225.2425592209,1016123.665299864
+1kW,1kW_turn_current_2p7pct,interturn,2.7,False,source_target_min_cov_det,20260820,40,40,1.0,990083.9091353363,1137716.7972167474
+1kW,1kW_turn_current_3p35pct,interturn,3.35,False,source_target_min_cov_det,20260820,40,40,1.0,28289.964432105655,37042.92425559208
+1kW,1kW_turn_current_4p41pct,interturn,4.41,False,source_target_min_cov_det,20260820,40,40,1.0,951260.4478518426,1038314.1547950257
+1kW,1kW_turn_current_6p48pct,interturn,6.48,False,source_target_min_cov_det,20260820,40,40,1.0,17977.71064636406,43583.799842047985

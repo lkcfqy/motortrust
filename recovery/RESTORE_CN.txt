@@ -1,0 +1,145 @@
+MotorTrust 科研文件备份恢复说明
+========================================
+
+用途
+----
+本 Release 保存归档时实际存在的科研文件，包括归档清单中的代码、文稿、
+数据和结果。恢复脚本只恢复文件，不安装依赖，也不证明实验或论文已完全复现。
+本包不含 .git、缓存、egg-info、临时文件、.venv；确切排除规则以发布清单为准。
+
+归档日期：2026-10-08
+Release：https://github.com/lkcfqy/motortrust/releases/tag/research-snapshot-2026-10-08
+文件数量、结果数量、大小、SHA-256 及实际校验计数，以最终 manifest 为准。
+
+需要下载的文件
+--------------
+1. restore_release.py
+2. release-manifest.json
+3. manifest.parts 数组列出的所有 .partNNN 分卷（原名保留、不要改顺序或改名）
+4. RESTORE_CN.txt
+
+将 JSON 清单和所有分卷放在同一文件夹。浏览器可以逐个下载；脚本不自动
+联网下载。分卷文件不是各自独立的压缩包，不能单独解压。
+
+环境
+----
+Python 3.8 或更新版本。恢复脚本只用 Python 标准库，支持 Windows、macOS、
+Linux，无需 pip 安装恢复依赖。磁盘空间至少需同时容纳下载分卷、合并压缩包
+和解压文件；--overwrite 还会保留旧项目，因此需要额外空间。
+
+运行示例
+--------
+Windows（PowerShell，安装有 Python 的情况下）：
+  py -3 restore_release.py --parts-dir "D:\MotorTrust-release" --destination "D:\Research"
+
+macOS / Linux：
+  python3 restore_release.py --parts-dir "/path/to/MotorTrust-release" --destination "/path/to/Research"
+
+--destination 是父目录。上述 Windows 示例恢复为 D:\Research\motortrust；
+脚本不会直接将文件散落在 D:\Research。
+
+现有目标保护
+------------
+如目标 motortrust 已存在，默认拒绝恢复。确实要替换时显式加 --overwrite：
+  python3 restore_release.py --parts-dir "/path/to/release" --destination "/path/to/Research" --overwrite
+
+脚本先完成校验和临时解压，再将旧目录改名为 motortrust.backup-随机编号，
+保留旧文件，最后安装新目录；不会把新旧结果合并。目标是符号链接或普通文件
+时仍拒绝。确认新项目可用后，由使用者自行处理旧备份。
+
+校验和安全
+----------
+脚本按 JSON 中的顺序校验每卷的大小及 SHA-256，然后合并并校验总大小、
+整个归档的 SHA-256；解压后核对常规文件字节总数。任何不符都中止。
+校验和可以发现损坏，但清单与文件来自同一来源，不能独立证明来源可信。
+脚本拒绝目录穿越、绝对路径、Windows 特殊路径、符号链接、硬链接、设备、
+FIFO、稀疏文件及路径冲突，只提取 motortrust/ 下的目录和普通文件。
+打包时必须将链接排除，或经发布者检查后改为实际文件。不要用其他解压工具
+绕过脚本报告的路径安全错误。
+
+恢复后必须重建运行环境
+----------------------
+归档不含原来的 .venv、Python 解释器、系统驱动或外部工具。请根据恢复后项目
+中的依赖声明和 README 创建新环境、安装依赖，再检查数据路径和运行入口。
+归档时的 macOS ARM64 环境记录位于 recovery/environment.macos-arm64.yml；
+这是重建参考，不能直接保证在 Windows、Linux 或另一架构上可原样安装。
+
+Mac arm64（先安装 Miniforge，在恢复后的 motortrust 根目录执行）：
+  conda env create -f recovery/environment.macos-arm64.yml
+  conda activate motortrust
+  python -m pip install --no-deps -e .
+  python -m pip check
+
+Windows/Linux（先安装 Miniforge，在恢复后的 motortrust 根目录执行）：
+  conda create -n motortrust python=3.12 -y
+  conda activate motortrust
+  python -m pip install -e ".[dev,publication]"
+  python -m pip check
+
+Windows/Linux 示例安装依赖声明允许的当前版本，不是原 Windows 冻结环境锁。
+论文复现应按对应 run_metadata.json 内的软件版本和协议另建固定环境。
+既有 joblib 模型也应使用匹配的 scikit-learn 版本加载。不要覆写归档结果。
+
+本说明没有承诺 CPU/GPU、Windows/macOS 或不同依赖版本产生逐位相同结果。
+
+已知资料和复现限制（应随最终 manifest 核对）
+--------------------------------------------
+1. PMSG 所需原始 MAT 数据文件在本次归档时缺失；该归档不能补出缺失数据。
+   原始数据来源：https://zenodo.org/records/15741561
+   PMSG 来源项目：https://github.com/InnovaPower/MitDev-Eletrica
+   PMSG 来源项目冻结提交：e02fba475cf82b375412a7382143dc29da5241ef
+   这个提交号属于数据来源项目，不是 MotorTrust 主仓库的提交号。
+   如项目只保留处理数据和既有结果，就只能恢复这些实际存在的文件，不能从
+   缺失的原始 MAT 完整重跑该数据链。
+2. 已安装依赖后在 macOS 执行测试，结果为 266 项通过、5 项失败。5 项失败
+   分类为：Wilson 区间 exact-zero 边界 1 项、Windows 字体假设 3 项、
+   Paper3 路径分隔符 1 项。这是测试结果；本次没有重新运行科研实验。
+   归档保留现有 Windows 来源实验结果，不能据此声称这些实验已在 macOS
+   复跑一致。本备份没有修复这些失败，也不能被称为全测试通过。
+3. 恢复既有 CSV、图表或报告不等于重新生成了同样结果。引用论文结果前，
+   应明确结果由哪个平台、数据版本和运行配置产生，并保留其来源。
+4. 若恢复后出现新问题，应先核对 manifest、依赖版本、数据文件、配置和
+   本机路径；将以后产生的新结果与归档的现有结果分别记录来源。
+5. 代码及数据的来源和许可说明见 recovery/licenses/DATA_SOURCES_AND_LICENSES.txt。
+   文件备份、校验或本项目的代码许可均不自动改变第三方数据的许可条件。
+
+Paper4 原始数据仓库的 Git 元数据恢复
+-----------------------------------
+本包排除了嵌套 .git。Paper4 的 validate_hashes 会对
+data/raw/lptn_informed_lstm 执行 git rev-parse HEAD，并要求提交号为：
+  98e4566b5fb7c70499996fda18dd73179ec16509
+
+因此，只有原始文件字节还不够；在完成归档恢复后，还需联网安装/使用 Git
+并重建这个原始数据目录的元数据。在恢复后的 motortrust 根目录执行：
+  git init data/raw/lptn_informed_lstm
+  git -C data/raw/lptn_informed_lstm remote add origin https://github.com/Zirui24/lptn_informed_LSTM.git
+  git -C data/raw/lptn_informed_lstm fetch --depth 1 origin 98e4566b5fb7c70499996fda18dd73179ec16509
+  git -C data/raw/lptn_informed_lstm reset --mixed FETCH_HEAD
+  git -C data/raw/lptn_informed_lstm rev-parse HEAD
+
+最后一条命令的输出应与上面的固定提交号一致。reset --mixed 只重置 Git
+提交位置及索引，保留归档恢复的工作文件字节；不要使用 checkout、switch、
+reset --hard 或 clean 去覆盖、删除原始数据。若服务器不允许按提交号浅取，
+可从同一 origin fetch 更完整的历史，再对固定提交号 reset --mixed；遇到
+联网失败时不要伪造提交号。元数据重建不是内容校验，后续仍应运行项目校验。
+这些命令面向本次新恢复、尚无 .git 的目录；不要直接套用于另一个已有仓库。
+
+主项目同样是没有 .git 的文件快照。需要 Git 元数据时，在恢复后的 motortrust
+根目录执行以下命令。必须先将 "<manifest.git_commit>" 替换为下载的
+release-manifest.json 中 git_commit 字段记录的完整 MotorTrust 提交号：
+  git init
+  git remote add origin https://github.com/lkcfqy/motortrust.git
+  git fetch --depth 1 origin "<manifest.git_commit>"
+  git reset --mixed FETCH_HEAD
+  git rev-parse HEAD
+
+不要使用 reset --hard、checkout 或 clean。reset --mixed 保留快照字节，
+部分恢复文件可能显示为修改或未跟踪，这是正常的：本备份还含有现存数据、
+科研结果和恢复说明。main 的最新状态可能已不同于归档时版本。
+若最终清单没有 git_commit 字段，就不能据本说明认定主仓库提交；应以发布者
+提供的已确认代码来源为准，不要把 PMSG 或 LPTN 的上游提交用于主仓库。
+
+清单优先
+--------
+最终 release-manifest.json 和随包的科研文件清单记录实际归档内容、校验值、
+数量及排除规则。归档没有创建不存在的原始数据，也没有重新生成科研结果。

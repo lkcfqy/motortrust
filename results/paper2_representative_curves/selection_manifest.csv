@@ -1,0 +1,5 @@
+distribution,selection_role,published_row_index,selection_rule,curve_max_error,global_half_width,geometry_scaled_half_width,geometry_scale,global_covered,geometry_scaled_covered
+uq_uniform,dense_both_covered,607,median curve-max error within the predeclared role subset,0.002256546784345115,0.007124876179400386,0.006384759814437025,0.9376278028891264,1,1
+uq_uniform,sparse_scaled_rescue,7690,median curve-max error within the predeclared role subset,0.007268836988455707,0.007124876179400386,0.008054482428000788,1.1828333221398337,0,1
+uq_uniform,sparse_both_missed,665,median curve-max error within the predeclared role subset,0.010096757392797362,0.007124876179400386,0.007272517379292025,1.0679985919595356,0,0
+uq_gauss,gaussian_middle_both_covered,6106,median curve-max error within the predeclared role subset,0.0024703337662531633,0.007124876179400386,0.005625674100112881,0.826152995502182,1,1

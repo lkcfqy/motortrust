@@ -1,0 +1,22 @@
+{
+  "target_motor": "3kW",
+  "method": "target_ledoit",
+  "feature_arm": "all_features",
+  "alpha": 0.05,
+  "threshold": 71.02302101615189,
+  "adaptation_blocks": 4,
+  "calibration_blocks": 20,
+  "healthy_test_blocks": 14,
+  "fault_test_blocks": 560,
+  "false_alarms": 1,
+  "false_alarm_rate": 0.07142857142857142,
+  "detected_fault_blocks": 551,
+  "detection_rate": 0.9839285714285714,
+  "lowest_two_severity_detection_rate": 1.0,
+  "block_auroc": 0.9966836734693878,
+  "block_auprc": 0.9999154975229085,
+  "severity_spearman": {
+    "intercoil": 0.9642857142857145,
+    "interturn": 0.0
+  }
+}

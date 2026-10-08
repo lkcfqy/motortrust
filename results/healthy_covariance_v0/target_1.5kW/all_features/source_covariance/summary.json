@@ -1,0 +1,22 @@
+{
+  "target_motor": "1.5kW",
+  "method": "source_covariance",
+  "feature_arm": "all_features",
+  "alpha": 0.05,
+  "threshold": 570.475416052323,
+  "adaptation_blocks": 4,
+  "calibration_blocks": 20,
+  "healthy_test_blocks": 14,
+  "fault_test_blocks": 560,
+  "false_alarms": 0,
+  "false_alarm_rate": 0.0,
+  "detected_fault_blocks": 529,
+  "detection_rate": 0.9446428571428571,
+  "lowest_two_severity_detection_rate": 1.0,
+  "block_auroc": 0.9968112244897959,
+  "block_auprc": 0.9999207486462383,
+  "severity_spearman": {
+    "intercoil": -0.42857142857142866,
+    "interturn": 0.7500000000000002
+  }
+}

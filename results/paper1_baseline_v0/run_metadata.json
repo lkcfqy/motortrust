@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-08-20T13:23:42.795448+00:00",
+  "features_path": "C:\\lkc\\phd sci\\data\\processed\\kaist_current_features.csv.gz",
+  "features_sha256": "6276bfae67169f0e70a3b1bd3c4fdbf42c08631a4d4dcfd097ef8246ef970d20",
+  "python": "3.12.13",
+  "scikit_learn": "1.9.0",
+  "rows": 27000,
+  "models": [
+    "logistic"
+  ],
+  "feature_arms": [
+    "all_features",
+    "scale_free",
+    "healthy_relative"
+  ]
+}

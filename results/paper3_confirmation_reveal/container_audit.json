@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-08-21T08:55:33.079264+00:00",
+  "input_dir": "C:\\lkc\\phd sci\\tmp\\pmsg3_metadata_repo\\PMSG-3phase-Dataset",
+  "frozen_inventory": "C:\\lkc\\phd sci\\results\\paper3_confirmation_preregistration\\metadata_inventory.csv",
+  "files": 225,
+  "healthy_files": 9,
+  "fault_files": 216,
+  "sample_counts": {
+    "60001": 225
+  },
+  "variable_counts": {
+    "33": 225
+  },
+  "required_variables": [
+    "t",
+    "Ia",
+    "Ib",
+    "Ic"
+  ],
+  "required_schema": {
+    "shape": {
+      "(60001, 1)": 225
+    },
+    "dtype": {
+      "double": 225
+    }
+  },
+  "unique_complete_schemas": 1,
+  "fault_relay_name_observed": "Fault_relay",
+  "fault_relay_deserialized": false,
+  "fault_current_deserialized": false,
+  "signal_values_deserialized": false,
+  "compatibility_patch_required": false,
+  "container_table_sha256": "c6d6f2efaaf443e272dfadf961289990fd4240b2f5b8718de15185558d502e6f"
+}

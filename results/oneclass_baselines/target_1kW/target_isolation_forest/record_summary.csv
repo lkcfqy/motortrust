@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+1kW,1kW_coil_current_0p68pct,intercoil,0.68,False,target_isolation_forest,20260820,40,40,1.0,0.6675068410342679,0.6728761674840901
+1kW,1kW_coil_current_0p81pct,intercoil,0.81,False,target_isolation_forest,20260820,40,40,1.0,0.6708448915115569,0.6777996407379177
+1kW,1kW_coil_current_0pct,intercoil,0.0,True,target_isolation_forest,20260820,14,0,0.0,0.528804621966783,0.5655120759233955
+1kW,1kW_coil_current_1p01pct,intercoil,1.01,False,target_isolation_forest,20260820,40,40,1.0,0.6154204625422102,0.6429017230967045
+1kW,1kW_coil_current_1p34pct,intercoil,1.34,False,target_isolation_forest,20260820,40,40,1.0,0.6688542474053369,0.6764255500524973
+1kW,1kW_coil_current_2pct,intercoil,2.0,False,target_isolation_forest,20260820,40,40,1.0,0.6619306732071301,0.6724554489692458
+1kW,1kW_coil_current_3p93pct,intercoil,3.93,False,target_isolation_forest,20260820,40,40,1.0,0.6674518422602393,0.674728466444339
+1kW,1kW_coil_current_7p56pct,intercoil,7.56,False,target_isolation_forest,20260820,40,40,1.0,0.6203098677704728,0.6391128162785682
+1kW,1kW_turn_current_12p17pct,interturn,12.17,False,target_isolation_forest,20260820,40,40,1.0,0.665952297497189,0.6733141549741442
+1kW,1kW_turn_current_21p69pct,interturn,21.69,False,target_isolation_forest,20260820,40,40,1.0,0.6646512539393215,0.6719554597868616
+1kW,1kW_turn_current_2p26pct,interturn,2.26,False,target_isolation_forest,20260820,40,40,1.0,0.6683437837274998,0.6808266809312884
+1kW,1kW_turn_current_2p7pct,interturn,2.7,False,target_isolation_forest,20260820,40,40,1.0,0.6697941294958079,0.675043490583735
+1kW,1kW_turn_current_3p35pct,interturn,3.35,False,target_isolation_forest,20260820,40,40,1.0,0.6510671027137419,0.6659901244640234
+1kW,1kW_turn_current_4p41pct,interturn,4.41,False,target_isolation_forest,20260820,40,40,1.0,0.6655616858971622,0.6722731594035596
+1kW,1kW_turn_current_6p48pct,interturn,6.48,False,target_isolation_forest,20260820,40,40,1.0,0.6565936387205482,0.6698423639286204

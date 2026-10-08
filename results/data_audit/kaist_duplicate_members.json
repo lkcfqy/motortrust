@@ -1,0 +1,56 @@
+[
+  {
+    "archive": "1.0kW.zip",
+    "uncompressed_bytes": 288031292,
+    "zip_crc32": "9aa9720c",
+    "members": [
+      "current/1000W_0_00_current_intercoil.tdms",
+      "current/1000W_0_00_current_interturn.tdms"
+    ]
+  },
+  {
+    "archive": "1.0kW.zip",
+    "uncompressed_bytes": 24578106,
+    "zip_crc32": "542b5c97",
+    "members": [
+      "vibration/1000W_0_00_vibration_intercoil.tdms",
+      "vibration/1000W_0_00_vibration_interturn.tdms"
+    ]
+  },
+  {
+    "archive": "1.5kW.zip",
+    "uncompressed_bytes": 288031293,
+    "zip_crc32": "c882c3a3",
+    "members": [
+      "current/1500W_0_00_current_intercoil.tdms",
+      "current/1500W_0_00_current_interturn.tdms"
+    ]
+  },
+  {
+    "archive": "1.5kW.zip",
+    "uncompressed_bytes": 24578107,
+    "zip_crc32": "42b23572",
+    "members": [
+      "vibration/1500W_0_00_vibration_intercoil.tdms",
+      "vibration/1500W_0_00_vibration_interturn.tdms"
+    ]
+  },
+  {
+    "archive": "3.0kW.zip",
+    "uncompressed_bytes": 288031293,
+    "zip_crc32": "179b848d",
+    "members": [
+      "current/3000W_0_00_current_intercoil.tdms",
+      "current/3000W_0_00_current_interturn.tdms"
+    ]
+  },
+  {
+    "archive": "3.0kW.zip",
+    "uncompressed_bytes": 24578105,
+    "zip_crc32": "0a892637",
+    "members": [
+      "vibration/3000W_0_00_vibration_coil.tdms",
+      "vibration/3000W_0_00_vibration_interturn.tdms"
+    ]
+  }
+]

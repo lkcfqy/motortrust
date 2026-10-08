@@ -1,0 +1,187 @@
+{
+  "artifacts": {
+    "citation_count": 10,
+    "citation_keys": [
+      "angelopoulos2023conformal",
+      "diquigiovanni2022multifunctional",
+      "diquigiovanni2025importance",
+      "elmekkaoui2023pipeline",
+      "gopakumar2026surrogate",
+      "gray2025functional",
+      "jaber2025gpsurrogate",
+      "lei2018distributionfree",
+      "partovizadeh2025fourierpmsm",
+      "tibshirani2019covariateshift"
+    ],
+    "figure_files": [
+      "papers\\paper2_torque_uq\\figures\\paper2_protocol_workflow.png",
+      "papers\\paper2_torque_uq\\figures\\paper2_protocol_workflow.pdf",
+      "papers\\paper2_torque_uq\\figures\\paper2_coverage_width.png",
+      "papers\\paper2_torque_uq\\figures\\paper2_coverage_width.pdf",
+      "papers\\paper2_torque_uq\\figures\\paper2_distance_conditioning.png",
+      "papers\\paper2_torque_uq\\figures\\paper2_distance_conditioning.pdf",
+      "papers\\paper2_torque_uq\\figures\\paper2_seed_sensitivity.png",
+      "papers\\paper2_torque_uq\\figures\\paper2_seed_sensitivity.pdf",
+      "papers\\paper2_torque_uq\\figures\\paper2_representative_curves.png",
+      "papers\\paper2_torque_uq\\figures\\paper2_representative_curves.pdf"
+    ],
+    "manuscript_words": 5158,
+    "required_phrases": [
+      "11,250 independent uniform designs",
+      "90.293% coverage",
+      "76.13% in the sparsest",
+      "78.31%",
+      "0 / 5,000",
+      "ESS 4.31",
+      "21.4%",
+      "not an exact reproduction",
+      "It is not evidence of cross-machine",
+      "simulator model-form error"
+    ]
+  },
+  "input_sha256": {
+    "papers\\paper2_torque_uq\\manuscript.md": "01699a7a7010f239bf900c51fa7efc02b3a4501e5e2ff47d31955c1ef8e8f6ab",
+    "results\\paper2_torque_conformal\\aggregate_summary.csv": "0700590d03103d3cc7b68b55a2d89afa5f244e08f85cee41950ccf5f175cced7",
+    "results\\paper2_torque_conformal\\primary_per_design_scores.csv.gz": "a5695affa0244d2d4586db095ec2277ec1aec8b7533fa3b25d03e7833fe5f905",
+    "results\\paper2_weighted_conformal\\comparison_summary.csv": "a5f08fe15d3e6dfbe3cd49517f6b04033b6a91400ff7243beb0410cb4a4fb3c7",
+    "results\\paper2_weighted_conformal\\weighted_per_design.csv.gz": "e3974ca6697b4e2b6fd283e39730546687bf63ba102a18869133272679d06da0"
+  },
+  "primary": {
+    "aggregate": {
+      "internal_uniform": {
+        "geometry_scaled": {
+          "accepted_coverage": 0.9368421052631579,
+          "coverage": 0.92,
+          "covered_designs": 184,
+          "designs": 200,
+          "mean_half_width": 0.006833811706395207,
+          "support_rejected": 10,
+          "support_rejection_rate": 0.05
+        },
+        "global": {
+          "accepted_coverage": 0.9368421052631579,
+          "coverage": 0.92,
+          "covered_designs": 184,
+          "designs": 200,
+          "mean_half_width": 0.0071248761794003015,
+          "support_rejected": 10,
+          "support_rejection_rate": 0.05
+        }
+      },
+      "uq_gauss_shift": {
+        "geometry_scaled": {
+          "accepted_coverage": 1.0,
+          "coverage": 1.0,
+          "covered_designs": 10000,
+          "designs": 10000,
+          "mean_half_width": 0.005600996960592588,
+          "support_rejected": 0,
+          "support_rejection_rate": 0.0
+        },
+        "global": {
+          "accepted_coverage": 1.0,
+          "coverage": 1.0,
+          "covered_designs": 10000,
+          "designs": 10000,
+          "mean_half_width": 0.0071248761794003,
+          "support_rejected": 0,
+          "support_rejection_rate": 0.0
+        }
+      },
+      "uq_uniform": {
+        "geometry_scaled": {
+          "accepted_coverage": 0.9123236124176858,
+          "coverage": 0.8996444444444445,
+          "covered_designs": 10121,
+          "designs": 11250,
+          "mean_half_width": 0.006805745385354092,
+          "support_rejected": 620,
+          "support_rejection_rate": 0.05511111111111111
+        },
+        "global": {
+          "accepted_coverage": 0.9185324553151458,
+          "coverage": 0.9029333333333334,
+          "covered_designs": 10158,
+          "designs": 11250,
+          "mean_half_width": 0.007124876179400301,
+          "support_rejected": 620,
+          "support_rejection_rate": 0.05511111111111111
+        }
+      }
+    },
+    "seed_ranges": {
+      "internal_uniform/geometry_scaled": {
+        "coverage_max": 0.92,
+        "coverage_mean": 0.891,
+        "coverage_min": 0.875,
+        "width_max": 0.0076804322425779,
+        "width_min": 0.0066500463525205
+      },
+      "internal_uniform/global": {
+        "coverage_max": 0.92,
+        "coverage_mean": 0.8899999999999999,
+        "coverage_min": 0.875,
+        "width_max": 0.0075495406029523,
+        "width_min": 0.0064464194997427
+      },
+      "uq_gauss_shift/geometry_scaled": {
+        "coverage_max": 1.0,
+        "coverage_mean": 0.99978,
+        "coverage_min": 0.9995,
+        "width_max": 0.0062137136802301,
+        "width_min": 0.0053794257617258
+      },
+      "uq_gauss_shift/global": {
+        "coverage_max": 1.0,
+        "coverage_mean": 0.9999800000000001,
+        "coverage_min": 0.9999,
+        "width_max": 0.0075495406029523,
+        "width_min": 0.0064464194997427
+      },
+      "uq_uniform/geometry_scaled": {
+        "coverage_max": 0.9130666666666668,
+        "coverage_mean": 0.9009422222222223,
+        "coverage_min": 0.8893333333333333,
+        "width_max": 0.0076239622321618,
+        "width_min": 0.0065999833467517
+      },
+      "uq_uniform/global": {
+        "coverage_max": 0.9108444444444443,
+        "coverage_mean": 0.897208888888889,
+        "coverage_min": 0.8799111111111111,
+        "width_max": 0.0075495406029523,
+        "width_min": 0.0064464194997427
+      }
+    },
+    "uniform_sparse_quintile": {
+      "designs": 2250.0,
+      "geometry_scaled_coverage": 0.7831111111111111,
+      "global_coverage": 0.7613333333333333,
+      "mean_curve_max_error": 0.005521592134220528,
+      "mean_geometry_scaled_half_width": 0.007438119853078853
+    }
+  },
+  "status": "pass",
+  "weighted": {
+    "uq_gauss": {
+      "calibration_weight_ess": 4.3063191510830485,
+      "coverage_including_vacuous": 1.0,
+      "designs": 5000,
+      "finite_band_coverage": null,
+      "finite_bands": 0,
+      "heldout_domain_auc": 1.0,
+      "max_normalized_calibration_weight": 0.3970362024349455,
+      "mean_finite_half_width": null
+    },
+    "uq_uniform": {
+      "calibration_weight_ess": 516.5040316436168,
+      "coverage_including_vacuous": 0.9198222222222222,
+      "designs": 5625,
+      "finite_band_coverage": 0.9198222222222222,
+      "finite_bands": 5625,
+      "heldout_domain_auc": 0.5059303703703704,
+      "max_normalized_calibration_weight": 0.0052890541380492,
+      "mean_finite_half_width": 0.025024511121063804
+    }
+  }
+}

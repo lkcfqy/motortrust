@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-08-21T06:57:04.134740+00:00",
+  "dataset": "C:\\lkc\\phd sci\\data\\raw\\electric_motor_temperature\\measures_v2.csv",
+  "rows_after_downsampling": 66577,
+  "stride": 20,
+  "seed": 20260821,
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.0"
+}

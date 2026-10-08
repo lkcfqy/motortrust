@@ -1,0 +1,60 @@
+{
+  "checked_utc": "2026-10-08T14:35:58.527670+00:00",
+  "files": [
+    {
+      "file": "CC-BY-4.0.txt",
+      "source_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "final_url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "fetched_utc": "2026-10-08T14:35:58.527670+00:00",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "verification": "Plain-text official license response; saved bytes are unchanged."
+    },
+    {
+      "file": "CC-BY-SA-4.0.txt",
+      "source_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "final_url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "fetched_utc": "2026-10-08T14:35:58.527670+00:00",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5",
+      "verification": "Plain-text official license response; saved bytes are unchanged."
+    },
+    {
+      "file": "GPL-3.0.txt",
+      "source_url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "final_url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "fetched_utc": "2026-10-08T14:35:58.527670+00:00",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "verification": "Plain-text official license response; saved bytes are unchanged."
+    },
+    {
+      "file": "MIT-LPTN-Liu-2024.txt",
+      "source_url": "https://raw.githubusercontent.com/Zirui24/lptn_informed_LSTM/98e4566b5fb7c70499996fda18dd73179ec16509/LICENSE",
+      "copied_utc": "2026-10-08T14:35:58.527670+00:00",
+      "bytes": 1087,
+      "sha256": "5bd3c7e2e0bc75016063d56845c7ef83d972bf4ead6799aa54d57502dd645783",
+      "verification": "Copied byte-for-byte from restored upstream LICENSE. The official fixed-commit text matches after CRLF-to-LF newline normalization; the copied bytes retain their original line endings.",
+      "source_project_path": "data/raw/lptn_informed_lstm/LICENSE"
+    },
+    {
+      "file": "SOURCE_METADATA.json",
+      "fetched_utc": "2026-10-08T14:35:58.527670+00:00",
+      "bytes": 5687,
+      "sha256": "01a520003464d34ca3a8e3c1c45ecfd033fe2a4dcc328a7dbde05dbff9866524",
+      "verification": "Selected official metadata fields; source URLs included per dataset."
+    },
+    {
+      "file": "DATA_SOURCES_AND_LICENSES.txt",
+      "bytes": 10105,
+      "sha256": "1ae71c7603015ecc686ec4e4fc969d3e399d01017337b4f40f67f00e606f622b",
+      "verification": "Authored component-specific source and attribution notice from verified metadata and restored project manifests."
+    }
+  ]
+}

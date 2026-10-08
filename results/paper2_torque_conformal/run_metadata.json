@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-08-21T07:29:35.266468+00:00",
+  "protocol": "paper2_curvewise_conformal_v1",
+  "source_doi": "10.5281/zenodo.15688397",
+  "source_article_doi": "10.1007/s00366-025-02123-1",
+  "models": [
+    "poly2_ridge",
+    "rbf_kernel_ridge",
+    "ard_gaussian_process",
+    "extra_trees"
+  ],
+  "primary_focus_model": "ard_gaussian_process",
+  "seeds": [
+    20260821
+  ],
+  "alpha": [
+    0.1,
+    0.05
+  ],
+  "support_alpha": 0.05,
+  "development_roles": {
+    "fit": 1200,
+    "calibration": 600,
+    "internal_test": 200
+  },
+  "retained_fourier_components": 11,
+  "curve_points": 120,
+  "hyperparameter_selection": "three-fold fit-only waveform MAE",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.0",
+  "input_files": [
+    {
+      "file": "train_test_parameters.csv",
+      "bytes": 477742,
+      "sha256": "10c0b1b344d5addadacfad2b53ebe7d41e70f4e6ecc9fa8344fd840fbe8906a0"
+    },
+    {
+      "file": "train_test_torque.csv",
+      "bytes": 2856040,
+      "sha256": "f9606c7e6b386e5eaf6537d63a745973d31fee6cb907101b85cd2c2d864cf39f"
+    },
+    {
+      "file": "uq_uniform_parameters_11k.csv",
+      "bytes": 2686443,
+      "sha256": "020f4b85fff4475f9662b1246c85c3253398fbef8c2b72b4f59d69b8fa262e88"
+    },
+    {
+      "file": "uq_uniform_torque_11k.csv",
+      "bytes": 16061335,
+      "sha256": "df1f8aa5bf6e139659a7f935fb31b3831c2403119086ebaa323af83d3242656c"
+    },
+    {
+      "file": "uq_gauss_parameters_10k.csv",
+      "bytes": 2387927,
+      "sha256": "368832b4f571385788320c864a8a7a425da818b1acb5e66b6726e0d529088a40"
+    },
+    {
+      "file": "uq_gauss_torque_10k.csv",
+      "bytes": 14277285,
+      "sha256": "ff85a001286dda41455e08d7ed6b269d7f0c9f16184f701af141cf848e3098e7"
+    }
+  ],
+  "scope_limit": "All confirmation tables originate from the same published two-dimensional quarter-symmetry PMSM simulator and are not hardware or cross-topology validation."
+}

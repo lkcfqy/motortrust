@@ -7,13 +7,9 @@ __pycache__/
 *.egg-info/
 tmp/
 
-# Data and generated experiment artifacts
+# Raw datasets are distributed as split GitHub Release assets.
 data/raw/*
 !data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-results/*
-!results/.gitkeep
 
 # IDE / OS
 .idea/

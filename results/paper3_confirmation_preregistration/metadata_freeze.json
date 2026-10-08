@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-08-21T08:48:08.868448+00:00",
+  "dataset_article_doi": "10.1016/j.dib.2025.112040",
+  "dataset_doi": "10.5281/zenodo.15741561",
+  "repository_url": "https://github.com/InnovaPower/MitDev-Eletrica",
+  "repository_tag": "v1.1.0",
+  "repository_commit": "e02fba475cf82b375412a7382143dc29da5241ef",
+  "repository_tree": "65430929e4886935d463f1e1410b5476d255f4d4",
+  "dataset_prefix": "PMSG-3phase-Dataset",
+  "tree_entries": 227,
+  "mat_entries": 225,
+  "healthy_mat_entries": 9,
+  "fault_mat_entries": 216,
+  "fault_family_counts": {
+    "turns": 108,
+    "windings": 108
+  },
+  "fault_cases": 24,
+  "operating_conditions": 9,
+  "non_mat_entries": [
+    "PMSG-3phase-Dataset/dataset_preview.py",
+    "PMSG-3phase-Dataset/dxx_positions.png"
+  ],
+  "inventory_sha256": "4890f864e40fc3345f5af37364a6acf7d854af4ab94b57ebc73e2def94a36914",
+  "confirmation_protocol": "C:\\lkc\\phd sci\\docs\\paper3_confirmation_protocol.md",
+  "confirmation_protocol_sha256": "4fc0d12e1e69c09776f8c0f691eddf38552bdf2f7512dc71c426103cc349bfd9",
+  "selected_method": "C:\\lkc\\phd sci\\results\\paper3_development\\selected_method.json",
+  "selected_method_sha256": "1cccd12c8d7b8d4c6ad40b0a96ebd46ec839739b84b30512a8d4b7ca77324bf5",
+  "development_protocol": "C:\\lkc\\phd sci\\results\\paper3_development\\protocol.json",
+  "development_protocol_sha256": "a37d38937aee35ae0ed44c5c139a4e0daf54cd85a03f1e105b8cc6ab5f071ec9",
+  "reveal_state": {
+    "working_tree_mat_files_present": 0,
+    "signal_arrays_deserialized_or_plotted": false,
+    "note": "A prior git size query inadvertently fetched some MAT blob objects into the object store, but no MAT signal was checked out, deserialized, plotted, or summarized before this freeze."
+  }
+}

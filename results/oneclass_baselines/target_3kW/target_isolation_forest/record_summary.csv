@@ -1,0 +1,16 @@
+motor_id,record_id,fault_family,severity_percent,is_healthy,method,seed,blocks,alarms,block_alarm_rate,mean_score,max_score
+3kW,3kW_coil_current_0pct,intercoil,0.0,True,target_isolation_forest,20260820,14,0,0.0,0.5441342256075751,0.564733526262511
+3kW,3kW_coil_current_13p3pct,intercoil,13.3,False,target_isolation_forest,20260820,40,40,1.0,0.6447376178438664,0.6518573854998337
+3kW,3kW_coil_current_23p48pct,intercoil,23.48,False,target_isolation_forest,20260820,40,40,1.0,0.6460914765940854,0.6513769771457311
+3kW,3kW_coil_current_2p49pct,intercoil,2.49,False,target_isolation_forest,20260820,40,40,1.0,0.6379437188605026,0.6431826460143235
+3kW,3kW_coil_current_2p98pct,intercoil,2.98,False,target_isolation_forest,20260820,40,40,1.0,0.6398636139499156,0.6478474771526123
+3kW,3kW_coil_current_3p69pct,intercoil,3.69,False,target_isolation_forest,20260820,40,40,1.0,0.6432597394376777,0.6496530115417647
+3kW,3kW_coil_current_4p86pct,intercoil,4.86,False,target_isolation_forest,20260820,40,40,1.0,0.6424671789775716,0.6504221344201909
+3kW,3kW_coil_current_7p12pct,intercoil,7.12,False,target_isolation_forest,20260820,40,40,1.0,0.645132015422793,0.651214143817221
+3kW,3kW_turn_current_17p86pct,interturn,17.86,False,target_isolation_forest,20260820,40,40,1.0,0.6071152427438677,0.6725593539407984
+3kW,3kW_turn_current_1p78pct,interturn,1.78,False,target_isolation_forest,20260820,40,40,1.0,0.6017836809471999,0.6220604417013985
+3kW,3kW_turn_current_2p13pct,interturn,2.13,False,target_isolation_forest,20260820,40,40,1.0,0.6246422859107368,0.643509469579408
+3kW,3kW_turn_current_2p65pct,interturn,2.65,False,target_isolation_forest,20260820,40,39,0.975,0.5876752313932792,0.6059766865155036
+3kW,3kW_turn_current_3p5pct,interturn,3.5,False,target_isolation_forest,20260820,40,40,1.0,0.6063961495197833,0.6302881717953237
+3kW,3kW_turn_current_5p16pct,interturn,5.16,False,target_isolation_forest,20260820,40,26,0.65,0.5734560734781757,0.6042282757925821
+3kW,3kW_turn_current_9p81pct,interturn,9.81,False,target_isolation_forest,20260820,40,40,1.0,0.5924850244091588,0.6196392110172574

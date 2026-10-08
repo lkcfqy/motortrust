@@ -1,0 +1,29 @@
+[
+  {
+    "archive": "1.0kW.zip",
+    "zip_bytes": 1770532508,
+    "tdms_records": 32,
+    "tdms_compressed_bytes": 1770527030,
+    "tdms_uncompressed_bytes": 5196452690,
+    "current_uncompressed_bytes": 4787988726,
+    "vibration_uncompressed_bytes": 408463964
+  },
+  {
+    "archive": "1.5kW.zip",
+    "zip_bytes": 2542599644,
+    "tdms_records": 32,
+    "tdms_compressed_bytes": 2542594158,
+    "tdms_uncompressed_bytes": 5218038082,
+    "current_uncompressed_bytes": 4814632632,
+    "vibration_uncompressed_bytes": 403405450
+  },
+  {
+    "archive": "3.0kW.zip",
+    "zip_bytes": 2660445808,
+    "tdms_records": 32,
+    "tdms_compressed_bytes": 2660440406,
+    "tdms_uncompressed_bytes": 5151462749,
+    "current_uncompressed_bytes": 4746008183,
+    "vibration_uncompressed_bytes": 405454566
+  }
+]

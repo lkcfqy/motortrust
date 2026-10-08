@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-08-21T09:08:48.984438+00:00",
+  "protocol": "C:\\lkc\\phd sci\\docs\\paper3_post_reveal_matched_calibration_protocol.md",
+  "protocol_sha256": "36199e442315a954384367a45744907f2c30bc53277f96ecfc89fb335f9cadce",
+  "input_features": "C:\\lkc\\phd sci\\data\\processed\\paper3_pmsg_confirmation_features.csv.gz",
+  "input_features_sha256": "78bbc520ada5bcfe6f3dc419968e64892aaba48743f5976443cdf4f136346040",
+  "summary": {
+    "analysis_status": "post-reveal topology-disjoint internal validation",
+    "method": "matched_session_anchor_ledoit_wolf",
+    "folds": 3,
+    "records": 216,
+    "pre_false_alarms": 14,
+    "pre_session_far": 0.06481481481481481,
+    "pre_session_far_wilson_lower": 0.038997915670138064,
+    "pre_session_far_wilson_upper": 0.10584036456827901,
+    "fault_records_detected": 153,
+    "fault_record_detection": 0.7083333333333334,
+    "fault_record_detection_wilson_lower": 0.6444992411152447,
+    "fault_record_detection_wilson_upper": 0.7648866885578537,
+    "detected_first_window": 133,
+    "detected_second_window_only": 20,
+    "censored_beyond_0p4s": 63,
+    "original_gates_for_context": {
+      "far_point_le_0p05": false,
+      "far_wilson_upper_le_0p10": false,
+      "detection_point_ge_0p75": false,
+      "detection_wilson_lower_ge_0p65": false
+    }
+  }
+}

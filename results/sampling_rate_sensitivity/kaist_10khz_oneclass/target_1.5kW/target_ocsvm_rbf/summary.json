@@ -1,0 +1,32 @@
+{
+  "target_motor": "1.5kW",
+  "method": "target_ocsvm_rbf",
+  "seed": 20260820,
+  "alpha": 0.05,
+  "threshold": 0.3842977227252733,
+  "adaptation_blocks": 4,
+  "calibration_blocks": 20,
+  "healthy_test_blocks": 14,
+  "fault_test_blocks": 560,
+  "fault_records": 14,
+  "false_alarms": 0,
+  "false_alarm_rate": 0.0,
+  "detected_fault_blocks": 401,
+  "detection_rate": 0.7160714285714286,
+  "fault_record_macro_detection_rate": 0.7160714285714287,
+  "fault_records_with_any_alarm": 13,
+  "fault_record_any_alarm_rate": 0.9285714285714286,
+  "block_auroc": 0.9903061224489795,
+  "block_auprc": 0.999754186694615,
+  "estimator_kind": "ocsvm",
+  "training_scope": "target",
+  "training_rows": 60,
+  "training_rows_by_motor": {
+    "1.5kW": 60
+  },
+  "fit_warning_count": 0,
+  "fit_warnings": [],
+  "input_features": 27,
+  "retained_features": 27,
+  "dropped_rank_redundant_features": []
+}
