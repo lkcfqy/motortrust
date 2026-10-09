@@ -14,7 +14,7 @@
 | Paper 4：电热模型、校准与温度不确定性的跨电机迁移 | [motortrust-paper4](https://github.com/lkcfqy/motortrust-paper4) | [raw-data-2026-10-09](https://github.com/lkcfqy/motortrust-paper4/releases/tag/raw-data-2026-10-09) |
 
 原始大数据分别放在各仓库的 Releases；普通 `git clone` 不会下载 Release 附件。
-本次 Release 在附件完整上传并校验后发布，恢复以各自已发布的清单与说明为准。
+四个 Release 均已完成附件上传、逐文件及远端 SHA-256 校验并发布，恢复以各自的清单与说明为准。
 拆分范围、下载与检查步骤见 [`docs/repository_split_2026-10-09.md`](docs/repository_split_2026-10-09.md)。
 
 旧 `research-snapshot-2026-10-08` 实际为未完成的草稿，只有三个说明附件，没有完整分卷和
