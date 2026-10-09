@@ -1,17 +1,27 @@
 # When Healthy-Only Transfer Fails: PMSM Cross-Dataset Evaluation
 
-## MotorTrust 文件恢复与完整数据快照
+## MotorTrust 四篇论文仓库索引
 
-代码、论文、处理后的数据、训练模型和现有实验结果已纳入本仓库。冻结结果按原始字节
-保存，避免跨平台换行转换改变科学证据的 SHA-256。原始数据及现有科研文件的完整快照
-通过 [2026-10-08 分卷 Release](https://github.com/lkcfqy/motortrust/releases/tag/research-snapshot-2026-10-08)
-提供；普通 `git clone` 不会下载这些 Release 附件。
+四篇论文现按独立仓库整理，各自保存对应的代码、稿件、图表、冻结结果和适用的处理数据。
+必要的共享模块与文稿构建工具按依赖做最小复制，保留科研文件的原相对路径和原始字节。
+本 `motortrust` 仓库保留原有项目与提交历史，作为总索引和历史来源。
 
-重装后恢复步骤见 [`recovery/RESTORE_CN.txt`](recovery/RESTORE_CN.txt)，Mac arm64 环境版本
-见 [`recovery/environment.macos-arm64.yml`](recovery/environment.macos-arm64.yml)。各数据集的来源、
-署名和许可证见 [`recovery/licenses/DATA_SOURCES_AND_LICENSES.txt`](recovery/licenses/DATA_SOURCES_AND_LICENSES.txt)。
-PMSG 的 225 个原始 MAT 文件此前已不在本地项目内；处理数据和结果仍保留，原始数据的官方
-恢复来源已记录。快照不含 Python 环境二进制、Git 认证信息或缓存，环境需要重新创建。
+| 论文 | 独立仓库 | 原始数据 Release |
+|---|---|---|
+| Paper 1：健康样本迁移、跨数据集故障检测与失败诊断 | [motortrust-paper1](https://github.com/lkcfqy/motortrust-paper1) | [raw-data-2026-10-09](https://github.com/lkcfqy/motortrust-paper1/releases/tag/raw-data-2026-10-09) |
+| Paper 2：转矩曲线代理模型的共形区间与设计分布偏移 | [motortrust-paper2](https://github.com/lkcfqy/motortrust-paper2) | [raw-data-2026-10-09](https://github.com/lkcfqy/motortrust-paper2/releases/tag/raw-data-2026-10-09) |
+| Paper 3：调试校准迁移与独立 PMSG 确认 | [motortrust-paper3](https://github.com/lkcfqy/motortrust-paper3) | [raw-data-2026-10-09](https://github.com/lkcfqy/motortrust-paper3/releases/tag/raw-data-2026-10-09) |
+| Paper 4：电热模型、校准与温度不确定性的跨电机迁移 | [motortrust-paper4](https://github.com/lkcfqy/motortrust-paper4) | [raw-data-2026-10-09](https://github.com/lkcfqy/motortrust-paper4/releases/tag/raw-data-2026-10-09) |
+
+原始大数据分别放在各仓库的 Releases；普通 `git clone` 不会下载 Release 附件。
+本次 Release 在附件完整上传并校验后发布，恢复以各自已发布的清单与说明为准。
+拆分范围、下载与检查步骤见 [`docs/repository_split_2026-10-09.md`](docs/repository_split_2026-10-09.md)。
+
+旧 `research-snapshot-2026-10-08` 实际为未完成的草稿，只有三个说明附件，没有完整分卷和
+`release-manifest.json`，不能作为已可用的完整备份。旧恢复说明保留用于历史记录。
+Paper 3 的 225 个 PMSG 原始 MAT 文件在本次拆分前已缺失，须从
+[官方 DOI 10.5281/zenodo.15741561](https://doi.org/10.5281/zenodo.15741561) 恢复；已保留的处理数据和结果不补出这些原始文件。
+缓存、虚拟环境二进制、临时文件及本地 Git 元数据未作为项目文件或数据附件上传，运行环境需重新建立。
 
 本仓库服务于博士主线：**科学机器学习 × 工业数字孪生 × 电驱动健康管理**。
 
