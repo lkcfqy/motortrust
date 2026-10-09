@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "abstract_words": 124,
+  "keywords": 6,
+  "main_tables": 3,
+  "main_shapes": 6,
+  "main_omml": 5,
+  "footer_fields": [
+    " PAGE "
+  ],
+  "normal_double_spacing": 2.0,
+  "delivery_index_broken_links": [],
+  "original_frozen_JEET_git_diff": "No differences in original paper/ submission/jeet/ results/ frozen protocols and shared references; verified git diff HEAD",
+  "full_pytest": {
+    "passed": 272,
+    "failed": 4,
+    "scope_of_failures": "Only Paper 2-4 legacy fonts/paths"
+  },
+  "paper1_targeted_tests": 24,
+  "ruff": "pass",
+  "pip_check": "pass",
+  "remaining_author_and_official_items": "Explicitly identified in QA_Report; not upload-ready"
+}

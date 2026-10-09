@@ -1,0 +1,41 @@
+{
+  "file": "submission/jom/official_forms/JoM_Template_official_2026-10-09.doc",
+  "directory_entries": [
+    {
+      "name": "Root Entry",
+      "type": 5,
+      "bytes": 128
+    },
+    {
+      "name": "Data",
+      "type": 2,
+      "bytes": 5170
+    },
+    {
+      "name": "1Table",
+      "type": 2,
+      "bytes": 8611
+    },
+    {
+      "name": "WordDocument",
+      "type": 2,
+      "bytes": 10292
+    },
+    {
+      "name": "\u0005SummaryInformation",
+      "type": 2,
+      "bytes": 4096
+    },
+    {
+      "name": "\u0005DocumentSummaryInformation",
+      "type": 2,
+      "bytes": 4096
+    },
+    {
+      "name": "\u0001CompObj",
+      "type": 2,
+      "bytes": 109
+    }
+  ],
+  "object_pool_or_ole_storage_found": false
+}

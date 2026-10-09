@@ -1,0 +1,57 @@
+[
+  {
+    "name": "li2024",
+    "url": "https://globals.ieice.org/en_publications/elex/10.1587/elex.21.20240550/_pdf",
+    "status": "405 Client Error: Not Allowed for url: https://globals.ieice.org/en_publications/elex/10.1587/elex.21.20240550/_pdf"
+  },
+  {
+    "name": "wang2019",
+    "url": "https://arxiv.org/pdf/1811.09751",
+    "status": "downloaded",
+    "pages": 10,
+    "bytes": 2229046,
+    "sha256": "dab7ba97271942ac4b198a57a9a452cd15983d1efc1789058c477585904335fb",
+    "path": "tmp/jom/reference_downloads/wang2019.pdf",
+    "text_path": "tmp/jom/reference_downloads/wang2019.txt"
+  },
+  {
+    "name": "angelopoulos2022_preprint",
+    "url": "https://arxiv.org/pdf/2107.07511",
+    "status": "downloaded",
+    "pages": 51,
+    "bytes": 5360733,
+    "sha256": "c69aa191d8363c25b36685db4adb7e6980e55ee39892fd3626206c16e1e0efa1",
+    "path": "tmp/jom/reference_downloads/angelopoulos2022_preprint.pdf",
+    "text_path": "tmp/jom/reference_downloads/angelopoulos2022_preprint.txt"
+  },
+  {
+    "name": "barber2026",
+    "url": "https://raw.githubusercontent.com/mlresearch/v313/main/assets/barber26a/barber26a.pdf",
+    "status": "downloaded",
+    "pages": 24,
+    "bytes": 1216267,
+    "sha256": "651119c55de9fac2de17507dc58350d144cd9c004405d97257b7e98a6cd6218d",
+    "path": "tmp/jom/reference_downloads/barber2026.pdf",
+    "text_path": "tmp/jom/reference_downloads/barber2026.txt"
+  },
+  {
+    "name": "chernozhukov2018",
+    "url": "https://proceedings.mlr.press/v75/chernozhukov18a/chernozhukov18a.pdf",
+    "status": "downloaded",
+    "pages": 18,
+    "bytes": 253230,
+    "sha256": "b65f5b1e52199f5c8e547c03253127998ef8677a3f2d28fa60c7827bd182b175",
+    "path": "tmp/jom/reference_downloads/chernozhukov2018.pdf",
+    "text_path": "tmp/jom/reference_downloads/chernozhukov2018.txt"
+  },
+  {
+    "name": "wheat2024",
+    "url": "https://macsphere.mcmaster.ca/bitstream/11375/31458/1/Impact_of_Data_Leakage_in_Vibration_Signals_Used_for_Bearing_Fault_Diagnosis.pdf",
+    "status": "downloaded",
+    "pages": 17,
+    "bytes": 3188384,
+    "sha256": "a11be4859392833b8086647238a6f882aa4bd0aaadcf7aafe710a8ed999878f7",
+    "path": "tmp/jom/reference_downloads/wheat2024.pdf",
+    "text_path": "tmp/jom/reference_downloads/wheat2024.txt"
+  }
+]

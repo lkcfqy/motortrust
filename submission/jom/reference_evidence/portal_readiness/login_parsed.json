@@ -1,0 +1,416 @@
+{
+  "source_requested": "https://jom.magnetics.or.kr/submission/login.jsp?ViewFlag=author",
+  "source_final": "https://jom.magnetics.or.kr/submission/journal/pages/login.vm?ViewFlag=author",
+  "status": 200,
+  "title": "JOURNAL OF MAGNETICS",
+  "sha256": "527f93fe954afb17f831f753244de034702fbc7b41267adcce7dd2eda2c77294",
+  "links": [
+    {
+      "label": "JOURNAL OF MAGNETICS",
+      "href": "https://jom.magnetics.or.kr/submission/journal/"
+    },
+    {
+      "label": "Current Issue",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/current_issues.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Highlight",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    },
+    {
+      "label": "Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Instructions to Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Publication Charges",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/publication_charges.vm"
+    },
+    {
+      "label": "Authors Responsibilities",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/authors_responsibilities.vm"
+    },
+    {
+      "label": "Online Submission",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm"
+    },
+    {
+      "label": "Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Guide for Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Peer Review at JOM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/peer_review_at_jom.vm"
+    },
+    {
+      "label": "Online Review System",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_review.vm"
+    },
+    {
+      "label": "About JoM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Aims and scope",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Editorial Committee",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_committee.vm"
+    },
+    {
+      "label": "Editorial Office",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_office.vm"
+    },
+    {
+      "label": "Permissions",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/permissions.vm"
+    },
+    {
+      "label": "Policy",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm"
+    },
+    {
+      "label": "Login to submission",
+      "href": "https://jom.magnetics.or.kr/submission/login.jsp"
+    },
+    {
+      "label": "JOURNAL OF MAGNETICS",
+      "href": "https://jom.magnetics.or.kr/submission/journal/"
+    },
+    {
+      "label": "Current Issues",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/current_issues.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Highlight",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    },
+    {
+      "label": "Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Instructions to Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Publication Charges",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/publication_charges.vm"
+    },
+    {
+      "label": "Authors Responsibilities",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/authors_responsibilities.vm"
+    },
+    {
+      "label": "Online Submission",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm"
+    },
+    {
+      "label": "Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Guide for Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Peer Review at JOM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/peer_review_at_jom.vm"
+    },
+    {
+      "label": "Online Review System",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_review.vm"
+    },
+    {
+      "label": "About JoM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Aims and scope",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Editorial Committee",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_committee.vm"
+    },
+    {
+      "label": "Editorial Office",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_office.vm"
+    },
+    {
+      "label": "Permissions",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/permissions.vm"
+    },
+    {
+      "label": "Policy",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm"
+    },
+    {
+      "label": "Research and Publication Ethics",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm"
+    },
+    {
+      "label": "",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    },
+    {
+      "label": "",
+      "href": "https://jom.magnetics.or.kr/"
+    },
+    {
+      "label": "Create account",
+      "href": "https://jom.magnetics.or.kr/users/join.vm"
+    },
+    {
+      "label": "Find password",
+      "href": "https://jom.magnetics.or.kr/users/find.vm"
+    },
+    {
+      "label": "",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/login.vm?ViewFlag=author"
+    },
+    {
+      "label": "View Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    },
+    {
+      "label": "Online Submission",
+      "href": "https://jom.magnetics.or.kr/submission/login.jsp"
+    },
+    {
+      "label": "",
+      "href": "http://crossref.org/"
+    },
+    {
+      "label": "",
+      "href": "https://www.crossref.org/services/cited-by/"
+    },
+    {
+      "label": "",
+      "href": "https://www.kofst.or.kr/main.bit?sys_type=0000"
+    },
+    {
+      "label": "Highlight",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Residual-Correction Multi-Fidelity Surrogate Model Assisted Optimization of an Axial Flux Permanent Magnet Motor Using Q-3D and 3D FEM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm?isrc=tkms.allforone21.com/tkms/service/view_body.do&vol=31&no=3&year=2026&month=09&page=391"
+    },
+    {
+      "label": "Local Loss Evaluation of Assembled Stator Cores for Electric Vehicles",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm?isrc=tkms.allforone21.com/tkms/service/view_body.do&vol=31&no=2&year=2026&month=06&page=250"
+    },
+    {
+      "label": "Evaluation of Spin-Orbit Torque Efficiency in Ta/CoFeB Bilayers with Out-of-Plane and In-Plane Magnetizations Using Harmonic Hall Measurements",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm?isrc=tkms.allforone21.com/tkms/service/view_body.do&vol=31&no=1&year=2026&month=03&page=21"
+    },
+    {
+      "label": "Current Issues",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/current_issues.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Highlight",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/highlight.vm"
+    },
+    {
+      "label": "Archives",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    },
+    {
+      "label": "Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Instructions to Authors",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm"
+    },
+    {
+      "label": "Publication Charges",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/publication_charges.vm"
+    },
+    {
+      "label": "Authors Responsibilities",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/authors_responsibilities.vm"
+    },
+    {
+      "label": "Online Submission",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm"
+    },
+    {
+      "label": "Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Guide for Reviewers",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/guide_for_reviewers.vm"
+    },
+    {
+      "label": "Peer Review at JOM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/peer_review_at_jom.vm"
+    },
+    {
+      "label": "Online Review System",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/online_review.vm"
+    },
+    {
+      "label": "About JoM",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Aims and scope",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm"
+    },
+    {
+      "label": "Editorial Committee",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_committee.vm"
+    },
+    {
+      "label": "Editorial Office",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/editorial_office.vm"
+    },
+    {
+      "label": "Permissions",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/permissions.vm"
+    },
+    {
+      "label": "Policy",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm"
+    },
+    {
+      "label": "Research and Publication Ethics",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm"
+    },
+    {
+      "label": "",
+      "href": "https://jom.magnetics.or.kr/submission/journal/pages/archives.vm"
+    }
+  ],
+  "forms": [
+    {
+      "action": "https://jom.magnetics.or.kr/servlet/kiid_LoginCheck",
+      "method": "post",
+      "id": null,
+      "name": "subFrm",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "hidden",
+          "name": "nextUrl",
+          "value": "journal"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "ViewFlag",
+          "id": "author",
+          "value": "author",
+          "checked": null
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "ViewFlag",
+          "id": "reviewer",
+          "value": "reviewer"
+        },
+        {
+          "tag": "input",
+          "type": "radio",
+          "name": "ViewFlag",
+          "id": "editor",
+          "value": "editor"
+        },
+        {
+          "tag": "input",
+          "type": "text",
+          "id": "inputID",
+          "name": "id",
+          "class": "form-control",
+          "maxlength": "40",
+          "placeholder": "User ID",
+          "autofocus": null
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "id": "inputPassword",
+          "name": "pass",
+          "class": "form-control",
+          "maxlength": "16",
+          "placeholder": "Password"
+        },
+        {
+          "tag": "input",
+          "class": "btn btn-lg btn-material btn-block",
+          "type": "submit",
+          "name": "",
+          "value": "LOGIN"
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://code.jquery.com/jquery-2.2.4.min.js"
+    },
+    {
+      "src": "https://jom.magnetics.or.kr/submission/journal/scripts/bootstrap.min.js"
+    },
+    {
+      "src": "https://jom.magnetics.or.kr/submission/journal/scripts/jquery.dotdotdot.min.js"
+    },
+    {
+      "src": "https://jom.magnetics.or.kr/submission/journal/scripts/scripts.js"
+    },
+    {
+      "src": "https://jom.magnetics.or.kr/scripts/drawer.min.js"
+    },
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"
+    },
+    {
+      "src": "https://www.googletagmanager.com/gtag/js?id=UA-110682151-21"
+    },
+    {
+      "inline": "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'UA-110682151-21');\n"
+    },
+    {
+      "inline": "\n    $(document).ready(function () {\n        // drawer.js - mobile navigation\n        $('.drawer').drawer();\n    });\n"
+    },
+    {
+      "src": "https://jom.magnetics.or.kr/bower_components/iframe-resizer/js/iframeResizer.js"
+    },
+    {
+      "inline": "\n    $('iframe.resize').load(function(){ // iframe 리사이징\n        iFrameResize({\n            log                     : false, // Enable console logging\n            enablePublicMethods     : true\n        });\n    });\n"
+    }
+  ]
+}

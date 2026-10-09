@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "scope": "final C1 C2 wording recheck, previous findings retained",
+  "files": [
+    {
+      "path": "submission/jom/manuscript.md",
+      "sha256": "30bfbfc0d0e7fbb27cb21f3ff4c36d962fc226edb45d2dc61beb5bccec3338c1",
+      "bytes": 40634,
+      "abstract_word_count_whitespace": 133
+    },
+    {
+      "path": "submission/jom/supplementary.md",
+      "sha256": "26dbf42fefaf3de350667ef33c96c8f2e4588c6ebc30a9f0bf374773bf5656ec",
+      "bytes": 58354
+    },
+    {
+      "path": "submission/jom/cover_letter.md",
+      "sha256": "db0c60b8dcffc1b2f864b4a2d2a0ae993e6e6a51104af845b363676cbb710a29",
+      "bytes": 2857
+    }
+  ]
+}

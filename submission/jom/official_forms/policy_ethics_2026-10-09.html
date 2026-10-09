@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+
+<title>JOURNAL OF MAGNETICS</title>
+
+<!-- Stylesheet -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="//fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
+<link href="/submission/journal/styles/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="/submission/journal/styles/drawer.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="/submission/journal/styles/common.css?v=26100910" rel="stylesheet">
+<link href="/submission/journal/styles/sub.css?v=26100910" rel="stylesheet">
+<link href="/submission/journal/styles/mediaquery.css?v=26100910" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/submission/journal/scripts/bootstrap.min.js"></script>
+<script src="/submission/journal/scripts/jquery.dotdotdot.min.js"></script>
+<script src="/submission/journal/scripts/scripts.js"></script>
+<script src="/scripts/drawer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110682151-21"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110682151-21');
+</script>
+<script>
+    $(document).ready(function () {
+        // drawer.js - mobile navigation
+        $('.drawer').drawer();
+    });
+</script>
+
+<!-- page_stylesheets :s -->
+    
+<!-- page_stylesheets :e -->
+</head>
+
+<body class="drawer drawer--right">
+
+<!-- #wrap :s -->
+<div id="wrap">
+
+    <!-- #moblie header :s -->
+    <!-- #mobile-nav :s -->
+<header class="mobile-nav" role="banner">
+    <div class="inner-wrap">
+
+        <!-- logo -->
+        <h1 class="logo">
+            <a href="/submission/journal/">
+                <img src="/images/logo/logo.png" alt="logo">
+                JOURNAL OF MAGNETICS</a>
+        </h1>
+
+        <!-- nav button -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+
+        <!-- navigation :s -->
+        <nav class="drawer-nav" role="navigation">
+            <div class="inner-wrap">
+
+                <ul class="drawer-menu drawer-menu--right">
+                    <!-- empty-area :s -->
+                    <li class="mobile-gnb-title">
+                        <ul>
+                            <li>Navigation</li>
+                        </ul>
+                    </li>
+                    <!-- empty-area :e -->
+
+                    <!-- nav list :s -->
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/current_issues.vm">Current Issue</a>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/highlight.vm" data-toggle="dropdown" role="button" aria-expanded="false">Archives<span class="drawer-caret"></span>
+                        </a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/archives.vm">Archives</a></li>
+                        </ul>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/instructions_authors.vm" data-toggle="dropdown" role="button" aria-expanded="false">Authors<span class="drawer-caret"></span>
+                        </a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+                        </ul>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/guide_for_reviewers.vm" data-toggle="dropdown" role="button" aria-expanded="false">Reviewers<span class="drawer-caret"></span></a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/aims_scope.vm" data-toggle="dropdown" role="button" aria-expanded="false">About JoM<span class="drawer-caret"></span></a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+                    </li>
+                    <!-- nav list :e -->
+                </ul>
+
+            </div>
+        </nav>
+        <!-- navigation :e -->
+
+    </div>
+</header>
+<!-- #mobile-nav :s -->    <!-- #moblie header :e -->
+
+    <!-- #header :s -->
+    <div id="header">
+        <div class="utility-area">
+    <div class="inner-wrap">
+
+        <ul class="utility">
+
+                            <li><a href="/submission/login.jsp">Login to submission</a></li>
+
+                    </ul>
+
+    </div>
+</div>
+
+<div class="logo-area">
+    <div class="inner-wrap clearfix">
+
+        <h1>
+            <a href="/submission/journal/">JOURNAL OF MAGNETICS</a>
+        </h1>
+
+        <div class="journal-info-area">
+            <div class="journal-info">
+                <ul class="issn-info">
+                    <li>pISSN : 1226-1750</li>
+                    <li>eISSN : 2233-6656</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="gnb-area">
+    <div class="inner-wrap">
+
+        <div class="gnb">
+            <ul class="clearfix">
+    <li>
+        <a href="/submission/journal/pages/current_issues.vm">
+            Current Issues
+        </a>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/highlight.vm">
+            Archives
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+            <li><a href="/submission/journal/pages/archives.vm">Archives</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/instructions_authors.vm">
+            Authors
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+            <li><a href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+            <li><a href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+            <li><a href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/guide_for_reviewers.vm">
+            Reviewers
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+            <li><a href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+            <li><a href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/aims_scope.vm">
+           About JoM
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+            <li><a href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+            <li><a href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+
+            <li><a href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/policy_ethics.vm">Research and Publication Ethics</a></li>
+        </ul>
+    </li>
+    <li class="search">
+        <a href="/submission/journal/pages/archives.vm"><i class="xi-search"></i></a>
+    </li>
+</ul>
+        </div>
+
+    </div>
+</div>
+    </div>
+    <!-- #header :e -->
+
+
+    <!-- #container :s -->
+    <div id="container">
+        <div class="sub-spot">
+            <div class="innerwrap">
+                <p class="title"> The Korean Magnetics Society<br>
+                    <span>JOURNAL OF MAGNETICS</span></p>
+
+            </div>
+        </div>
+        <div class="inner-wrap clearfix">
+                        <div id="contents" class="contents">
+                <div class="breadcrumb">
+                    <ul class="clearfix">
+                        <li class="home"><a href="/" title="Go to Main"><i class="ion-home"></i></a></li>
+                        <li class="arrow"><i class="ion-ios-arrow-right"></i></li>
+                        <li class="depth1">Policy</li>
+                                            </ul>
+                </div>
+
+                
+
+
+<div class="article policy-ethics">
+    <h1>Research and Publication Ethics</h1>
+
+                <div class="section">
+
+            <p>For the policies on the research and publication ethics not stated in this instructions, International standards for editors and authors can be applied.<br>(<a href="https://publicationethics.org/resources/resources-and-further-reading/international-standards-editors-and-authors" target="_blank">https://publicationethics.org/resources/resources-and-further-reading/international-standards-editors-and-authors</a>)</p>
+
+            <p>The Code of Ethics of the Korean Magnetics Society (hereinafter referred to as the Society) defines the principles and standards of research ethics that members of the Society (hereinafter referred to as members) must follow in the course of research activities. Members are committed to respecting the value of research and sharing research results in the processes of conducting research, publishing research results, evaluating research results, and editing journals.</p>
+
+            <h2 class="title">Code of Research Ethics</h2>
+
+            <h2>Section 1. Ethical Responsibilities of Authors</h2>
+
+            <h4>Article 1. Criteria for Authorship</h4>
+
+            <p>In order to be considered the author of a paper accepted by the Journal of Magnetics, all of the following requirements must be met.</p>
+
+            <ol>
+                <li>Contribution to the concept setting and design of the study, or substantial involvement in the acquisition, analysis and interpretation of data;</li>
+                <li>Contribution to the preparation of the paper or involvement in critical correction of academic aspects;</li>
+                <li>Reading of the final version of the paper and approval of it for submission; </li>
+                <li>Agreement to take responsibility for the author's obligations specified in Articles 2, 3, 4 and 5 of this section, including the overall accuracy and integrity of the study.</li>
+            </ol>
+
+            <h4>Article 2. Duty of honesty and integrity</h4>
+
+            <p>Members should be honest and faithful in conducting research and presenting their results. All researchers, including the person in charge of the research, must not commit dishonest acts such as fabricating or altering research results or plagiarizing others' research results. Specifically:</p>
+
+            <ol>
+                <li>They must not fabricate data that is not the result of actual research.</li>
+                <li>They must not alter the original data obtained through research or select or omit certain parts of it to support a pre-determined or desired conclusion.</li>
+                <li>Do not use the research results of other researchers without permission</li>
+            </ol>
+
+            <h4>Article 3. Requirements to be observed as the author</h4>
+
+            <ol>
+                <li>The responsible author(s) selected with the consent of all research participants is(are) fully responsible for the writing, submission and review of a paper(s).</li>
+                <li>A co-author must be a researcher who has contributed directly or indirectly to the research, and the responsible author should disclose the research-related roles contributed of each co-author when requested by the reviewer.</li>
+                <li>A co-author must not be excluded from the list of authors despite having contributed to the conduct of research, and those who have made contributions too small to justify co-authorship should be acknowledged in the paper.</li>
+                <li>The co-author takes responsibility as an author only for the part of the study that he or she actually performed or contributed to. The work is also recognized as his (or her) achievement. However, co-authors have limited responsibility for the contributions of other co-authors.</li>
+                <li>The responsible author gives all co-authors the opportunity to review the written paper before submitting it, and obtains consent for publication.</li>
+                <li>If errors are found after publication of the research results, all authors, including responsible authors, are obliged to correct, supplement, or withdraw the research results.</li>
+            </ol>
+
+            <h4>Article 4. Prohibition of duplicate publication</h4>
+
+            <ol>
+                <li>The authors must not publish his or her previously published work (including those scheduled to be published or under review) as new work, regardless of whether the previous results had been published domestically or abroad.</li>
+                <li>If the authors intend to publish some parts of their research results that have already been published, they must provide that information to the editor after confirming that it is eligible for duplicate publication and that they hold any necessary copyrights.</li>
+            </ol>
+
+
+
+            <h4>Article 5. References</h4>
+
+            <ol>
+                <li>When quoting published academic materials or results, the source must be clearly identified, unless the information belongs to the realm of common sense.</li>
+                <li>Referencing must be done with enough precision that the reader can know which part is the quoted or referenced person’s and which part is the author’s original thought or interpretation.</li>
+                <li>In the case of paper reviews, the evaluation of research proposals, or citation of data obtained through personal contact, the consent of the information provider must be obtained</li>
+            </ol>
+
+            <h2>Section 2. Duties of Editorial Committee</h2>
+
+
+
+            <h4>Article 1</h4>
+
+            <p>The Editorial Committee (hereinafter referred to as the Committee) is responsible for deciding whether or not to publish submitted papers.</p>
+
+
+
+            <h4>Article 2</h4>
+
+            <p>The Committee should treat the papers submitted for publication in a fair manner based on their quality and the submission rules, regardless of the author's gender, age, or organization, and regardless also of any personal relationship.</p>
+
+
+
+            <h4>Article 3</h4>
+
+            <p>The Committee should provide for fair and objective evaluation of submitted papers by referring that task to reviewers who have expertise in the given field.</p>
+
+
+
+            <h4>Article 4</h4>
+
+            <p>The Committee should not disclose the identity of an author or the contents of a paper to anyone other than reviewers until the publication of the submitted paper is confirmed.</p>
+
+
+
+
+
+            <h2>Section 3. Duties of Reviewers</h2>
+
+
+
+            <h4>Article 1</h4>
+
+            <p>The reviewer must faithfully evaluate papers provided by the Committee within the period determined by the review regulations, and must immediately notify the Committee of the evaluation result.</p>
+            <p>If the reviewer thinks that he or she is not an appropriate person for a given paper’s review, he or she should notify the Committee of that fact without delay.</p>
+
+
+
+            <h4>Article 2</h4>
+
+            <p>The reviewer should evaluate the paper fairly according to objective criteria, regardless of personal academic beliefs or any personal relationship with the author.</p>
+
+
+
+            <h4>Article 3</h4>
+
+            <p>The reviewer should express objective opinions according to his or her professional knowledge when evaluating a manuscript, but should use polite and gentle expressions as much as possible and avoid criticizing or insulting the author.</p>
+
+
+
+            <h4>Article 4</h4>
+
+            <p>The reviewer must keep the confidentiality of a paper’s contents. Unless special advice is required for the review process, reviewers should not show the paper to others or discuss its contents with others. In addition, the contents of the paper should not be cited without the consent of the author before the paper is published in the journal.</p>
+
+
+
+
+
+            <h2 class="title">Guidelines for the Implementation of Ethical Regulations</h2>
+
+
+
+            <h4>Article 1.</h4>
+            <p>All members are deemed to have pledged to abide by this Code of Ethics, unless they express their intention to refuse.</p>
+
+            <h4>Article 2.</h4>
+            <p>When a member violates the Code of Ethics and does not intend to work out the violation on his or her own, the member who finds the violation can report it to the Society's Ethics Committee. If a report of a violation is received, the Ethics Committee shall take necessary measures to resolve problems caused by the violation and discipline the member who violated the Code of Ethics. The Ethics Committee should not disclose information on the member who reported the other’s violation.</p>
+
+            <h4>Article 3.</h4>
+            <p>The Society should establish the Ethics Committee, and the Ethics Committee takes necessary measures such as investigation and disciplinary action for violations. The Ethics Committee should consist of 5 or more and 10 or less members including the vice president of business, the vice president of business academics, the vice president of business editorials, and a few members appointed by the president.</p>
+
+            <h4>Article 4.</h4>
+            <p>The Ethics Committee may recommend appropriate sanctions to the president if the violation of the ethics regulations is found to be true after conducting rigorous investigations through informants, respondents, witnesses, reference persons, and evidence.</p>
+
+            <h4>Article 5.</h4>
+            <p>Members who have been reported as violators of the Code of Ethics must cooperate, with integrity, with the Ethics Committee’s investigation to ensure that prompt and accurate decisions are made.</p>
+
+            <h4>Article 6.</h4>
+            <p>Members who are reported to have violated the Code of Ethics should be given appropriate opportunities to defend themselves. Members of the Ethics Committee should not disclose information on a member who has been reported as a violator of the Code of Ethics, until the Society decides finally whether to discipline that member or not.</p>
+
+            <h4>Article 7.</h4>
+            <p>Disciplinary measures for members who have violated the Code of Ethics are finalized by the board of directors as convened by the president. The Society may punish such members with appropriate discipline such as a warning, suspension or disqualification of membership. The names of members who are determined to have violated the Code of Ethics may be published in the Journal of Magnetics and/or identified to other organizations or individuals.</p>
+
+            <ol class="mg-t50">
+                <li>The bylaw is effective from November 30, 2007. </li>
+                <li>The revised bylaw is effective from February 3, 2017. </li>
+                <li>The revised bylaw is effective from January 10, 2020. </li>
+            </ol>
+
+        </div>
+</div>
+
+
+            </div>
+
+                        <div class="aside">
+
+                                <div class="journal-profile clearfix">
+                    <div class="cover">
+    <a href="#"><img src="/submission/journal/images/main_book_cover_eng.png" alt=""></a>
+</div>
+
+<div class="profile">
+    <span class="title">Journal of <br> <b>Magnetics</b></span>
+    <p class="date">Open Access<br>Quarterly</p>
+    </div>
+<ul class="issn-info-mobile">
+    <li>pISSN : 1226-1750</li>
+    <li>eISSN : 2233-6656</li>
+</ul>
+<ul class="btn-list">
+    <li><a href="/submission/journal/pages/archives.vm">View Archives</a></li>
+    <li><a href="/submission/login.jsp">Online Submission</a></li>
+</ul>
+
+                </div>
+
+                                <div class="banner-area">
+                    <ul>
+    <li>
+        <a><img src="/submission/journal/images/banner/open_access.png" alt=""></a>
+    </li>
+    <li>
+        <a href="http://crossref.org/" target="_blank"><img src="/submission/journal/images/banner/crossref.jpg" alt=""></a>
+    </li>
+    <li>
+        <a href="https://www.crossref.org/services/cited-by/" target="_blank"><img src="/submission/journal/images/banner/crosscheck.jpg" alt=""></a>
+    </li>
+    <li>
+        <a href="https://www.kofst.or.kr/main.bit?sys_type=0000" target="_blank"><img src="/submission/journal/images/banner/kofst.jpg" alt=""></a>
+    </li>
+</ul>
+                </div>
+
+                                <div class="most-read">
+                                        $import.read('/submission/journal/includes/_aside_most_read.jsp')
+                </div>
+
+                                <div class="contact-area">
+                    <h3 class="title">Editorial Office</h3>
+
+<ul>
+    <li>
+        <i class="xi-call"></i>
+        <b>Tel.</b>
+        <span>+82-2-3452-7363</span>
+    </li>
+    <li>
+        <i class="xi-fax"></i>
+        <b>Fax.</b>
+        <span>+82-2-3452-7366</span>
+    </li>
+    <li>
+        <i class="xi-gmail"></i>
+        <b>E-mail.</b>
+        <span>office@magnetics.or.kr</span>
+    </li>
+</ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- #container :e -->
+
+    <hr class="hidden">
+
+    <!-- #footer :s -->
+    <div id="footer">
+
+                <div class="sitemap">
+            <div class="inner-wrap">
+                <ul class="clearfix">
+    <li>
+        <a href="/submission/journal/pages/current_issues.vm">
+            Current Issues
+        </a>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/highlight.vm">
+            Archives
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+            <li><a href="/submission/journal/pages/archives.vm">Archives</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/instructions_authors.vm">
+            Authors
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+            <li><a href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+            <li><a href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+            <li><a href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/guide_for_reviewers.vm">
+            Reviewers
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+            <li><a href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+            <li><a href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/aims_scope.vm">
+           About JoM
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+            <li><a href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+            <li><a href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+
+            <li><a href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/policy_ethics.vm">Research and Publication Ethics</a></li>
+        </ul>
+    </li>
+    <li class="search">
+        <a href="/submission/journal/pages/archives.vm"><i class="xi-search"></i></a>
+    </li>
+</ul>
+            </div>
+        </div>
+
+                <div class="copyright">
+            <div class="inner-wrap">
+                <p>Copyright © <b>JOURNAL OF MAGNETICS</b> All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- #footer :e -->
+</div>
+<!-- #wrap :e -->
+
+<!-- iframe Resizer -->
+<script src="/bower_components/iframe-resizer/js/iframeResizer.js"></script>
+<script>
+    $('iframe.resize').load(function(){ // iframe 리사이징
+        iFrameResize({
+            log                     : false, // Enable console logging
+            enablePublicMethods     : true
+        });
+    });
+</script>
+
+</body>
+</html>
+
+

@@ -12,6 +12,7 @@ import pandas as pd
 from scipy.stats import spearmanr
 from sklearn.metrics import roc_auc_score
 
+from pmsm_sci.faults.artifact_paths import frozen_feature_path
 from pmsm_sci.faults.baseline import feature_columns
 from pmsm_sci.faults.covariance import (
     log_euclidean_entity_covariance,
@@ -58,6 +59,8 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=Path("results/external_feature_drift"),
     )
+    parser.add_argument("--source-features", type=Path)
+    parser.add_argument("--external-features", type=Path)
     return parser.parse_args()
 
 
@@ -140,6 +143,7 @@ def _paired_dz(differences: np.ndarray) -> float:
 
 def load_frozen_inputs(
     frozen_results_dir: Path,
+    *, source_features: Path | None = None, external_features: Path | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame, list[str], pd.DataFrame, dict[str, object]]:
     """Load and validate the exact feature tables and frozen block scores."""
 
@@ -148,8 +152,16 @@ def load_frozen_inputs(
     )
     if metadata.get("fault_reveal_required") is not True:
         raise ValueError("Feature drift requires the completed frozen fault reveal")
-    source_path = Path(str(metadata["source_features"]))
-    external_path = Path(str(metadata["external_features"]))
+    project_root = Path(__file__).resolve().parents[1]
+    source_path = frozen_feature_path(
+        str(metadata["source_features"]),
+        project_root / "data/processed/kaist_current_features.csv.gz", override=source_features,
+    )
+    external_path = frozen_feature_path(
+        str(metadata["external_features"]),
+        project_root / "data/processed/external_dual_three_phase_health_features.csv.gz",
+        override=external_features,
+    )
     if file_sha256(source_path) != metadata["source_features_sha256"]:
         raise ValueError("Source feature hash differs from the frozen run")
     if file_sha256(external_path) != metadata["external_features_sha256"]:
@@ -712,7 +724,8 @@ def diagnostic_summary(
 def main() -> None:
     args = parse_args()
     source, external, columns, frozen_blocks, metadata = load_frozen_inputs(
-        args.frozen_results_dir
+        args.frozen_results_dir,
+        source_features=args.source_features, external_features=args.external_features,
     )
     transformed, scores, contributions, covariances, geometry = (
         reconstruct_frozen_geometry(source, external, columns, metadata)

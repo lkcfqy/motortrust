@@ -1,0 +1,721 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2026-09-17T08:15:56Z",
+      "timestamp": 1789632956188,
+      "version": "build-2803163510"
+    },
+    "reference-count": 58,
+    "publisher": "MDPI AG",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2023-12-26T00:00:00Z",
+          "timestamp": 1703548800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Incheon National University (International Cooperative) Research Grant"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Applied Sciences"
+    ],
+    "abstract": "<jats:p>Fault detection of machinery systems is a fundamental prerequisite to implementing condition-based maintenance, which is the most eminent manufacturing equipment system management strategy. To build the fault detection model, one-class classification algorithms have been used, which construct the decision boundary only using normal class. For more accurate one-class classification, signal data have been used recently because the signal data directly reflect the condition of the machinery system. To analyze the machinery condition effectively with the signal data, features of signals should be extracted, and then, the one-class classifier is constructed with the features. However, features separately extracted from one-class classification might not be optimized for the fault detection tasks, and thus, it leads to unsatisfactory performance. To address this problem, deep one-class classification methods can be used because the neural network structures can generate the features specialized to fault detection tasks through the end-to-end learning manner. In this study, we conducted a comprehensive experimental study with various fault signal datasets. The experimental results demonstrated that the deep support vector data description model, which is one of the most prominent deep one-class classification methods, outperforms its competitors and traditional methods.</jats:p>",
+    "DOI": "10.3390/app14010221",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2023-12-27T02:58:12Z",
+      "timestamp": 1703645892000
+    },
+    "page": "221",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Machinery Fault Signal Detection with Deep One-Class Classification"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Dosik",
+        "family": "Yoon",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Industrial and Management Engineering, Incheon National University, Incheon 22012, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jaehong",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial and Management Engineering, Incheon National University, Incheon 22012, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6128",
+        "DOI": "10.1016/j.matpr.2017.12.219",
+        "article-title": "Condition based maintenance of bearings and gears for fault detection–A review",
+        "volume": "5",
+        "author": "Kumar",
+        "year": "2018",
+        "journal-title": "Mater. Today Proc."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1525",
+        "DOI": "10.1080/15732479.2016.1149871",
+        "article-title": "A comparative study of time-based maintenance and condition-based maintenance for optimal choice of maintenance policy",
+        "volume": "12",
+        "author": "Kim",
+        "year": "2016",
+        "journal-title": "Struct. Infrastruct. Eng."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "242",
+        "DOI": "10.1109/TR.2010.2041972",
+        "article-title": "Linear and nonlinear preventive maintenance models",
+        "volume": "59",
+        "author": "Wu",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1109/TR.2003.816402",
+        "article-title": "A condition-based failure-prediction and processing-scheme for preventive maintenance",
+        "volume": "52",
+        "author": "Yang",
+        "year": "2003",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2977",
+        "DOI": "10.1016/j.eswa.2011.08.159",
+        "article-title": "An intelligent condition-based maintenance platform for rotating machinery",
+        "volume": "39",
+        "author": "Yang",
+        "year": "2012",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1002/(SICI)1099-1638(199809/10)14:5<319::AID-QRE171>3.0.CO;2-6",
+        "article-title": "A Petri net approach to early failure detection and isolation for preventive maintenance",
+        "volume": "14",
+        "author": "Yang",
+        "year": "1998",
+        "journal-title": "Qual. Reliab. Eng. Int."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1483",
+        "DOI": "10.1016/j.ymssp.2005.09.012",
+        "article-title": "A review on machinery diagnostics and prognostics implementing condition-based maintenance",
+        "volume": "20",
+        "author": "Jardine",
+        "year": "2006",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3757",
+        "DOI": "10.1109/TIE.2015.2417501",
+        "article-title": "A survey of fault diagnosis and fault-tolerant techniques—Part I: Fault diagnosis with model-based and signal-based approaches",
+        "volume": "62",
+        "author": "Gao",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1016/j.cirpj.2015.05.004",
+        "article-title": "Condition based maintenance of machine tools—A review",
+        "volume": "10",
+        "author": "Goyal",
+        "year": "2015",
+        "journal-title": "CIRP J. Manuf. Sci. Technol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1016/j.procir.2015.08.026",
+        "article-title": "Industrial big data analytics and cyber-physical systems for future maintenance & service innovation",
+        "volume": "38",
+        "author": "Lee",
+        "year": "2015",
+        "journal-title": "Procedia CIRP"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1126/science.1127647",
+        "article-title": "Reducing the dimensionality of data with neural networks",
+        "volume": "313",
+        "author": "Hinton",
+        "year": "2006",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "Ruff, L., Vandermeulen, R., Goernitz, N., Deecke, L., Siddiqui, S.A., Binder, A., Müller, E., and Kloft, M. (2018, January 10–15). Deep One-Class Classification. Proceedings of the International Conference on Machine Learning, Stockholm, Sweden."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "104279",
+        "DOI": "10.1016/j.engappai.2021.104279",
+        "article-title": "A novel deep autoencoder and hyperparametric adaptive learning for imbalance intelligent fault diagnosis of rotating machinery",
+        "volume": "102",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "85",
+        "DOI": "10.1016/j.compind.2019.01.001",
+        "article-title": "Generative adversarial networks for data augmentation in machine fault diagnosis",
+        "volume": "106",
+        "author": "Shao",
+        "year": "2019",
+        "journal-title": "Comput. Ind."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "787",
+        "DOI": "10.1006/mssp.2001.1435",
+        "article-title": "Detection of gear failures via vibration and acoustic signals using wavelet transform",
+        "volume": "17",
+        "author": "Baydar",
+        "year": "2003",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "108718",
+        "DOI": "10.1016/j.apacoust.2022.108718",
+        "article-title": "Acoustic signal-based fault detection of hydraulic piston pump using a particle swarm optimization enhancement CNN",
+        "volume": "192",
+        "author": "Zhu",
+        "year": "2022",
+        "journal-title": "Appl. Acoust."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1016/j.cja.2019.07.011",
+        "article-title": "A new bearing fault diagnosis method based on modified convolutional neural networks",
+        "volume": "33",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Chin. J. Aeronaut."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1016/j.ins.2013.12.019",
+        "article-title": "Clustering-based ensembles for one-class classification",
+        "volume": "264",
+        "author": "Krawczyk",
+        "year": "2014",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "106164",
+        "DOI": "10.1016/j.engappai.2023.106164",
+        "article-title": "Clustering ensemble-based novelty score for outlier detection",
+        "volume": "121",
+        "author": "Yu",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "119816",
+        "DOI": "10.1016/j.ins.2023.119816",
+        "article-title": "Proximity-based density description with regularized reconstruction algorithm for anomaly detection",
+        "volume": "654",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1593",
+        "DOI": "10.1016/j.eswa.2007.08.072",
+        "article-title": "A new approach to intelligent fault diagnosis of rotating machinery",
+        "volume": "35",
+        "author": "Lei",
+        "year": "2008",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1535",
+        "DOI": "10.1016/j.ymssp.2009.01.009",
+        "article-title": "Gear crack level identification based on weighted K nearest neighbor classification algorithm",
+        "volume": "23",
+        "author": "Lei",
+        "year": "2009",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1016/j.measurement.2011.10.008",
+        "article-title": "A novel intelligent gear fault diagnosis model based on EMD and multi-class TSVM",
+        "volume": "45",
+        "author": "Shen",
+        "year": "2012",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "433",
+        "DOI": "10.1002/wics.101",
+        "article-title": "Principal component analysis",
+        "volume": "2",
+        "author": "Abdi",
+        "year": "2010",
+        "journal-title": "WIREs Comp. Stat."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schölkopf, B., Smola, A., and Müller, K.R. (1997, January 8–10). Kernel principal component analysis. Proceedings of the International Conference on Artificial Neural Networks, Berlin, Germany.",
+        "DOI": "10.1007/BFb0020217"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, W., Wang, X., Yang, C., and Zhang, T. (2015, January 23–25). A novel feature extraction method using deep neural network for rolling bearing fault diagnosis. Proceedings of the 27th Chinese Control and Decision Conference, Qingdao, China.",
+        "DOI": "10.1109/CCDC.2015.7162328"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "108774",
+        "DOI": "10.1016/j.measurement.2020.108774",
+        "article-title": "Fault diagnosis of rotating machinery based on recurrent neural networks",
+        "volume": "171",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "105156",
+        "DOI": "10.1016/j.conengprac.2022.105156",
+        "article-title": "Low-rank reconstruction-based autoencoder for robust fault detection",
+        "volume": "123",
+        "author": "Hu",
+        "year": "2022",
+        "journal-title": "Control Eng. Pract."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "Chalapathy, R., Menon, A.K., and Chawla, S. (2019). Anomaly detection using one-class neural networks. arXiv."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1023/B:MACH.0000008084.60811.49",
+        "article-title": "Support vector data description",
+        "volume": "54",
+        "author": "Tax",
+        "year": "2004",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1443",
+        "DOI": "10.1162/089976601750264965",
+        "article-title": "Estimating the support of a high-dimensional distribution",
+        "volume": "13",
+        "author": "Platt",
+        "year": "2001",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gröchenig, K. (2001). Foundations of Time-Frequency Analysis, Birkhäuser.",
+        "DOI": "10.1007/978-1-4612-0003-1"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "153",
+        "DOI": "10.1016/j.dsp.2007.12.004",
+        "article-title": "Time–frequency feature representation using energy concentration: An overview of recent advances",
+        "volume": "19",
+        "author": "Jiang",
+        "year": "2009",
+        "journal-title": "Digital Signal Process."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ogden, R.T. (1997). Essential Wavelets for Statistical Applications and Data Analysis, Birkhäuser.",
+        "DOI": "10.1007/978-1-4612-0709-2"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1016/j.knosys.2015.09.025",
+        "article-title": "Robust support vector data description for outlier detection with noise or uncertain data",
+        "volume": "90",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5057",
+        "DOI": "10.1109/TNNLS.2017.2785792",
+        "article-title": "Efficient unsupervised parameter estimation for one-class support vector machines",
+        "volume": "29",
+        "author": "Ghafoori",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.patrec.2018.11.017",
+        "article-title": "Clustering-based proxy measure for optimizing one-class classifiers",
+        "volume": "117",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1065",
+        "DOI": "10.1214/aoms/1177704472",
+        "article-title": "On estimation of a probability density function and mode",
+        "volume": "33",
+        "author": "Parzen",
+        "year": "1962",
+        "journal-title": "Ann. Math. Stat."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, F.T., Ting, K.M., and Zhou, Z.H. (2008, January 15–19). Isolation forest. Proceedings of the IEEE International Conference on Data Mining, Pisa, Italy.",
+        "DOI": "10.1109/ICDM.2008.17"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jmsy.2019.11.008",
+        "article-title": "Health indicator construction of machinery based on end-to-end trainable convolution recurrent neural networks",
+        "volume": "54",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and Bengio, Y. (2014, January 8–13). Generative adversarial nets. Proceedings of the Advances in Neural Information Processing Systems, Montreal, QC, Canada."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aggarwal, C.C. (2018). Neural Networks and Deep Learning, Springer.",
+        "DOI": "10.1007/978-3-319-94463-0"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Masci, J., Meier, U., Cireşan, D., and Schmidhuber, J. (2011, January 14–17). Stacked convolutional auto-encoders for hierarchical feature extraction. Proceedings of the International Conference on Artificial Neural Networks, Berlin, Germany.",
+        "DOI": "10.1007/978-3-642-21735-7_7"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schlegl, T., Seeböck, P., Waldstein, S.M., Schmidt-Erfurth, U., and Langs, G. (2017, January 25–30). Unsupervised anomaly detection with generative adversarial networks to guide marker discovery. Proceedings of the International Conference on Information Processing in Medical Imaging, Boone, NC, USA.",
+        "DOI": "10.1007/978-3-319-59050-9_12"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "1070",
+        "DOI": "10.1109/TPAMI.2019.2944377",
+        "article-title": "Video anomaly detection with sparse coding inspired deep neural networks",
+        "volume": "43",
+        "author": "Luo",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "ref_46",
+        "unstructured": "Bergman, L., and Hoshen, Y. (2020). Classification-based anomaly detection for general data. arXiv."
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Tack, J., Mo, S., Jeong, J., and Shin, J. (2020, January 6–12). Csi: Novelty detection via contrastive learning on distributionally shifted instances. Proceedings of the Advances in Neural Information Processing Systems, Virtual Conference."
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "Zong, B., Song, Q., Min, M.R., Cheng, W., Lumezanu, C., Cho, D., and Chen, H. (May, January 30). Deep autoencoding gaussian mixture model for unsupervised anomaly detection. Proceedings of the International Conference on Learning Representations, Vancouver, BC, Canada."
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "Metz, L., Poole, B., Pfau, D., and Sohl-Dickstein, J. (2016). Unrolled generative adversarial networks. arXiv."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "Ruff, L., Vandermeulen, R.A., Görnitz, N., Binder, A., Müller, E., Müller, K.R., and Kloft, M. (2019). Deep semi-supervised anomaly detection. arXiv."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, D., Zhang, J., Zhang, Q., and Wei, X. (2017, January 12–15). Classification of ECG signals based on 1D convolution neural network. Proceedings of the IEEE International Conference on e-Health Networking, Applications and Services, Dalian, China.",
+        "DOI": "10.1109/HealthCom.2017.8210784"
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "6347",
+        "DOI": "10.1109/TII.2020.2966326",
+        "article-title": "One-dimensional residual convolutional autoencoder based feature learning for gearbox fault diagnosis",
+        "volume": "16",
+        "author": "Yu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lessmeier, C., Kimotho, J.K., Zimmer, D., and Sextro, W. (2016, January 5–8). Condition monitoring of bearing damage in electromechanical drive systems by using motor current signals of electric motors: A benchmark data set for data-driven classification. Proceedings of the PHM Society European Conference, Bilbao, Spain.",
+        "DOI": "10.36001/phme.2016.v3i1.1577"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "105269",
+        "DOI": "10.1016/j.engappai.2022.105269",
+        "article-title": "Intelligent fault diagnosis of rolling bearing based on wavelet transform and improved ResNet under noisy labels and environment",
+        "volume": "115",
+        "author": "Liang",
+        "year": "2022",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "105498",
+        "DOI": "10.1016/j.engappai.2022.105498",
+        "article-title": "Multiple hierarchical compression for deep neural network toward intelligent bearing fault diagnosis",
+        "volume": "116",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "1602",
+        "DOI": "10.1109/TKDE.2013.108",
+        "article-title": "An efficient approach for outlier detection with imperfect data labels",
+        "volume": "26",
+        "author": "Liu",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Conover, W.J. (1999). Practical Nonparametric Statistics, John Wiley & Sons. [3rd ed.]."
+      },
+      {
+        "key": "ref_58",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-SNE",
+        "volume": "9",
+        "author": "Hinton",
+        "year": "2008",
+        "journal-title": "J. Mach. Learn Res."
+      }
+    ],
+    "container-title": [
+      "Applied Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2076-3417/14/1/221/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T21:42:16Z",
+      "timestamp": 1760132536000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3417/14/1/221"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "app14010221"
+    ],
+    "URL": "https://doi.org/10.3390/app14010221",
+    "relation": {},
+    "ISSN": [
+      "2076-3417"
+    ],
+    "issn-type": [
+      {
+        "value": "2076-3417",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    }
+  }
+}

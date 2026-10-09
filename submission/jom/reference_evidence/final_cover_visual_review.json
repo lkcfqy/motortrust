@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-09",
+  "reviewer": "root",
+  "review_scope": "Actual visual inspection of the final 1/1 page PNG, not text extraction only",
+  "pages": 1,
+  "pdf_sha256": "ef2a05908d2cb1560e0f507110e0c067040033ed23844145b58e98b1dada33fa",
+  "source_sha256": "db0c60b8dcffc1b2f864b4a2d2a0ae993e6e6a51104af845b363676cbb710a29",
+  "page_png_sha256": {
+    "1": "aaeb776cdf36ea8c8d40d9ccb2cce8cbcdf4682801cdf93d73cf0e734f0873b0"
+  },
+  "observations": {
+    "1": "Title, primary/comparator results, limitations, confirmed phone/fax/COI/originality/data facts, author-review placeholders and full closing contact block readable. No clipping, overlap or missing glyph. Signature/approval not asserted."
+  },
+  "native_word_review": "not performed; final author review remains required"
+}

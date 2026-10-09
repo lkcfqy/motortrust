@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "zip_sha256": "3a25d7f35b99311d9584c789dd85d61a967cd959d7f47ce01f0357e2a0de18df",
+  "zip_bytes": 7543253,
+  "entries": 570,
+  "manifest_entries": 569,
+  "CRC": "pass",
+  "every_manifest_hash_and_size": "pass",
+  "private_or_machine_path_hits": {
+    "lkcfqy@gmail.com": [],
+    "+82-10-3915-7350": [],
+    "01039157350": [],
+    "0009-0008-8743-3162": [],
+    "LI KAICHEN": [],
+    "/Users/lkc": [],
+    "C:/lkc": [],
+    "C:\\lkc": []
+  },
+  "original_results_bytes_unchanged": 295,
+  "ridge_selection_evidence_present": true,
+  "max_member_bytes": 1002385,
+  "independent_extraction": "tmp/jom/bundle-final-detailed",
+  "tests": "134 passed in 2.75s; PYTHONPATH extracted src and working directory extracted root",
+  "original_and_jom_validators": "both pass",
+  "ruff": "pass"
+}

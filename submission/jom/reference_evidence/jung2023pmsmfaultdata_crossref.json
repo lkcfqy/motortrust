@@ -1,0 +1,337 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T17:17:00Z",
+      "timestamp": 1791393420766,
+      "version": "4.3.3"
+    },
+    "reference-count": 6,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2023-04-01T00:00:00Z",
+          "timestamp": 1680307200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2023-04-01T00:00:00Z",
+          "timestamp": 1680307200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              2,
+              2
+            ]
+          ],
+          "date-time": "2023-02-02T00:00:00Z",
+          "timestamp": 1675296000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Data in Brief"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.dib.2023.108952",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2023-02-06T13:40:34Z",
+      "timestamp": 1675690834000
+    },
+    "page": "108952",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 60,
+    "special_numbering": "C",
+    "title": [
+      "Vibration and current dataset of three-phase permanent magnet synchronous motors with stator faults"
+    ],
+    "prefix": "10.1016",
+    "volume": "47",
+    "author": [
+      {
+        "given": "Wonho",
+        "family": "Jung",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sung-Hyun",
+        "family": "Yun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3263-6110",
+        "authenticated-orcid": false,
+        "given": "Yoon-Seop",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sungjin",
+        "family": "Cheong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong-Hwa",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.dib.2022.108315",
+        "article-title": "Triaxial bearing vibration dataset of induction motor under varying load condition",
+        "volume": "42",
+        "author": "Kumar",
+        "year": "2022",
+        "journal-title": "Data Brief"
+      },
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0002",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2020.106908",
+        "article-title": "Signal based condition monitoring techniques for fault detection and diagnosis of induction motors: a state-of-the-art review",
+        "volume": "144",
+        "author": "Gangsar",
+        "year": "2020",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0003",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ACCESS.2020.3000856",
+        "article-title": "An Effective Stator Fault Diagnosis Framework of BLDC Motor Based on Vibration and Current Signals",
+        "volume": "8",
+        "author": "Shifat",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0004",
+        "first-page": "7017",
+        "article-title": "Fault Diagnosis of Electric Motors Using Deep Learning Algorithms and Its Application: A Review",
+        "volume": "14",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0005",
+        "unstructured": "MATLAB documentation of TDMS Format Files, Matworks official site. https://kr.mathworks.com/help/daq/tdms-format-files.html, 2022 (accessed 22.08.11)"
+      },
+      {
+        "key": "10.1016/j.dib.2023.108952_bib0006",
+        "unstructured": "npTDMS's documentation for Python, npTDMS official site. https://nptdms.readthedocs.io/en/stable/index.html, 2022 (accessed 22.08.11)"
+      }
+    ],
+    "container-title": [
+      "Data in Brief"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2352340923000707?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2352340923000707?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2025-11-06T18:04:03Z",
+      "timestamp": 1762452243000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352340923000707"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "references-count": 6,
+    "alternative-id": [
+      "S2352340923000707"
+    ],
+    "URL": "https://doi.org/10.1016/j.dib.2023.108952",
+    "relation": {
+      "is-supplemented-by": [
+        {
+          "id-type": "uri",
+          "id": "https://data.mendeley.com/datasets/rgn5brrgrn/5",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2352-3409"
+    ],
+    "issn-type": [
+      {
+        "value": "2352-3409",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Vibration and current dataset of three-phase permanent magnet synchronous motors with stator faults",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Data in Brief",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.dib.2023.108952",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The Author(s). Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "108952"
+  }
+}

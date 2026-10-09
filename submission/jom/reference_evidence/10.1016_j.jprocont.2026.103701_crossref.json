@@ -1,0 +1,969 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          19
+        ]
+      ],
+      "date-time": "2026-08-19T18:31:11Z",
+      "timestamp": 1787164271079,
+      "version": "build-2736575974"
+    },
+    "reference-count": 54,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2026-05-01T00:00:00Z",
+          "timestamp": 1777593600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Process Control"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jprocont.2026.103701",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2026-03-19T08:42:43Z",
+      "timestamp": 1773909763000
+    },
+    "page": "103701",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "Class-conditional conformal prediction with discriminant-analysis backbones for reliable open-set fault diagnosis in safety-critical industrial systems"
+    ],
+    "prefix": "10.1016",
+    "volume": "161",
+    "author": [
+      {
+        "given": "Amine",
+        "family": "Heddoub",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lazhar",
+        "family": "Homri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ali",
+        "family": "Siadat",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.1016/j.jprocont.2022.06.011",
+        "article-title": "Perspectives on nonstationary process monitoring in the era of industrial artificial intelligence",
+        "volume": "116",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "J. Process Control",
+        "ISSN": "https://id.crossref.org/issn/0959-1524",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.105988",
+        "article-title": "The role of artificial intelligence-driven soft sensors in advanced sustainable process industries: A critical review",
+        "volume": "121",
+        "author": "Perera",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b3",
+        "series-title": "Advanced Textbooks in Control and Signal Processing",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4471-0347-9",
+        "article-title": "Fault Detection and Diagnosis in Industrial Systems",
+        "author": "Chiang",
+        "year": "2001"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.arcontrol.2016.09.008",
+        "article-title": "Bridging data-driven and model-based approaches for process fault diagnosis and health monitoring: A review of researches and future challenges",
+        "volume": "42",
+        "author": "Tidriri",
+        "year": "2016",
+        "journal-title": "Annu. Rev. Control.",
+        "ISSN": "https://id.crossref.org/issn/1367-5788",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.pnucene.2024.105474",
+        "article-title": "A review on methods and applications of artificial intelligence on fault detection and diagnosis in nuclear power plants",
+        "volume": "177",
+        "author": "Gong",
+        "year": "2024",
+        "journal-title": "Prog. Nucl. Energy",
+        "ISSN": "https://id.crossref.org/issn/0149-1970",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1016/j.ress.2018.02.007",
+        "article-title": "Fault detection and identification method using observer-based residuals",
+        "volume": "184",
+        "author": "Jeong",
+        "year": "2019",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2024.110421",
+        "article-title": "Distributed monitoring of nonlinear plant-wide processes based on GA-regularized kernel canonical correlation analysis",
+        "volume": "252",
+        "author": "Jin",
+        "year": "2024",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2021.108278",
+        "article-title": "A method for fault detection in multi-component systems based on sparse autoencoder-based deep neural networks",
+        "volume": "220",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jprocont.2026.103701_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "327",
+        "DOI": "10.1016/S0098-1354(02)00162-X",
+        "article-title": "A review of process fault detection and diagnosis: Part III: Process history based methods",
+        "volume": "27",
+        "author": "Venkatasubramanian",
+        "year": "2003",
+        "journal-title": "Comput. Chem. Eng.",
+        "ISSN": "https://id.crossref.org/issn/0098-1354",
+        "issn-type": "print"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jprocont.2026.103701_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1016/S0098-1354(02)00160-6",
+        "article-title": "A review of process fault detection and diagnosis: Part I: Quantitative model-based methods",
+        "volume": "27",
+        "author": "Venkatasubramanian",
+        "year": "2003",
+        "journal-title": "Comput. Chem. Eng.",
+        "ISSN": "https://id.crossref.org/issn/0098-1354",
+        "issn-type": "print"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jprocont.2026.103701_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1016/S0098-1354(02)00161-8",
+        "article-title": "A review of process fault detection and diagnosis: Part II: Qualitative models and search strategies",
+        "volume": "27",
+        "author": "Venkatasubramanian",
+        "year": "2003",
+        "journal-title": "Comput. Chem. Eng.",
+        "ISSN": "https://id.crossref.org/issn/0098-1354",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1016/j.ijrefrig.2024.02.019",
+        "article-title": "Data and knowledge fusion-driven Bayesian networks for interpretable fault diagnosis of HVAC systems",
+        "volume": "161",
+        "author": "Wu",
+        "year": "2024",
+        "journal-title": "Int. J. Refrig.",
+        "ISSN": "https://id.crossref.org/issn/0140-7007",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "260",
+        "DOI": "10.1016/j.engappai.2016.12.021",
+        "article-title": "Combining knowledge and historical data for system-level fault diagnosis of HVAC systems",
+        "volume": "59",
+        "author": "Verbert",
+        "year": "2017",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.coche.2024.101025",
+        "article-title": "Artificial intelligence applications for fault detection and diagnosis in pharmaceutical bioprocesses: A review",
+        "volume": "44",
+        "author": "Aghaee",
+        "year": "2024",
+        "journal-title": "Curr. Opin. Chem. Eng.",
+        "ISSN": "https://id.crossref.org/issn/2211-3398",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1016/j.engappai.2018.11.007",
+        "article-title": "Industry 4.0: A bibliometric analysis and detailed overview",
+        "volume": "78",
+        "author": "Muhuri",
+        "year": "2019",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2024.109552",
+        "article-title": "Data-driven drift detection and diagnosis framework for predictive maintenance of heterogeneous production processes: Application to a multiple tapping process",
+        "volume": "139",
+        "author": "Chapelin",
+        "year": "2025",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jprocont.2026.103701_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "11675",
+        "DOI": "10.1016/j.ifacol.2023.10.517",
+        "article-title": "Multiscale detection of chemical process using improved distributed CCA-wavelet approach",
+        "volume": "56",
+        "author": "Ali",
+        "year": "2023",
+        "journal-title": "IFAC-PapersOnLine",
+        "ISSN": "https://id.crossref.org/issn/2405-8963",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2023.121024",
+        "article-title": "Sensitivity analysis of scalable data on three PCA related fault detection methods considering data window and thermal load matching strategies",
+        "volume": "234",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl.",
+        "ISSN": "https://id.crossref.org/issn/0957-4174",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2023.112504",
+        "article-title": "Independent component analysis application for fault detection in process industries: Literature review and an application case study for fault detection in multiphase flow systems",
+        "volume": "209",
+        "author": "Lakshmi Priya Palla",
+        "year": "2023",
+        "journal-title": "Measurement",
+        "ISSN": "https://id.crossref.org/issn/0263-2241",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/j.jmsy.2024.02.001",
+        "article-title": "AEKD: Unsupervised auto-encoder knowledge distillation for industrial anomaly detection",
+        "volume": "73",
+        "author": "Wu",
+        "year": "2024",
+        "journal-title": "J. Manuf. Syst.",
+        "ISSN": "https://id.crossref.org/issn/0278-6125",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2023.109608",
+        "article-title": "Dynamic-controlled principal component analysis for fault detection and automatic recovery",
+        "volume": "241",
+        "author": "Zheng",
+        "year": "2024",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b22",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2024.110440",
+        "article-title": "High-dimensional process monitoring under time-varying operating conditions via covariate-regulated principal component analysis",
+        "volume": "252",
+        "author": "Wei",
+        "year": "2024",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jprocont.2026.103701_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "538",
+        "DOI": "10.1016/j.ifacol.2024.07.274",
+        "article-title": "Enhancing fault diagnosis in process industries with internal variables of model predictive control",
+        "volume": "58",
+        "author": "Diallo",
+        "year": "2024",
+        "journal-title": "IFAC-PapersOnLine",
+        "ISSN": "https://id.crossref.org/issn/2405-8963",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2024.110433",
+        "article-title": "Reserving embedding space for new fault types: A new continual learning method for bearing fault diagnosis",
+        "volume": "252",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2022.104811",
+        "article-title": "Novel online discriminant analysis based schemes to deal with observations from known and new classes: Application to industrial systems",
+        "volume": "111",
+        "author": "Lou",
+        "year": "2022",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1344",
+        "DOI": "10.1016/j.neucom.2015.07.099",
+        "article-title": "Exponential discriminant analysis for fault diagnosis",
+        "volume": "171",
+        "author": "Adil",
+        "year": "2016",
+        "journal-title": "Neurocomputing",
+        "ISSN": "https://id.crossref.org/issn/0925-2312",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2020.103631",
+        "article-title": "Fault diagnosis using novel AdaBoost based discriminant locality preserving projection with resamples",
+        "volume": "91",
+        "author": "He",
+        "year": "2020",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b28",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.106149",
+        "article-title": "A novel approach for quality control of automated production lines working under highly inconsistent conditions",
+        "volume": "122",
+        "author": "Bono",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.106996",
+        "article-title": "Robust discriminant latent variable manifold learning for rotating machinery fault diagnosis",
+        "volume": "126",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b30",
+        "series-title": "2021 European Control Conference",
+        "first-page": "2298",
+        "article-title": "New decision rules for Fisher discriminant analysis: Applied to fault diagnosis",
+        "author": "Atoui",
+        "year": "2021"
+      },
+      {
+        "issue": "405",
+        "key": "10.1016/j.jprocont.2026.103701_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1080/01621459.1989.10478752",
+        "article-title": "Regularized discriminant analysis",
+        "volume": "84",
+        "author": "Friedman",
+        "year": "1989",
+        "journal-title": "J. Amer. Statist. Assoc."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.jprocont.2026.103701_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "4735",
+        "DOI": "10.1109/JSEN.2023.3344513",
+        "article-title": "A robust semi-supervised Fisher discriminant analysis for industrial fault classification",
+        "volume": "24",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "IEEE Sensors J.",
+        "ISSN": "https://id.crossref.org/issn/1558-1748",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2022.108865",
+        "article-title": "An uncertainty-informed framework for trustworthy fault diagnosis in safety-critical applications",
+        "volume": "229",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2023.109518",
+        "article-title": "Weighted domain separation based open set fault diagnosis",
+        "volume": "239",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2022.108358",
+        "article-title": "Dual adversarial network for cross-domain open set fault diagnosis",
+        "volume": "221",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2022.108525",
+        "article-title": "Towards trustworthy machine fault diagnosis: A probabilistic Bayesian deep learning framework",
+        "volume": "224",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b37",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2022.108865",
+        "article-title": "An uncertainty-informed framework for trustworthy fault diagnosis in safety-critical applications",
+        "volume": "229",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.jprocont.2026.103701_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "536",
+        "DOI": "10.1016/j.ifacol.2025.09.092",
+        "article-title": "Uncertainty-aware fault diagnosis with conformal prediction",
+        "volume": "59",
+        "author": "Heddoub",
+        "year": "2025",
+        "journal-title": "IFAC-PapersOnLine",
+        "ISSN": "https://id.crossref.org/issn/2405-8963",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2024.110657",
+        "article-title": "Trustworthy Bayesian deep learning framework for uncertainty quantification and confidence calibration: Application in machinery fault diagnosis",
+        "volume": "255",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b40",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2025.114452",
+        "article-title": "Multi-domain weakly decoupled domain generalization network for fault diagnosis under unknown operating conditions",
+        "volume": "330",
+        "author": "Sun",
+        "year": "2025",
+        "journal-title": "Knowl.-Based Syst.",
+        "ISSN": "https://id.crossref.org/issn/0950-7051",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.aei.2025.103779",
+        "article-title": "Open-set classification method via latent representation prompt and time–frequency fusion toward unknown fault recognition",
+        "volume": "68",
+        "author": "Sun",
+        "year": "2025",
+        "journal-title": "Adv. Eng. Inform.",
+        "ISSN": "https://id.crossref.org/issn/1474-0346",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2022.104811",
+        "article-title": "Novel online discriminant analysis based schemes to deal with observations from known and new classes: Application to industrial systems",
+        "volume": "111",
+        "author": "Lou",
+        "year": "2022",
+        "journal-title": "Eng. Appl. Artif. Intell.",
+        "ISSN": "https://id.crossref.org/issn/0952-1976",
+        "issn-type": "print"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jprocont.2026.103701_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "142",
+        "DOI": "10.1609/aaaiss.v1i1.27492",
+        "article-title": "Quantifying deep learning model uncertainty in conformal prediction",
+        "volume": "1",
+        "author": "Karimi",
+        "year": "2023",
+        "journal-title": "Proc. AAAI Symp. Ser.",
+        "ISSN": "https://id.crossref.org/issn/2994-4317",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b44",
+        "series-title": "Algorithmic Learning in a Random World",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b45",
+        "series-title": "A gentle introduction to conformal prediction and distribution-free uncertainty quantification",
+        "author": "Angelopoulos",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jprocont.2023.103036",
+        "article-title": "Improved Copula-based conformal prediction for uncertainty quantification of multi-output regression",
+        "volume": "129",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "J. Process Control",
+        "ISSN": "https://id.crossref.org/issn/0959-1524",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b47",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jprocont.2025.103495",
+        "article-title": "Reducing false alarms in fault detection: A comparative analysis between conformal prediction and classical methods applied to PCA and autoencoders",
+        "volume": "152",
+        "author": "Diallo",
+        "year": "2025",
+        "journal-title": "J. Process Control",
+        "ISSN": "https://id.crossref.org/issn/0959-1524",
+        "issn-type": "print"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jprocont.2026.103701_b48",
+        "article-title": "A tutorial on conformal prediction",
+        "volume": "9",
+        "author": "Shafer",
+        "year": "2008",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2025.111890",
+        "article-title": "Quantifying and mitigating alarm fatigue caused by fault detection systems",
+        "volume": "267",
+        "author": "Diallo",
+        "year": "2026",
+        "journal-title": "Reliab. Eng. Syst. Saf.",
+        "ISSN": "https://id.crossref.org/issn/0951-8320",
+        "issn-type": "print"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.jprocont.2026.103701_b50",
+        "doi-asserted-by": "crossref",
+        "first-page": "577",
+        "DOI": "10.1016/j.conengprac.2005.06.015",
+        "article-title": "Introduction to the DAMADICS actuator FDI benchmark study",
+        "volume": "14",
+        "author": "Bartyś",
+        "year": "2006",
+        "journal-title": "Control Eng. Pract.",
+        "ISSN": "https://id.crossref.org/issn/0967-0661",
+        "issn-type": "print"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b51",
+        "series-title": "DAMADICS benchmark for valve actuator diagnostics",
+        "author": "Institute of Automatic Control and Robotics, Warsaw University of Technology",
+        "year": "2025"
+      },
+      {
+        "key": "10.1016/j.jprocont.2026.103701_b52",
+        "series-title": "2015 International Joint Conference on Neural Networks",
+        "isbn-type": "print",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/IJCNN.2015.7280712",
+        "article-title": "Online fault detection based on typicality and eccentricity data analytics",
+        "author": "Sielly Jales Costa",
+        "year": "2015",
+        "ISBN": "https://id.crossref.org/isbn/9781479919604"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jprocont.2026.103701_b53",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1016/0098-1354(93)80018-I",
+        "article-title": "A plant-wide industrial process control problem",
+        "volume": "17",
+        "author": "Downs",
+        "year": "1993",
+        "journal-title": "Comput. Chem. Eng.",
+        "ISSN": "https://id.crossref.org/issn/0098-1354",
+        "issn-type": "print"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jprocont.2026.103701_b54",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1016/j.chemolab.2008.03.006",
+        "article-title": "Fault diagnosis based on variable-weighted kernel Fisher discriminant analysis",
+        "volume": "93",
+        "author": "He",
+        "year": "2008",
+        "journal-title": "Chemometr. Intell. Lab. Syst.",
+        "ISSN": "https://id.crossref.org/issn/0169-7439",
+        "issn-type": "print"
+      }
+    ],
+    "container-title": [
+      "Journal of Process Control"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0959152426000843?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0959152426000843?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2026-04-21T11:42:36Z",
+      "timestamp": 1776771756000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959152426000843"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "references-count": 54,
+    "alternative-id": [
+      "S0959152426000843"
+    ],
+    "URL": "https://doi.org/10.1016/j.jprocont.2026.103701",
+    "relation": {},
+    "ISSN": [
+      "0959-1524"
+    ],
+    "issn-type": [
+      {
+        "value": "0959-1524",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Class-conditional conformal prediction with discriminant-analysis backbones for reliable open-set fault diagnosis in safety-critical industrial systems",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Process Control",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jprocont.2026.103701",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2026 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103701"
+  }
+}

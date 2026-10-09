@@ -1,0 +1,994 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T03:11:30Z",
+      "timestamp": 1791515490819,
+      "version": "4.3.4"
+    },
+    "reference-count": 83,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014105",
+        "name": "FedDev Ontario project",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "814996"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "814996"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014105",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Natural Sciences and Engineering Research Council of Canada (NSERC) Create project",
+        "award": [
+          "CREAT-482038-2016"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CREAT-482038-2016"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "D&V-NSERC Alliance project",
+        "award": [
+          "ALLRP-549016-2019"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ALLRP-549016-2019"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Access"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1109/access.2024.3497716",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2024-11-13T18:57:40Z",
+      "timestamp": 1731524260000
+    },
+    "page": "169879-169895",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Impact of Data Leakage in Vibration Signals Used for Bearing Fault Diagnosis"
+    ],
+    "prefix": "10.1109",
+    "volume": "12",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0006-0061-5453",
+        "authenticated-orcid": false,
+        "given": "Lesley",
+        "family": "Wheat",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computing and Software, McMaster University, Hamilton, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1390-620X",
+        "authenticated-orcid": false,
+        "given": "Martin V.",
+        "family": "Mohrenschildt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computing and Software, McMaster University, Hamilton, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saeid",
+        "family": "Habibi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, Center for Mechatronics and Hybrid Technologies (CMHT), McMaster University, Hamilton, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dhafar",
+        "family": "Al-Ani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, McMaster University, Hamilton, ON, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "521",
+        "DOI": "10.1016/j.patcog.2011.06.019",
+        "article-title": "A unifying view on dataset shift in classification",
+        "volume": "45",
+        "author": "Moreno-Torres",
+        "year": "2012",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "issue": "6",
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3178",
+        "DOI": "10.3390/app12063178",
+        "article-title": "Model-free data mining of families of rotating machinery",
+        "volume": "12",
+        "author": "Hofer",
+        "year": "2022",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "issue": "15",
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "5507",
+        "DOI": "10.3390/s22155507",
+        "article-title": "Deep unsupervised domain adaptation with time series sensor data: A survey",
+        "volume": "22",
+        "author": "Shi",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "1",
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1109/MIA.2007.909802",
+        "article-title": "Increased efficiency versus increased reliability",
+        "volume": "14",
+        "author": "Bonnett",
+        "year": "2008",
+        "journal-title": "IEEE Ind. Appl. Mag."
+      },
+      {
+        "issue": "2",
+        "key": "ref5",
+        "article-title": "Vibration response-based intelligent non-contact fault diagnosis of bearings",
+        "volume": "4",
+        "author": "Goyal",
+        "year": "2021",
+        "journal-title": "J. Nondestruct. Eval., Diag. Prognostics Eng. Syst."
+      },
+      {
+        "issue": "4",
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1350",
+        "DOI": "10.1109/TIA.2010.2049623",
+        "article-title": "Diagnosis of bearing faults in induction machines by vibration or current signals: A critical comparison",
+        "volume": "46",
+        "author": "Immovilli",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Ind. Appl."
+      },
+      {
+        "key": "ref7",
+        "first-page": "1",
+        "article-title": "Transfer learning via minimizing the performance gap between domains",
+        "volume-title": "Proc. 33rd Conf. Neural Inf. Process. Syst.",
+        "volume": "32",
+        "author": "Wang"
+      },
+      {
+        "issue": "13",
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3753",
+        "DOI": "10.3390/s20133753",
+        "article-title": "Cross-machine fault diagnosis with semi-supervised discriminative adversarial domain adaptation",
+        "volume": "20",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "1",
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.3390/e25010033",
+        "article-title": "Domain adaptation principal component analysis: Base linear method for learning with out-of-distribution data",
+        "volume": "25",
+        "author": "Mirkes",
+        "year": "2022",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-73984-7_6"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.36001/phme.2016.v3i1.1577"
+      },
+      {
+        "key": "ref12",
+        "volume-title": "KAt-DataCenter",
+        "author": "Lessmeier",
+        "year": "2016"
+      },
+      {
+        "issue": "4",
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2833",
+        "DOI": "10.1109/TII.2020.3008010",
+        "article-title": "Intelligent fault diagnosis by fusing domain adversarial training and maximum mean discrepancy via ensemble learning",
+        "volume": "17",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "issue": "3",
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1695",
+        "DOI": "10.1109/TMECH.2022.3223358",
+        "article-title": "Attention-based bilinear feature fusion method for bearing fault diagnosis",
+        "volume": "28",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "IEEE/ASME Trans. Mechatronics"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1",
+        "article-title": "Fault diagnosis for industrial rotary machinery based on edge computing and neural networking",
+        "volume-title": "Proc. 14th Int. Conf. Mobile Ubiquitous Comput., Syst., Services Technol.",
+        "author": "Perminov"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1016/j.neucom.2018.03.014",
+        "article-title": "ACDIN: Bridging the gap between artificial and real bearing damages for bearing fault diagnosis",
+        "volume": "294",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2022.108561",
+        "article-title": "A multi-layer spiking neural network-based approach to bearing fault diagnosis",
+        "volume": "225",
+        "author": "Zuo",
+        "year": "2022",
+        "journal-title": "Rel. Eng. Syst. Saf."
+      },
+      {
+        "issue": "6",
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "3325",
+        "DOI": "10.1109/TIM.2019.2933119",
+        "article-title": "A motor current signal-based bearing fault diagnosis using deep learning and information fusion",
+        "volume": "69",
+        "author": "Hoang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "issue": "3",
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2044",
+        "DOI": "10.1109/TII.2019.2934901",
+        "article-title": "Intelligent fault diagnosis method based on full 1-D convolutional generative adversarial network",
+        "volume": "16",
+        "author": "Guo",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/21642583.2024.2329264"
+      },
+      {
+        "issue": "11",
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1510",
+        "DOI": "10.3390/e23111510",
+        "article-title": "Bearing fault diagnosis using refined composite generalized multiscale dispersion entropy-based skewness and variance and multiclass FCM-ANFIS",
+        "volume": "23",
+        "author": "Rostaghi",
+        "year": "2021",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/elp2.12063"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2023.110314",
+        "article-title": "Interpretable convolutional neural network with multilayer wavelet for noise-robust machinery fault diagnosis",
+        "volume": "195",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11760-024-03129-w"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6501/ad28b0"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-019-04097-w"
+      },
+      {
+        "issue": "4",
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "4167",
+        "DOI": "10.1109/TIE.2021.3075871",
+        "article-title": "SuperGraph: Spatial–temporal graph-based feature extraction for rotating machinery diagnosis",
+        "volume": "69",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "ref28",
+        "article-title": "On the peak-to-average power ratio of vibration signals: Analysis and signal companding for an efficient remote vibration-based condition monitoring",
+        "author": "Aburakhia",
+        "year": "2023",
+        "journal-title": "arXiv:2310.01718"
+      },
+      {
+        "issue": "22",
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "4634",
+        "DOI": "10.3390/math11224634",
+        "article-title": "Deep learning network based on improved sparrow search algorithm optimization for rolling bearing fault diagnosis",
+        "volume": "11",
+        "author": "Ma",
+        "year": "2023",
+        "journal-title": "Mathematics"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-30047-9_4"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.aei.2023.101877",
+        "article-title": "CNN parameter design based on fault signal analysis and its application in bearing fault diagnosis",
+        "volume": "55",
+        "author": "Ruan",
+        "year": "2023",
+        "journal-title": "Adv. Eng. Informat."
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/14759217211062826"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.108977",
+        "article-title": "Intelligent fault diagnosis of rolling bearings based on refined composite multi-scale dispersion Q-complexity and adaptive whale algorithm-extreme learning machine",
+        "volume": "176",
+        "author": "Dong",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "first-page": "25189",
+        "DOI": "10.1109/ACCESS.2021.3056944",
+        "article-title": "FaultNet: A deep convolutional neural network for bearing fault classification",
+        "volume": "9",
+        "author": "Magar",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "13",
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2826",
+        "DOI": "10.3390/electronics12132826",
+        "article-title": "Novelty detection and fault diagnosis method for bearing faults based on the hybrid deep autoencoder network",
+        "volume": "12",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2023.113687",
+        "article-title": "Twins transformer: Cross-attention based two-branch transformer network for rotating bearing fault diagnosis",
+        "volume": "223",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.110377",
+        "article-title": "Finding the optimal multilayer network structure through reinforcement learning in fault diagnosis",
+        "volume": "188",
+        "author": "Cao",
+        "year": "2022",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/TIM.2024.3485462",
+        "article-title": "Open-set fault recognition and inference for rolling bearing based on open fault semantic subspace",
+        "volume": "73",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/smt2.12017"
+      },
+      {
+        "issue": "23",
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "5300",
+        "DOI": "10.3390/s19235300",
+        "article-title": "An ensemble convolutional neural networks for bearing fault diagnosis using multi-sensor data",
+        "volume": "19",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/16878132231183862"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-021-06668-2"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1757-899x/1043/5/052026"
+      },
+      {
+        "key": "ref44",
+        "first-page": "7795",
+        "article-title": "A novel cross-sensor self-supervised learning method for rotating machinery fault diagnosis",
+        "volume-title": "Proc. IEEE Int. Conf. Acoust., Speech Signal Process. (ICASSP)",
+        "author": "Hu"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/16878132221128397"
+      },
+      {
+        "issue": "3",
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.1108/IJICC-08-2021-0153",
+        "article-title": "The multilabel fault diagnosis model of bearing based on integrated convolutional neural network and gated recurrent unit",
+        "volume": "15",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "Int. J. Intell. Comput. Cybern."
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-04881-4_44"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2478/pomr-2023-0046"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.isatra.2020.08.010",
+        "article-title": "Deep learning algorithms for rotating machinery intelligent diagnosis: An open source benchmark study",
+        "volume": "107",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-022-07022-w"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6501/ac37eb"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2021.109298",
+        "article-title": "Rolling bearing fault diagnosis using transient-extracting transform and linear discriminant analysis",
+        "volume": "178",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.conengprac.2020.104358",
+        "article-title": "An improved ensemble fusion autoencoder model for fault diagnosis from imbalanced and incomplete data",
+        "volume": "98",
+        "author": "Yang",
+        "year": "2020",
+        "journal-title": "Control Eng. Pract."
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.conengprac.2024.105900",
+        "article-title": "TFPred: Learning discriminative representations from unlabeled data for few-label rotating machinery fault diagnosis",
+        "volume": "146",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Control Eng. Pract."
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2023.112806",
+        "article-title": "An ensemble method with DenseNet and evidential reasoning rule for machinery fault diagnosis under imbalanced condition",
+        "volume": "214",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "volume-title": "A Novel Two-stream Convolution Neural Network With Temporal Information for Bearing Fault Diagnosis",
+        "author": "Ren",
+        "DOI": "10.21203/rs.3.rs-2467120/v1"
+      },
+      {
+        "issue": "4",
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "first-page": "4108",
+        "DOI": "10.1109/TIE.2023.3273272",
+        "article-title": "FedCAE: A new federated learning framework for edge-cloud collaboration based machine fault diagnosis",
+        "volume": "71",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.knosys.2023.110395",
+        "article-title": "Bearing fault diagnosis under various conditions using an incremental learning-based multi-task shared classifier",
+        "volume": "266",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11265-019-01463-8"
+      },
+      {
+        "issue": "11",
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "first-page": "1494",
+        "DOI": "10.3390/e25111494",
+        "article-title": "Refined composite multiscale fuzzy dispersion entropy and its applications to bearing fault diagnosis",
+        "volume": "25",
+        "author": "Rostaghi",
+        "year": "2023",
+        "journal-title": "Entropy"
+      },
+      {
+        "issue": "21",
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "first-page": "8093",
+        "DOI": "10.3390/s22218093",
+        "article-title": "Bearing fault diagnosis based on randomized Fisher discriminant analysis",
+        "volume": "22",
+        "author": "Ye",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "6",
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "first-page": "5952",
+        "DOI": "10.1109/JSEN.2022.3149892",
+        "article-title": "A new wavelet shrinkage approach for denoising nonlinear time series and improving bearing fault diagnosis",
+        "volume": "22",
+        "author": "Huang",
+        "year": "2022",
+        "journal-title": "IEEE Sensors J."
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2021.108653",
+        "article-title": "The emerging graph neural networks for intelligent fault diagnostics and prognostics: A guideline and a benchmark study",
+        "volume": "168",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2023.110936",
+        "article-title": "Bayesian variational transformer: A generalizable model for rotating machinery fault diagnosis",
+        "volume": "207",
+        "author": "Xiao",
+        "year": "2024",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2024.111526",
+        "article-title": "Improved weighted extreme learning machine with adaptive cost-sensitive strategy for imbalanced fault diagnosis of rotating machinery",
+        "volume": "217",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "issue": "11",
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "first-page": "1549",
+        "DOI": "10.3390/e25111549",
+        "article-title": "Fault diagnosis of rotating machinery using kernel neighborhood preserving embedding and a modified sparse Bayesian classification model",
+        "volume": "25",
+        "author": "Lu",
+        "year": "2023",
+        "journal-title": "Entropy"
+      },
+      {
+        "issue": "1",
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "first-page": "376",
+        "DOI": "10.1109/TEC.2014.2341620",
+        "article-title": "Improved fault diagnosis of ball bearings based on the global spectrum of vibration signals",
+        "volume": "30",
+        "author": "Harmouche",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Energy Convers."
+      },
+      {
+        "issue": "9",
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patter.2023.100804",
+        "article-title": "Leakage and the reproducibility crisis in machine-learning-based science",
+        "volume": "4",
+        "author": "Kapoor",
+        "year": "2023",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2024.3438106"
+      },
+      {
+        "key": "ref70",
+        "article-title": "Transformer-based networks for fault detection and diagnostics of rotating machinery: A guide on classification of time series sensor data for custom datasets",
+        "author": "Wong",
+        "year": "2024"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13104-023-06400-4"
+      },
+      {
+        "issue": "3",
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "first-page": "682",
+        "DOI": "10.1016/j.ymssp.2008.06.001",
+        "article-title": "Applications of detrended-fluctuation analysis to gearbox fault diagnosis",
+        "volume": "23",
+        "author": "de Moura",
+        "year": "2009",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "issue": "5",
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "first-page": "1765",
+        "DOI": "10.1016/j.ymssp.2010.11.021",
+        "article-title": "Evaluation of principal component analysis and neural network performance for bearing fault diagnosis from vibration signal processed by RS and DF analyses",
+        "volume": "25",
+        "author": "de Moura",
+        "year": "2011",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-0-387-84858-7",
+        "volume-title": "The Elements ofb Statistical Learning",
+        "author": "Hastie",
+        "year": "2009"
+      },
+      {
+        "key": "ref75",
+        "first-page": "393",
+        "article-title": "Fault diagnosis of ball-bearings using principal component analysis and support-vector machine",
+        "volume": "10",
+        "author": "Seryasat",
+        "year": "2013",
+        "journal-title": "Life Sci. J."
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12555-015-0196-7"
+      },
+      {
+        "issue": "7",
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "first-page": "1357",
+        "DOI": "10.1016/j.patcog.2010.12.015",
+        "article-title": "Supervised principal component analysis: Visualization, classification and regression on subspaces and submanifolds",
+        "volume": "44",
+        "author": "Barshan",
+        "year": "2011",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "ref78",
+        "volume-title": "Mirkes/DAPCA",
+        "author": "Mirkes",
+        "year": "2022"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "article-title": "SciPy 1.0: Fundamental algorithms for scientific computing in Python",
+        "volume": "17",
+        "author": "Virtanen",
+        "year": "2020",
+        "journal-title": "Nature Methods"
+      },
+      {
+        "issue": "7825",
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1038/s41586-020-2649-2",
+        "article-title": "Array programming with NumPy",
+        "volume": "585",
+        "author": "Harris",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref81",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref82",
+        "volume-title": "TRIAXIAL ICP ACCELEROMETER: Model 356A16-K Product Specifications",
+        "year": "2008"
+      },
+      {
+        "key": "ref83",
+        "volume-title": "ICP ACCELEROMETER: Model 338C04-A Product Specifications",
+        "year": "2002"
+      }
+    ],
+    "container-title": [
+      "IEEE Access"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10380310/10752530.pdf?arnumber=10752530",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2024-11-27T16:17:10Z",
+      "timestamp": 1732724230000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10752530/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 83,
+    "URL": "https://doi.org/10.1109/access.2024.3497716",
+    "relation": {},
+    "ISSN": [
+      "2169-3536"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-3536",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

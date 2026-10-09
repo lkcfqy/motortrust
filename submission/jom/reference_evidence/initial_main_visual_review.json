@@ -1,0 +1,189 @@
+{
+  "review_date": "2026-10-09",
+  "reviewer": "jom_rules_refs agent",
+  "version": "initial render, requires corrections",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "page_images": [
+    {
+      "page": 1,
+      "sha256": "a4d79b487fc557c1d05f314aee91a5d38e10ebaaa60c89fe772e7acd17212cf5"
+    },
+    {
+      "page": 2,
+      "sha256": "c69cbf508ecb24d2c266093012f3d61b1c7246334066e578dd24e53cd3594cb4"
+    },
+    {
+      "page": 3,
+      "sha256": "2e08a3fc247d7de8c12df2bf190ba0e8e3b400d3cf1e1ac05c52549bc6be488f"
+    },
+    {
+      "page": 4,
+      "sha256": "e283575e650b462366d9e8cb7af4c3328dd8ed0dfbdd9a481f0f06cc098da21d"
+    },
+    {
+      "page": 5,
+      "sha256": "d1ee20f1fcc3850d0acd30b0b501d9409b3a054ca13d4eda110e9c2ecff4d0f2"
+    },
+    {
+      "page": 6,
+      "sha256": "6427cd2f0e3c6ed2debdf221824b1dc3cf310808883680b799456ea7de1299b8"
+    },
+    {
+      "page": 7,
+      "sha256": "06f5ed43f8d8db8446e1efd5ea5ecd836a3441204d6d2c8f81d22fb2a8063087"
+    },
+    {
+      "page": 8,
+      "sha256": "6b29ffc431655b85844651aa78260600f437c4140239c91aa7cfcd1bcd12383d"
+    },
+    {
+      "page": 9,
+      "sha256": "3c713e9f53cf22b7d18f15c733f865a8afacfa33d308ae2869e0fe91023b9a32"
+    },
+    {
+      "page": 10,
+      "sha256": "91df295f3badf999ec583ec841b08dec047f8b086ec346e1da6de18929c7f665"
+    },
+    {
+      "page": 11,
+      "sha256": "71615d047acb66b210b0874af039983c55403fa87f4e61e38f0a5c29c31800a9"
+    },
+    {
+      "page": 12,
+      "sha256": "99bbdf429a6f406c3759c4415659516f9089738d0ec9acc0c5c65b4c144fb608"
+    },
+    {
+      "page": 13,
+      "sha256": "89495cf05ad922529b2f4bbafe27793994b97a81d0538dc47de32041c73c2b2e"
+    },
+    {
+      "page": 14,
+      "sha256": "4f9ecca9d0df2da8f26912e3411cefe709ae6a5c033df0783a56609e2df1bf59"
+    },
+    {
+      "page": 15,
+      "sha256": "523b10c37bed1d63c1e19239a066683aa5cddd241f89a9bd11c61eca4a162674"
+    },
+    {
+      "page": 16,
+      "sha256": "def16e826db000b3f1f2ff3e49287e1fe7a1567ba85c5d3a39c3634981cb7e40"
+    },
+    {
+      "page": 17,
+      "sha256": "f905f8ba108bbf655df67899feef524d93551433e95892f7ac3549f08e697469"
+    },
+    {
+      "page": 18,
+      "sha256": "08ed6ab967d97bd2c3289faf3d55b228c8e4c3a0f75b892013e6e9bab4a26c50"
+    },
+    {
+      "page": 19,
+      "sha256": "6325ecf68de294f8e67806b3a96100808485c934e5802a08b7b8ddcbc72f5008"
+    },
+    {
+      "page": 20,
+      "sha256": "b62f59fa22837881b13a8ef5ef23525c5c0f54e7669f8f63d27af0df39848d54"
+    },
+    {
+      "page": 21,
+      "sha256": "bc0edc87c31986e2cf776ddc6b2ebbe567b4a47618ca34cce5fb4aba2428d47d"
+    },
+    {
+      "page": 22,
+      "sha256": "de7e8095eb4caec3d121fcdcdc3b2d4d79e02cd85c15e7566c9bea3e2b52e1ca"
+    },
+    {
+      "page": 23,
+      "sha256": "4631b463aef2fefd727aa1e6624641db4e4b26b77fdc00efbf10dde733405fed"
+    },
+    {
+      "page": 24,
+      "sha256": "ebb811372c1c30ce06ff23e7bcd785d17fa3a0a653ba3d2041b40bf7a90c847a"
+    },
+    {
+      "page": 25,
+      "sha256": "c39a1ecd467f8f9dccf23c136d8eb831a98f01b2c36e1d6816a781836c593a34"
+    },
+    {
+      "page": 26,
+      "sha256": "cdd9fdee5d1d4e86f64d6d60a33bc2c625c38a516ac6716b720a961e7bae50cd"
+    },
+    {
+      "page": 27,
+      "sha256": "0bc686771e1166cc2777054635ae872fa059b649701017cb5167d4aa1c6b63bc"
+    },
+    {
+      "page": 28,
+      "sha256": "91b35485fe8b67741c5a946041d63c0ff673ffe2f3d49cba45eda076a2f03ad9"
+    }
+  ],
+  "blocking_issues": [
+    {
+      "pages": [
+        1
+      ],
+      "issue": "Blue Title paragraph border; remove default w:pBdr and re-render."
+    },
+    {
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "issue": "Equations 1-5 malformed: stacked indices, residual left/right converted to <=ft and spurious underscores/dagger. Replace with proper editable OMML and re-render."
+    }
+  ],
+  "minor_issues": [
+    {
+      "pages": [
+        14,
+        15
+      ],
+      "issue": "Reference 1 breaks across pages; keep paragraph together or begin references on new page."
+    },
+    {
+      "pages": [
+        25
+      ],
+      "issue": "Fig.3 label Proposed Log-Euclidean should read Primary Log-Euclidean for wording consistency."
+    }
+  ],
+  "passed_aspects": [
+    "All 28 page images visually inspected individually.",
+    "No body/table/figure clipping or overlapping text observed outside malformed equations.",
+    "Tables I-III fit within page margins.",
+    "Figure panels 1-6 are grayscale and readable; line styles/hatching distinguish key comparisons.",
+    "Reference numbers 1-30 form a consecutive sequence; diacritics render.",
+    "Separate captions and separate figure/table sheets produce intentional partial pages; no unexplained blank page."
+  ],
+  "status": "not final; latest re-render must be reviewed"
+}

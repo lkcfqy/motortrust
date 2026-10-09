@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-09",
+  "review_scope": [
+    "Costs_and_Upload_Guide_CN.md",
+    "Checklist_Preparation.md",
+    "Copyright_Preparation.md",
+    "Author_Input_Form_CN.md",
+    "README.md"
+  ],
+  "status": "pass",
+  "checks": [
+    {
+      "source": "Costs_and_Upload_Guide_CN.md",
+      "target": "../../docs/jom_submission_requirements_2026-10-09.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Main_Manuscript_AUTHOR_INPUT_REQUIRED.docx",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Main_Manuscript_AUTHOR_INPUT_REQUIRED.doc",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Supplementary_Material.docx",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Supplementary_Material.pdf",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Cover_Letter_AUTHOR_INPUT_REQUIRED.docx",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Cover_Letter_AUTHOR_INPUT_REQUIRED.pdf",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "cover_letter.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Paper1_Reproducibility_Code.zip",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Reproducibility_Guide.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Checklist_Preparation.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Copyright_Preparation.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Author_Input_Form_CN.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Reference_Audit.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "Evidence_Audit.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "English_Change_Log.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "evidence_audit.json",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "build_metadata.json",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "author_metadata_REQUIRED.yaml",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "manuscript.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "supplementary.md",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "figures/captions.txt",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "official_forms",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "figure_sources",
+      "exists": true
+    },
+    {
+      "source": "package filename references",
+      "target": "figures/color_sources",
+      "exists": true
+    },
+    {
+      "source": "figure glob",
+      "target": "figures/Fig*.tif",
+      "matches": 6,
+      "exists": true
+    },
+    {
+      "source": "figure glob",
+      "target": "figures/Fig*.pdf",
+      "matches": 6,
+      "exists": true
+    },
+    {
+      "source": "figure glob",
+      "target": "figures/Fig*.png",
+      "matches": 6,
+      "exists": true
+    },
+    {
+      "source": "parent-authoring output",
+      "target": "QA_Report.md",
+      "exists": false,
+      "pending_creation_allowed": true
+    },
+    {
+      "source": "parent-authoring output",
+      "target": "DELIVERY_INDEX.md",
+      "exists": false,
+      "pending_creation_allowed": true
+    },
+    {
+      "source": "repository reference",
+      "target": "paper",
+      "exists": true
+    },
+    {
+      "source": "repository reference",
+      "target": "submission/jeet",
+      "exists": true
+    },
+    {
+      "source": "repository reference",
+      "target": "scripts/build_jom_submission.py",
+      "exists": true
+    },
+    {
+      "source": "repository reference",
+      "target": "tmp/jom/render",
+      "exists": true
+    }
+  ],
+  "issues": [],
+  "known_author_facts": "Confirmed name, department, institution, postal address, email, ORCID, no funding and sole work retained; no repeated request for those facts.",
+  "remaining_minimum": "Telephone/fax; competing interests/acknowledgments; originality/exclusive submission/permissions/final approval and AI responsibility; official portal forms/format/non-member fee applicability and compulsory charges."
+}

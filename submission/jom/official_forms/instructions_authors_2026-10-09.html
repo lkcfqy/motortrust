@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+
+<title>JOURNAL OF MAGNETICS</title>
+
+<!-- Stylesheet -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="//fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
+<link href="/submission/journal/styles/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="/submission/journal/styles/drawer.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href="/submission/journal/styles/common.css?v=26100909" rel="stylesheet">
+<link href="/submission/journal/styles/sub.css?v=26100909" rel="stylesheet">
+<link href="/submission/journal/styles/mediaquery.css?v=26100909" rel="stylesheet">
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/submission/journal/scripts/bootstrap.min.js"></script>
+<script src="/submission/journal/scripts/jquery.dotdotdot.min.js"></script>
+<script src="/submission/journal/scripts/scripts.js"></script>
+<script src="/scripts/drawer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110682151-21"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-110682151-21');
+</script>
+<script>
+    $(document).ready(function () {
+        // drawer.js - mobile navigation
+        $('.drawer').drawer();
+    });
+</script>
+
+<!-- page_stylesheets :s -->
+    
+<!-- page_stylesheets :e -->
+</head>
+
+<body class="drawer drawer--right">
+
+<!-- #wrap :s -->
+<div id="wrap">
+
+    <!-- #moblie header :s -->
+    <!-- #mobile-nav :s -->
+<header class="mobile-nav" role="banner">
+    <div class="inner-wrap">
+
+        <!-- logo -->
+        <h1 class="logo">
+            <a href="/submission/journal/">
+                <img src="/images/logo/logo.png" alt="logo">
+                JOURNAL OF MAGNETICS</a>
+        </h1>
+
+        <!-- nav button -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+
+        <!-- navigation :s -->
+        <nav class="drawer-nav" role="navigation">
+            <div class="inner-wrap">
+
+                <ul class="drawer-menu drawer-menu--right">
+                    <!-- empty-area :s -->
+                    <li class="mobile-gnb-title">
+                        <ul>
+                            <li>Navigation</li>
+                        </ul>
+                    </li>
+                    <!-- empty-area :e -->
+
+                    <!-- nav list :s -->
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/current_issues.vm">Current Issue</a>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/highlight.vm" data-toggle="dropdown" role="button" aria-expanded="false">Archives<span class="drawer-caret"></span>
+                        </a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/archives.vm">Archives</a></li>
+                        </ul>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/instructions_authors.vm" data-toggle="dropdown" role="button" aria-expanded="false">Authors<span class="drawer-caret"></span>
+                        </a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+                        </ul>
+                    </li>
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/guide_for_reviewers.vm" data-toggle="dropdown" role="button" aria-expanded="false">Reviewers<span class="drawer-caret"></span></a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/aims_scope.vm" data-toggle="dropdown" role="button" aria-expanded="false">About JoM<span class="drawer-caret"></span></a>
+                        <ul class="drawer-dropdown-menu">
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+                            <li><a class="drawer-dropdown-menu-item" href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="drawer-dropdown">
+                        <a class="drawer-menu-item" href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+                    </li>
+                    <!-- nav list :e -->
+                </ul>
+
+            </div>
+        </nav>
+        <!-- navigation :e -->
+
+    </div>
+</header>
+<!-- #mobile-nav :s -->    <!-- #moblie header :e -->
+
+    <!-- #header :s -->
+    <div id="header">
+        <div class="utility-area">
+    <div class="inner-wrap">
+
+        <ul class="utility">
+
+                            <li><a href="/submission/login.jsp">Login to submission</a></li>
+
+                    </ul>
+
+    </div>
+</div>
+
+<div class="logo-area">
+    <div class="inner-wrap clearfix">
+
+        <h1>
+            <a href="/submission/journal/">JOURNAL OF MAGNETICS</a>
+        </h1>
+
+        <div class="journal-info-area">
+            <div class="journal-info">
+                <ul class="issn-info">
+                    <li>pISSN : 1226-1750</li>
+                    <li>eISSN : 2233-6656</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="gnb-area">
+    <div class="inner-wrap">
+
+        <div class="gnb">
+            <ul class="clearfix">
+    <li>
+        <a href="/submission/journal/pages/current_issues.vm">
+            Current Issues
+        </a>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/highlight.vm">
+            Archives
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+            <li><a href="/submission/journal/pages/archives.vm">Archives</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/instructions_authors.vm">
+            Authors
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+            <li><a href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+            <li><a href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+            <li><a href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/guide_for_reviewers.vm">
+            Reviewers
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+            <li><a href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+            <li><a href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/aims_scope.vm">
+           About JoM
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+            <li><a href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+            <li><a href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+
+            <li><a href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/policy_ethics.vm">Research and Publication Ethics</a></li>
+        </ul>
+    </li>
+    <li class="search">
+        <a href="/submission/journal/pages/archives.vm"><i class="xi-search"></i></a>
+    </li>
+</ul>
+        </div>
+
+    </div>
+</div>
+    </div>
+    <!-- #header :e -->
+
+
+    <!-- #container :s -->
+    <div id="container">
+        <div class="sub-spot">
+            <div class="innerwrap">
+                <p class="title"> The Korean Magnetics Society<br>
+                    <span>JOURNAL OF MAGNETICS</span></p>
+
+            </div>
+        </div>
+        <div class="inner-wrap clearfix">
+                        <div id="contents" class="contents">
+                <div class="breadcrumb">
+                    <ul class="clearfix">
+                        <li class="home"><a href="/" title="Go to Main"><i class="ion-home"></i></a></li>
+                        <li class="arrow"><i class="ion-ios-arrow-right"></i></li>
+                        <li class="depth1">Authors</li>
+                                                    <li class="arrow"><i class="ion-ios-arrow-right"></i></li>
+                            <li class="depth2">Instructions to Authors</li>
+                                            </ul>
+                </div>
+
+                
+
+<div class="article instruction-to-author">
+    <h1>Instructions to Authors</h1>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+                <div class="tab-pane active" id="eng">
+
+                        <div class="section">
+                <div class="panel-group" id="accordion">
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading1">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                    I. Content and Publication Type
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>The published articles are academic research papers in English, and their topics include the magnetic theory, magnetic materials and their properties, magnetic recording materials and technology, spin electronics, measurements and applications, and other relevant topics. The papers in the Journal of Magnetics are classified into three categories; academic research articles, academic review articles, and technical reviews.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading2">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                    II. Research and Publication Ethics
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>For the policies on the research and publication ethics not stated in this instructions, International standards for editors and authors can be applied.<br>(<a href="https://publicationethics.org/resources/resources-and-further-reading/international-standards-editors-and-authors">https://publicationethics.org/resources/resources-and-further-reading/international-standards-editors-and-authors</a>)</p>
+
+                                <p>When the journal faces suspected cases of research and publication misconduct such as redundant (duplicate) publication, plagiarism, or fabricated data, changes in authorship, an undisclosed conflict of interest, ethical problems with a submitted manuscript, a reviewer who has appropriated an author’s idea or data, complaints against editors, and so on, the resolution process will follow the flowchart provided by the COPE The discussion and decision on the suspected cases are carried out by the Editorial Board.<br>(<a href="https://publicationethics.org/guidance/Flowcharts">https://publicationethics.org/guidance/Flowcharts</a>).</p>
+
+                                <p class="mg-b10"><strong>Criteria for Authorship</strong></p>
+                                <p>
+                                    - Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND<br>
+                                    - Drafting the work or revising it critically for important intellectual content; AND<br>
+                                    - Final approval of the version to be published; AND<br>
+                                    - Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading3">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                    III. Submission of Papers
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ol>
+                                    <li>Manuscript and revised manuscript should be submitted online at the homepage (<a href="https://jom.magnetics.or.kr">https://jom.magnetics.or.kr</a>)&nbsp;with copyright transfer form and author’'s check list in the form of a single file. The file should be written by using MS Word for IBM compatible PCs. If additional questions arise, feel free to contact the Editorial office.<br><b class="text-primary">Contact : Editorial office (e-mail: office@magnetics.or.kr / Tel: +82-2-3452-7363)</b></li>
+                                    <li>Submission of a paper will be taken to imply that it represents original work not previously published, and that it is not being considered elsewhere for publication.</li>
+                                    <li>Upon acceptance of a paper, the author(s) should be aware that the Korean    Magnetics Society will hold the copyright of the paper.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading4">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                    IV. Peer Review
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>All manuscripts considered for publication are subject to peer review and the established technical and editorial standards.Every manuscript is reviewed by two peer reviewers.Third reviewer is additionally selected if the reject is suggested by one&rsquo;&#39;s reviewer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading5">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                    V. Final Manuscripts and Proofs
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>After the acceptance of the paper, author(s) are requested to submit an electronic file containing the final version of the paper. Authors will receive page proofs (including figures) by e-mail or FAX for correction, which must be returned to the publisher within two days of receipt. Only typographical errors may be corrected.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading65">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                    VI. Charges
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>If the manuscript is accepted for publication, publication charge of Korean Won 300,000 for domestic member  and US dollars 300 for foreigner normally  up to  5 journal pages should be paid by the corresponding author before printing. And for more than 5 journal  pages there will be additional page charge of Korean Won 10,000 or US  dollars 10  per page.
+                                </p>
+
+                                <p>&nbsp;The bank account for payment</p>
+
+                                <p>
+                                    - Bank account No. : 1010-1185-3746<br />
+                                    - Name of bank :&nbsp;SUHYUP BANK (MANAGING THE SCIENCE AND TECHNOLOGY CENTER BRANCH,&nbsp;<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22, TEHERAN-RO 7GIL, GANGNAM-GU, SEOUL, 06130, KOREA
+                                </p>
+
+                                <p>
+                                    - SWIFT :&nbsp;NFFCKRSE<br />
+                                    - Name of Account Holder : The Korean Magnetics Society
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading7">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                    VII. Copyright
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>The copyright and the transfer right or the digital content of published paper and journal is owned by the Korean Magnetics Society.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                                        <div class="panel panel-default">
+                        <div class="panel-heading" id="heading8">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                    VIII. Format
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>The Manuscript, including the abstract, references, and figure captions should be neatly typed in English, double spaced on A4 size (210 × 297 mm) or letter size 21.6 × 28 cm (8.5 × 11 in.) page. They should include the figures. All pages are to be numbered in a single sequence beginning with the title and abstract pages.</p>
+
+                                <p>The name, address, telephone, FAX number, and e-mail address of the correspondence author should be included in the manuscript file. Proofs will be sent by the publisher to this address, unless specifically requested otherwise.</p>
+
+                                <p><strong>1. Title:</strong>&nbsp;The title should be concise but sufficient enough to inform the contents. Initial letter of each word should be capitalized.</p>
+
+                                <p><strong>2. Abstract and</strong>&nbsp;<strong>keywords:</strong>&nbsp;The abstract of 100-150 words should contain all the substance of the methods and the results achieved, and several (3~6) keywords.</p>
+
+                                <p><strong>3. Address:</strong>&nbsp;The name(s) of the author(s) and the name and address of the institution where the research work has been done should be indicated on the manuscript.</p>
+
+                                <p><strong>4. Figures:</strong>&nbsp;Each fIgure should be supplied in a separate electronic file. Figure files in TIFF, GIF, or JPEG format with fine resolution are preferred. Figures created by using graphics softwares such as Photoshop, Powerpoint and Excel are acceptable. Each figure should have an Arabic number and a captions should be collected on a separate page. The appropriate place of a figure should be indicated in the text. Only English is allowed in the figures and captions.</p>
+
+                                <p>Color plates: Illustrations can be printed in color when they are necessary. The Author will be asked the extra costs involved.</p>
+
+                                <p><strong>5. Formulae:</strong>&nbsp;Displayed formulae should be numbered and typed. Symbols, superscript, and subscript in any formulae should be written in italics (ex. Hs, Br, T, x). Units should be one spaced with numbers, and chemical symbols and units should be erectly typed. (ex. 10 Oe, 100 emu/g)</p>
+
+                                <p><strong>6. Tables:</strong>&nbsp;Tables should be typed on separate sheets. Each table should have a Roman number and a caption. The appropriate places for the insertion of the tables should be indicated in the text. Only English is allowed in the tables and captions.</p>
+
+                                <p><strong>7. References:</strong>&nbsp;References to other papers should be consecutively numbered in solid bracket, e.g., [1-5] in the text and should be listed by number, preferably as in the</p>
+
+                                <p><strong>Following examples</strong></p>
+
+                                <p>
+                                    For a paper in a journal:<br />
+                                    [1] K. D. Hong, J. Korean Magn. Soc. 1, 111 (1991).
+                                </p>
+
+                                <p>
+                                    For a book:<br />
+                                    [2] B. D. Cullity, Introduction to Magnetic Materials, Addison-Wesley, London (1972) pp. 100~110.
+                                </p>
+
+                                <p>
+                                    For an unpublished paper:&nbsp;<br />
+                                    [3] K. D. Hong, Ph.D. Thesis, Korea University, Korea (1996).
+                                </p>
+
+                                <p><strong>8. Headings:</strong>&nbsp;Set numbered headings to the center, with an initial letter capitalized and bold faces. (e.g. 1. Introduction)</p>
+
+                                <p><strong>9. Units:</strong>&nbsp;SI (MKS) units are preferred and CGS units may be used.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+            </div>
+
+                        <div class="aside">
+
+                                <div class="journal-profile clearfix">
+                    <div class="cover">
+    <a href="#"><img src="/submission/journal/images/main_book_cover_eng.png" alt=""></a>
+</div>
+
+<div class="profile">
+    <span class="title">Journal of <br> <b>Magnetics</b></span>
+    <p class="date">Open Access<br>Quarterly</p>
+    </div>
+<ul class="issn-info-mobile">
+    <li>pISSN : 1226-1750</li>
+    <li>eISSN : 2233-6656</li>
+</ul>
+<ul class="btn-list">
+    <li><a href="/submission/journal/pages/archives.vm">View Archives</a></li>
+    <li><a href="/submission/login.jsp">Online Submission</a></li>
+</ul>
+
+                </div>
+
+                                <div class="banner-area">
+                    <ul>
+    <li>
+        <a><img src="/submission/journal/images/banner/open_access.png" alt=""></a>
+    </li>
+    <li>
+        <a href="http://crossref.org/" target="_blank"><img src="/submission/journal/images/banner/crossref.jpg" alt=""></a>
+    </li>
+    <li>
+        <a href="https://www.crossref.org/services/cited-by/" target="_blank"><img src="/submission/journal/images/banner/crosscheck.jpg" alt=""></a>
+    </li>
+    <li>
+        <a href="https://www.kofst.or.kr/main.bit?sys_type=0000" target="_blank"><img src="/submission/journal/images/banner/kofst.jpg" alt=""></a>
+    </li>
+</ul>
+                </div>
+
+                                <div class="most-read">
+                                        $import.read('/submission/journal/includes/_aside_most_read.jsp')
+                </div>
+
+                                <div class="contact-area">
+                    <h3 class="title">Editorial Office</h3>
+
+<ul>
+    <li>
+        <i class="xi-call"></i>
+        <b>Tel.</b>
+        <span>+82-2-3452-7363</span>
+    </li>
+    <li>
+        <i class="xi-fax"></i>
+        <b>Fax.</b>
+        <span>+82-2-3452-7366</span>
+    </li>
+    <li>
+        <i class="xi-gmail"></i>
+        <b>E-mail.</b>
+        <span>office@magnetics.or.kr</span>
+    </li>
+</ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- #container :e -->
+
+    <hr class="hidden">
+
+    <!-- #footer :s -->
+    <div id="footer">
+
+                <div class="sitemap">
+            <div class="inner-wrap">
+                <ul class="clearfix">
+    <li>
+        <a href="/submission/journal/pages/current_issues.vm">
+            Current Issues
+        </a>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/highlight.vm">
+            Archives
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/highlight.vm">Highlight</a></li>
+            <li><a href="/submission/journal/pages/archives.vm">Archives</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/instructions_authors.vm">
+            Authors
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/instructions_authors.vm">Instructions to Authors</a></li>
+            <li><a href="/submission/journal/pages/publication_charges.vm">Publication Charges</a></li>
+            <li><a href="/submission/journal/pages/authors_responsibilities.vm">Authors Responsibilities</a></li>
+            <li><a href="/submission/journal/pages/online_submission.vm">Online Submission</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/guide_for_reviewers.vm">
+            Reviewers
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/guide_for_reviewers.vm">Guide for Reviewers</a></li>
+            <li><a href="/submission/journal/pages/peer_review_at_jom.vm">Peer Review at JOM</a></li>
+            <li><a href="/submission/journal/pages/online_review.vm">Online Review System</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/aims_scope.vm">
+           About JoM
+        </a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/aims_scope.vm">Aims and scope</a></li>
+            <li><a href="/submission/journal/pages/editorial_committee.vm">Editorial Committee</a></li>
+            <li><a href="/submission/journal/pages/editorial_office.vm">Editorial Office</a></li>
+
+            <li><a href="/submission/journal/pages/permissions.vm">Permissions</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="/submission/journal/pages/policy_ethics.vm">Policy</a>
+        <ul class="depth2">
+            <li><a href="/submission/journal/pages/policy_ethics.vm">Research and Publication Ethics</a></li>
+        </ul>
+    </li>
+    <li class="search">
+        <a href="/submission/journal/pages/archives.vm"><i class="xi-search"></i></a>
+    </li>
+</ul>
+            </div>
+        </div>
+
+                <div class="copyright">
+            <div class="inner-wrap">
+                <p>Copyright © <b>JOURNAL OF MAGNETICS</b> All Rights Reserved.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- #footer :e -->
+</div>
+<!-- #wrap :e -->
+
+<!-- iframe Resizer -->
+<script src="/bower_components/iframe-resizer/js/iframeResizer.js"></script>
+<script>
+    $('iframe.resize').load(function(){ // iframe 리사이징
+        iFrameResize({
+            log                     : false, // Enable console logging
+            enablePublicMethods     : true
+        });
+    });
+</script>
+
+</body>
+</html>
+
+

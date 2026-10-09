@@ -1,0 +1,949 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          10
+        ]
+      ],
+      "date-time": "2026-09-10T07:31:33Z",
+      "timestamp": 1789025493469,
+      "version": "build-2803163510"
+    },
+    "reference-count": 44,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2025-05-01T00:00:00Z",
+          "timestamp": 1746057600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100006579",
+        "name": "Ministry of Industry and Information Technology of the People's Republic of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "TC220H057-2022"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "TC220H057-2022"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100006579",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100009108",
+        "name": "Shandong University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "zy20240201"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "zy20240201"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100009108",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62073193"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62073193"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62373215"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62373215"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62373219"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62373219"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2023YFB3709601"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023YFB3709601"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100007129",
+        "name": "Shandong Province Natural Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZR2023MF100"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ZR2023MF100"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100007129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Measurement"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.measurement.2025.116989",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          16
+        ]
+      ],
+      "date-time": "2025-02-16T01:26:49Z",
+      "timestamp": 1739669209000
+    },
+    "page": "116989",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "special_numbering": "C",
+    "title": [
+      "Frequency domain guided latent diffusion model for domain generalization in cross-machine fault diagnosis"
+    ],
+    "prefix": "10.1016",
+    "volume": "249",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-5440-5908",
+        "authenticated-orcid": false,
+        "given": "Xiaolin",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fuzheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyi",
+        "family": "Geng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Longqing",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mingshun",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6239-3231",
+        "authenticated-orcid": false,
+        "given": "Faye",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.measurement.2025.116989_b1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2023.110489",
+        "article-title": "Rotating machinery fault-induced vibration signal modulation effects: A review with mechanisms, extraction methods and applications for diagnosis",
+        "volume": "200",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "330",
+        "DOI": "10.1016/j.isatra.2021.03.016",
+        "article-title": "Transient waveform matching based on ascending multi-wavelets for diagnostics and prognostics of bearing deterioration",
+        "volume": "120",
+        "author": "Jiang",
+        "year": "2022",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.measurement.2025.116989_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2280",
+        "DOI": "10.1177/14759217221122308",
+        "article-title": "High-speed train wheel set bearing fault diagnosis and prognostics: evaluation of signal processing methods under multi-source interference",
+        "volume": "22",
+        "author": "Hou",
+        "year": "2023",
+        "journal-title": "Struct. Heal. Monit."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2022.108826",
+        "article-title": "Normalized conditional variational auto-encoder with adaptive focal loss for imbalanced fault diagnosis of bearing-rotor system",
+        "volume": "170",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "474",
+        "DOI": "10.1016/j.isatra.2021.07.014",
+        "article-title": "Enhanced periodic mode decomposition and its application to composite fault diagnosis of rolling bearings",
+        "volume": "125",
+        "author": "Cheng",
+        "year": "2022",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.measurement.2025.116989_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "6339",
+        "DOI": "10.1109/TNNLS.2021.3135877",
+        "article-title": "Intelligent fault diagnosis of gearbox under variable working conditions with adaptive intraclass and interclass convolutional neural network",
+        "volume": "34",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Neural Networks Learn. Syst."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.measurement.2025.116989_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "7328",
+        "DOI": "10.1109/TSMC.2022.3151185",
+        "article-title": "Highly efficient fault diagnosis of rotating machinery under time-varying speeds using LSISMM and small infrared thermal images",
+        "volume": "52",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Syst. Man, Cybernetics: Syst."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "362",
+        "DOI": "10.1016/j.isatra.2023.11.029",
+        "article-title": "Novel adaptive loss weighted transfer network for partial domain fault diagnosis",
+        "volume": "145",
+        "author": "Han",
+        "year": "2023",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "389",
+        "DOI": "10.1016/j.isatra.2024.08.012",
+        "article-title": "Multi-source subdomain negative transfer suppression and multiple pseudo-labels guidance alignment: A method for fault diagnosis under cross-working conditions",
+        "volume": "154",
+        "year": "2024",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.aei.2023.102217",
+        "article-title": "Structural discrepancy and domain adversarial fusion network for cross-domain fault diagnosis",
+        "volume": "58",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Adv. Eng. Informat."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.measurement.2025.116989_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "932",
+        "DOI": "10.1109/JAS.2023.124083",
+        "article-title": "Label recovery and trajectory designable network for transfer fault diagnosis of machines with incorrect annotation",
+        "volume": "11",
+        "author": "Yang",
+        "year": "2024",
+        "journal-title": "IEEE/ CAA J. Autom. Sin."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b12",
+        "first-page": "1",
+        "article-title": "Machinery fault diagnosis based on domain adaptation to bridge the gap between simulation and measured signals",
+        "volume": "71",
+        "author": "Lou",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2024.110449",
+        "article-title": "A domain feature decoupling network for rotating machinery fault diagnosis under unseen operating conditions",
+        "volume": "252",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "Reliab. Eng. Syst. Saf."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.inffus.2023.102186",
+        "article-title": "Model-assisted multi-source fusion hypergraph convolutional neural networks for intelligent few-shot fault diagnosis to electro-hydrostatic actuator",
+        "volume": "104",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.measurement.2025.116989_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.cja.2021.10.006",
+        "article-title": "Rotating machinery fault detection and diagnosis based on deep domain adaptation: A survey",
+        "volume": "36",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Chin. J. Aeronaut."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.inffus.2024.102278",
+        "article-title": "A multi-source domain information fusion network for rotating machinery fault diagnosis under variable operating conditions",
+        "volume": "106",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.measurement.2025.116989_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2230",
+        "DOI": "10.1109/TMECH.2023.3314215",
+        "article-title": "Adaptive multiscale convolution manifold embedding networks for intelligent fault diagnosis of servo motor-cylindrical rolling bearing under variable working conditions",
+        "volume": "29",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "IEEE/ASME Trans. Mechatronics"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2024.108723",
+        "article-title": "Balance-blended adversarial distribution and smooth-suppressed labels refinement network for partial transfer fault diagnosis",
+        "volume": "135",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b19",
+        "article-title": "A bearing fault diagnosis method for unknown operating conditions based on differentiated feature extraction",
+        "author": "Cao",
+        "year": "2024",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b20",
+        "article-title": "Vicinal risk minimization",
+        "volume": "13",
+        "author": "Chapelle",
+        "year": "2000",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b21",
+        "article-title": "A novel intelligent multicross domain fault diagnosis of servo motor-bearing system based on domain generalized graph convolution autoencoder",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "Struct. Heal. Monit."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b22",
+        "series-title": "International Conference on Machine Learning",
+        "first-page": "18347",
+        "article-title": "Fishr: Invariant gradient variances for out-of-distribution generalization",
+        "author": "Rame",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b23",
+        "series-title": "Mixup: Beyond empirical risk minimization",
+        "author": "Zhang",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.measurement.2025.116989_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1109/TII.2023.3264111",
+        "article-title": "Meta-learning based domain generalization framework for fault diagnosis with gradient aligning and semantic matching",
+        "volume": "20",
+        "author": "Ren",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.aei.2024.102771",
+        "article-title": "Domain generalization for machine compound fault diagnosis by domain-relevant joint distribution alignment",
+        "volume": "62",
+        "author": "Pu",
+        "year": "2024",
+        "journal-title": "Adv. Eng. Informat."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.measurement.2025.116989_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1109/TIE.2023.3243293",
+        "article-title": "Deep mixed domain generalization network for intelligent fault diagnosis under unseen conditions",
+        "volume": "71",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.aei.2024.102771",
+        "article-title": "Domain generalization for machine compound fault diagnosis by domain-relevant joint distribution alignment",
+        "volume": "62",
+        "author": "Pu",
+        "year": "2024",
+        "journal-title": "Adv. Eng. Informatics"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.measurement.2025.116989_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "6413",
+        "DOI": "10.1109/TII.2023.3337364",
+        "article-title": "Support-sample-assisted domain generalization via attacks and defenses: Concepts, algorithms, and applications to pipeline fault diagnosis",
+        "volume": "20",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informatics"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2023.109171",
+        "article-title": "Cross-domain augmentation diagnosis: An adversarial domain-augmented generalization method for fault diagnosis under unseen working conditions",
+        "volume": "234",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Reliab. Eng. Syst. Saf."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.measurement.2025.116989_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1109/TII.2023.3264111",
+        "article-title": "Meta-learning based domain generalization framework for fault diagnosis with gradient aligning and semantic matching",
+        "volume": "20",
+        "author": "Ren",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b31",
+        "series-title": "In search of lost domain generalization",
+        "author": "Gulrajani",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b32",
+        "series-title": "Cross domain generative augmentation: Domain generalization with latent diffusion models",
+        "author": "Hemati",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b33",
+        "first-page": "13380",
+        "article-title": "Domain generalization without excess empirical risk",
+        "volume": "35",
+        "author": "Sener",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2024.115589",
+        "article-title": "Signal generation for bolt loosening detection with unbalanced datasets based on the CBAM-VAE",
+        "volume": "240",
+        "author": "You",
+        "year": "2025",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/TIM.2024.3484536",
+        "article-title": "GPSC-GAN: A data enhanced model for intelligent fault diagnosis",
+        "volume": "73",
+        "author": "Lyu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Rombach, A. Blattmann, D. Lorenz, P. Esser, B. Ommer, High-resolution image synthesis with latent diffusion models, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 10684–10695.",
+        "DOI": "10.1109/CVPR52688.2022.01042"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.measurement.2025.116989_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3576",
+        "DOI": "10.1109/TCSVT.2023.3314767",
+        "article-title": "Speed-up DDPM for real-time underwater image enhancement",
+        "volume": "34",
+        "author": "Lu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Circuits Syst. Video Technol."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Wang, X. Wu, Z. Huang, E.P. Xing, High-frequency component helps explain the generalization of convolutional neural networks, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 8684–8694.",
+        "DOI": "10.1109/CVPR42600.2020.00871"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b39",
+        "series-title": "Understanding training and generalization in deep learning by fourier analysis",
+        "author": "Xu",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b40",
+        "first-page": "6840",
+        "article-title": "Denoising diffusion probabilistic models",
+        "volume": "33",
+        "author": "Ho",
+        "year": "2020",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.measurement.2025.116989_b41",
+        "series-title": "Medical Image Computing and Computer-Assisted Intervention",
+        "first-page": "234",
+        "article-title": "U-net: Convolutional networks for biomedical image segmentation",
+        "author": "Ronneberger",
+        "year": "2015"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.measurement.2025.116989_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "8013",
+        "DOI": "10.3390/s130608013",
+        "article-title": "Sequential fuzzy diagnosis method for motor roller bearing in variable operating conditions based on vibration analysis",
+        "volume": "13",
+        "author": "Li",
+        "year": "2013",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.measurement.2025.116989_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1109/TR.2019.2896240",
+        "article-title": "Entropy based fault classification using the case western reserve university data: A benchmark study",
+        "volume": "69",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.measurement.2025.116989_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "7355",
+        "DOI": "10.1109/TII.2022.3210555",
+        "article-title": "Domain transferability-based deep domain generalization method towards actual fault diagnosis scenarios",
+        "volume": "19",
+        "author": "Shi",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Informatics"
+      }
+    ],
+    "container-title": [
+      "Measurement"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0263224125003483?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0263224125003483?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2025-06-29T12:34:18Z",
+      "timestamp": 1751200458000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0263224125003483"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "references-count": 44,
+    "alternative-id": [
+      "S0263224125003483"
+    ],
+    "URL": "https://doi.org/10.1016/j.measurement.2025.116989",
+    "relation": {},
+    "ISSN": [
+      "0263-2241"
+    ],
+    "issn-type": [
+      {
+        "value": "0263-2241",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Frequency domain guided latent diffusion model for domain generalization in cross-machine fault diagnosis",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Measurement",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.measurement.2025.116989",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "116989"
+  }
+}

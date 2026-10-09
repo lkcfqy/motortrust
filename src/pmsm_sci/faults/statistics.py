@@ -27,4 +27,8 @@ def wilson_interval(
         )
         / denominator
     )
-    return float(max(0.0, center - radius)), float(min(1.0, center + radius))
+    # The Wilson endpoints are exactly 0/1 at the binomial boundaries. Avoid a
+    # platform-dependent positive residual from subtracting equal floats.
+    lower = 0.0 if successes == 0 else float(max(0.0, center - radius))
+    upper = 1.0 if successes == trials else float(min(1.0, center + radius))
+    return lower, upper

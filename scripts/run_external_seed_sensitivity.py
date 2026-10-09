@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 import sklearn
 
+from pmsm_sci.faults.artifact_paths import frozen_feature_path
 from pmsm_sci.faults.baseline import feature_columns
 from pmsm_sci.faults.external_validation import (
     ADAPTATION_BLOCKS,
@@ -65,6 +66,8 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=Path("results/external_seed_sensitivity"),
     )
+    parser.add_argument("--source-features", type=Path)
+    parser.add_argument("--external-features", type=Path)
     return parser.parse_args()
 
 
@@ -81,6 +84,7 @@ def sensitivity_specs() -> tuple[OneClassSpec, ...]:
 
 def load_frozen_inputs(
     frozen_results_dir: Path,
+    *, source_features: Path | None = None, external_features: Path | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame, list[str], dict[str, object]]:
     """Load feature tables only after their hashes match the frozen reveal metadata."""
 
@@ -95,8 +99,16 @@ def load_frozen_inputs(
     if int(metadata.get("primary_seed", -1)) != PRIMARY_SEED:
         raise ValueError("Frozen primary seed does not match the predeclared seed list")
 
-    source_path = Path(str(metadata["source_features"]))
-    external_path = Path(str(metadata["external_features"]))
+    project_root = Path(__file__).resolve().parents[1]
+    source_path = frozen_feature_path(
+        str(metadata["source_features"]),
+        project_root / "data/processed/kaist_current_features.csv.gz", override=source_features,
+    )
+    external_path = frozen_feature_path(
+        str(metadata["external_features"]),
+        project_root / "data/processed/external_dual_three_phase_health_features.csv.gz",
+        override=external_features,
+    )
     if file_sha256(source_path) != metadata["source_features_sha256"]:
         raise ValueError("Source feature hash differs from the frozen reveal")
     if file_sha256(external_path) != metadata["external_features_sha256"]:
@@ -319,7 +331,8 @@ def summarize_seed_ranges(summary: pd.DataFrame) -> pd.DataFrame:
 def main() -> None:
     args = parse_args()
     source, external, columns, frozen_metadata = load_frozen_inputs(
-        args.frozen_results_dir
+        args.frozen_results_dir,
+        source_features=args.source_features, external_features=args.external_features,
     )
     score_vectors, diagnostics = score_all_seeds(source, external, columns)
     summaries: list[dict[str, object]] = []

@@ -1,0 +1,401 @@
+{
+  "review_date": "2026-10-09",
+  "reviewer": "jom_rules_refs independent subagent",
+  "status": "draft diagnostic superseded by pending pagination repair; no final legacy pass",
+  "render_path": "original DOC -> temporary DOCX -> render_docx.py -> PDF/30PNG (extra roundtrip)",
+  "original_doc_path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.doc",
+  "original_doc_sha256": "25b0867386a255df3032dbc1b62efef941fa30baa85440295881e337e46f4b44",
+  "copied_doc_sha256": "25b0867386a255df3032dbc1b62efef941fa30baa85440295881e337e46f4b44",
+  "temporary_docx_sha256": "aacceebad2d851c5489b0fb02035ff6199d86bc9f38d30417498680cda4ae260",
+  "review_pdf_sha256": "36b887d3b4e4eab229a9ebf98435e25e9c73a53564b35c82f52f582f4cf378e9",
+  "pages_reviewed": [
+    {
+      "page": 1,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-1.png",
+      "sha256": "f6f80d9b8a9acaa0b3891dff05b3e0ae3b06b416845761d13c89cfddcae376ef",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Front matter, 133-word abstract and six keywords legible; black title without border; external 25.00% and two-sided Wilson wording present.",
+      "status": "readable"
+    },
+    {
+      "page": 2,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-2.png",
+      "sha256": "01312c9e13d78d495f1c6e4ab2a5f1af10994e02370af7fed12facdcc653638b",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Introduction text and numbered citations [1–12] legible; healthy-only/source-label scope retained; no clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 3,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-3.png",
+      "sha256": "38f97771d32fa0b1f62b65a0f370f8524b0055a157b66fc05b63bc1604439042",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Background 2.1 and JOM context readable; distinct indicators and single-factor limits retained; headings connected to body.",
+      "status": "readable"
+    },
+    {
+      "page": 4,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-4.png",
+      "sha256": "735da04726dfdccd0596fefc2472dbd357f472463794aaadb8cb920d15fa4da3",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Background 2.2 and KAIST subsection readable; citation numbering [15–27] and dependence disclaimer preserved.",
+      "status": "readable"
+    },
+    {
+      "page": 5,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-5.png",
+      "sha256": "5be23fc5214199c94e2230a34d127ef1dc340a047882eed9ef69ae5b55c3d80f",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Data roles, design-vs-measured conditions, single external motor and turn/phase confounding readable; no clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 6,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-6.png",
+      "sha256": "14856d1e4b5f19cb7feaa26edfdf222f8a3293b2c9499864f8ce5a6e8b73baa5",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Frozen protocol and two-sided Wilson definition readable; figure/table near-here markers intentional; body continuation to p7 normal.",
+      "status": "readable"
+    },
+    {
+      "page": 7,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-7.png",
+      "sha256": "fdf45f31f49bbe7f083e6e15ecee503a400d7153218e5a898e0df335e83d407e",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "VISUAL DEFECT suspected: equation (1) and (4) tilde accents absent, lambda superscripts/precision dagger shifted or missing after legacy roundtrip. Requires comparison to native DOCX and report; no clipping of prose.",
+      "status": "defect"
+    },
+    {
+      "page": 8,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-8.png",
+      "sha256": "0ce5a1a9448d551309e7c7f6698f2d983b78201b9ab612cbf492d05962c310d3",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Equation (5) rank fraction/summation/subscripts and inline p_b readable; ties/calmax and feature masks preserved; check math fidelity against DOCX.",
+      "status": "readable"
+    },
+    {
+      "page": 9,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-9.png",
+      "sha256": "5a4067dd814fe1fcafe03493526a1058af0ebcf4c0236883844be1e3f23762fe",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Outcome definitions, descriptive bootstrap boundary and exploratory results readable; Table II/Fig2 markers intact.",
+      "status": "readable"
+    },
+    {
+      "page": 10,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-10.png",
+      "sha256": "6edb35ddee92eee2a1d463d7952ed2c2a55cf84aefbfd2b4d22ac2d63a66f020",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "External 96/384, 1/32, H1 failure and fixed pairwise ranking reversal readable; five-seed caution preserved.",
+      "status": "readable"
+    },
+    {
+      "page": 11,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-11.png",
+      "sha256": "bf892f28231711bbac997a634e030a5a66cb60cd17abdcae1b497783e8e2f195",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Trajectory diagnostics and same-estimator-family contrast legible; differences in fit masks explicitly visible; no clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 12,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-12.png",
+      "sha256": "4e94328c27d7f181a291dd69718fce586ea32647ed76c787e12d5373cde83a97",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Geometry and transient parser results legible; inline z=tilde x survives; descriptive/post-reveal qualifications present.",
+      "status": "readable"
+    },
+    {
+      "page": 13,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-13.png",
+      "sha256": "19b40e365ee4ec2b3de2beccb3edf023fc674ca452136bce56f0793eb817a1d3",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Discussion and remedy-confirmation boundary readable; paragraph continues normally to p14.",
+      "status": "readable"
+    },
+    {
+      "page": 14,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-14.png",
+      "sha256": "8ecdd94eb5852486544de0a9862324634b7ea65c62fb6dd590f76626794214dc",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Conclusion and funding readable; acknowledged author-input marker intentionally present; no accidental orphan page.",
+      "status": "readable"
+    },
+    {
+      "page": 15,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-15.png",
+      "sha256": "e7cf86446b0255ec7aef226e11bf659a37b257e469807335b17ea76d204bd231",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Declarations/AI and availability placeholders intentional; reference [1] complete on same page; no clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 16,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-16.png",
+      "sha256": "a8b0452ab0c70e15cfdf2a8fcffa33598686bb934e3ecf5c3665d1b85b1de30e",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "References [2–10] complete and readable; accents and DOI lines preserved; Wang disputed pages omitted as intended.",
+      "status": "readable"
+    },
+    {
+      "page": 17,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-17.png",
+      "sha256": "e306168c1f2bcaadf6f1c451b75b5e4dcceee167475c1ab2b6283902d89d9b72",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "References [11–20] complete; journal abbreviations and author diacritics legible; no split entry.",
+      "status": "readable"
+    },
+    {
+      "page": 18,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-18.png",
+      "sha256": "22d64bf993435a97bfa13d7a5b5481e5c83f5d6ec24ffd10b28169462daa4c3a",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "References [21–29] complete; long PMLR URLs readable without overflow; no split entry.",
+      "status": "readable"
+    },
+    {
+      "page": 19,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-19.png",
+      "sha256": "dd9995f735502d0a35781e5782290f44ab9fc7f8c980dedb006193ce91726b00",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Reference [30] complete; sparse terminal reference page caused by deliberate separate caption section, not missing text or a blank page.",
+      "status": "readable"
+    },
+    {
+      "page": 20,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-20.png",
+      "sha256": "baa17861540bfdf1fcecfb6f7424d906b285dc54f78971e4ebf46dc05cca3fbd",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Six caption paragraphs complete on single page; dependence, common-load and grain/support disclaimers legible.",
+      "status": "readable"
+    },
+    {
+      "page": 21,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-21.png",
+      "sha256": "b2385617d71be49a68d19a0e0ffa9abb7f867b9d929bd472d2c72ab2be5634dc",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "VISUAL DEFECT: wholly blank page except page number; parent informed. Check whether also native DOCX and direct DOC PDF.",
+      "status": "defect"
+    },
+    {
+      "page": 22,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-22.png",
+      "sha256": "e405164995b9a896e019435b70827f3ec1551e5f48e6843881d65e03fbb50eea",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Table I Roman numbering, full eight rows, borders and captions legible within page.",
+      "status": "readable"
+    },
+    {
+      "page": 23,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-23.png",
+      "sha256": "b8ebc326f106ed05df4e513f403731943dc18d185d63329ad8056e2d10e59733",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Table II eleven methods, four columns, bold primary row and values legible without clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 24,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-24.png",
+      "sha256": "4688893de2a37494a2c72721b27348bab34200ade6b634dadbc1161cfdaae96a",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Table III eleven methods, H1/health/detection/AUROC values readable; one conditional comparator pass; no clipping.",
+      "status": "readable"
+    },
+    {
+      "page": 25,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-25.png",
+      "sha256": "345e45cce65c8f07b5f53c56a44bcd1572143c789a5ac7511023e8fc41908145",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig1 three panels and all arrows/labels readable; archived scale-free terminology and target-health alarm flow preserved.",
+      "status": "readable"
+    },
+    {
+      "page": 26,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-26.png",
+      "sha256": "fc4356b7d94d55b17ef87abbf0803619f9c4fdaf2fd6ea7841d89c2c1fbef255",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig2 two panels, axes, confidence bars and five covariance legend labels readable.",
+      "status": "readable"
+    },
+    {
+      "page": 27,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-27.png",
+      "sha256": "df46c8e2b55ae3337871a63608cf519ed0b7c5ad2e15d6789f58e267b79a0ad2",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig3 eleven methods, hatched frozen-primary bar, comparator leader, H1 markers and legends readable; CI labels qualified in caption/body.",
+      "status": "readable"
+    },
+    {
+      "page": 28,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-28.png",
+      "sha256": "e7d87d83c6ddc1e78572f962da396c061e90de4d7a86feb24a1aa2ab8c2a8987",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig4 log score and empirical alarm trajectories, paired legends, speed proxy axis and block axis readable.",
+      "status": "readable"
+    },
+    {
+      "page": 29,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-29.png",
+      "sha256": "66bb5e90502aa5fb5b77f3b571b9dd730a51496495702255b12b79725802d208",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig5 full 6-by-8 grid, percentages, phase/turn labels and load/colorbar labels readable.",
+      "status": "readable"
+    },
+    {
+      "page": 30,
+      "png_path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/page-30.png",
+      "sha256": "0355f60e97fc1ccb33e1b00c43dc61ab88089fc346b4b490e6a083ea28f960d5",
+      "dimensions_px": [
+        1414,
+        2000
+      ],
+      "visually_inspected": true,
+      "observation": "Grayscale Fig6 all feature labels, two axes, bars/markers and legends readable; panel title Same-block discrimination can be clearer because AUROC pools block means; caption separately defines matched dz.",
+      "status": "readable"
+    }
+  ],
+  "comparisons": [
+    {
+      "page": 7,
+      "native_docx_png": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-7.png",
+      "finding": "Native DOCX symbols correct; extra DOC->DOCX roundtrip loses tilde/superscripts/dagger."
+    },
+    {
+      "page": 21,
+      "native_docx_png": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-21.png",
+      "finding": "Blank page also present in original current DOCX render; parent repairing pagination."
+    }
+  ],
+  "direct_doc_pdf": {
+    "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_detailed_review/direct_doc_pdf/Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+    "sha256": "0b09248e8331113e25a708b658a6c102f98bc00462f2f891389c648ff5fe5130",
+    "pages": 30,
+    "visually_reviewed_pages": [
+      7
+    ],
+    "page7_png_sha256": "14d7bf2ee58881afcac557f0f3498787624204f5bd3a4eeb896301eb88d4399f",
+    "finding": "Original DOC directly rendered to PDF has correct tilde, lambda superscripts and precision dagger. Roundtrip defect is not proof that original DOC equations are incorrect."
+  },
+  "limitations": [
+    "No native Microsoft Word check performed.",
+    "Direct DOC PDF only page7 visually checked in this diagnostic; final full direct-DOC review pending repaired build.",
+    "Author-input placeholders remain intentional and prevent direct-upload claim."
+  ],
+  "scientific_change": "none; frozen scores, features and methods untouched"
+}

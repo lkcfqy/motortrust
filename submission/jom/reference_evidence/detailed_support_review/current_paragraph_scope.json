@@ -1,0 +1,146 @@
+{
+  "sha256": "3f65952fa7ccf149f627bbc71a8a0c8599c2d8bb1e5db57d57edec61de17e377",
+  "paragraphs": [
+    {
+      "section": "## 1. Introduction",
+      "paragraph": 1,
+      "text": "Stator interturn short circuits disturb winding symmetry and can damage a\npermanent-magnet synchronous motor (PMSM). Phase currents contain negative-sequence,\ncurrent-vector, and harmonic signatures of that disturbance\n[@zafarani2018itscreview; @jeong2017negativesequence; @li2024negativesequence].\nMonitoring currents is attractive because the drive already measures them. However,\na signature that separates healthy and faulty signals on one laboratory motor need\nnot produce a reliable alarm after transfer to another motor. The healthy reference\nchanges with power rating, winding topology, controller response, sensor chain,\nspeed, and load. Normal operating variation can consequently enter the same score\ndirections as a short-circuit signature.",
+      "citations": [
+        "zafarani2018itscreview",
+        "jeong2017negativesequence",
+        "li2024negativesequence"
+      ]
+    },
+    {
+      "section": "## 1. Introduction",
+      "paragraph": 2,
+      "text": "This distinction matters for deployment. Target fault examples may be unavailable,\nwhereas a healthy commissioning trace is obtainable. A practical transfer detector\nmust therefore fit and set its threshold without target faults, and it must be\ncompared with a detector fitted from target health alone. Adding source-machine data\nis useful only if it improves that non-transfer reference under the same alarm\nprotocol. Negative transfer is otherwise possible\n[@wang2019negativetransfer; @kumar2024negativetransfer].",
+      "citations": [
+        "wang2019negativetransfer",
+        "kumar2024negativetransfer"
+      ]
+    },
+    {
+      "section": "## 1. Introduction",
+      "paragraph": 3,
+      "text": "Rotating-machinery research already includes cross-machine domain generalization\nand large multi-dataset benchmarks [@li2020domaingeneralization;\n@li2023causalconsistency; @zhao2024dgbenchmark]. Those advances do not remove the\nneed to distinguish fault classification from healthy-only alarm reliability. A high\narea under the receiver-operating-characteristic curve (AUROC) can coexist with a\npoor fixed threshold. Likewise, counting a record as detected after any alarm can\nhide failure throughout most of its operating trajectory.",
+      "citations": [
+        "li2020domaingeneralization",
+        "li2023causalconsistency",
+        "zhao2024dgbenchmark"
+      ]
+    },
+    {
+      "section": "## 1. Introduction",
+      "paragraph": 4,
+      "text": "The evaluation split is equally consequential. Adjacent windows from one acquisition\nshare a motor, sensors, and operating history. Randomly assigning them to training\nand testing does not test a new motor or session. Machinery studies have documented\nlarge performance changes when holdout is moved from signals to acquisitions and\nphysical parts [@wheat2024dataleakage]. Structured validation and explicit\nexperimental units are needed when observations are dependent\n[@roberts2017structuredcv; @hurlbert1984pseudoreplication].",
+      "citations": [
+        "wheat2024dataleakage",
+        "roberts2017structuredcv",
+        "hurlbert1984pseudoreplication"
+      ]
+    },
+    {
+      "section": "## 1. Introduction",
+      "paragraph": 5,
+      "text": "We address a focused question: does healthy-only source assistance retain reliable\nstator-fault alarms under a frozen cross-dataset transfer? An exploratory study on\nthree same-manufacturer PMSMs motivated a motor-balanced Log-Euclidean covariance\ndetector. The independent-laboratory experiment then froze its feature extraction,\nhealthy fitting, threshold, comparators, and analysis interval before accessing\nexternal fault values. The detector that performed well internally failed externally\nand remains the primary method in this report. The contribution is an auditable\nreliability evaluation: it exposes a ranking reversal, quantifies source augmentation\nagainst target-only controls, and preserves operating-condition and replication\nlimits. It does not claim a new universally superior algorithm.",
+      "citations": []
+    },
+    {
+      "section": "### 2.1. Fault signatures under changing operating conditions",
+      "paragraph": 1,
+      "text": "An interturn fault changes current symmetry and the relation between phase currents.\nSequence components and normalized harmonic ratios can help identify those changes\n[@jeong2017negativesequence; @li2024negativesequence]. Their response also depends\non machine configuration and closed-loop operation\n[@zafarani2018itscreview]. Under nonstationary speed, spectral components move in\nfrequency; their measured magnitude and resolution depend on the window and sampling\nchain. Load changes alter healthy current relationships and drive response. PMSM\norder-tracking studies accordingly evaluate interturn indicators over changing speed\nand load [@urresty2013nonstationary], and physical-data models have addressed PMSM\ndiagnosis at rapidly varying speed [@li2024physicaldatapmsm].",
+      "citations": [
+        "jeong2017negativesequence",
+        "li2024negativesequence",
+        "zafarani2018itscreview",
+        "urresty2013nonstationary",
+        "li2024physicaldatapmsm"
+      ]
+    },
+    {
+      "section": "### 2.1. Fault signatures under changing operating conditions",
+      "paragraph": 2,
+      "text": "A recent *Journal of Magnetics* study compares current and stray-flux signatures\nusing finite-element simulations of electrical and mechanical faults in a synchronous\nmotor with wound-field excitation [@park2025electromagnetic]. It illustrates the relevance of electromagnetic\nsignals to machine diagnosis; it does not establish healthy-only PMSM transfer or\nvalidate the present cross-dataset alarm.",
+      "citations": [
+        "park2025electromagnetic"
+      ]
+    },
+    {
+      "section": "### 2.1. Fault signatures under changing operating conditions",
+      "paragraph": 3,
+      "text": "These physical considerations motivate normalized current features and within-target\nhealthy alignment, but neither step guarantees operating invariance. A covariance\ndetector can assign large precision to a direction with small variance during\ncommissioning; a subsequent healthy speed or load change may then raise its anomaly\nscore. This study examines that failure empirically. It does not infer the causal\ncontribution of any single operating variable, localize fault phase, or estimate\nshorted-turn severity.",
+      "citations": []
+    },
+    {
+      "section": "### 2.2. Transfer, one-class references, and alarm calibration",
+      "paragraph": 1,
+      "text": "Cross-machine generalization predates this work. Collaborative machine diagnosis and\nunified benchmarks provide broader machine and dataset replication than the present\nexperiment [@li2023causalconsistency; @zhao2024dgbenchmark]. Frequency-guided\nmachinery methods also address adverse source-domain emphasis\n[@liu2025frequencyguided]. Our narrower contribution concerns a fault-blind external\nreveal with a target-only reference, rather than priority in transfer learning.",
+      "citations": [
+        "li2023causalconsistency",
+        "zhao2024dgbenchmark",
+        "liu2025frequencyguided"
+      ]
+    },
+    {
+      "section": "### 2.2. Transfer, one-class references, and alarm calibration",
+      "paragraph": 2,
+      "text": "One-class support vector machines (OC-SVM), Isolation Forest, and Minimum Covariance\nDeterminant (MinCovDet) are established methods\n[@scholkopf2001support; @liu2008isolationforest; @rousseeuw1999mcd].\nLog-Euclidean covariance averaging likewise uses an established geometry for\nsymmetric positive-definite matrices [@arsigny2006logeuclidean]. They provide\ndifferent healthy descriptions; each still requires a threshold on an untouched\nhealthy calibration set. Keeping the algorithm, representation, calibration, and\ntarget-health allowance common is essential when judging the effect of source\naugmentation.",
+      "citations": [
+        "scholkopf2001support",
+        "liu2008isolationforest",
+        "rousseeuw1999mcd",
+        "arsigny2006logeuclidean"
+      ]
+    },
+    {
+      "section": "### 2.2. Transfer, one-class references, and alarm calibration",
+      "paragraph": 3,
+      "text": "Rank-based conformal calibration supplies an interpretable threshold construction,\nbut conventional coverage results rely on exchangeability\n[@angelopoulos2023conformal]. Dependence requires additional assumptions or methods\n[@chernozhukov2018dependentconformal; @barber2026timeseriesconformal].\nConformal industrial-fleet alarms and false-alarm studies also precede this work\n[@farouq2021mondrianfleet; @farouq2022conformalfleet;\n@diallo2025falsealarms]. Here, a block p-value is an empirical rank summary from\nordered motor records. It is not a proof of 5% population risk. We report alarm\ncounts, temporal coverage, and a predeclared descriptive health gate together.",
+      "citations": [
+        "angelopoulos2023conformal",
+        "chernozhukov2018dependentconformal",
+        "barber2026timeseriesconformal",
+        "farouq2021mondrianfleet",
+        "farouq2022conformalfleet",
+        "diallo2025falsealarms"
+      ]
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 1,
+      "text": "The external experiment changes the engineering interpretation of the internal\nresult. Healthy covariance transfer appeared effective among three related motors,\nyet its frozen alarm failed when winding topology, acquisition chain, load, and\nspeed trajectory changed together. The observed target-only advantage shows why a\nsource-assisted detector needs a non-transfer reference under the same target-health\nbudget and threshold rule. High same-family detection is insufficient evidence for\ncross-motor deployment.",
+      "citations": []
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 2,
+      "text": "Reporting failure adds information beyond a lower average score. Ordered alarms\nshow that record-any detection can be inflated by late trajectory alarms. Load\nstratification shows where coverage is weakest. The frozen-geometry reconstruction\nshows that a nominally normalized representation can retain a strong operating-point\ndirection, while giving little score contribution to a fault-discriminating harmonic\ndirection. The sampling-rate control narrows a plausible explanation without\nrecovering performance. Together these observations provide concrete acceptance\nchecks for future monitoring systems: inspect held-out health as well as faults,\nevaluate early operating segments, compare same-estimator target-only fitting, and\nreport every unsupported condition.",
+      "citations": []
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 3,
+      "text": "These checks do not establish a remedy. Conditioning a healthy reference on speed\nand load is physically motivated, but any feature removal, revised covariance,\nthreshold, or condition-aware model selected using the revealed faults would be\nexploratory here. Such development requires a new untouched motor or laboratory\ntest. Later-paper improvements cannot be used to rewrite the Paper 1 frozen external\nresult. Additional algorithms, repeated seed searches, and repeated analysis of the\nsame machine cannot supply missing independent motor replication.",
+      "citations": []
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 4,
+      "text": "Calibration also has two distinct resource requirements. Twelve seconds of target\nhealth can fit a reference, whereas a resolvable nominal 5% rank alarm requires\nat least 19 calibration units. Twenty or twenty-four ordered blocks meet that\narithmetic condition but do not establish statistical independence. Independent\nhealthy sessions and operating-envelope coverage are needed before a motor- or\nsession-level false-alarm claim can be assessed. Zero observed alarms, including\nthe favorable MinCovDet seed, cannot be interpreted as zero deployment risk.",
+      "citations": []
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 5,
+      "text": "The main scientific limitations are the small number of physical motors and the\ncompound external shift. KAIST has one unique healthy acquisition per motor and\nwas reused during development. The external dataset has one motor, similar\nacceleration records, and no demonstrated independent sessions. Its turn count is\nconfounded with phase, and its pooled AUROC has unequal health/fault load support.\nTime, speed, temperature, controller, topology, and sensor effects are not\nindependently manipulated. Bootstrap and Wilson quantities therefore summarize\nrecorded conditions rather than a PMSM population. The faults are laboratory\nemulations rather than natural field degradation. The secondary transient parser\nfailed before scoring and the repaired sensitivity concerns only one motor.",
+      "citations": []
+    },
+    {
+      "section": "## 6. Discussion",
+      "paragraph": 6,
+      "text": "All analyses were offline. Feature-extraction latency, memory use, and embedded\nnumerical stability were not benchmarked. A 0.2 s window and a 3 s block specify\nanalysis resolution, not demonstrated real-time feasibility. The available evidence\nalso supports neither severity estimation, prognosis, nor a safety guarantee.",
+      "citations": []
+    }
+  ]
+}

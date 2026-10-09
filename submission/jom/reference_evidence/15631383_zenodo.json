@@ -1,0 +1,128 @@
+{
+  "created": "2025-06-10T11:59:30.692747+00:00",
+  "modified": "2025-09-17T09:17:05.674628+00:00",
+  "id": 15631383,
+  "conceptrecid": "15631382",
+  "doi": "10.5281/zenodo.15631383",
+  "conceptdoi": "10.5281/zenodo.15631382",
+  "doi_url": "https://doi.org/10.5281/zenodo.15631383",
+  "metadata": {
+    "title": "Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators Estimation - Dataset",
+    "doi": "10.5281/zenodo.15631383",
+    "publication_date": "2024-02-01",
+    "description": "<div>Project: Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators Estimation</div>\n<div>&nbsp;</div>\n<div>Authors: Lukas Zezula, Matus Kozovsky and Petr Blaha&nbsp;</div>\n<div>(corresponding author: Lukas Zezula, e-mail: lukas.zezula@ceitec.vutbr.cz)</div>\n<div>&nbsp;</div>\n<div>Affiliation: CEITEC - Central European Institute of Technology,</div>\n<div>&nbsp; &nbsp; &nbsp;Brno University of Technology, 612 00 Brno, Czech Republic</div>\n<div>&nbsp;</div>\n<div>Abstract: Measurement data for testing algorithms diagnosing interturn short circuits in permanent magnet synchronous motors, collected at various operating points and fault severities.</div>\n<div>&nbsp;</div>\n<div>Keywords: discrete-time systems, fault detection, fault diagnosis, fault location, parameter estimation, permanent magnet motors, recursive estimation</div>\n<div>&nbsp;</div>\n<div>Funding: This work was supported in part by Czech Science Foundation through the Analysis of Discrete and Continuous Dynamical Systems with Emphasis on Identification Problems Grant 23-06476S, in part by European Union through the project Robotics and Advanced Industrial Production under Grant CZ.02.01.01/00/22_008/0004590, in part by AI4CSM: Automotive Intelligence for/at Connected Shared Mobility under Grant 101007326/8A21013, in part by the Ministry of Education, Youth and Sports of the Czech Republic and Chips Joint Undertaking (Chips JU), in part by the infrastructure of RICAIP through the European Union&rsquo;s&nbsp;Horizon 2020 research and innovation programme under Grant 857306,&nbsp;in part by the Ministry of Education, Youth and Sports under OP RDE&nbsp;Grant CZ.02.1.01/0.0/0.0/17_043/0010085, and in part by the Brno City&nbsp;Municipality.</div>\n<div>&nbsp;</div>\n<div>Files included:</div>\n<div>├── 20kWmotor/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Measured data on 20 kW experimental motor for an ISC occurring at diverse operating conditions stored as timeseries objects in .mat files</div>\n<div>│&nbsp; &nbsp;├── load_transient_1000_1turn.mat&nbsp; &nbsp; &nbsp; # Load transient at 1000 rad/s from 2 to 7 Nm with a 200 Nm/s rate, fault severity 1/7</div>\n<div>│&nbsp; &nbsp;├── load_transient_1000_2turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1000 rad/s from 2 to 7 Nm with a 200 Nm/s rate, fault severity 2/7</div>\n<div>│&nbsp; &nbsp;├── load_transient_1000_3turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1000 rad/s from 2 to 7 Nm with a 200 Nm/s rate, fault severity 3/7</div>\n<div>│&nbsp; &nbsp;├── steady_state_1000_1turn.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1000 rad/s with 5 Nm load, fault severity 1/7</div>\n<div>│&nbsp; &nbsp;├── steady_state_1000_2turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1000 rad/s with 5 Nm load, fault severity 2/7</div>\n<div>│&nbsp; &nbsp;├── steady_state_1000_3turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1000 rad/s with 5 Nm load, fault severity 3/7</div>\n<div>│&nbsp; &nbsp;├── velocity_transient_1000_1turn.mat&nbsp; &nbsp; &nbsp; &nbsp;# Velocity transient from 1000 to 1400 rad/s with 5 Nm load, fault severity 1/7</div>\n<div>│&nbsp; &nbsp;├── velocity_transient_1000_2turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 1000 to 1400 rad/s with 5 Nm load, fault severity 2/7</div>\n<div>│&nbsp; &nbsp;└── velocity_transient_1000_3turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 1000 to 1400 rad/s with 5 Nm load, fault severity 3/7</div>\n<div>│</div>\n<div>├── 200Wmotor/&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # Measured data on 200 W experimental motor for an ISC occurring at diverse operating conditions stored as timeseries objects in .mat files</div>\n<div>│&nbsp; &nbsp;├── load_transient_1000_4turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1000 rad/s from 0.25 to 0.75 Nm with a 2 Nm/s rate, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;├── load_transient_1200_2turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1200 rad/s from 0.25 to 0.75 Nm with a 5 Nm/s rate, fault severity 2/25</div>\n<div>│&nbsp; &nbsp;├── load_transient_1200_4turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1200 rad/s from 0.25 to 0.75 Nm with a 5 Nm/s rate, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;├── load_transient_1200_6turns.mat&nbsp; &nbsp; &nbsp; # Load transient at 1200 rad/s from 0.25 to 0.75 Nm with a 5 Nm/s rate, fault severity 6/25</div>\n<div>│&nbsp; &nbsp;├── steady_state_1000_4turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1000 rad/s with 0.5 Nm load, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;├── steady_state_1200_2turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1200 rad/s without a load, fault severity 2/25</div>\n<div>│&nbsp; &nbsp;├── steady_state_1200_4turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1200 rad/s without a load, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;├── steady_state_1200_6turns.mat&nbsp; &nbsp; &nbsp; # Velocity steady state at 1200 rad/s without a load, fault severity 6/25</div>\n<div>│&nbsp; &nbsp;├── velocity_transient_1000_4turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 1000 to 1400 rad/s with 0.5 Nm load, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;├── velocity_transient_1200_2turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 800 to 1200 rad/s without a load, fault severity 2/25</div>\n<div>│&nbsp; &nbsp;├── velocity_transient_1200_4turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 800 to 1200 rad/s without a load, fault severity 4/25</div>\n<div>│&nbsp; &nbsp;└── velocity_transient_1200_6turns.mat&nbsp; &nbsp; &nbsp; # Velocity transient from 800 to 1200 rad/s without a load, fault severity 6/25</div>\n<div>│</div>\n<div>└── README.txt&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; # This file</div>\n<div>&nbsp;</div>\n<div>Data in .mat files:</div>\n<div>ialbt_meas ... Alpha and beta axis currents (respectively) transformed from the measured stator currents</div>\n<div>idq_meas ... Direct and quadrature axis currents (respectively) transformed from the measured stator currents</div>\n<div>if_meas ... Measured fault current</div>\n<div>SinCos ... Angle tracking observer outputs: sine and cosine (respectively) of the electrical angle</div>\n<div>ualbt ... Alpha and beta axis voltages (respectively) generated by the control algorithm</div>\n<div>udq ... Direct and quadrature axis voltages (respectively) generated by the control algorithm</div>\n<div>we ... Angle tracking observer outputs: estimated electrical angular velocity</div>\n<p>&nbsp;</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Zezula, Lukáš",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0002-3183-2438"
+      },
+      {
+        "name": "Kozovsky, Matus",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0002-1547-1003"
+      },
+      {
+        "name": "Blaha, Petr",
+        "affiliation": "Brno University of Technology",
+        "orcid": "0000-0001-5534-2065"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1109/TIE.2024.3363775",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "15631382"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Diagnostics of Interturn Short Circuits in PMSMs With Online Fault Indicators Estimation - Dataset",
+  "links": {
+    "self": "https://zenodo.org/api/records/15631383",
+    "self_html": "https://zenodo.org/records/15631383",
+    "preview_html": "https://zenodo.org/records/15631383?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.15631383",
+    "self_doi": "https://doi.org/10.5281/zenodo.15631383",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15631383",
+    "reserve_doi": "https://zenodo.org/api/records/15631383/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/15631382",
+    "parent_html": "https://zenodo.org/records/15631382",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15631382",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15631382",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15631383/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15631383/sequence/default",
+    "files": "https://zenodo.org/api/records/15631383/files",
+    "media_files": "https://zenodo.org/api/records/15631383/media-files",
+    "archive": "https://zenodo.org/api/records/15631383/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15631383/media-files-archive",
+    "latest": "https://zenodo.org/api/records/15631383/versions/latest",
+    "latest_html": "https://zenodo.org/records/15631383/latest",
+    "versions": "https://zenodo.org/api/records/15631383/versions",
+    "draft": "https://zenodo.org/api/records/15631383/draft",
+    "access_links": "https://zenodo.org/api/records/15631383/access/links",
+    "access_grants": "https://zenodo.org/api/records/15631383/access/grants",
+    "access_users": "https://zenodo.org/api/records/15631383/access/users",
+    "access_request": "https://zenodo.org/api/records/15631383/access/request",
+    "access": "https://zenodo.org/api/records/15631383/access",
+    "communities": "https://zenodo.org/api/records/15631383/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15631383/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/15631383/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/15631383/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/15631383/quota-increase",
+    "requests": "https://zenodo.org/api/records/15631383/requests"
+  },
+  "updated": "2025-09-17T09:17:05.674628+00:00",
+  "recid": "15631383",
+  "revision": 8,
+  "files": [
+    {
+      "id": "44577dc2-0485-4bc6-a9bc-477dac9c6465",
+      "key": "OpenData.zip",
+      "size": 91533036,
+      "checksum": "md5:b9b03b6e31a33ea08f49cd1cbeed12b2",
+      "links": {
+        "self": "https://zenodo.org/api/records/15631383/files/OpenData.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1302855"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 110,
+    "unique_downloads": 70,
+    "views": 212,
+    "unique_views": 184,
+    "version_downloads": 110,
+    "version_unique_downloads": 70,
+    "version_unique_views": 184,
+    "version_views": 212
+  },
+  "state": "done",
+  "submitted": true
+}

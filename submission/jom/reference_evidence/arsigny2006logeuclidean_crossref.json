@@ -1,0 +1,479 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T19:03:07Z",
+      "timestamp": 1791486187464,
+      "version": "4.3.4"
+    },
+    "reference-count": 40,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              6,
+              20
+            ]
+          ],
+          "date-time": "2006-06-20T00:00:00Z",
+          "timestamp": 1150761600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Magnetic Resonance in Med"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Diffusion tensor imaging (DT‐MRI or DTI) is an emerging imaging modality whose importance has been growing considerably. However, the processing of this type of data (i.e., symmetric positive‐definite matrices), called “tensors” here, has proved difficult in recent years. Usual Euclidean operations on matrices suffer from many defects on tensors, which have led to the use of many\n                    <jats:italic>ad hoc</jats:italic>\n                    methods. Recently, affine‐invariant Riemannian metrics have been proposed as a rigorous and general framework in which these defects are corrected. These metrics have excellent theoretical properties and provide powerful processing tools, but also lead in practice to complex and slow algorithms. To remedy this limitation, a new family of Riemannian metrics called Log‐Euclidean is proposed in this article. They also have excellent theoretical properties and yield similar results in practice, but with much simpler and faster computations. This new approach is based on a novel vector space structure for tensors. In this framework, Riemannian computations can be converted into Euclidean ones once tensors have been transformed into their matrix logarithms. Theoretical aspects are presented and the Euclidean, affine‐invariant, and Log‐Euclidean frameworks are compared experimentally. The comparison is carried out on interpolation and regularization tasks on synthetic and clinical 3D DTI data. Magn Reson Med 56, 2006. © 2006 Wiley‐Liss, Inc.\n                  </jats:p>",
+    "DOI": "10.1002/mrm.20965",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          20
+        ]
+      ],
+      "date-time": "2006-06-20T16:05:06Z",
+      "timestamp": 1150819506000
+    },
+    "page": "411-421",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 964,
+    "title": [
+      "Log‐Euclidean metrics for fast and simple calculus on diffusion tensors"
+    ],
+    "prefix": "10.1002",
+    "volume": "56",
+    "author": [
+      {
+        "given": "Vincent",
+        "family": "Arsigny",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pierre",
+        "family": "Fillard",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xavier",
+        "family": "Pennec",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Ayache",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_10_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0006-3495(94)80775-1"
+      },
+      {
+        "key": "e_1_2_10_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.10074"
+      },
+      {
+        "key": "e_1_2_10_4_2",
+        "first-page": "127",
+        "volume-title": "Proceedings of the 8th European Conference on Computer Vision, LNCS",
+        "author": "Lenglet C",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_10_5_2",
+        "series-title": "LNCS",
+        "first-page": "16",
+        "volume-title": "Quantitative analysis of white matter fiber properties along geodesic paths",
+        "author": "Fillard P",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_10_6_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "VemuriBC ChenY RaoM McGrawT WangZ MareciT.Fiber tract mapping from diffusion tensor MRI. In: Proceedings of the IEEE Workshop on Variational and Level Set Methods (VLSM'01) IEEE 2001. p81–88.",
+        "DOI": "10.1109/VLSM.2001.938885"
+      },
+      {
+        "key": "e_1_2_10_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/1522-2594(200010)44:4<625::AID-MRM17>3.0.CO;2-O"
+      },
+      {
+        "key": "e_1_2_10_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/nimg.2000.0607"
+      },
+      {
+        "key": "e_1_2_10_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jmri.1076"
+      },
+      {
+        "key": "e_1_2_10_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2003.815059"
+      },
+      {
+        "key": "e_1_2_10_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1361-8415(02)00053-1"
+      },
+      {
+        "key": "e_1_2_10_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:JMIV.0000011324.14508.fb"
+      },
+      {
+        "key": "e_1_2_10_13_2",
+        "unstructured": "1999 X Pennec A Cetin L Akarun A Ertuzun M Gurcan Y Yardimci Probabilities and statistics on Riemannian manifolds: basic tools for geometric measurements 194 198"
+      },
+      {
+        "key": "e_1_2_10_14_2",
+        "volume-title": "Riemannian geometry",
+        "author": "Gallot S",
+        "year": "1993"
+      },
+      {
+        "key": "e_1_2_10_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-005-3222-z"
+      },
+      {
+        "key": "e_1_2_10_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.20334"
+      },
+      {
+        "key": "e_1_2_10_17_2",
+        "unstructured": "LengletC RoussonM DericheR FaugerasO.Statistics on multivariate normal distributions: a geometric approach and its application to diffusion tensor MRI. Research Report RR‐5242 and RR‐5243 INRIA 2004."
+      },
+      {
+        "key": "e_1_2_10_18_2",
+        "unstructured": "FletcherPT JoshiSC.Principal geodesic analysisee on symmetric spaces: statistics of diffusion tensors. In: Proceedings of CVAMIA and MMBIA Workshops Prague Czech Republic May 15 2004 LNCS 3117 Springer 2004. p87–98."
+      },
+      {
+        "key": "e_1_2_10_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.media.2003.06.002"
+      },
+      {
+        "key": "e_1_2_10_20_2",
+        "volume-title": "Curvature‐driven PDE methods for matrix‐valued images. Technical Report 104",
+        "author": "Feddern C",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_10_21_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "TschumperléD DericheR.Diffusion tensor regularization with constraints preservation. In: Conference on Computer Vision and Pattern Recognition (CVPR) vol I Kauai Hawaii 2001. p948–953.",
+        "DOI": "10.1109/CVPR.2001.990631"
+      },
+      {
+        "key": "e_1_2_10_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S0895479803436937"
+      },
+      {
+        "key": "e_1_2_10_23_2",
+        "unstructured": "ArsignyV FillardP PennecX AyacheN.Fast and simple computations on tensors with Log‐Euclidean metrics. Research Report RR‐5584 INRIA May2005."
+      },
+      {
+        "key": "e_1_2_10_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2036109"
+      },
+      {
+        "key": "e_1_2_10_25_2",
+        "volume-title": "Elements of mathematics: lie groups and lie algebra",
+        "author": "Bourbaki N",
+        "year": "1989"
+      },
+      {
+        "key": "e_1_2_10_26_2",
+        "volume-title": "Elements for physics—quantities, qualities, and instrinsic theories",
+        "author": "Tarantola A",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_10_27_2",
+        "unstructured": "PennecX.L'incertitude dans les problèmes de reconnaissance et de recalage—applications en imagerie médicale et biologie moléculaire. Thèse de sciences (PhD thesis) Ecole Polytechnique Palaiseau (France) 1996."
+      },
+      {
+        "key": "e_1_2_10_28_2",
+        "unstructured": "PennecX.Computing the mean of geometric features—application to the mean rotation. Research Report RR‐3371 INRIA 1998."
+      },
+      {
+        "key": "e_1_2_10_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S0895479801383877"
+      },
+      {
+        "key": "e_1_2_10_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1053-8119(03)00019-3"
+      },
+      {
+        "key": "e_1_2_10_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10851-006-6228-4"
+      },
+      {
+        "key": "e_1_2_10_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/nimg.2002.1148"
+      },
+      {
+        "key": "e_1_2_10_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.87"
+      },
+      {
+        "key": "e_1_2_10_34_2",
+        "volume-title": "Joint estimation and smoothing of clinical DT‐MRI with a Log‐Euclidean metric",
+        "author": "Fillard P",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_10_35_2",
+        "series-title": "Proceedings of Information Processing in Medical Imaging 2005 (IPMI'05)",
+        "first-page": "27",
+        "author": "Fillard P",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_10_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.1910390610"
+      },
+      {
+        "key": "e_1_2_10_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.1910360620"
+      },
+      {
+        "key": "e_1_2_10_38_2",
+        "first-page": "930",
+        "article-title": "A constrained variational principle for simultaneous smoothing and estimation of the diffusion tensors from complex DWI data",
+        "volume": "23",
+        "author": "Wang Z",
+        "year": "2004",
+        "journal-title": "IEEE TMI"
+      },
+      {
+        "key": "e_1_2_10_39_2",
+        "first-page": "324",
+        "volume-title": "ISBI",
+        "author": "Zhang H",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_2_10_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.10596"
+      },
+      {
+        "key": "e_1_2_10_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mrm.20279"
+      }
+    ],
+    "container-title": [
+      "Magnetic Resonance in Medicine"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fmrm.20965",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/mrm.20965",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          9
+        ]
+      ],
+      "date-time": "2025-01-09T08:54:10Z",
+      "timestamp": 1736412850000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/mrm.20965"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          20
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/mrm.20965"
+    ],
+    "URL": "https://doi.org/10.1002/mrm.20965",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0740-3194",
+      "1522-2594"
+    ],
+    "issn-type": [
+      {
+        "value": "0740-3194",
+        "type": "print"
+      },
+      {
+        "value": "1522-2594",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          20
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2005-06-01",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2006-04-11",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2006-06-20",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

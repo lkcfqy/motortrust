@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-09",
+  "purpose": "Private author review; author contact details included; not a public release",
+  "upload_ready": false,
+  "pending": "Author declarations/approval, actual official forms, portal rules and total fees",
+  "visual_review": {
+    "Main_Manuscript_AUTHOR_INPUT_REQUIRED": {
+      "current": false,
+      "reviewed_pages": 28,
+      "changed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "current_pdf_sha256": "cf05a1e959824ffeb2e57c77a0a3280a7640ee646fcc392466845d6d65cd6d8e",
+      "method": "Every current PNG hash compared with individually inspected page hashes"
+    },
+    "Supplementary_Material": {
+      "current": false,
+      "reviewed_pages": 22,
+      "changed_pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "current_pdf_sha256": "3544635776187c7b28f9a9da03873d01530cd1e20a440f0fab7848119ed3ce68",
+      "method": "Every current PNG hash compared with individually inspected page hashes"
+    },
+    "Cover_Letter_AUTHOR_INPUT_REQUIRED": {
+      "current": true,
+      "reviewed_pages": 1,
+      "changed_pages": [],
+      "current_pdf_sha256": "76823513cc46f40c1819331b8a6b499953bab0362e268e72d05c31188c8fbcad",
+      "method": "Every current PNG hash compared with individually inspected page hashes"
+    }
+  },
+  "figures_archive": {
+    "file": "Figures_and_Sources.zip",
+    "bytes": 4141911,
+    "files": 42,
+    "sha256": "c88187f0a1e2a6e3a1fcaf21194baaa1f427f7a9972f67bf7b3ca40dfeb79127",
+    "crc_and_manifest": "pass"
+  },
+  "code_archive": {
+    "file": "Paper1_Reproducibility_Code.zip",
+    "files": 569,
+    "bytes": 7543253,
+    "sha256": "3a25d7f35b99311d9584c789dd85d61a967cd959d7f47ce01f0357e2a0de18df",
+    "crc_and_manifest": "pass"
+  },
+  "excluded": [
+    "Copyrighted reference full texts",
+    "Raw data",
+    "Temporary page images"
+  ]
+}

@@ -8,3 +8,7 @@
 results/** -text
 data/processed/** -text
 recovery/licenses/** -text
+
+# Preserve downloaded publication evidence and its recorded source checksums.
+submission/jom/official_forms/** -text
+submission/jom/reference_evidence/** -text

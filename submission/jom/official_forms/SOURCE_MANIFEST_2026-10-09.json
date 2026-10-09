@@ -1,0 +1,65 @@
+[
+  {
+    "file": "JoM_Template_official_2026-10-09.doc",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/download/JoM_Template.doc",
+    "bytes": 36352,
+    "sha256": "4f33687a7f776c8856d0d96bcca07c378777e6c4a7780bc96cc2f332c1e8aa7e"
+  },
+  {
+    "file": "aims_scope_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/aims_scope.vm",
+    "bytes": 21242,
+    "sha256": "0c458903c91c21036ad849bd45ffc467e9afecbd74c47f1824e0589930ec2935"
+  },
+  {
+    "file": "authors_responsibilities_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/authors_responsibilities.vm",
+    "bytes": 21736,
+    "sha256": "91835b58774ed13a223db33a918c0870f5e83ebdda96a0b33a9b0c858d143e6e"
+  },
+  {
+    "file": "instructions_authors_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm",
+    "bytes": 33606,
+    "sha256": "ffe66300f03a889c1ddf42b8794eb925d3ab66d1648398246d7251e341cae9fa"
+  },
+  {
+    "file": "kms_jom_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://www.magnetics.or.kr/eng/html/en_journal.vm",
+    "bytes": 16149,
+    "sha256": "44e53bec9dca5317ba27899032b25938b7c430fea248c38367ae7f33f5f72d20"
+  },
+  {
+    "file": "login_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/login.vm?ViewFlag=author",
+    "bytes": 21615,
+    "sha256": "d56707ff9821283a4ab1ffed4ab8c3ff318490ae7033227b4e89433f374316d8"
+  },
+  {
+    "file": "online_submission_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm",
+    "bytes": 21338,
+    "sha256": "e8152f9ab2bc7af7ddb8439617a0a1d9186697bf76937495778f89685848f483"
+  },
+  {
+    "file": "policy_ethics_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/policy_ethics.vm",
+    "bytes": 29068,
+    "sha256": "fcf360352e0491c77d567a37488e96c4d6d4d926c9f3582c3f7d7322a7826777"
+  },
+  {
+    "file": "publication_charges_2026-10-09.html",
+    "checked_date": "2026-10-09",
+    "source_url": "https://jom.magnetics.or.kr/submission/journal/pages/publication_charges.vm",
+    "bytes": 22056,
+    "sha256": "15e408cfae200a1d1a52650a563daa39fcc4f96597152fa1b9b793c4a14b5c32"
+  }
+]

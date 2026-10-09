@@ -1,0 +1,1391 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T03:15:42Z",
+      "timestamp": 1791515742415,
+      "version": "4.3.4"
+    },
+    "reference-count": 140,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Advanced Engineering Informatics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.aei.2024.103063",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2024-12-19T17:08:17Z",
+      "timestamp": 1734628097000
+    },
+    "page": "103063",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 235,
+    "special_numbering": "C",
+    "title": [
+      "Domain generalization for rotating machinery fault diagnosis: A survey"
+    ],
+    "prefix": "10.1016",
+    "volume": "64",
+    "author": [
+      {
+        "given": "Yiming",
+        "family": "Xiao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haidong",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shen",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0005",
+        "first-page": "4396",
+        "article-title": "Domain generalization: A survey",
+        "volume": "45",
+        "author": "Zhou",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0010",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Wang, C. Lan, C. Liu, et al., “Generalizing to unseen domains: A survey on domain generalization,” IEEE Trans. Knowl. Data Eng., vol. 35, no. 8, pp. 8052-8072, 1 Aug. 2023.",
+        "DOI": "10.1109/TKDE.2022.3178128"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1016/j.jmsy.2023.07.012",
+        "article-title": "Towards trustworthy rotating machinery fault diagnosis via attention uncertainty in transformer",
+        "volume": "70",
+        "author": "Xiao",
+        "year": "2023",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0020",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Xiao, H. Shao, J. Wang, et al., “Bayesian variational transformer: A generalizable model for rotating machinery fault diagnosis,” Mech. Syst. Signal Process., vol. 207, Art. no. 110936, Jan. 2024.",
+        "DOI": "10.1016/j.ymssp.2023.110936"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0025",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Yan, H. Shao, J. Wang, et al., “LiConvFormer: A lightweight fault diagnosis framework using separable multiscale convolution and broadcast self-attention,” Expert Syst. Appl., vol. 237, Art. no. 121338, Mar. 2024.",
+        "DOI": "10.1016/j.eswa.2023.121338"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "2446",
+        "DOI": "10.1109/TII.2018.2864759",
+        "article-title": "Highly accurate machine fault diagnosis using deep transfer learning",
+        "volume": "15",
+        "author": "Shao",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0035",
+        "unstructured": "X. Li, Y. Grandvalet, F. Davoine, “Explicit inductive bias for transfer learning with convolutional networks,” in Proc. Int. Conf. Mach. Learn. (ICML), 2018."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0040",
+        "unstructured": "X. Li, H. Xiong, H. Wang, et al., “DELTA: DEep learning transfer using feature map with attention for convolutional networks,” in Proc. Int. Conf. Learn. Represent. (ICLR), 2019."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0045",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Liu, Y. Cai, Y. Guo, et al., “TransTailor: Pruning the pre-trained model for improved transfer learning,” in Proc. AAAI Conf. Artif. Intell. (AAAI), 2021.",
+        "DOI": "10.1609/aaai.v35i10.17046"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0050",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Xiao, H. Shao, Z. Min, et al., “Multiscale dilated convolutional subdomain adaptation network with attention for unsupervised fault diagnosis of rotating machinery cross operating conditions,” Meas., vol. 204, Art. no. 112146, Nov. 2022.",
+        "DOI": "10.1016/j.measurement.2022.112146"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0055",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Chen, J. Xia, J. Li, et al., “Generalized open-set domain adaptation in mechanical fault diagnosis using multiple metric weighting learning network,” Advanced Eng. Informat., vol. 57, Art. no. 102033, Aug. 2023.",
+        "DOI": "10.1016/j.aei.2023.102033"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.aei.2024.103063_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "7445",
+        "DOI": "10.1109/TII.2021.3054651",
+        "article-title": "Open-set domain adaptation in machinery fault diagnostics using instance-level weighted adversarial learning",
+        "volume": "17",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0065",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Chen, H. Shao, Y. Xiao, et al., “Collaborative fault diagnosis of rotating machinery via dual adversarial guided unsupervised multi-domain adaptation network,” Mech. Syst. Signal Process., vol. 198, Art. no. 110427, Sep. 2023.",
+        "DOI": "10.1016/j.ymssp.2023.110427"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.aei.2024.103063_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "5254",
+        "DOI": "10.1109/TMECH.2022.3177174",
+        "article-title": "Novel joint transfer network for unsupervised bearing fault diagnosis from simulation domain to experimental domain",
+        "volume": "27",
+        "author": "Xiao",
+        "year": "2022",
+        "journal-title": "IEEE-ASME Trans. Mech."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0075",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1016/j.jmsy.2021.03.024",
+        "article-title": "Deep multi-scale adversarial network with attention: A novel domain adaptation method for intelligent fault diagnosis",
+        "volume": "59",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.aei.2024.103063_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "4237",
+        "DOI": "10.1109/TMI.2020.3015224",
+        "article-title": "DoFE: Domain-oriented feature embedding for generalizable fundus image segmentation on unseen datasets",
+        "volume": "39",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "8008",
+        "DOI": "10.1109/TIP.2021.3112012",
+        "article-title": "Domain adaptive ensemble learning",
+        "volume": "30",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0090",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Shu, Z. Cao, C. Wang, et al., “Open domain generalization with domain-augmented meta-learning,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 9619-9628, 2021.",
+        "DOI": "10.1109/CVPR46437.2021.00950"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.aei.2024.103063_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "1293",
+        "DOI": "10.1109/TIE.2019.2898619",
+        "article-title": "Intelligent fault identification based on multisource domain generalization towards actual diagnosis scenario",
+        "volume": "67",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Electronics"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, and W. Shen, “Adaptive open set domain generalization network: learning to diagnose unknown faults under unknown working conditions,” Reliab. Eng. Syst. Saf., vol. 226, Art. no. 108672, Oct. 2022.",
+        "DOI": "10.1016/j.ress.2022.108672"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.aei.2024.103063_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "2909",
+        "DOI": "10.1109/TII.2022.3175018",
+        "article-title": "Adversarial mutual information-guided single domain generalization network for intelligent fault diagnosis",
+        "volume": "19",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Hakim, A. Omran, A. Ahmed, et al., “A systematic review of rolling bearing fault diagnoses based on deep learning and transfer learning: Taxonomy, overview, application, open challenges, weaknesses and recommendations,” Ain Shams Eng. J., vol. 14, no. 4, Art. no. 101945, Apr. 2023.",
+        "DOI": "10.1016/j.asej.2022.101945"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Chen, R. Yang, Y. Xue, et al., “Deep transfer learning for bearing fault diagnosis: A systematic review since 2016,” IEEE Trans. Instrum. Meas., vol. 72, Art. no. 3508221, Feb. 2023.",
+        "DOI": "10.1109/TIM.2023.3244237"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Misbah, C. Lee, K. Keung, “Fault diagnosis in rotating machines based on transfer learning: Literature review,” Knowl. Syst., vol. 283, Art. no. 111158, Jan. 2024.",
+        "DOI": "10.1016/j.knosys.2023.111158"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.aei.2024.103063_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "8374",
+        "DOI": "10.1109/JSEN.2019.2949057",
+        "article-title": "Knowledge transfer for rotary machine fault diagnosis",
+        "volume": "20",
+        "author": "Yan",
+        "year": "2020",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0130",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Yang, W. Zhang, Y. Jiang, et al., “Mechanical fault diagnosis based on deep transfer learning: a review,” Meas. Sci. Technol., vol. 34, no. 11, Art. no. 112001, Nov. 2023.",
+        "DOI": "10.1088/1361-6501/ace7e6"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhao, Q. Zhang, X. Yu, et al., “Applications of unsupervised deep transfer learning to intelligent fault diagnosis: A survey and comparative study,” IEEE Trans. Instrum. Meas., vol. 70, Art. no. 3525828, Sep. 2021.",
+        "DOI": "10.1109/TIM.2021.3116309"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.aei.2024.103063_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.cja.2021.10.006",
+        "article-title": "Rotating machinery fault detection and diagnosis based on deep domain adaptation: A survey",
+        "volume": "36",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Chin. J. Aeronaut."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0145",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, E. Zio, W. Shen, “Domain generalization for cross-domain fault diagnosis: An application-oriented perspective and a benchmark study,” Reliab. Eng. Syst. Saf., vol. 245, Art. no. 109964, May 2024.",
+        "DOI": "10.1016/j.ress.2024.109964"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0150",
+        "article-title": "Generalizing from several related classification tasks to a new unlabeled sample",
+        "author": "Blanchard",
+        "year": "2011",
+        "journal-title": "Proc. Adv. Neural Inf. Process. Syst. (neurips)"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1016/j.jmsy.2021.11.016",
+        "article-title": "Unsupervised domain-share CNN for machine fault transfer diagnosis from steady speeds to time-varying speeds",
+        "volume": "62",
+        "author": "Cao",
+        "year": "2022",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0160",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Han, H. Shao, Z, Huo, et al., “End-to-end chiller fault diagnosis using fused attention mechanism and dynamic cross-entropy under imbalanced datasets,” Build. Environ., vol. 212, Art. no. 108821, Mar. 2022.",
+        "DOI": "10.1016/j.buildenv.2022.108821"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0165",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Han, X. Zhong, H. Shao, et al., “Novel multi-scale dilated CNN-LSTM for fault diagnosis of planetary gearbox with unbalanced samples under noisy environment,” Meas. Sci. Technol., vol. 32, no. 12, Art. no. 124002, Aug. 2021.",
+        "DOI": "10.1088/1361-6501/ac1b43"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0170",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Ren, T. Lin, K. Feng, et al., “A systematic review on imbalanced learning methods in intelligent fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 72, Art no. 350853, Feb. 2023.",
+        "DOI": "10.1109/TIM.2023.3246470"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0175",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Li, T. Zheng, Y. Wang, et al., “A novel method for imbalanced fault diagnosis of rotating machinery based on generative adversarial networks,” IEEE Trans. Instrum. Meas., vol. 70, Art no. 3500417, Jul. 2020.",
+        "DOI": "10.1109/TIM.2020.3009343"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0180",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Zhao, X. Zhang, H. Li, et al., “Intelligent fault diagnosis of rolling bearings based on normalized CNN considering data imbalance and variable working conditions,” Knowl. Syst., vol. 199, Art. no. 105971, Jul. 2020.",
+        "DOI": "10.1016/j.knosys.2020.105971"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0185",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Xiao, H. Shao, J. Lin, et al., “BCE-FL: A secure and privacy-preserving federated learning system for device fault diagnosis under non-IID condition in IIoT,” IEEE Internet Things J., early access, doi: 10.1109/JIOT.2023.3340745.",
+        "DOI": "10.1109/JIOT.2023.3340745"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0190",
+        "series-title": "“Communication-efficient learning of deep networks from decentralized data”, in Proc",
+        "author": "McMahan",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0195",
+        "unstructured": "T. Li, A. Sahu, M. Zaheer, et al., “Federated optimization in heterogeneous networks,” in Proc. Mach. Learn. Syst. (MLSys), 2020."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "1639",
+        "DOI": "10.1109/TIFS.2022.3169918",
+        "article-title": "ShieldFL: Mitigating model poisoning attacks in privacy-preserving federated learning",
+        "volume": "17",
+        "author": "Ma",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Inf. Foren. Sec."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0205",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Zhao, J. Hu, H. Shao, et al., “Federated multi-source domain adversarial adaptation framework for machinery fault diagnosis with data privacy,” Reliab. Eng. Syst. Saf., vol. 236, Art. no. 109246, Aug. 2023.",
+        "DOI": "10.1016/j.ress.2023.109246"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0210",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Xu, J. Ma, D. Song, et al., “Open-set federated adversarial domain adaptation based cross-domain fault diagnosis,” Mech. Syst. Signal Process., vol. 34, no. 11, Art. no. 115004, Nov. 2023.",
+        "DOI": "10.1088/1361-6501/ace734"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0215",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Liu, C. Chen, J. Qin, et al., “FedDG: Federated domain generalization on medical image segmentation via episodic learning in continuous frequency space,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 1013-1023, 2021.",
+        "DOI": "10.1109/CVPR46437.2021.00107"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0220",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Zhang, Q. Xu, J. Yao, et al., “Federated domain generalization with generalization adjustment,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 3954-3963, 2023.",
+        "DOI": "10.1109/CVPR52729.2023.00385"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0225",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Li, X. Zhong, H. Shao, et al., “Multi-mode data augmentation and fault diagnosis of rotating machinery using modified ACGAN designed with new framework,” Advanced Eng. Informat., vol. 52, Art. no. 101552, Apr. 2022.",
+        "DOI": "10.1016/j.aei.2022.101552"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.aei.2024.103063_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "9933",
+        "DOI": "10.1109/TII.2022.3232766",
+        "article-title": "Dual-threshold attention-guided GAN and limited infrared thermal images for rotating machinery fault diagnosis under speed fluctuation",
+        "volume": "19",
+        "author": "Shao",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.aei.2024.103063_b0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "4675",
+        "DOI": "10.1109/TMECH.2022.3163289",
+        "article-title": "Health assessment of rotating equipment with unseen conditions using adversarial domain generalization toward self-supervised regularization learning",
+        "volume": "27",
+        "author": "Zhuang",
+        "year": "2022",
+        "journal-title": "IEEE-ASME Trans. Mech."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "6413",
+        "DOI": "10.1109/TII.2023.3337364",
+        "article-title": "Support-sample-assisted domain generalization via attacks and defenses: Concepts, algorithms, and applications to pipeline fault diagnosis",
+        "volume": "20",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0245",
+        "unstructured": "H. Zhang, M. Cisse, Yann N., et al., “Mixup: Beyond empirical risk minimization,” arXiv preprint, arXiv: 1710.09412, 2017."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0250",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Shi, A. Deng, M. Deng, et al., “Domain augmentation generalization network for real-time fault diagnosis under unseen working conditions,” Reliab. Eng. Syst. Saf., vol. 235, Art. no. 109188, Jul. 2023.",
+        "DOI": "10.1016/j.ress.2023.109188"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.aei.2024.103063_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "965",
+        "DOI": "10.1109/TIE.2023.3243293",
+        "article-title": "Deep mixed domain generalization network for intelligent fault diagnosis under unseen conditions",
+        "volume": "71",
+        "author": "Fan",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Electron"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0260",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Li, L. Chen, L. Kong, et al., “Cross-domain augmentation diagnosis: An adversarial domain-augmented generalization method for fault diagnosis under unseen working conditions,” Reliab. Eng. Syst. Saf., vol. 234, Art. no. 109171, Jun. 2023.",
+        "DOI": "10.1016/j.ress.2023.109171"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0265",
+        "unstructured": "I. Goodfellow, J. Shlens, and C. Szegedy, “Explaining and harnessing adversarial examples,” in Proc. Int. Conf. Learn. Represent. (ICLR), 2015."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0270",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. -M. Moosavi-Dezfooli, A. Fawzi and P. Frossard, “DeepFool: A simple and accurate method to fool deep neural networks,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. (CVPR), pp. 2574-2582, 2016.",
+        "DOI": "10.1109/CVPR.2016.282"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0275",
+        "first-page": "372",
+        "article-title": "“The limitations of deep learning in adversarial settings”, in IEEE Eur",
+        "author": "Papernot",
+        "year": "2016",
+        "journal-title": "Symp. Secur. Privacy (EuroS&P)"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0280",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Han, Y. -F. Li and M. Qian, “A hybrid generalization network for intelligent fault diagnosis of rotating machinery under unseen working conditions,” IEEE Trans. Instrum. Meas., vol. 70, pp. 1-11, Art no. 3520011, Jun. 2021.",
+        "DOI": "10.1109/TIM.2021.3088489"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0285",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Tang, X. Liu, K. Sun et al., “Fault diagnosis of rotating machinery under multiple operating conditions generalization: A representation gradient muting paradigm,” IEEE Trans. Instrum. Meas., vol. 71, Art no. 3525110, Oct. 2022.",
+        "DOI": "10.1109/TIM.2022.3197792"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0290",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Shi, J. Chen, Y. Zi, et al., “Semi-physical simulation-driven contrastive decoupling net for intelligent fault diagnosis of unseen machines under varying speed,” Meas. Sci. Technol., vol. 35, Art. no. 076101, Apr. 2024.",
+        "DOI": "10.1088/1361-6501/ad36da"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0295",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1177/10775463241256253",
+        "article-title": "Cross-device fault diagnosis of rolling bearings using domain generalization and dynamic model",
+        "author": "Gong",
+        "year": "2024",
+        "journal-title": "Journal of Vibration and Control"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0300",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Pang, Q. Liu, Z. Xu, et al, “Fault vibration model driven fault-aware domain generalization framework for bearing fault diagnosis,” Advanced. Eng. Informat., vol. 62, Art. no. 102620, Jun. 2024.",
+        "DOI": "10.1016/j.aei.2024.102620"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0305",
+        "doi-asserted-by": "crossref",
+        "first-page": "1713",
+        "DOI": "10.1109/TNNLS.2020.2988928",
+        "article-title": "Deep subdomain adaptation network for image classification",
+        "volume": "32",
+        "author": "Zhu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0310",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, and W. Shen, “A domain generalization network combing invariance and specificity towards real-time intelligent fault diagnosis,” Mech. Syst. Signal Process., vol. 173, Art. no. 108990, Jul. 2022.",
+        "DOI": "10.1016/j.ymssp.2022.108990"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0315",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Wang, W. Huang, Y. Lu, et al., “A novel domain generalization network with multidomain specific auxiliary classifiers for machinery fault diagnosis under unseen working conditions,” Reliab. Eng. Syst. Saf., vol. 238, Art. no. 109463, Oct. 2023.",
+        "DOI": "10.1016/j.ress.2023.109463"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0320",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Hu, M. Zhang, X. Meng, et al., “Deep subdomain generalization network for health monitoring of high-speed train brake pads,” Eng. Appl. Artif. Intell., vol. 113, Art. no. 104896, Aug. 2022.",
+        "DOI": "10.1016/j.engappai.2022.104896"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0325",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Li, X. Tian, M. Gong, et al., “Deep domain generalization via conditional invariant adversarial networks,” in Proc. Eur. Conf. Comput. Vis. (ECCV), pp. 624-639, 2018.",
+        "DOI": "10.1007/978-3-030-01267-0_38"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.aei.2024.103063_b0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "1790",
+        "DOI": "10.1109/TII.2021.3078712",
+        "article-title": "Adversarial domain-invariant generalization: A generic domain-regressive framework for bearing fault diagnosis under unseen conditions",
+        "volume": "18",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.aei.2024.103063_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "7355",
+        "DOI": "10.1109/TII.2022.3210555",
+        "article-title": "Domain transferability-based deep domain generalization method towards actual fault diagnosis scenarios",
+        "volume": "19",
+        "author": "Shi",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0340",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Zhang, Z. Zhao, X. Zhang, et al., “Conditional adversarial domain generalization with a single discriminator for bearing fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 70, Art no. 3514515, Apr. 2021.",
+        "DOI": "10.1109/TIM.2021.3071350"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0345",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Shen, M. Zhang, L. Yao, et al. Novel triplet loss-based domain generalization network for bearing fault diagnosis with unseen load condition. Process, vol. 12, Art. no. 882, 2024.",
+        "DOI": "10.3390/pr12050882"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0350",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Wang, L. Wen, X. Li, et al., “Adaptive class center generalization network: A sparse domain-regressive framework for bearing fault diagnosis under unknown working conditions,” IEEE Trans. Instrum. Meas., vol. 72, Art no. 3516511, May 2023.",
+        "DOI": "10.1109/TIM.2023.3273659"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0355",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Jia, T. Chow, Y. Wang, et al., “Dynamic balanced dual prototypical domain generalization for cross-machine fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 73, Art. no. 3516610, 2024.",
+        "DOI": "10.1109/TIM.2024.3381292"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0360",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Ragab, Z. Chen, W. Zhang, et al., “Conditional contrastive domain generalization for fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 71, Art no. 3506912, Feb. 2022.",
+        "DOI": "10.1109/TIM.2022.3154000"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0365",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Shi, J. Chen, X. Zhang, et al., “A reliable feature-assisted contrastive generalization net for intelligent fault diagnosis under unseen machines and working conditions,” Mech. Syst. Signal Process., vol. 188, Art. no. 110011, Apr. 2023.",
+        "DOI": "10.1016/j.ymssp.2022.110011"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.aei.2024.103063_b0370",
+        "doi-asserted-by": "crossref",
+        "first-page": "9692",
+        "DOI": "10.1109/TII.2024.3384603",
+        "article-title": "Cross-domain compound fault diagnosis of machine-level motors via time-frequency self-contrastive learning",
+        "volume": "20",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.aei.2024.103063_b0375",
+        "doi-asserted-by": "crossref",
+        "first-page": "754",
+        "DOI": "10.1109/TII.2023.3264111",
+        "article-title": "Meta-learning based domain generalization framework for fault diagnosis with gradient aligning and semantic matching",
+        "volume": "20",
+        "author": "Ren",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0380",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Ma, J. Yang, and R. Yan, “Sharpness-aware gradient alignment for domain generalization with noisy labels in intelligent fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 73, Art. no. 3523210, 2024.",
+        "DOI": "10.1109/TIM.2024.3413128"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0385",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Ma, J. Yang, and L. Li, “Gradient aligned domain generalization with a mutual teaching teacher-student network for intelligent fault diagnosis,” Reliab. Eng. Syst. Saf., vol. 239, Art. no. 109516, 2023.",
+        "DOI": "10.1016/j.ress.2023.109516"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0390",
+        "unstructured": "C. Liu, X. Sun, J. Wang, et al. “Learning causal semantic representation for out-of-distribution prediction,” arXiv preprint, arXiv: 2011.01681, 2020."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.aei.2024.103063_b0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "5845",
+        "DOI": "10.1109/TNNLS.2021.3071564",
+        "article-title": "Whitening-net: A generalized network to diagnose the faults among different machines and conditions",
+        "volume": "33",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0400",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Guo, Z. Zhao, J. Ren, et al., “Causal explaining guided domain generalization for rotating machinery intelligent fault diagnosis,” Expert Syst. Appl., vol. 243, Art. no. 122806, Jun. 2024.",
+        "DOI": "10.1016/j.eswa.2023.122806"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0405",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Jia, T. Chow, and Y. Yuan, “Causal Disentanglement Domain Generalization for time-series signal fault diagnosis,” Neural Networks, vol. 172, Art. no. 106099, 2024.",
+        "DOI": "10.1016/j.neunet.2024.106099"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0410",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Jia, Y. Li, X. Wang, et al., “Deep causal factorization network: A novel domain generalization method for cross-machine bearing fault diagnosis,” Mech. Syst. Signal Process., vol. 192, Art. no. 110228, Jun. 2023.",
+        "DOI": "10.1016/j.ymssp.2023.110228"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.aei.2024.103063_b0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "6250",
+        "DOI": "10.1109/TNNLS.2021.3135036",
+        "article-title": "Causal disentanglement: A generalized bearing fault diagnostic framework in continuous degradation mode",
+        "volume": "34",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0420",
+        "first-page": "5915",
+        "article-title": "Causal consistency network: A collaborative multimachine generalization method for bearing fault diagnosis",
+        "volume": "19",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0425",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Cheng, X. Kong, Y. Zhang, et al., “A novel causal feature learning-based domain generalization framework for bearing fault diagnosis with a mixture of data from multiple working conditions and machines,” Advanced Eng. Informat., vol. 62, Art. no. 102622.",
+        "DOI": "10.1016/j.aei.2024.102622"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.aei.2024.103063_b0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "8488",
+        "DOI": "10.1109/TII.2024.3369240",
+        "article-title": "PhysiCausalNet: A causal- and physics-driven domain generalization network for cross-machine fault diagnosis of unseen domain",
+        "volume": "20",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0435",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Lin, H. Shao, Z. Min, et al., “Cross-domain fault diagnosis of bearing using improved semi-supervised meta-learning towards interference of out-of-distribution samples,” Knowl. Syst., vol. 252, Art. no. 109493, Sept. 2022.",
+        "DOI": "10.1016/j.knosys.2022.109493"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0440",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Feng, J. Chen, J. Xie, et al., “Meta-learning as a promising approach for few-shot cross-domain fault diagnosis: Algorithms, applications, and prospects,” Knowl. Syst., vol. 235, Art. no. 107646, Jan. 2022.",
+        "DOI": "10.1016/j.knosys.2021.107646"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0445",
+        "unstructured": "D. Li, Y. Yang, Y. Song, et al., “Learning to generalize: Meta-learning for domain generalization,” arXiv preprint, arXiv: 1710.03463, 2017."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0450",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Wang, X. Bai, S. Wang, et al., “Generalization on unseen domains via model-agnostic learning for intelligent fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 71, Art no. 3506411, Feb. 2022.",
+        "DOI": "10.1109/TIM.2022.3152316"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.aei.2024.103063_b0455",
+        "doi-asserted-by": "crossref",
+        "first-page": "6180",
+        "DOI": "10.1109/TNNLS.2022.3202234",
+        "article-title": "Variational attention-based interpretable transformer network for rotary machine fault diagnosis",
+        "volume": "35",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0460",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Wang, Y. Chen, C. Shen, et al., “Fully interpretable neural networks for machine health monitoring,” Mech. Syst. Signal Process., vol. 168, Art. no. 108673, Apr. 2022.",
+        "DOI": "10.1016/j.ymssp.2021.108673"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.aei.2024.103063_b0465",
+        "doi-asserted-by": "crossref",
+        "first-page": "5735",
+        "DOI": "10.1109/TII.2019.2955540",
+        "article-title": "Understanding and learning discriminant features based on multiattention 1DCNN for wheelset bearing fault diagnosis",
+        "volume": "16",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0470",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. An, S. Wang, Z. Zhao, et al., “Interpretable neural network via algorithm unrolling for mechanical fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 71, Art no. 3517011, Jul. 2022.",
+        "DOI": "10.1109/TIM.2022.3188058"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0475",
+        "doi-asserted-by": "crossref",
+        "first-page": "2302",
+        "DOI": "10.1109/TSMC.2020.3048950",
+        "article-title": "WaveletKernelNet: An interpretable deep neural network for industrial intelligent diagnosis",
+        "volume": "52",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Syst. Man Cybern."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0480",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Shang, Z. Zhao, R. Yan, et al. “Denoising fault-aware wavelet network: A signal processing informed neural network for fault diagnosis,” Chin. J. Mech. Eng., vol. 36, Art. no. 9, Jan. 2023.",
+        "DOI": "10.1186/s10033-023-00838-0"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0485",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Liu, X. Ma, T. Han, et al., “NTScatNet: An interpretable convolutional neural network for domain generalization diagnosis across different transmission paths,” Meas. vol. 204, Art. no. 112041, Nov. 2022.",
+        "DOI": "10.1016/j.measurement.2022.112041"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0490",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Zhu, H. Liu, C. Bao, et al., “Decoupled interpretable robust domain generalization networks: A fault diagnosis approach across bearings, working conditions, and artificial-to-real scenarios,” Advanced Eng. Informat., vol. 61, Art. no. 102445, 2024.",
+        "DOI": "10.1016/j.aei.2024.102445"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0495",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Wang, H. Ren, C. Shen, et al. “Multi-scale style generative and adversarial contrastive networks for single domain generalization fault diagnosis,” vol. 243, Art. no. 109879, Mar. 2024.",
+        "DOI": "10.1016/j.ress.2023.109879"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0500",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Jiang, X. Gao, and H. Gao, et al., “VIT-GADG: A generative domain-generalized framework for chillers fault diagnosis under unseen working conditions,” IEEE Trans. Instrum. Meas., vol. 72, Art. no. 3527413, 2023.",
+        "DOI": "10.1109/TIM.2023.3304687"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0505",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Pu, J. Tang, X. Li, et al., “Single-domain incremental generation network for machinery intelligent fault diagnosis under unknown working speeds,” Advanced Eng. Informat., vol. 60, Art. no. 102400, 2024.",
+        "DOI": "10.1016/j.aei.2024.102400"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.aei.2024.103063_b0510",
+        "doi-asserted-by": "crossref",
+        "first-page": "7162",
+        "DOI": "10.1109/TII.2024.3353922",
+        "article-title": "HmmSeNet: A Novel Single Domain Generalization Equipment Fault Diagnosis Under Unknown Working Speed Using Histogram Matching Mixup",
+        "volume": "20",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0515",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Kim, S. Kim, J. Kim, et al. “Single domain generalizable and physically interpretable bearing fault diagnosis for unseen working conditions,” Expert Syst. Appl., vol. 241, Art. no. 122455, May 2024.",
+        "DOI": "10.1016/j.eswa.2023.122455"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.aei.2024.103063_b0520",
+        "first-page": "8064",
+        "article-title": "Deep semisupervised domain generalization network for rotary machinery fault diagnosis under variable speed",
+        "volume": "69",
+        "author": "Liao",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0525",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Li, C. Shen, L. Kong, et al., “A new adversarial domain generalization network based on class boundary feature detection for bearing fault diagnosis,” IEEE Trans. Instrum. Meas., vol. 71, Art. no. 2506909, Apr. 2022.",
+        "DOI": "10.1109/TIM.2022.3164163"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0530",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Ren, J. Wang, Z. Zhu, et al., “Domain fuzzy generalization networks for semi-supervised intelligent fault diagnosis under unseen working conditions,” Mech. Syst. Signal Process., vol. 200, Art. no. 110579, Oct. 2023.",
+        "DOI": "10.1016/j.ymssp.2023.110579"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0535",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Ren, J. Wang, W. Huang, et al., “Domain-invariant feature fusion networks for semi-supervised generalization fault diagnosis,” Eng. Appl. Artif. Intell., vol. 126, Art. no. 107117, Nov. 2023.",
+        "DOI": "10.1016/j.engappai.2023.107117"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0540",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, W. Shen, “Mutual-assistance semisupervised domain generalization network for intelligent fault diagnosis under unseen working conditions,” Mech. Syst. Signal Process., vol. 189, Art. no. 110074, Apr. 2023.",
+        "DOI": "10.1016/j.ymssp.2022.110074"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0545",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TNNLS.2024.3383467",
+        "article-title": "Contrast-assisted domain-specificity-removal network for semi-supervised generalization fault diagnosis",
+        "author": "Song",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Neural. Netw. Learn. Syst."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.aei.2024.103063_b0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "6369",
+        "DOI": "10.1109/TII.2023.3343735",
+        "article-title": "A novel multidomain contrastive-coding-based open-set domain generalization framework for machinery fault diagnosis",
+        "volume": "20",
+        "author": "Lu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0555",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1016/j.jmsy.2022.03.009",
+        "article-title": "Adaptive fault diagnosis method for rotating machinery with unknown faults under multiple working conditions",
+        "volume": "63",
+        "author": "Ge",
+        "year": "2022",
+        "journal-title": "J. Manuf. Syst."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0560",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Han, and Y. Li, “Out-of-distribution detection-assisted trustworthy machinery fault diagnosis approach with uncertainty-aware deep ensembles,” Reliab. Eng. Syst. Saf., vol. 226, Art. no. 108648, Oct. 2022.",
+        "DOI": "10.1016/j.ress.2022.108648"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0565",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Liu, Q. Dong, and Z. Hu, “Semantic-diversity transfer network for generalized zero-shot learning via inner disagreement based OOD detector,” Knowl. Syst., vol. 229, no. 11, Art. no. 107337, Oct. 2021.",
+        "DOI": "10.1016/j.knosys.2021.107337"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0570",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Diao, H. Jiang, and T. Shi, “A unified uncertainty network for tumor segmentation using uncertainty cross entropy loss and prototype similarity,” Knowl. Syst., vol. 246, no. 21, Art. no. 108739, Jun. 2022.",
+        "DOI": "10.1016/j.knosys.2022.108739"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0575",
+        "first-page": "187",
+        "article-title": "“Domain generalization with domain-specific aggregation modules”, in German Conf",
+        "volume": "GCPR",
+        "author": "D’Innocente",
+        "year": "2018",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0580",
+        "first-page": "1353",
+        "article-title": "“Best sources forward: Domain generalization through source-specific nets”, in IEEE Int",
+        "volume": "ICIP",
+        "author": "Mancini",
+        "year": "2018",
+        "journal-title": "Conf. Image Process."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0585",
+        "first-page": "6022",
+        "article-title": "“CutMix: Regularization strategy to train strong classifiers with localizable features”, in IEEE Int",
+        "volume": "ICCV",
+        "author": "Yun",
+        "year": "2019",
+        "journal-title": "Conf. Comput. vis."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0590",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Kuang, G. Xu, T. Tao, et al., “Class-imbalance adversarial transfer learning network for cross-domain fault diagnosis with imbalanced data,” IEEE Trans. Instrum. Meas., vol. 71, Art. no. 3501111, Dec. 2021.",
+        "DOI": "10.1109/TIM.2021.3136175"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0595",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Chen, J. Chen, Z. Xie, et al., “Multi-expert attention network with unsupervised aggregation for long-tailed fault diagnosis under speed variation,” Knowl. Syst., vol. 252, Art. no. 109393, Sep. 2022.",
+        "DOI": "10.1016/j.knosys.2022.109393"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0600",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Duan, J. Chen, T. Zhang, et al., “High-temperature augmented neighborhood metric learning for cross-domain fault diagnosis with imbalanced data,” Knowl. Syst., vol. 257, Art, no. 109930, Dec. 2022.",
+        "DOI": "10.1016/j.knosys.2022.109930"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0605",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Liu, J. Chen, K. Zhang, et al., “Cross-domain intelligent bearing fault diagnosis under class imbalanced samples via transfer residual network augmented with explicit weight self-assignment strategy based on meta data,” Knowl. Syst., vol. 251, Art. no. 109272, Sep. 2022.",
+        "DOI": "10.1016/j.knosys.2022.109272"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0610",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, and W. Shen, “Imbalanced domain generalization via semantic-discriminative augmentation for intelligent fault diagnosis,” Advanced Eng. Informat., vol. 59, Art. no. 102262, Jan. 2024.",
+        "DOI": "10.1016/j.aei.2023.102262"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0615",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Cong, Y. Song, Y. Li, et al. “Federated domain generalization with global robust model aggregation strategy for bearing fault diagnosis,” Meas. Sci. Technol., vol. 34, Art. no. 115116, Aug. 2023.",
+        "DOI": "10.1088/1361-6501/ace841"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0620",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Wang, W. Huang, M. Shi, et al. “Federated adversarial domain generalization network: A novel machinery fault diagnosis method with data privacy,” Knowl. Syst., vol. 256, Art. no. 109880, Nov. 2022.",
+        "DOI": "10.1016/j.knosys.2022.109880"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0625",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Li, P. Song, and C. Zhao, “Fusing consensus knowledge: A federated learning method for fault diagnosis via privacy-preserving reference under domain shift,” Information Fusion, vol. 106, Art. no. 102290, 2024.",
+        "DOI": "10.1016/j.inffus.2024.102290"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0630",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Zhao, and W. Shen, “A federated distillation domain generalization framework for machinery fault diagnosis with data privacy,” Eng. Appl. Artif. Intell., vol. 130, Art. no. 107765, 2024.",
+        "DOI": "10.1016/j.engappai.2023.107765"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.aei.2024.103063_b0635",
+        "doi-asserted-by": "crossref",
+        "first-page": "2662",
+        "DOI": "10.1109/TII.2023.3296894",
+        "article-title": "Federated domain generalization: A secure and robust framework for intelligent fault diagnosis",
+        "volume": "20",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Ind. Informat."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0640",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Xu, M. Jia, T. Chen, et al., “Decentralized federated domain generalization with cluster alignment for fault diagnosis,” Control Engineering Practice, vol. 148, Art. no. 105951, 2024.",
+        "DOI": "10.1016/j.conengprac.2024.105951"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0645",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TSMC.2024.3408058",
+        "article-title": "Heterogeneous federated domain generalization network with common representation learning for cross-load machinery fault diagnosis",
+        "author": "Qian",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Syst. Man. Cy-s."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0650",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Wang, H. Li, Alex C. Kot, “Heterogeneous domain generalization via domain mixup,” arXiv preprint, arXiv: 2009.05448, 2020.",
+        "DOI": "10.1109/ICASSP40776.2020.9053273"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0655",
+        "unstructured": "PHMSociety, “PHM09 Data Challenge,” Available: https://www.phmsociety.org/competition/PHM/09/apparatus, accessed on August 2019."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0660",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Xiao, H. Shao, J. Wang, et al., “Domain-augmented meta ensemble learning for mechanical fault diagnosis from heterogeneous source domains to unseen target domains,” Expert Syst. Appl., vol. 259, Art. no. 125345, Jan. 2025.",
+        "DOI": "10.1016/j.eswa.2024.125345"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0665",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Lessmeier, J. Kimotho, D. Zimmer, et al., “Condition monitoring of bearing damage in electromechanical drive systems by using motor current signals of electric motors: A benchmark data set for data driven classification,” in Proc. European conf. prognostics health management society, pp. 05-08, 2016.",
+        "DOI": "10.36001/phme.2016.v3i1.1577"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0670",
+        "unstructured": "I. Gulrajani and D. Lopez-Paz, “In search of lost domain generalization,” in Proc. Int. Conf. Learn. Represent. (ICLR), 2021."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0675",
+        "unstructured": "Y. Ovadia, E. Fertig, J. Ren, et al., “Can you trust your model’s uncertainty? Evaluating predictive uncertainty under dataset shift,” in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), 2019."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0680",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Zhou, T. Han, and E. Droguettcd, “Towards trustworthy machine fault diagnosis: A probabilistic Bayesian deep learning framework,” Reliab. Eng. Syst. Saf., vol. 224, Art. no. 108525, Aug. 2022.",
+        "DOI": "10.1016/j.ress.2022.108525"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0685",
+        "unstructured": "J. Mukhoti, V. Kulharia, A. Sanyal, et al., “Calibrating deep neural networks using focal loss,” in Proc. Adv. Neural Inf. Process. Syst. (NeurIPS), 2020."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0690",
+        "unstructured": "J. Gawlikowski, C. Rovile, N. Tassi, et al., “A Survey of uncertainty in deep neural networks,” arXiv preprint, arXiv: 2107.03342, 2021."
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0695",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Parisi. R. Kemker, J. Part, “Continual lifelong learning with neural networks: A review,” Neural Netw., vol. 113, pp. 54-71, May 2019.",
+        "DOI": "10.1016/j.neunet.2019.01.012"
+      },
+      {
+        "key": "10.1016/j.aei.2024.103063_b0700",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Wang, Z. Zhai, and Z. Zhao, et al., “Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis,” Nat. Commun., vol. 15, Art. no. 4332, May 2024.",
+        "DOI": "10.1038/s41467-024-48779-z"
+      }
+    ],
+    "container-title": [
+      "Advanced Engineering Informatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1474034624007146?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1474034624007146?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2025-02-26T17:44:20Z",
+      "timestamp": 1740591860000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1474034624007146"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "references-count": 140,
+    "alternative-id": [
+      "S1474034624007146"
+    ],
+    "URL": "https://doi.org/10.1016/j.aei.2024.103063",
+    "relation": {},
+    "ISSN": [
+      "1474-0346"
+    ],
+    "issn-type": [
+      {
+        "value": "1474-0346",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Domain generalization for rotating machinery fault diagnosis: A survey",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Advanced Engineering Informatics",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.aei.2024.103063",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103063"
+  }
+}

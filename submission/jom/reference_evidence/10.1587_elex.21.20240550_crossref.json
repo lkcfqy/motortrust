@@ -1,0 +1,380 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          25
+        ]
+      ],
+      "date-time": "2026-02-25T20:58:53Z",
+      "timestamp": 1772053133446,
+      "version": "3.50.1"
+    },
+    "reference-count": 30,
+    "publisher": "Institute of Electronics, Information and Communications Engineers (IEICE)",
+    "issue": "22",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEICE Electron. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          25
+        ]
+      ]
+    },
+    "DOI": "10.1587/elex.21.20240550",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2024-10-21T22:10:15Z",
+      "timestamp": 1729548615000
+    },
+    "page": "20240550-20240550",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Detection and location of inter-turn short-circuit in a PMSM based on square of negative sequence current vector modulus"
+    ],
+    "prefix": "10.1587",
+    "volume": "21",
+    "author": [
+      {
+        "given": "Dongdong",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Electrical Engineering, Shanghai University of Electric Power"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mengqi",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Electrical Engineering, Shanghai University of Electric Power"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yao",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Electrical Engineering, Shanghai University of Electric Power"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shunfu",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Electrical Engineering, Shanghai University of Electric Power"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "532",
+    "reference": [
+      {
+        "key": "1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[1] C. Liu, <i>et al.</i>: “An efficient thermal computation model of PMSM based on FEA results and interpolation,” IEEE Trans. Appl. Supercond. <b>31</b> (2021) 1 (DOI: 10.1109/TASC.2021.3096512).",
+        "DOI": "10.1109/TASC.2021.3096512"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[2] J. Yang, <i>et al.</i>: “Disturbance/uncertainty estimation and attenuation techniques in PMSM drives--a survey,” IEEE Trans. Ind. Electron. <b>64</b> (2017) 3273 (DOI: 10.1109/TIE.2016.2583412).",
+        "DOI": "10.1109/TIE.2016.2583412"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[3] H. Lee, <i>et al.</i>: “Attention recurrent neural network-based severity estimation method for interturn short-circuit fault in permanent magnet synchronous machines,” IEEE Trans. Ind. Electron. <b>68</b> (2021) 3445 (DOI: 10.1109/TIE.2020.2978690).",
+        "DOI": "10.1109/TIE.2020.2978690"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[4] T. Boileau, <i>et al.</i>: “Synchronous demodulation of control voltages for stator interturn fault detection in PMSM,” IEEE Trans. Power Electron. <b>28</b> (2013) 5647 (DOI: 10.1109/TPEL.2013.2254132).",
+        "DOI": "10.1109/TPEL.2013.2254132"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[5] H. Dan, <i>et al.</i>: “Open-switch and current sensor fault diagnosis strategy for matrix converter-based PMSM drive system,” IEEE Trans. Ind. Electron. <b>8</b> (2022) 875 (DOI: 10.1109/TTE.2021.3109093).",
+        "DOI": "10.1109/TTE.2021.3109093"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[6] M. Zafarani, <i>et al.</i>: “Interturn short-circuit faults in permanent magnet synchronous machines: an extended review and comprehensive analysis,” IEEE J. Emerg. Sel. Topics Power Electron. <b>6</b> (2018) 2173 (DOI: 10.1109/JESTPE.2018.2811538).",
+        "DOI": "10.1109/JESTPE.2018.2811538"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[7] W. Huang, <i>et al.</i>: “Search-coil based stator interturn fault detection in permanent magnet machines running under dynamic condition,” Electronics <b>12</b> (2023) 2827 (DOI: 10.3390/electronics.12132827).",
+        "DOI": "10.3390/electronics12132827"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[8] B. Du, <i>et al.</i>: “Interturn fault diagnosis strategy for interior permanent-magnet synchronous motor of electric vehicles based on digital signal processor,” IEEE Trans. Ind. Electron. <b>63</b> (2016) 1694 (DOI: 10.1109/TIE.2015.2496900).",
+        "DOI": "10.1109/TIE.2015.2496900"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[9] J.-C. Urresty, <i>et al.</i>: “Diagnosis of interturn faults in PMSMs operating under nonstationary conditions by applying order tracking filtering,” IEEE Trans. Power Electron. <b>28</b> (2013) 507 (DOI: 10.1109/TPEL.2012.2198077).",
+        "DOI": "10.1109/TPEL.2012.2198077"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[10] Y. Qi, <i>et al.</i>: “Severity estimation of interturn short circuit fault for PMSM,” IEEE Trans. Ind. Electron. <b>66</b> (2019) 7260 (DOI: 10.1109/TIE.2018.2879281).",
+        "DOI": "10.1109/TIE.2018.2879281"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[11] T. Boileau, <i>et al.</i>: “Synchronous demodulation of control voltages for stator interturn fault detection in PMSM,” IEEE Trans. Power Electron. <b>28</b> (2013) 5647 (DOI: 10.1109/TPEL.2013.2254132).",
+        "DOI": "10.1109/TPEL.2013.2254132"
+      },
+      {
+        "key": "12",
+        "unstructured": "[12] R.M. Tallam, <i>et al.</i>: “Experimental testing of a neural-network-based turn-fault detection scheme for induction machines under accelerated insulation failure conditions,” IEEE International Symposium on Diagnostics for Electric Machines (2003) (DOI: 10.1109/DEMPED.2003.1234547)."
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[13] A. Mahmoudi, <i>et al.</i>: “Inter-turn short-circuit faults diagnosis in synchronous reluctance machines, using the Luenberger state observer and current’s second-order harmonic,” IEEE Trans. Ind. Electron. <b>69</b> (2022) 8420 (DOI: 10.1109/TIE.2021.3109514).",
+        "DOI": "10.1109/TIE.2021.3109514"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[14] M.A. Mazzoletti, <i>et al.</i>: “A model-based strategy for interturn short-circuit fault diagnosis in PMSM,” IEEE Trans. Ind. Electron. <b>64</b> (2017) 7218 (DOI: 10.1109/TIE.2017.2688973).",
+        "DOI": "10.1109/TIE.2017.2688973"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[15] S. Moon, <i>et al.</i>: “Interturn short fault diagnosis in a PMSM by voltage and current residual analysis with the faulty winding model,” IEEE Trans. Energy Convers. <b>33</b> (2018) 190 (DOI: 10.1109/TEC.2017.2726142).",
+        "DOI": "10.1109/TEC.2017.2726142"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[16] X. Tu, <i>et al.</i>: “Parameterized synchrosqueezing transform with application to machine fault diagnosis,” IEEE Sensors J. <b>19</b> (2019) 8017 (DOI: 10.1109/JSEN.2019.2919776).",
+        "DOI": "10.1109/JSEN.2019.2919776"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[17] O.A. Mohammed, <i>et al.</i>: “Internal short circuit fault diagnosis for PM machines using FE-based phase variable model and wavelets analysis,” IEEE Trans. Magn. <b>43</b> (2007) 1729 (DOI: 10.1109/TMAG.2006.892301).",
+        "DOI": "10.1109/TMAG.2006.892301"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[18] Y. Qi, <i>et al.</i>: “Advanced severity monitoring of interturn short circuit faults in PMSMs,” IEEE Trans. Transp. Electrific. <b>5</b> (2019) 395 (DOI: 10.1109/TTE.2019.2913357).",
+        "DOI": "10.1109/TTE.2019.2913357"
+      },
+      {
+        "key": "19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[19] M. Jin, <i>et al.</i>: “Coupled magnetic-structural modeling of power transformer for axial vibration analysis under short-circuit condition,” IEEE Trans. Magn. <b>58</b> (2022) 1 (DOI: 10.1109/TMAG.2022.3175245).",
+        "DOI": "10.1109/TMAG.2022.3175245"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[20] J. Hang, <i>et al.</i>: “Interturn fault diagnosis for model-predictive-controlled-PMSM based on cost function and wavelet transform,” IEEE Trans. Power Electron. <b>35</b> (2020) 6405 (DOI: 10.1109/TPEL.2019.2953269).",
+        "DOI": "10.1109/TPEL.2019.2953269"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[21] C. Liu, <i>et al.</i>: “Analysis and monitoring method for inter-turn short-circuit fault for PMSM,” IEEE Trans. Magn. <b>59</b> (2023) 1 (DOI: 10.1109/TMAG.2023.3294704).",
+        "DOI": "10.1109/TMAG.2023.3294704"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[22] D. Wei, <i>et al.</i>: “Short-time adaline based fault feature extraction for inter-turn short circuit diagnosis of PMSM via residual insulation monitoring,” IEEE Trans. Ind. Electron. <b>70</b> (2023) 3103 (DOI: 10.1109/TIE.2022.3167164).",
+        "DOI": "10.1109/TIE.2022.3167164"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[23] R. Hu, <i>et al.</i>: “Current-residual-based stator interturn fault detection in permanent magnet machines,” IEEE Trans. Ind. Electron. <b>68</b> (2021) 59 (DOI: 10.1109/TIE.2020.2965500).",
+        "DOI": "10.1109/TIE.2020.2965500"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[24] B. Wang, <i>et al.</i>: “Stator turn fault detection by second harmonic in instantaneous power for a triple-redundant fault-tolerant PM drive,” IEEE Trans. Ind. Electron. <b>65</b> (2018) 7279 (DOI: 10.1109/TIE.2018.2793188).",
+        "DOI": "10.1109/TIE.2018.2793188"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[25] Y. Ge, <i>et al.</i>: “Analytical expressions of isolation indicators for permanent-magnet synchronous machines under stator short-circuit faults,” IEEE Trans. Energy Convers. <b>34</b> (2019) 984 (DOI: 10.1109/TEC.2018.2878343).",
+        "DOI": "10.1109/TEC.2018.2878343"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[26] H. Jeong, <i>et al.</i>: “An early stage interturn fault diagnosis of PMSMs by using negative-sequence components,” IEEE Trans. Ind. Electron. <b>64</b> (2017) 5701 (DOI: 10.1109/TIE.2017.2677355).",
+        "DOI": "10.1109/TIE.2017.2677355"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[27] J. Hang, <i>et al.</i>: “Online interturn fault diagnosis of permanent magnet synchronous machine using zero-sequence components,” IEEE Trans. Power Electron. <b>30</b> (2105) 6731 (DOI: 10.1109/TPEL.2015.2388493).",
+        "DOI": "10.1109/TPEL.2015.2388493"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[28] Y. Zhang, <i>et al.</i>: “Online diagnosis of slight interturn short-circuit fault for a low-speed permanent magnet synchronous motor,” IEEE Trans. Transp. Electrific. <b>7</b> (2021) 104 (DOI: 10.1109/TTE.2020.2991271).",
+        "DOI": "10.1109/TTE.2020.2991271"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[29] R. Hu, <i>et al.</i>: “High-frequency voltage injection based stator interturn fault detection in permanent magnet machines,” IEEE Trans. Power Electron. <b>36</b> (2021) 785 (DOI: 10.1109/TPEL.2020.3005757).",
+        "DOI": "10.1109/TPEL.2020.3005757"
+      },
+      {
+        "key": "30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "[30] J. Zhang, <i>et al.</i>: “Detection and discrimination of incipient stator faults for inverter-fed permanent magnet synchronous machines,” IEEE Trans. Ind. Electron. <b>68</b> (2021) 7505 (DOI: 10.1109/TIE.2020.3009563).",
+        "DOI": "10.1109/TIE.2020.3009563"
+      }
+    ],
+    "container-title": [
+      "IEICE Electronics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.jstage.jst.go.jp/article/elex/21/22/21_21.20240550/_pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2024-11-30T03:29:18Z",
+      "timestamp": 1732937358000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.jstage.jst.go.jp/article/elex/21/22/21_21.20240550/_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          25
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "22",
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1587/elex.21.20240550",
+    "relation": {},
+    "ISSN": [
+      "1349-2543"
+    ],
+    "issn-type": [
+      {
+        "value": "1349-2543",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          25
+        ]
+      ]
+    },
+    "article-number": "21.20240550"
+  }
+}

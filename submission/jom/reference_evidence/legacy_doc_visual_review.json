@@ -1,0 +1,1092 @@
+{
+  "review_date_seoul": "2026-10-09",
+  "reviewed_at_utc": "2026-10-09T05:30:15.856712+00:00",
+  "review_type": "independent assistant visual QA of legacy DOC conversion",
+  "scope": "28 pages of the legacy DOC, all pages individually inspected at original image resolution; mathematical focus on pages 6--8; comparison to current 28-page DOCX review PDF",
+  "result": "pass for bundled-LibreOffice rendering; remaining author fields and native Microsoft Word review are separate gates",
+  "renderer": {
+    "script": "/Users/lkc/.codex/plugins/cache/openai-primary-runtime/documents/26.1007.11041/skills/documents/render_docx.py",
+    "python": "/Users/lkc/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "bundled_soffice": "/Users/lkc/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/soffice",
+    "latest_read_only_rerender_directory": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck"
+  },
+  "input_doc": {
+    "path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.doc",
+    "sha256": "1cc8eb317220fa68ab3f9271e85d3c9a4f1ca38a674b7d49919d52fd25e61bf2",
+    "bytes": 755712,
+    "mtime_utc": "2026-10-09T05:22:28.256198+00:00",
+    "mtime_seoul": "2026-10-09T14:22:28.256198+09:00"
+  },
+  "current_docx": {
+    "path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.docx",
+    "sha256": "3f66958e0c2247590496e31017bd56d94c707905d76801e85d1120883576e9f5",
+    "bytes": 637134,
+    "mtime_utc": "2026-10-09T05:22:22.172397+00:00",
+    "mtime_seoul": "2026-10-09T14:22:22.172397+09:00"
+  },
+  "original_legacy_pdf": {
+    "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+    "sha256": "0f4ef50d968a14a7beea8750941e18e43f1ca31a630a2f0865126f665ec6c067",
+    "bytes": 1065986,
+    "mtime_utc": "2026-10-09T05:19:42.552843+00:00",
+    "mtime_seoul": "2026-10-09T14:19:42.552843+09:00"
+  },
+  "latest_doc_legacy_pdf": {
+    "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+    "sha256": "f8ec1d3df182fb32a1e7432fbb4aa7dbab9cfb70f26e3560d5ef45e5895fbdb1",
+    "bytes": 1065986,
+    "mtime_utc": "2026-10-09T05:28:34.924606+00:00",
+    "mtime_seoul": "2026-10-09T14:28:34.924606+09:00"
+  },
+  "current_docx_review_pdf": {
+    "path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+    "sha256": "2b6d289489f99b7bd29af8594e0f7afc4017267cd340992184a73e0defdd1166",
+    "bytes": 1055780,
+    "mtime_utc": "2026-10-09T05:22:23.207051+00:00",
+    "mtime_seoul": "2026-10-09T14:22:23.207051+09:00"
+  },
+  "page_counts": {
+    "original_legacy": 28,
+    "latest_legacy": 28,
+    "current_docx_pdf": 28
+  },
+  "timestamp_boundary": {
+    "original_legacy_render_predates_current_doc": true,
+    "explanation": "The individually inspected legacy PNG/PDF set was created at approximately 05:19:42 UTC, while the current DOC was rebuilt at 05:22:28 UTC after a privacy-only change. The current DOC was therefore rerendered read-only into a new temporary directory. All 28 resulting page images are exactly pixel-identical to the individually inspected set; this removes the stale-render ambiguity for visual content."
+  },
+  "equations": [
+    {
+      "number": 1,
+      "page": 6,
+      "result": "tilde, m/i subscripts, robust-centering parentheses and elementwise-division symbol readable"
+    },
+    {
+      "number": 2,
+      "page": 7,
+      "result": "lambda superscript, matrix subscript, trace fraction and identity symbol readable"
+    },
+    {
+      "number": 3,
+      "page": 7,
+      "result": "LE subscript, exponential brackets, 1/M fraction, summation limits, logarithm and regularized covariance readable"
+    },
+    {
+      "number": 4,
+      "page": 7,
+      "result": "tilde, transpose superscript, LE subscript and dagger superscript readable"
+    },
+    {
+      "number": 5,
+      "page": 8,
+      "result": "p and score subscripts, j=1/n limits, indicator, greater-or-equal sign, numerator and denominator readable"
+    }
+  ],
+  "comparison_summary": {
+    "pixel_identical_pages_to_docx": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      26
+    ],
+    "differing_pages": [
+      6,
+      7,
+      8,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28
+    ],
+    "interpretation": "DOC conversion makes small equation-spacing, table border/text-placement and figure rasterization differences. Five displayed formula contents remain intact, page count remains 28, and no visual clipping, overlap, missing glyph or misplaced reference was observed."
+  },
+  "limitations": [
+    "Native Microsoft Word was not opened or tested. Bundled-LibreOffice visual QA does not certify exact Microsoft Word pagination.",
+    "Equation visibility was checked, but interactive equation editing inside Microsoft Word was not tested by this review.",
+    "Author-input fields remain; visual pass does not make the package directly uploadable."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Title, verified author block, abstract and keywords legible. Telephone/fax field intentionally remains pending.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-1.png",
+        "sha256": "c84df5a1d2cfd55ba761a91ad36fdbef23d4b1c3b80fedde4164828aab2446e4",
+        "bytes": 250298,
+        "mtime_utc": "2026-10-09T05:19:42.926459+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.926459+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-1.png",
+        "sha256": "c84df5a1d2cfd55ba761a91ad36fdbef23d4b1c3b80fedde4164828aab2446e4",
+        "bytes": 250298,
+        "mtime_utc": "2026-10-09T05:28:35.301667+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.301667+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-1.png",
+        "sha256": "c84df5a1d2cfd55ba761a91ad36fdbef23d4b1c3b80fedde4164828aab2446e4",
+        "bytes": 250298,
+        "mtime_utc": "2026-10-09T05:22:23.615850+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.615850+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 2,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Introduction and numbered citations intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-2.png",
+        "sha256": "c69cbf508ecb24d2c266093012f3d61b1c7246334066e578dd24e53cd3594cb4",
+        "bytes": 299864,
+        "mtime_utc": "2026-10-09T05:19:43.149586+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.149586+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-2.png",
+        "sha256": "c69cbf508ecb24d2c266093012f3d61b1c7246334066e578dd24e53cd3594cb4",
+        "bytes": 299864,
+        "mtime_utc": "2026-10-09T05:28:35.526757+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.526757+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-2.png",
+        "sha256": "c69cbf508ecb24d2c266093012f3d61b1c7246334066e578dd24e53cd3594cb4",
+        "bytes": 299864,
+        "mtime_utc": "2026-10-09T05:22:23.847132+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.847132+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 3,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Background, JOM citation and heading hierarchy intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-3.png",
+        "sha256": "2e08a3fc247d7de8c12df2bf190ba0e8e3b400d3cf1e1ac05c52549bc6be488f",
+        "bytes": 282924,
+        "mtime_utc": "2026-10-09T05:19:43.356472+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.356472+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-3.png",
+        "sha256": "2e08a3fc247d7de8c12df2bf190ba0e8e3b400d3cf1e1ac05c52549bc6be488f",
+        "bytes": 282924,
+        "mtime_utc": "2026-10-09T05:28:35.732654+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.732654+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-3.png",
+        "sha256": "2e08a3fc247d7de8c12df2bf190ba0e8e3b400d3cf1e1ac05c52549bc6be488f",
+        "bytes": 282924,
+        "mtime_utc": "2026-10-09T05:22:24.053314+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.053314+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 4,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Comparator/theory citations and KAIST text intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-4.png",
+        "sha256": "e283575e650b462366d9e8cb7af4c3328dd8ed0dfbdd9a481f0f06cc098da21d",
+        "bytes": 316801,
+        "mtime_utc": "2026-10-09T05:19:43.580439+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.580439+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-4.png",
+        "sha256": "e283575e650b462366d9e8cb7af4c3328dd8ed0dfbdd9a481f0f06cc098da21d",
+        "bytes": 316801,
+        "mtime_utc": "2026-10-09T05:28:35.952326+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.952326+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-4.png",
+        "sha256": "e283575e650b462366d9e8cb7af4c3328dd8ed0dfbdd9a481f0f06cc098da21d",
+        "bytes": 316801,
+        "mtime_utc": "2026-10-09T05:22:24.275120+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.275120+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 5,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "External data, fault-turn/phase caveat and placement markers intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-5.png",
+        "sha256": "d1ee20f1fcc3850d0acd30b0b501d9409b3a054ca13d4eda110e9c2ecff4d0f2",
+        "bytes": 294335,
+        "mtime_utc": "2026-10-09T05:19:42.960904+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.960904+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-5.png",
+        "sha256": "d1ee20f1fcc3850d0acd30b0b501d9409b3a054ca13d4eda110e9c2ecff4d0f2",
+        "bytes": 294335,
+        "mtime_utc": "2026-10-09T05:28:35.328912+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.328912+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-5.png",
+        "sha256": "d1ee20f1fcc3850d0acd30b0b501d9409b3a054ca13d4eda110e9c2ecff4d0f2",
+        "bytes": 294335,
+        "mtime_utc": "2026-10-09T05:22:23.651461+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.651461+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 6,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Freeze boundary, feature caveat and equation 1 intact; no bottom-page clipping.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-6.png",
+        "sha256": "8586bcfe43aecfd3c5df3fdb076db2e8ffc28e7963f0b8c96a1bc6b74bfd3b88",
+        "bytes": 276990,
+        "mtime_utc": "2026-10-09T05:19:43.169583+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.169583+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-6.png",
+        "sha256": "8586bcfe43aecfd3c5df3fdb076db2e8ffc28e7963f0b8c96a1bc6b74bfd3b88",
+        "bytes": 276990,
+        "mtime_utc": "2026-10-09T05:28:35.535217+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.535217+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-6.png",
+        "sha256": "369bea07c7ed0003fe8b9a4671c7ca2bb9af9cfe3d6499dc5d3ba260f8a04508",
+        "bytes": 276282,
+        "mtime_utc": "2026-10-09T05:22:23.864158+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.864158+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.6067885431400283
+    },
+    {
+      "page": 7,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Equations 2--4 and comparator text intact; conversion changes spacing slightly without losing symbols.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-7.png",
+        "sha256": "444f54b421346a448f9a16659bbc2ada915f4006bfb4a2b552ea46f4e34bac43",
+        "bytes": 276693,
+        "mtime_utc": "2026-10-09T05:19:43.369957+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.369957+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-7.png",
+        "sha256": "444f54b421346a448f9a16659bbc2ada915f4006bfb4a2b552ea46f4e34bac43",
+        "bytes": 276693,
+        "mtime_utc": "2026-10-09T05:28:35.734037+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.734037+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-7.png",
+        "sha256": "dbf180f9c57f99deabab0556ab4b606e0f30e155384c3852d5c83bdbd10ef595",
+        "bytes": 271447,
+        "mtime_utc": "2026-10-09T05:22:24.062822+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.062822+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 15.663366690240453
+    },
+    {
+      "page": 8,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Equation 5, rank-alarm inequality and uncertainty prose intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-8.png",
+        "sha256": "63caeb0d05be9f3ea3db7e984cfa44dfc24b755d237ea0912bb3ae2836ae56ca",
+        "bytes": 233827,
+        "mtime_utc": "2026-10-09T05:19:43.546551+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.546551+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-8.png",
+        "sha256": "63caeb0d05be9f3ea3db7e984cfa44dfc24b755d237ea0912bb3ae2836ae56ca",
+        "bytes": 233827,
+        "mtime_utc": "2026-10-09T05:28:35.906660+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.906660+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-8.png",
+        "sha256": "54548c81f4d8bdb805f41f76c4e1f323d09487027262cd2796887e4bd7c0a8ae",
+        "bytes": 232206,
+        "mtime_utc": "2026-10-09T05:22:24.236804+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.236804+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 7.0764437765205095
+    },
+    {
+      "page": 9,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "KAIST numbers and external gate failure intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-9.png",
+        "sha256": "3eafe6f9b9bcab20886cf1b6f4472a879f8b1f0d08446e6c52e4554d1f594753",
+        "bytes": 274758,
+        "mtime_utc": "2026-10-09T05:19:42.949589+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.949589+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-9.png",
+        "sha256": "3eafe6f9b9bcab20886cf1b6f4472a879f8b1f0d08446e6c52e4554d1f594753",
+        "bytes": 274758,
+        "mtime_utc": "2026-10-09T05:28:35.315510+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.315510+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-9.png",
+        "sha256": "3eafe6f9b9bcab20886cf1b6f4472a879f8b1f0d08446e6c52e4554d1f594753",
+        "bytes": 274758,
+        "mtime_utc": "2026-10-09T05:22:23.637067+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.637067+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 10,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "External comparison, seed caveat and trajectory results intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-10.png",
+        "sha256": "178fa4ce7c2f294e5e6ade7a720622682248794250abbad7eb208ba3431c8a03",
+        "bytes": 320677,
+        "mtime_utc": "2026-10-09T05:19:43.176090+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.176090+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-10.png",
+        "sha256": "178fa4ce7c2f294e5e6ade7a720622682248794250abbad7eb208ba3431c8a03",
+        "bytes": 320677,
+        "mtime_utc": "2026-10-09T05:28:35.540285+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.540285+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-10.png",
+        "sha256": "178fa4ce7c2f294e5e6ade7a720622682248794250abbad7eb208ba3431c8a03",
+        "bytes": 320677,
+        "mtime_utc": "2026-10-09T05:22:23.871807+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.871807+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 11,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Transfer contrast, inline geometry expressions and sampling control intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-11.png",
+        "sha256": "bf4e432266f6bd2bd684617732be06b9237870a765a41d42e3b577c18b603d39",
+        "bytes": 315345,
+        "mtime_utc": "2026-10-09T05:19:43.395817+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.395817+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-11.png",
+        "sha256": "bf4e432266f6bd2bd684617732be06b9237870a765a41d42e3b577c18b603d39",
+        "bytes": 315345,
+        "mtime_utc": "2026-10-09T05:28:35.755905+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.755905+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-11.png",
+        "sha256": "bf4e432266f6bd2bd684617732be06b9237870a765a41d42e3b577c18b603d39",
+        "bytes": 315345,
+        "mtime_utc": "2026-10-09T05:22:24.088584+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.088584+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 12,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Secondary failure and discussion intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-12.png",
+        "sha256": "a27d410ac419f7af106a30b9cc6262edc3e0a617ce54ddaa26f994191b6db0bf",
+        "bytes": 310128,
+        "mtime_utc": "2026-10-09T05:19:43.615570+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.615570+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-12.png",
+        "sha256": "a27d410ac419f7af106a30b9cc6262edc3e0a617ce54ddaa26f994191b6db0bf",
+        "bytes": 310128,
+        "mtime_utc": "2026-10-09T05:28:35.972467+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.972467+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-12.png",
+        "sha256": "a27d410ac419f7af106a30b9cc6262edc3e0a617ce54ddaa26f994191b6db0bf",
+        "bytes": 310128,
+        "mtime_utc": "2026-10-09T05:22:24.305510+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.305510+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 13,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Limitations and conclusion intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-13.png",
+        "sha256": "1c6600f6a684043f13d130f8733471fe651343b0d3f6503530eeebb66fd7c23a",
+        "bytes": 280015,
+        "mtime_utc": "2026-10-09T05:19:42.951971+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.951971+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-13.png",
+        "sha256": "1c6600f6a684043f13d130f8733471fe651343b0d3f6503530eeebb66fd7c23a",
+        "bytes": 280015,
+        "mtime_utc": "2026-10-09T05:28:35.321268+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.321268+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-13.png",
+        "sha256": "1c6600f6a684043f13d130f8733471fe651343b0d3f6503530eeebb66fd7c23a",
+        "bytes": 280015,
+        "mtime_utc": "2026-10-09T05:22:23.641575+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.641575+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 14,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Declarations, AI disclosure and data availability intact; remaining author fields are visible.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-14.png",
+        "sha256": "58142846218fb49c4c6cb21b91edc58b88e983a4f9c8b05a82374190c2e85542",
+        "bytes": 275786,
+        "mtime_utc": "2026-10-09T05:19:43.157255+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.157255+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-14.png",
+        "sha256": "58142846218fb49c4c6cb21b91edc58b88e983a4f9c8b05a82374190c2e85542",
+        "bytes": 275786,
+        "mtime_utc": "2026-10-09T05:28:35.525143+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.525143+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-14.png",
+        "sha256": "58142846218fb49c4c6cb21b91edc58b88e983a4f9c8b05a82374190c2e85542",
+        "bytes": 275786,
+        "mtime_utc": "2026-10-09T05:22:23.852859+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.852859+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 15,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "References 1--7 legible; hanging layout and DOI text intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-15.png",
+        "sha256": "30cf0c7f894b362722c48e1f1af67743ec90a4dbb3b38d1f698237d4e2c23b85",
+        "bytes": 265203,
+        "mtime_utc": "2026-10-09T05:19:43.346215+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.346215+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-15.png",
+        "sha256": "30cf0c7f894b362722c48e1f1af67743ec90a4dbb3b38d1f698237d4e2c23b85",
+        "bytes": 265203,
+        "mtime_utc": "2026-10-09T05:28:35.712990+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.712990+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-15.png",
+        "sha256": "30cf0c7f894b362722c48e1f1af67743ec90a4dbb3b38d1f698237d4e2c23b85",
+        "bytes": 265203,
+        "mtime_utc": "2026-10-09T05:22:24.041080+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.041080+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 16,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "References 8--16 legible; accented author characters present.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-16.png",
+        "sha256": "041c4e03d2994a523b707c40441b07e2ad9ac14af9ca50c6de481019f8f1f75f",
+        "bytes": 310427,
+        "mtime_utc": "2026-10-09T05:19:43.558628+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.558628+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-16.png",
+        "sha256": "041c4e03d2994a523b707c40441b07e2ad9ac14af9ca50c6de481019f8f1f75f",
+        "bytes": 310427,
+        "mtime_utc": "2026-10-09T05:28:35.922036+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.922036+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-16.png",
+        "sha256": "041c4e03d2994a523b707c40441b07e2ad9ac14af9ca50c6de481019f8f1f75f",
+        "bytes": 310427,
+        "mtime_utc": "2026-10-09T05:22:24.251667+00:00",
+        "mtime_seoul": "2026-10-09T14:22:24.251667+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 17,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "References 17--26 legible; long publisher URLs and DOI text stay within margins.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-17.png",
+        "sha256": "feec520d2d873c3ef25fa6141a56ddd89e8efbb1afba3159a6c5f4ff17b312a2",
+        "bytes": 320515,
+        "mtime_utc": "2026-10-09T05:19:42.974273+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.974273+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-17.png",
+        "sha256": "feec520d2d873c3ef25fa6141a56ddd89e8efbb1afba3159a6c5f4ff17b312a2",
+        "bytes": 320515,
+        "mtime_utc": "2026-10-09T05:28:35.345045+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.345045+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-17.png",
+        "sha256": "feec520d2d873c3ef25fa6141a56ddd89e8efbb1afba3159a6c5f4ff17b312a2",
+        "bytes": 320515,
+        "mtime_utc": "2026-10-09T05:22:23.661556+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.661556+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 18,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "References 27--30 intact; whitespace is expected before the separate figure-caption sheet.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-18.png",
+        "sha256": "cbdc16f45c0a57d1c78156073e6b09f264864ecddc8eee23e4d43810fc82dc7f",
+        "bytes": 129429,
+        "mtime_utc": "2026-10-09T05:19:43.089328+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.089328+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-18.png",
+        "sha256": "cbdc16f45c0a57d1c78156073e6b09f264864ecddc8eee23e4d43810fc82dc7f",
+        "bytes": 129429,
+        "mtime_utc": "2026-10-09T05:28:35.461918+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.461918+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-18.png",
+        "sha256": "cbdc16f45c0a57d1c78156073e6b09f264864ecddc8eee23e4d43810fc82dc7f",
+        "bytes": 129429,
+        "mtime_utc": "2026-10-09T05:22:23.777980+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.777980+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 19,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "All six full captions readable on the separate caption sheet.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-19.png",
+        "sha256": "6325ecf68de294f8e67806b3a96100808485c934e5802a08b7b8ddcbc72f5008",
+        "bytes": 287528,
+        "mtime_utc": "2026-10-09T05:19:43.295323+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.295323+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-19.png",
+        "sha256": "6325ecf68de294f8e67806b3a96100808485c934e5802a08b7b8ddcbc72f5008",
+        "bytes": 287528,
+        "mtime_utc": "2026-10-09T05:28:35.667881+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.667881+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-19.png",
+        "sha256": "6325ecf68de294f8e67806b3a96100808485c934e5802a08b7b8ddcbc72f5008",
+        "bytes": 287528,
+        "mtime_utc": "2026-10-09T05:22:23.986320+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.986320+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 20,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Table I: all three columns, denominators and units intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-20.png",
+        "sha256": "11743ba5991b7c953f0bae35d3bf2865467a1afd08e22375daf0021a3a623933",
+        "bytes": 102525,
+        "mtime_utc": "2026-10-09T05:19:42.847301+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.847301+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-20.png",
+        "sha256": "11743ba5991b7c953f0bae35d3bf2865467a1afd08e22375daf0021a3a623933",
+        "bytes": 102525,
+        "mtime_utc": "2026-10-09T05:28:35.213530+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.213530+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-20.png",
+        "sha256": "b62f59fa22837881b13a8ef5ef23525c5c0f54e7669f8f63d27af0df39848d54",
+        "bytes": 102521,
+        "mtime_utc": "2026-10-09T05:22:23.537318+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.537318+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 1.599082036775106
+    },
+    {
+      "page": 21,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Table II: all eleven method rows and numbers intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-21.png",
+        "sha256": "18c1de684902b523056c1b28330b675a97ca2f3d44c3b227c7f9eb198fc52516",
+        "bytes": 134525,
+        "mtime_utc": "2026-10-09T05:19:42.969330+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.969330+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-21.png",
+        "sha256": "18c1de684902b523056c1b28330b675a97ca2f3d44c3b227c7f9eb198fc52516",
+        "bytes": 134525,
+        "mtime_utc": "2026-10-09T05:28:35.338188+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.338188+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-21.png",
+        "sha256": "bc0edc87c31986e2cf776ddc6b2ebbe567b4a47618ca34cce5fb4aba2428d47d",
+        "bytes": 134549,
+        "mtime_utc": "2026-10-09T05:22:23.664518+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.664518+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 2.2203528995756723
+    },
+    {
+      "page": 22,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Table III: all eleven method rows, H1 decisions and numbers intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-22.png",
+        "sha256": "1ac7ec68add38cc9dfec2410e0494652ea019273399104f198da994c96c852fe",
+        "bytes": 141603,
+        "mtime_utc": "2026-10-09T05:19:43.097912+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.097912+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-22.png",
+        "sha256": "1ac7ec68add38cc9dfec2410e0494652ea019273399104f198da994c96c852fe",
+        "bytes": 141603,
+        "mtime_utc": "2026-10-09T05:28:35.465680+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.465680+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-22.png",
+        "sha256": "de7e8095eb4caec3d121fcdcdc3b2d4d79e02cd85c15e7566c9bea3e2b52e1ca",
+        "bytes": 141627,
+        "mtime_utc": "2026-10-09T05:22:23.794890+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.794890+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 2.3319144271570016
+    },
+    {
+      "page": 23,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 1: all diagram panels, arrows, labels and timelines intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-23.png",
+        "sha256": "e9e362054983eb0454c5a88aeabe3ce953b6c2e27c0703c423c2f9466057cd25",
+        "bytes": 130709,
+        "mtime_utc": "2026-10-09T05:19:42.846128+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.846128+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-23.png",
+        "sha256": "e9e362054983eb0454c5a88aeabe3ce953b6c2e27c0703c423c2f9466057cd25",
+        "bytes": 130709,
+        "mtime_utc": "2026-10-09T05:28:35.216302+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.216302+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-23.png",
+        "sha256": "4631b463aef2fefd727aa1e6624641db4e4b26b77fdc00efbf10dde733405fed",
+        "bytes": 130832,
+        "mtime_utc": "2026-10-09T05:22:23.535162+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.535162+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 1.1005873408769449
+    },
+    {
+      "page": 24,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 2: axes, legend, per-motor bars and Wilson whiskers intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-24.png",
+        "sha256": "2eb9ad3a668cc9701b0db98bcc56fb1f4a8efc8af3b8f46be5a9b6617ed9d6bd",
+        "bytes": 106398,
+        "mtime_utc": "2026-10-09T05:19:42.942782+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.942782+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-24.png",
+        "sha256": "2eb9ad3a668cc9701b0db98bcc56fb1f4a8efc8af3b8f46be5a9b6617ed9d6bd",
+        "bytes": 106398,
+        "mtime_utc": "2026-10-09T05:28:35.314734+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.314734+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-24.png",
+        "sha256": "ebb811372c1c30ce06ff23e7bcd785d17fa3a0a653ba3d2041b40bf7a90c847a",
+        "bytes": 106531,
+        "mtime_utc": "2026-10-09T05:22:23.637184+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.637184+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.532451909476662
+    },
+    {
+      "page": 25,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 3: method labels, detection intervals, health markers and H1 labels intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-25.png",
+        "sha256": "06302a66da2fcbca4d4318b600b7dd4d41bacf4eec7071d2db5e3b30ff2beac5",
+        "bytes": 148330,
+        "mtime_utc": "2026-10-09T05:19:43.061670+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.061670+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-25.png",
+        "sha256": "06302a66da2fcbca4d4318b600b7dd4d41bacf4eec7071d2db5e3b30ff2beac5",
+        "bytes": 148330,
+        "mtime_utc": "2026-10-09T05:28:35.431816+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.431816+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-25.png",
+        "sha256": "c39a1ecd467f8f9dccf23c136d8eb831a98f01b2c36e1d6816a781836c593a34",
+        "bytes": 149384,
+        "mtime_utc": "2026-10-09T05:22:23.754025+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.754025+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.7138090523338048
+    },
+    {
+      "page": 26,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 4: logarithmic score axis, speed proxy labels, line styles and alarm trajectories intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-26.png",
+        "sha256": "cdd9fdee5d1d4e86f64d6d60a33bc2c625c38a516ac6716b720a961e7bae50cd",
+        "bytes": 166978,
+        "mtime_utc": "2026-10-09T05:19:42.877023+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.877023+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-26.png",
+        "sha256": "cdd9fdee5d1d4e86f64d6d60a33bc2c625c38a516ac6716b720a961e7bae50cd",
+        "bytes": 166978,
+        "mtime_utc": "2026-10-09T05:28:35.242611+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.242611+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-26.png",
+        "sha256": "cdd9fdee5d1d4e86f64d6d60a33bc2c625c38a516ac6716b720a961e7bae50cd",
+        "bytes": 166978,
+        "mtime_utc": "2026-10-09T05:22:23.563323+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.563323+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": true,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.0
+    },
+    {
+      "page": 27,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 5: all 48 cells, phase labels, torque units and colorbar percentages intact in grayscale.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-27.png",
+        "sha256": "8633809205ea75388442ce11583e7ed6566d0a2c57b1f2434f6d991c50af0669",
+        "bytes": 134012,
+        "mtime_utc": "2026-10-09T05:19:42.986198+00:00",
+        "mtime_seoul": "2026-10-09T14:19:42.986198+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-27.png",
+        "sha256": "8633809205ea75388442ce11583e7ed6566d0a2c57b1f2434f6d991c50af0669",
+        "bytes": 134012,
+        "mtime_utc": "2026-10-09T05:28:35.352966+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.352966+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-27.png",
+        "sha256": "0bc686771e1166cc2777054635ae872fa059b649701017cb5167d4aa1c6b63bc",
+        "bytes": 132258,
+        "mtime_utc": "2026-10-09T05:22:23.670621+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.670621+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.8770258132956151
+    },
+    {
+      "page": 28,
+      "visual_inspection": "pass",
+      "inspection_basis": "original-resolution legacy PNG individually opened; latest-DOC rerender is pixel-identical",
+      "findings": "Figure 6: both panels, feature labels, dual axes, contribution labels and hatching intact.",
+      "dimensions": [
+        1414,
+        2000
+      ],
+      "original_reviewed_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final/page-28.png",
+        "sha256": "35a283846e3ee0443055fa80c76e0af2c347eb2c10dbf212ebe5619ce36e00d2",
+        "bytes": 134752,
+        "mtime_utc": "2026-10-09T05:19:43.089823+00:00",
+        "mtime_seoul": "2026-10-09T14:19:43.089823+09:00"
+      },
+      "latest_doc_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/legacy_doc_final_recheck/page-28.png",
+        "sha256": "35a283846e3ee0443055fa80c76e0af2c347eb2c10dbf212ebe5619ce36e00d2",
+        "bytes": 134752,
+        "mtime_utc": "2026-10-09T05:28:35.454334+00:00",
+        "mtime_seoul": "2026-10-09T14:28:35.454334+09:00"
+      },
+      "docx_comparison_png": {
+        "path": "/Users/lkc/Downloads/motortrust/tmp/jom/render/Main_Manuscript_AUTHOR_INPUT_REQUIRED/page-28.png",
+        "sha256": "91b35485fe8b67741c5a946041d63c0ff673ffe2f3d49cba45eda076a2f03ad9",
+        "bytes": 134129,
+        "mtime_utc": "2026-10-09T05:22:23.781539+00:00",
+        "mtime_seoul": "2026-10-09T14:22:23.781539+09:00"
+      },
+      "latest_equals_individually_reviewed_pixels": true,
+      "legacy_equals_docx_pixels": false,
+      "legacy_vs_docx_mean_absolute_rgb_difference": 0.6979374115983027
+    }
+  ],
+  "latest_delivery_input_doc": {
+    "path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.doc",
+    "sha256": "1cc8eb317220fa68ab3f9271e85d3c9a4f1ca38a674b7d49919d52fd25e61bf2",
+    "bytes": 755712,
+    "mtime_utc": "2026-10-09T05:33:08.091931+00:00"
+  },
+  "latest_delivery_doc_matches_individually_inspected_binary": true,
+  "latest_delivery_current_docx_pdf": {
+    "path": "/Users/lkc/Downloads/motortrust/submission/jom/Main_Manuscript_AUTHOR_INPUT_REQUIRED.pdf",
+    "sha256": "16854cc6d5a786e2a666b2a891c7a08cdc3bc4ec52304bb8baf568f5dc9076f3",
+    "bytes": 1055780,
+    "mtime_utc": "2026-10-09T05:33:03.030900+00:00"
+  },
+  "delivery_continuity": "Current legacy DOC bytes match the inspected binary exactly. Current DOCX PDF differs only in metadata: all its current PNGs match the final_main_visual_review.json individually inspected page hashes."
+}

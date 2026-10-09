@@ -1,0 +1,852 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2026-08-23T03:46:21Z",
+      "timestamp": 1787456781118,
+      "version": "build-2736575974"
+    },
+    "reference-count": 43,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100007129",
+        "name": "Natural Science Foundation of Shandong Province",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100007129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62033008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62033008"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62203467"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62203467"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002862",
+        "name": "China University of Petroleum Beijing",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ZR2021QF037"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ZR2021QF037"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002862",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.engappai.2024.107938",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2024-01-22T17:56:52Z",
+      "timestamp": 1705946212000
+    },
+    "page": "107938",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 21,
+    "special_numbering": "C",
+    "title": [
+      "Permanent magnet synchronous motor inter-turn short circuit diagnosis based on physical-data dual model under oil-drilling environment"
+    ],
+    "prefix": "10.1016",
+    "volume": "132",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7874-4489",
+        "authenticated-orcid": false,
+        "given": "MingLei",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanfeng",
+        "family": "Geng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiliang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengyu",
+        "family": "Tu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8184-0041",
+        "authenticated-orcid": false,
+        "given": "Xiang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "10.1016/j.engappai.2024.107938_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "256",
+        "DOI": "10.1049/elp2.12262",
+        "article-title": "Incipient detection of stator inter-turn short-circuit faults in a Doubly-Fed Induction Generator using deep learning",
+        "volume": "17",
+        "author": "Alipoor",
+        "year": "2023",
+        "journal-title": "IET Electr. Power App."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "870",
+        "DOI": "10.1016/j.renene.2022.12.064",
+        "article-title": "CAD system for inter-turn fault diagnosis of offshore wind turbines via multi-CNNs & feature selection",
+        "volume": "203",
+        "author": "Attallah",
+        "year": "2023",
+        "journal-title": "Renew. Energ."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b3",
+        "article-title": "Online stator inter-turn short circuit estimation and fault management in permanent magnet motors",
+        "author": "Baruti",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Energy. Conver."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.engappai.2024.107938_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "690",
+        "DOI": "10.1109/61.296246",
+        "article-title": "A transformer model for winding fault studies",
+        "volume": "9",
+        "author": "Bastard",
+        "year": "1994",
+        "journal-title": "IEEE Trans. Power. Deliv."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b5",
+        "series-title": "SPE/IADC International Drilling Conference and Exhibition",
+        "article-title": "Automated preprocessing techniques for high frequency downhole sensor data",
+        "author": "Baumgartner",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b6",
+        "series-title": "2015 IEEE 10th International Symposium on Diagnostics for Electrical Machines, Power Electronics and Drives",
+        "first-page": "143",
+        "article-title": "A novel method for induction motors stator inter-turn short circuit fault diagnosis based on wavelet energy and neural network",
+        "author": "Bessam",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b7",
+        "article-title": "Incipient interturn short circuit fault diagnosis of permanent magnet synchronous motors based on the data-driven digital twin model",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "IEEE J. Em. Sel. Top. P."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b8",
+        "article-title": "Incipient interturn short circuit fault diagnosis of permanent magnet synchronous motors based on the data-driven digital twin model",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "IEEE J. Emerg. Sel. Top. Power Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/cta.3561",
+        "article-title": "Voltage–current locus-based stator winding inter-turn fault detection in induction motors",
+        "author": "Dongare",
+        "year": "2023",
+        "journal-title": "Int. J. Circ. Theor. App."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b10",
+        "series-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.engappai.2024.107938_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "316",
+        "DOI": "10.1016/j.egyr.2023.03.019",
+        "article-title": "Fault diagnosis of inter-turn short circuit in turbogenerator rotor windings based on vibration-current signal fusion",
+        "volume": "9",
+        "author": "Fang",
+        "year": "2023",
+        "journal-title": "Energy Rep."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.engappai.2024.107938_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "6731",
+        "DOI": "10.1109/TPEL.2015.2388493",
+        "article-title": "Online interturn fault diagnosis of permanent magnet synchronous machine using zero-sequence components",
+        "volume": "30",
+        "author": "Hang",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Power Electr."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.engappai.2024.107938_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "5701",
+        "DOI": "10.1109/TIE.2017.2677355",
+        "article-title": "An early stage interturn fault diagnosis of PMSMs by using negative-sequence components",
+        "volume": "64",
+        "author": "Jeong",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b14",
+        "series-title": "Research on online fault diagnosis strategies for permanent magnet synchronous motors",
+        "author": "Junzhi",
+        "year": "2020"
+      },
+      {
+        "issue": "02",
+        "key": "10.1016/j.engappai.2024.107938_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.2118/24581-PA",
+        "article-title": "Determining circulating fluid temperature in drilling, workover, and well control operations",
+        "volume": "11",
+        "author": "Kabir",
+        "year": "1996",
+        "journal-title": "SPE Drilling Complet."
+      },
+      {
+        "issue": "03",
+        "key": "10.1016/j.engappai.2024.107938_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "254",
+        "DOI": "10.2118/134488-PA",
+        "article-title": "Downhole measurement and monitoring lead to an enhanced understanding of drilling vibrations and polycrystalline diamond compact bit damage",
+        "volume": "28",
+        "author": "Ledgerwood",
+        "year": "2013",
+        "journal-title": "SPE Drilling Complet."
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.engappai.2024.107938_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "16835",
+        "DOI": "10.1109/JIOT.2022.3153343",
+        "article-title": "An effective federated learning verification strategy and its applications for fault diagnosis in industrial IOT systems",
+        "volume": "9",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "348",
+        "DOI": "10.1016/j.neucom.2020.04.160",
+        "article-title": "Diagnosis of inter-turn short circuit of permanent magnet synchronous motor based on deep learning and small fault samples",
+        "volume": "442",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1016/j.neucom.2020.04.045",
+        "article-title": "A systematic review of deep transfer learning for machinery fault diagnosis",
+        "volume": "407",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.engappai.2024.107938_b20",
+        "first-page": "72",
+        "article-title": "Research on the approximate universal formula of magnetic properties of NdFeB magnet",
+        "volume": "32",
+        "author": "Liqin",
+        "year": "2011",
+        "journal-title": "Chinese Rare Earths"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2023.106201",
+        "article-title": "Simulation-Driven Subdomain Adaptation Network for bearing fault diagnosis with missing samples",
+        "volume": "123",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intel."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, X., Peng, H., Zheng, N., Yang, Y., Hu, H., Yuan, Y., 2023b. EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 14420–14430.",
+        "DOI": "10.1109/CVPR52729.2023.01386"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.engappai.2024.107938_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "8420",
+        "DOI": "10.1109/TIE.2021.3109514",
+        "article-title": "Inter-turn short-circuit faults diagnosis in synchronous reluctance machines, using the luenberger state observer and current’s second-order harmonic",
+        "volume": "69",
+        "author": "Mahmoudi",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compeleceng.2021.107234",
+        "article-title": "A neural network-based model for MCSA of inter-turn short-circuit faults in induction motors and its power hardware in the loop simulation",
+        "volume": "93",
+        "author": "Mejia-Barron",
+        "year": "2021",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.engappai.2024.107938_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "813",
+        "DOI": "10.1109/TIE.2022.3153829",
+        "article-title": "Variational Bayesian-based moving horizon estimation of toolface for rotary steerable drilling tool systems",
+        "volume": "70",
+        "author": "Niu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TEC.2023.3274052",
+        "article-title": "Neural networks detect inter-turn short circuit faults using inverter switching statistics for a closed-loop controlled motor drive",
+        "author": "Oner",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Energy. Conver."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.engappai.2024.107938_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "534",
+        "DOI": "10.1109/TCCN.2023.3254524",
+        "article-title": "Deep stacked autoencoder-based long-term spectrum prediction using real-world data",
+        "volume": "9",
+        "author": "Pan",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Cogn. Commun. Netw."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b28",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TII.2023.3242773",
+        "article-title": "A comprehensive inter-turn fault severity diagnosis method for permanent magnet synchronous motors based on transformer neural networks",
+        "author": "Parvin",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.engappai.2024.107938_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "5192",
+        "DOI": "10.1109/TIE.2022.3189076",
+        "article-title": "PMSM stator winding fault detection and classification based on bispectrum analysis and convolutional neural network",
+        "volume": "70",
+        "author": "Pietrzak",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TIE.2022.3229357",
+        "article-title": "Investigation of inter-turn short-circuit fault of PM machines using PWM voltage-based modeling",
+        "author": "Qin",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Transp. Electr."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.engappai.2024.107938_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/TMAG.2022.3169173",
+        "article-title": "Machine learning for inter-turn short-circuit fault diagnosis in permanent magnet synchronous motors",
+        "volume": "58",
+        "author": "Shih",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Magn."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.engappai.2024.107938_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2456",
+        "DOI": "10.1109/TPEL.2022.3207181",
+        "article-title": "On Bayesian optimization-based residual CNN for estimation of inter-turn short circuit fault in PMSM",
+        "volume": "38",
+        "author": "Song",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Power. Electr."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b33",
+        "series-title": "SPE Asia Pacific Oil and Gas Conference and Exhibition",
+        "article-title": "The use of the near-bit vibration sensor while drilling leads to optimized rotary-steerable drilling in push-and point-the-bit configurations",
+        "author": "Sugiura",
+        "year": "2008"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b34",
+        "series-title": "Advances in Neural Information Processing Systems, Vol. 30",
+        "article-title": "Attention is all you need",
+        "author": "Vaswani",
+        "year": "2017"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.engappai.2024.107938_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1016/j.ngib.2017.09.001",
+        "article-title": "Technologies in deep and ultra-deep well drilling: Present status, challenges and future trend in the 13th Five-Year Plan period (2016–2020)",
+        "volume": "4",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Nat. Gas Ind. B"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2022.105791",
+        "article-title": "Multiple local domains transfer network for equipment fault intelligent identification",
+        "volume": "120",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intel."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.engappai.2024.107938_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "3103",
+        "DOI": "10.1109/TIE.2022.3167164",
+        "article-title": "Short-time adaline based fault feature extraction for inter-turn short circuit diagnosis of PMSM via residual insulation monitoring",
+        "volume": "70",
+        "author": "Wei",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b38",
+        "series-title": "Online Diagnosis of Inter-Turn Short Circuit Faults in Permanent Magnet Synchronous Motors. Vol. 21",
+        "first-page": "00111",
+        "author": "Wenchao",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b39",
+        "series-title": "Research on Channel and Synchronisation of Mud Pulse Telecommunication System with Drilling",
+        "author": "Xu",
+        "year": "2018"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.engappai.2024.107938_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "892",
+        "DOI": "10.1007/s43236-022-00585-w",
+        "article-title": "Inter-turn short-circuit fault detection with high-frequency signal injection for inverter-fed PMSM systems",
+        "volume": "23",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "J. Power Electron."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.engappai.2024.107938_b41",
+        "doi-asserted-by": "crossref",
+        "first-page": "106",
+        "DOI": "10.1109/TEC.2017.2741503",
+        "article-title": "A new detection coil capable of performing online diagnosis of excitation winding short-circuits in steam-turbine generators",
+        "volume": "33",
+        "author": "Yucai",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Energy. Conver."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.engappai.2024.107938_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "8495",
+        "DOI": "10.1109/TII.2021.3067915",
+        "article-title": "Diagnosis of interturn short-circuit faults in permanent magnet synchronous motors based on few-shot learning under a federated learning framework",
+        "volume": "17",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "10.1016/j.engappai.2024.107938_b43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, H., Zhang, S., Peng, J., Zhang, S., Li, J., Xiong, H., Zhang, W., 2021. Informer: Beyond efficient transformer for long sequence time-series forecasting. In: Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 35. No. 12. pp. 11106–11115.",
+        "DOI": "10.1609/aaai.v35i12.17325"
+      }
+    ],
+    "container-title": [
+      "Engineering Applications of Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197624000964?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0952197624000964?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2024-10-10T10:48:36Z",
+      "timestamp": 1728557316000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0952197624000964"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "references-count": 43,
+    "alternative-id": [
+      "S0952197624000964"
+    ],
+    "URL": "https://doi.org/10.1016/j.engappai.2024.107938",
+    "relation": {},
+    "ISSN": [
+      "0952-1976"
+    ],
+    "issn-type": [
+      {
+        "value": "0952-1976",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Permanent magnet synchronous motor inter-turn short circuit diagnosis based on physical-data dual model under oil-drilling environment",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Engineering Applications of Artificial Intelligence",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.engappai.2024.107938",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "107938"
+  }
+}

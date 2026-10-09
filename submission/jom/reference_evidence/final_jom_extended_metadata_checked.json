@@ -1,0 +1,1367 @@
+{
+  "checked_date": "2026-10-09",
+  "scope": "Extended comparison with archived DOI-registered Crossref metadata; original article display takes precedence for documented name parsing/version differences. Missing registry fields are not counted as matches.",
+  "cited_crossref_entries": 25,
+  "author_count_all_match": true,
+  "rows": [
+    {
+      "key": "angelopoulos2023conformal",
+      "doi": "10.1561/2200000101",
+      "source_snapshot": "angelopoulos2023conformal_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Angelopoulos, Anastasios N.",
+          "registered": "Angelopoulos, Anastasios N.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Bates, Stephen",
+          "registered": "Bates, Stephen",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "16",
+          "registered": "16",
+          "match": true
+        },
+        "number": {
+          "local": "4",
+          "registered": "4",
+          "match": true
+        },
+        "pages": {
+          "local": "494--591",
+          "registered": "494-591",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "arsigny2006logeuclidean",
+      "doi": "10.1002/mrm.20965",
+      "source_snapshot": "arsigny2006logeuclidean_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Arsigny, Vincent",
+          "registered": "Arsigny, Vincent",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Fillard, Pierre",
+          "registered": "Fillard, Pierre",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Pennec, Xavier",
+          "registered": "Pennec, Xavier",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Ayache, Nicholas",
+          "registered": "Ayache, Nicholas",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "56",
+          "registered": "56",
+          "match": true
+        },
+        "number": {
+          "local": "2",
+          "registered": "2",
+          "match": true
+        },
+        "pages": {
+          "local": "411--421",
+          "registered": "411-421",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "diallo2025falsealarms",
+      "doi": "10.1016/j.jprocont.2025.103495",
+      "source_snapshot": "diallo2025falsealarms_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Diallo, Abdoul Rahime",
+          "registered": "Diallo, Abdoul Rahime",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Homri, Lazhar",
+          "registered": "Homri, Lazhar",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Dantan, Jean-Yves",
+          "registered": "Dantan, Jean-Yves",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "152",
+          "registered": "152",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "103495",
+          "registered": "103495",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "farouq2021mondrianfleet",
+      "doi": "10.1016/j.neucom.2021.08.016",
+      "source_snapshot": "farouq2021mondrianfleet_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Farouq, Shiraz",
+          "registered": "Farouq, Shiraz",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Byttner, Stefan",
+          "registered": "Byttner, Stefan",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Bouguelia, Mohamed-Rafik",
+          "registered": "Bouguelia, Mohamed-Rafik",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Gadd, Henrik",
+          "registered": "Gadd, Henrik",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "462",
+          "registered": "462",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "591--606",
+          "registered": "591-606",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "farouq2022conformalfleet",
+      "doi": "10.1016/j.eswa.2022.116864",
+      "source_snapshot": "farouq2022conformalfleet_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Farouq, Shiraz",
+          "registered": "Farouq, Shiraz",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Byttner, Stefan",
+          "registered": "Byttner, Stefan",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Bouguelia, Mohamed-Rafik",
+          "registered": "Bouguelia, Mohamed-Rafik",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Gadd, Henrik",
+          "registered": "Gadd, Henrik",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "201",
+          "registered": "201",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "116864",
+          "registered": "116864",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "hurlbert1984pseudoreplication",
+      "doi": "10.2307/1942661",
+      "source_snapshot": "hurlbert1984pseudoreplication_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Hurlbert, Stuart H.",
+          "registered": "Hurlbert, Stuart H.",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "54",
+          "registered": "54",
+          "match": true
+        },
+        "number": {
+          "local": "2",
+          "registered": "2",
+          "match": true
+        },
+        "pages": {
+          "local": "187--211",
+          "registered": "187-211",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "jeong2017negativesequence",
+      "doi": "10.1109/tie.2017.2677355",
+      "source_snapshot": "jeong2017negativesequence_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Jeong, Hyeyun",
+          "registered": "Jeong, Hyeyun",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Moon, Seokbae",
+          "registered": "Moon, Seokbae",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Kim, Sang Woo",
+          "registered": "Kim, Sang Woo",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "64",
+          "registered": "64",
+          "match": true
+        },
+        "number": {
+          "local": "7",
+          "registered": "7",
+          "match": true
+        },
+        "pages": {
+          "local": "5701--5708",
+          "registered": "5701-5708",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "jung2023pmsmfaultdata",
+      "doi": "10.1016/j.dib.2023.108952",
+      "source_snapshot": "jung2023pmsmfaultdata_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Jung, Wonho",
+          "registered": "Jung, Wonho",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Yun, Sung-Hyun",
+          "registered": "Yun, Sung-Hyun",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Lim, Yoon-Seop",
+          "registered": "Lim, Yoon-Seop",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Cheong, Sungjin",
+          "registered": "Cheong, Sungjin",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Park, Yong Hwa",
+          "registered": "Park, Yong-Hwa",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "47",
+          "registered": "47",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "108952",
+          "registered": "108952",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "kozovsky2022dualthreephasemodel",
+      "doi": "10.1109/iecon49645.2022.9968364",
+      "source_snapshot": "kozovsky2022dualthreephasemodel_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Kozovsk{\\'y}, Mat{\\'u}{\\v{s}}",
+          "registered": "Kozovsky, Matus",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Buchta, Lud{\\v{e}}k",
+          "registered": "Buchta, Ludek",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Blaha, Petr",
+          "registered": "Blaha, Petr",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "1--6",
+          "registered": "1-6",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "kumar2024negativetransfer",
+      "doi": "10.1109/tim.2024.3476610",
+      "source_snapshot": "kumar2024negativetransfer_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Kumar MP, Pavan",
+          "registered": "Kumar Mp, Pavan",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Tu, Zhe-Xiang",
+          "registered": "Tu, Zhe-Xiang",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Chen, Hsu-Chi",
+          "registered": "Chen, Hsu-Chi",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Chen, Kun-Chih",
+          "registered": "Chen, Kun-Chih",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "73",
+          "registered": "73",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "1--16",
+          "registered": "1-16",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "li2020domaingeneralization",
+      "doi": "10.1016/j.neucom.2020.05.014",
+      "source_snapshot": "li2020domaingeneralization_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Li, Xiang",
+          "registered": "Li, Xiang",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Zhang, Wei",
+          "registered": "Zhang, Wei",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Ma, Hui",
+          "registered": "Ma, Hui",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Luo, Zhong",
+          "registered": "Luo, Zhong",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Li, Xu",
+          "registered": "Li, Xu",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "403",
+          "registered": "403",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "409--420",
+          "registered": "409-420",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "li2023causalconsistency",
+      "doi": "10.1109/tii.2022.3174711",
+      "source_snapshot": "li2023causalconsistency_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Li, Jie",
+          "registered": "Li, Jie",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Wang, Yu",
+          "registered": "Wang, Yu",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Zi, Yanyang",
+          "registered": "Zi, Yanyang",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Zhang, Haijun",
+          "registered": "Zhang, Haijun",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Li, Chen",
+          "registered": "Li, Chen",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "19",
+          "registered": "19",
+          "match": true
+        },
+        "number": {
+          "local": "4",
+          "registered": "4",
+          "match": true
+        },
+        "pages": {
+          "local": "5915--5924",
+          "registered": "5915-5924",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "li2024negativesequence",
+      "doi": "10.1587/elex.21.20240550",
+      "source_snapshot": "10.1587_elex.21.20240550_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Li, Dongdong",
+          "registered": "Li, Dongdong",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Zhu, Mengqi",
+          "registered": "Zhu, Mengqi",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Zhao, Yao",
+          "registered": "Zhao, Yao",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Lin, Shunfu",
+          "registered": "Lin, Shunfu",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "21",
+          "registered": "21",
+          "match": true
+        },
+        "number": {
+          "local": "22",
+          "registered": "22",
+          "match": true
+        },
+        "pages": {
+          "local": "20240550",
+          "registered": "20240550-20240550",
+          "match": false
+        }
+      }
+    },
+    {
+      "key": "li2024physicaldatapmsm",
+      "doi": "10.1016/j.engappai.2024.107938",
+      "source_snapshot": "li2024physicaldatapmsm_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Li, Minglei",
+          "registered": "Li, MingLei",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Geng, Yanfeng",
+          "registered": "Geng, Yanfeng",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Wang, Weiliang",
+          "registered": "Wang, Weiliang",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Tu, Mengyu",
+          "registered": "Tu, Mengyu",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Wu, Xiang",
+          "registered": "Wu, Xiang",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "132",
+          "registered": "132",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "107938",
+          "registered": "107938",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "liu2008isolationforest",
+      "doi": "10.1109/icdm.2008.17",
+      "source_snapshot": "liu2008isolationforest_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Liu, Fei Tony",
+          "registered": "Liu, Fei Tony",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Ting, Kai Ming",
+          "registered": "Ting, Kai Ming",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Zhou, Zhi-Hua",
+          "registered": "Zhou, Zhi-Hua",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "413--422",
+          "registered": "413-422",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "liu2025frequencyguided",
+      "doi": "10.1016/j.measurement.2025.116989",
+      "source_snapshot": "liu2025frequencyguided_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Liu, Xiaolin",
+          "registered": "Liu, Xiaolin",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Liu, Fuzheng",
+          "registered": "Liu, Fuzheng",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Geng, Xiangyi",
+          "registered": "Geng, Xiangyi",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Fan, Longqing",
+          "registered": "Fan, Longqing",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Jiang, Mingshun",
+          "registered": "Jiang, Mingshun",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 6,
+          "local": "Zhang, Faye",
+          "registered": "Zhang, Faye",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "249",
+          "registered": "249",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "116989",
+          "registered": "116989",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "park2025electromagnetic",
+      "doi": "10.4283/jmag.2025.30.4.596",
+      "source_snapshot": "10.4283_JMAG.2025.30.4.596_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Park, Junki",
+          "registered": "Park, Junki",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Harmony, Peter Nkwocha",
+          "registered": "Nkwocha, Peter Harmony",
+          "family_matches": false,
+          "given_matches": false
+        },
+        {
+          "position": 3,
+          "local": "Baek, Jeihoon",
+          "registered": "Baek, Jeihoon",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "30",
+          "registered": "30",
+          "match": true
+        },
+        "number": {
+          "local": "4",
+          "registered": "4",
+          "match": true
+        },
+        "pages": {
+          "local": "596--605",
+          "registered": "596-605",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "roberts2017structuredcv",
+      "doi": "10.1111/ecog.02881",
+      "source_snapshot": "roberts2017structuredcv_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Roberts, David R.",
+          "registered": "Roberts, David R.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Bahn, Volker",
+          "registered": "Bahn, Volker",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Ciuti, Simone",
+          "registered": "Ciuti, Simone",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Boyce, Mark S.",
+          "registered": "Boyce, Mark S.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Elith, Jane",
+          "registered": "Elith, Jane",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 6,
+          "local": "Guillera-Arroita, Gurutzeta",
+          "registered": "Guillera‐Arroita, Gurutzeta",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 7,
+          "local": "Hauenstein, Severin",
+          "registered": "Hauenstein, Severin",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 8,
+          "local": "Lahoz-Monfort, Jos{\\'e} J.",
+          "registered": "Lahoz‐Monfort, José J.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 9,
+          "local": "Schr{\\\"o}der, Boris",
+          "registered": "Schröder, Boris",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 10,
+          "local": "Thuiller, Wilfried",
+          "registered": "Thuiller, Wilfried",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 11,
+          "local": "Warton, David I.",
+          "registered": "Warton, David I.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 12,
+          "local": "Wintle, Brendan A.",
+          "registered": "Wintle, Brendan A.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 13,
+          "local": "Hartig, Florian",
+          "registered": "Hartig, Florian",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 14,
+          "local": "Dormann, Carsten F.",
+          "registered": "Dormann, Carsten F.",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "40",
+          "registered": "40",
+          "match": true
+        },
+        "number": {
+          "local": "8",
+          "registered": "8",
+          "match": true
+        },
+        "pages": {
+          "local": "913--929",
+          "registered": "913-929",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "rousseeuw1999mcd",
+      "doi": "10.1080/00401706.1999.10485670",
+      "source_snapshot": "rousseeuw1999mcd_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Rousseeuw, Peter J.",
+          "registered": "Rousseeuw, Peter J.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Van Driessen, Katrien",
+          "registered": "Driessen, Katrien Van",
+          "family_matches": false,
+          "given_matches": false
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "41",
+          "registered": "41",
+          "match": true
+        },
+        "number": {
+          "local": "3",
+          "registered": "3",
+          "match": true
+        },
+        "pages": {
+          "local": "212--223",
+          "registered": "212-223",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "scholkopf2001support",
+      "doi": "10.1162/089976601750264965",
+      "source_snapshot": "scholkopf2001support_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Sch{\\\"o}lkopf, Bernhard",
+          "registered": "Schölkopf, Bernhard",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Platt, John C.",
+          "registered": "Platt, John C.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Shawe-Taylor, John",
+          "registered": "Shawe-Taylor, John",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Smola, Alex J.",
+          "registered": "Smola, Alex J.",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Williamson, Robert C.",
+          "registered": "Williamson, Robert C.",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "13",
+          "registered": "13",
+          "match": true
+        },
+        "number": {
+          "local": "7",
+          "registered": "7",
+          "match": true
+        },
+        "pages": {
+          "local": "1443--1471",
+          "registered": "1443-1471",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "urresty2013nonstationary",
+      "doi": "10.1109/tpel.2012.2198077",
+      "source_snapshot": "urresty2013nonstationary_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Urresty, Julio-C{\\'e}sar",
+          "registered": "Urresty, Julio-César",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Riba, Jordi-Roger",
+          "registered": "Riba, Jordi-Roger",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Romeral, Luis",
+          "registered": "Romeral, Luis",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "28",
+          "registered": "28",
+          "match": true
+        },
+        "number": {
+          "local": "1",
+          "registered": "1",
+          "match": true
+        },
+        "pages": {
+          "local": "507--515",
+          "registered": "507-515",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "wang2019negativetransfer",
+      "doi": "10.1109/cvpr.2019.01155",
+      "source_snapshot": "wang2019negativetransfer_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Wang, Zirui",
+          "registered": "Wang, Zirui",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Dai, Zihang",
+          "registered": "Dai, Zihang",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "P{\\'o}czos, Barnab{\\'a}s",
+          "registered": "Póczos, Barnabás",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Carbonell, Jaime",
+          "registered": "Carbonell, Jaime",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "11285--11294",
+          "registered": "11285-11294",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "wheat2024dataleakage",
+      "doi": "10.1109/access.2024.3497716",
+      "source_snapshot": "wheat2024dataleakage_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Wheat, Lesley",
+          "registered": "Wheat, Lesley",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "von Mohrenschildt, Martin V.",
+          "registered": "Mohrenschildt, Martin V.",
+          "family_matches": false,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Habibi, Saeid",
+          "registered": "Habibi, Saeid",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Al-Ani, Dhafar",
+          "registered": "Al-Ani, Dhafar",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "12",
+          "registered": "12",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "169879--169895",
+          "registered": "169879-169895",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "zafarani2018itscreview",
+      "doi": "10.1109/jestpe.2018.2811538",
+      "source_snapshot": "zafarani2018itscreview_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Zafarani, Mohsen",
+          "registered": "Zafarani, Mohsen",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Bostanci, Emine",
+          "registered": "Bostanci, Emine",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Qi, Yuan",
+          "registered": "Qi, Yuan",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 4,
+          "local": "Goktas, Taner",
+          "registered": "Goktas, Taner",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 5,
+          "local": "Akin, Bilal",
+          "registered": "Akin, Bilal",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "6",
+          "registered": "6",
+          "match": true
+        },
+        "number": {
+          "local": "4",
+          "registered": "4",
+          "match": true
+        },
+        "pages": {
+          "local": "2173--2191",
+          "registered": "2173-2191",
+          "match": true
+        }
+      }
+    },
+    {
+      "key": "zhao2024dgbenchmark",
+      "doi": "10.1016/j.ress.2024.109964",
+      "source_snapshot": "zhao2024dgbenchmark_crossref.json",
+      "author_count_matches": true,
+      "authors": [
+        {
+          "position": 1,
+          "local": "Zhao, Chao",
+          "registered": "Zhao, Chao",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 2,
+          "local": "Zio, Enrico",
+          "registered": "Zio, Enrico",
+          "family_matches": true,
+          "given_matches": true
+        },
+        {
+          "position": 3,
+          "local": "Shen, Weiming",
+          "registered": "Shen, Weiming",
+          "family_matches": true,
+          "given_matches": true
+        }
+      ],
+      "fields": {
+        "volume": {
+          "local": "245",
+          "registered": "245",
+          "match": true
+        },
+        "number": {
+          "local": "",
+          "registered": "",
+          "match": null
+        },
+        "pages": {
+          "local": "109964",
+          "registered": "109964",
+          "match": true
+        }
+      }
+    }
+  ],
+  "documented_differences": [
+    "Park/Harmony given/family parsing",
+    "Van Driessen particle parsing",
+    "von Mohrenschildt family particle omitted by registry",
+    "IEICE article number represented as one number locally and number-number in Crossref page field"
+  ]
+}

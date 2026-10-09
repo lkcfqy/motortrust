@@ -1,0 +1,26 @@
+[
+  {
+    "file": "manuscript.md",
+    "sha256": "3f65952fa7ccf149f627bbc71a8a0c8599c2d8bb1e5db57d57edec61de17e377"
+  },
+  {
+    "file": "supplementary.md",
+    "sha256": "c18e669e2f353390cbdf0925b97d79914d402aae81a7f376743ae47a6d1672c2"
+  },
+  {
+    "file": "cover_letter.md",
+    "sha256": "e7d8a3286e0178dfc5f422bb461c475fc6a5d2e422b6caf412a3882dafa980db"
+  },
+  {
+    "file": "author_metadata_REQUIRED.yaml",
+    "sha256": "951832ff9b248f16c74b8ebfa756294c5e9575e5a0e4366724c37f4e44b509e8"
+  },
+  {
+    "file": "build_metadata.json",
+    "sha256": "265c4dcb85413c20c2c60061605a6ab7b28771d7ecfdf232f152ddfdbdb1cb6f"
+  },
+  {
+    "file": "QA_Report.md",
+    "sha256": "b4d025a875230adeac0d31e8bf8437a2ccb49fd4f56640a76b77f52fb5461383"
+  }
+]

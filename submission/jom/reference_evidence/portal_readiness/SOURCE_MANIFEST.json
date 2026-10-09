@@ -1,0 +1,45 @@
+[
+  {
+    "source_requested": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm",
+    "source_final": "https://jom.magnetics.or.kr/submission/journal/pages/online_submission.vm",
+    "status": 200,
+    "sha256": "2b590cdfb22c0d5409d4f683bd2e60d01d0b38b94db6036e3fbe9e184a8cb1a2"
+  },
+  {
+    "source_requested": "https://jom.magnetics.or.kr/submission/login.jsp?ViewFlag=author",
+    "source_final": "https://jom.magnetics.or.kr/submission/journal/pages/login.vm?ViewFlag=author",
+    "status": 200,
+    "sha256": "527f93fe954afb17f831f753244de034702fbc7b41267adcce7dd2eda2c77294"
+  },
+  {
+    "source_requested": "https://jom.magnetics.or.kr/users/join.vm",
+    "source_final": "https://jom.magnetics.or.kr/users/join.vm",
+    "status": 200,
+    "sha256": "677ffcfacda1e7a0d31ba00530c4b8532ce5180125e237d794aea423f1f4a163"
+  },
+  {
+    "source_requested": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm",
+    "source_final": "https://jom.magnetics.or.kr/submission/journal/pages/instructions_authors.vm",
+    "status": 200,
+    "sha256": "123dabb5b96bbb02cfd2f1046bfda4c631b86afeb6ac2181f60169cd91714eaa"
+  },
+  {
+    "source_requested": "https://www.magnetics.or.kr/eng/html/en_journal.vm",
+    "source_final": "https://www.magnetics.or.kr/eng/html/en_journal.vm",
+    "status": 200,
+    "sha256": "3c433e7472d25e7db1bc72467349c43225177f120d8e8efc6e513a4a319aaca7"
+  },
+  {
+    "source_requested": "https://jom.magnetics.or.kr/download/JoM_Template.doc",
+    "source_final": "https://jom.magnetics.or.kr/download/JoM_Template.doc",
+    "status": 200,
+    "sha256": "4f33687a7f776c8856d0d96bcca07c378777e6c4a7780bc96cc2f332c1e8aa7e",
+    "matched_existing_official_template": true
+  },
+  {
+    "source_requested": "https://www.magnetics.or.kr/eng/html/about_membership.vm",
+    "source_final": "https://www.magnetics.or.kr/eng/html/about_membership.vm",
+    "status": 200,
+    "sha256": "9c7e1379f463b8a3f41f107f0b4f71b58754b2d760189755e1fe02b77ed9141a"
+  }
+]

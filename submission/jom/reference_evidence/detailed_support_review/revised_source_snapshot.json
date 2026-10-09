@@ -1,0 +1,22 @@
+{
+  "review_date": "2026-10-09",
+  "scope": "R1-R6 and revised support/inference boundary, no scientific source mutation",
+  "sources": [
+    {
+      "path": "submission/jom/manuscript.md",
+      "sha256": "f985542898ddbd4212389a19d07a062eb6a1706f5f36d4e054dd7e846f547d29",
+      "bytes": 40714,
+      "abstract_word_count_whitespace": 133
+    },
+    {
+      "path": "submission/jom/supplementary.md",
+      "sha256": "ea6b53150649cf8f0248f2e1a3811f43a5426ef7f55d228a2111ab74e4d01099",
+      "bytes": 57171
+    },
+    {
+      "path": "submission/jom/cover_letter.md",
+      "sha256": "5d517bfc26a8f1ee1d431852159e64d869346a267c1cf5dcb252337b52dc3171",
+      "bytes": 3390
+    }
+  ]
+}

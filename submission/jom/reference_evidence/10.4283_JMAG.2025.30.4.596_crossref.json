@@ -1,0 +1,172 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2026-01-28T17:20:36Z",
+      "timestamp": 1769620836974,
+      "version": "3.49.0"
+    },
+    "reference-count": 0,
+    "publisher": "The Korean Magnetics Society",
+    "issue": "4",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JMAG"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ]
+    },
+    "DOI": "10.4283/jmag.2025.30.4.596",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2026-01-28T05:31:51Z",
+      "timestamp": 1769578311000
+    },
+    "page": "596-605",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Electromagnetic Signal Analysis for Electrical and Mechanical Fault Diagnosis in Synchronous Motor"
+    ],
+    "prefix": "10.4283",
+    "volume": "30",
+    "author": [
+      {
+        "given": "Junki",
+        "family": "Park",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Peter Harmony",
+        "family": "Nkwocha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jeihoon",
+        "family": "Baek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2816",
+    "container-title": [
+      "Journal of Magnetics"
+    ],
+    "original-title": [
+      ""
+    ],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2026-01-28T05:31:55Z",
+      "timestamp": 1769578315000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE12551988"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4283/jmag.2025.30.4.596",
+    "relation": {},
+    "ISSN": [
+      "1226-1750",
+      "2233-6656"
+    ],
+    "issn-type": [
+      {
+        "value": "1226-1750",
+        "type": "print"
+      },
+      {
+        "value": "2233-6656",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ]
+    }
+  }
+}

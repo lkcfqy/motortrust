@@ -1,0 +1,955 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T10:52:27Z",
+      "timestamp": 1790679147706,
+      "version": "4.1.0"
+    },
+    "reference-count": 128,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2018-12-01T00:00:00Z",
+          "timestamp": 1543622400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/USG.html"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100004361",
+        "name": "Texas Instruments",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004361",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "SRC/TxACE Center",
+        "award": [
+          "2810.016"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2810.016"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE J. Emerg. Sel. Topics Power Electron."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/jestpe.2018.2811538",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2018-03-02T19:17:14Z",
+      "timestamp": 1520018234000
+    },
+    "page": "2173-2191",
+    "source": "Crossref",
+    "is-referenced-by-count": 203,
+    "title": [
+      "Interturn Short-Circuit Faults in Permanent Magnet Synchronous Machines: An Extended Review and Comprehensive Analysis"
+    ],
+    "prefix": "10.1109",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3714-5081",
+        "authenticated-orcid": false,
+        "given": "Mohsen",
+        "family": "Zafarani",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Emine",
+        "family": "Bostanci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuan",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7021-8000",
+        "authenticated-orcid": false,
+        "given": "Taner",
+        "family": "Goktas",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6912-7219",
+        "authenticated-orcid": false,
+        "given": "Bilal",
+        "family": "Akin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IAS.2005.1518481"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2014.2387338"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-epa.2009.0183"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-981-10-0624-1",
+        "author": "karmakar",
+        "year": "2016",
+        "journal-title": "Induction Motor Fault Diagnosis Approach through Current Signature Analysis"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2012.6342672"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2012.2222857"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2013.2272911"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ITEC.2014.6861775"
+      },
+      {
+        "key": "ref35",
+        "first-page": "1387",
+        "article-title": "Diagnosis of stator short-circuit faults in series and parallel winding connections of closed-loop controlled PMSMs",
+        "author": "he",
+        "year": "2015",
+        "journal-title": "Proc IEEE Int Electr Mach Drives Conf (IEMDC)"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2016.2518992"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2012.6342667"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2090",
+        "DOI": "10.1109/TMAG.2009.2013246",
+        "article-title": "The internal fault analysis of brushless DC motors based on the winding function theory",
+        "volume": "45",
+        "author": "kim",
+        "year": "2009",
+        "journal-title": "IEEE Trans Magn"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2014.2360813"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2015.2439574"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EPE.2015.7309189"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2010.2062480"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2015.2496142"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VPPC.2012.6422784"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CATCON.2013.6737487"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICEMS.2014.7013622"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2013.2265400"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2012.2227808"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-epa.2010.0272"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2010.2060463"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2006.892301"
+      },
+      {
+        "key": "ref58",
+        "first-page": "566",
+        "article-title": "Fault detection of stator winding interturn short circuit in PMSM based on wavelet packet analysis",
+        "author": "ping",
+        "year": "2013",
+        "journal-title": "Proc Int Conf Meas Technol Mechatron Autom"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2014.2318207"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2008.2011580"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2010.2050496"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IAPEC.2011.5779847"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICEMS.2014.7013621"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICAMechS.2015.7287076"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2012.2207731"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TTE.2015.2437338"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TTE.2017.2649883"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "4210",
+        "DOI": "10.1109/TIE.2008.2005019",
+        "article-title": "Analytical prediction of the short-circuit current in fault-tolerant permanent-magnet machines",
+        "volume": "55",
+        "author": "sun",
+        "year": "2008",
+        "journal-title": "IEEE Trans Ind Electron"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEMDC.2015.7409249"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2015.7310636"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/cp:20080472"
+      },
+      {
+        "key": "ref49",
+        "first-page": "1",
+        "article-title": "Analysis of stator winding inter-turn short circuit fault of PMSM for electric vehicle based on finite element simulation",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "Proc IEEE Conf Expo Transp Electrific Asia&#x2013;Pacific (ITEC Asia&#x2013;Pacific)"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1109/TIA.1985.349533",
+        "article-title": "Report of large motor reliability survey of industrial and commercial installations, part II",
+        "volume": "ia 21",
+        "author": "bell",
+        "year": "1985",
+        "journal-title": "IEEE Trans Ind Appl"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2015.7309927"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2015.2499162"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2015.7309915"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IECON.2006.347409"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2008.2004662"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PESC.2007.4342300"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2013.6647169"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2009.2037922"
+      },
+      {
+        "key": "ref127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2016.2627022"
+      },
+      {
+        "key": "ref126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CISTEM.2016.8066818"
+      },
+      {
+        "key": "ref125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2010.2070782"
+      },
+      {
+        "key": "ref124",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1109/ICEMS.2005.202506",
+        "article-title": "comparison of flux-switching and doubly-salient permanent magnet brushless machines",
+        "volume": "1",
+        "author": "hua",
+        "year": "2005",
+        "journal-title": "2005 International Conference on Electrical Machines and Systems ICEMS-05"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2014.2330067"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPE.2011.5944430"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DEMPED.2015.7303702"
+      },
+      {
+        "key": "ref128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2015.2402234"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2015.2496900"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2012.2197402"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2009.2022156"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2016.2626264"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2011.2177642"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2010.2083639"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-smt:20060030"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2007.900446"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2015/168786"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2008.2007529"
+      },
+      {
+        "key": "ref63",
+        "first-page": "316",
+        "article-title": "A new approach to detect stator fault in permanent magnet synchronous motors",
+        "author": "arkan",
+        "year": "2015",
+        "journal-title": "Proc Symp Diagnostics Electr Mach Power Electron Drives (SDEMPED)"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2013.2253081"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsr.2013.05.018"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2012.2222049"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2016.2583780"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/APEC.2016.7468312"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TTE.2015.2470092"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2017.2688973"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2006.892482"
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IECON.2008.4758125"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IAS.2015.7356845"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SPEEDHAM.2008.4581092"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DEMPED.2013.6645760"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DEMPED.2009.5292797"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2014.2348945"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2005.847964"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2016.2558183"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2013.2254132"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2012.2198077"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/APEX.2007.357610"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DEMPED.2013.6645764"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VPPC.2007.4544105"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ITEC.2014.6861774"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIT.2014.6894927"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PowerEng.2013.6635722"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "crossref",
+        "first-page": "1733",
+        "DOI": "10.1109/ICMA.2015.7237747",
+        "article-title": "The correlation analysis of PM inter-turn fault based on stator current and vibration signal",
+        "author": "li",
+        "year": "2015",
+        "journal-title": "IEEE Int Conf Mechatron Autom (ICMA)"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "crossref",
+        "first-page": "2925",
+        "DOI": "10.1109/ICPE.2015.7168191",
+        "article-title": "Diagnosis technique for stator winding inter-turn fault in BLDC motor using detection coil",
+        "author": "lee",
+        "year": "2015",
+        "journal-title": "Proc 9th Int Conf Power Electron ECCE Asia (ICPE-ECCE Asia)"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PESGM.2014.6939379"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2013.2282152"
+      },
+      {
+        "key": "ref97",
+        "first-page": "566",
+        "article-title": "Performance comparison and winding fault detection of duplex 2-phase and 3-phase fault-tolerant permanent magnet brushless machines",
+        "author": "chai",
+        "year": "2007",
+        "journal-title": "Proc IEEE Ind Appl Annu Meeting"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MIA.2007.909802"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2007.900448"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2008.2007527"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2008.2004665"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/41.873207"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2010.2089937"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2012.2223717"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "634",
+        "DOI": "10.1049/iet-epa.2015.0020",
+        "article-title": "Turn&#x2013;turn short circuit fault management in permanent magnet machines",
+        "volume": "9",
+        "author": "hamiti",
+        "year": "2015",
+        "journal-title": "IET Electr Power Appl"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICELMACH.2008.4800099"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2014.2320902"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ESARS.2015.7101528"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "first-page": "560",
+        "DOI": "10.1049/iet-epa.2015.0443",
+        "article-title": "Non-linear circuit based model of permanent magnet synchronous machine under inter-turn fault: A simple approach based on healthy machine data",
+        "volume": "10",
+        "author": "mezani",
+        "year": "2016",
+        "journal-title": "IET Electr Power Appl"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2004.841516"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ECCE.2015.7309970"
+      },
+      {
+        "key": "ref119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WEMDCD.2013.6525171"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IAS.2015.7356741"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-epa.2009.0264"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TEC.2012.2188138"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2005.861313"
+      },
+      {
+        "key": "ref116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2016.2577552"
+      },
+      {
+        "key": "ref80",
+        "first-page": "1",
+        "article-title": "Winding turn-to-turn faults detection of five-phase fault-tolerant permanent-magnet machine based on parametric model",
+        "author": "tang",
+        "year": "2012",
+        "journal-title": "Proc Int Conf Electr Mach Syst (ICEMS)"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMAG.2015.2500894"
+      },
+      {
+        "key": "ref120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/APEC.2013.6520304"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2015.2402641"
+      },
+      {
+        "key": "ref121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2014.2326084"
+      },
+      {
+        "key": "ref122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JESTPE.2013.2295537"
+      },
+      {
+        "key": "ref123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2015.2478337"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/iet-epa.2015.0148"
+      },
+      {
+        "key": "ref86",
+        "first-page": "1",
+        "article-title": "Detection of inter-turns short circuits in permanent magnet synchronous motors operating under transient conditions by means of the zero sequence voltage",
+        "author": "urresty",
+        "year": "2011",
+        "journal-title": "Proc Eur Conf Power Electron Appl"
+      },
+      {
+        "key": "ref87",
+        "first-page": "1192",
+        "article-title": "Stator winding inter-turn short circuit faults severity detection controlled by OW-SVPWM without CMV of five-phase FTFSCW-IPM",
+        "author": "fan",
+        "year": "2015",
+        "journal-title": "Proc Int Conf Electr Mach Syst (ICEMS)"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPEL.2015.2388493"
+      }
+    ],
+    "container-title": [
+      "IEEE Journal of Emerging and Selected Topics in Power Electronics"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6245517/8515215/08306090.pdf?arnumber=8306090",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          1
+        ]
+      ],
+      "date-time": "2024-07-01T18:34:09Z",
+      "timestamp": 1719858849000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8306090/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12
+        ]
+      ]
+    },
+    "references-count": 128,
+    "journal-issue": {
+      "issue": "4"
+    },
+    "URL": "https://doi.org/10.1109/jestpe.2018.2811538",
+    "relation": {},
+    "ISSN": [
+      "2168-6777",
+      "2168-6785"
+    ],
+    "issn-type": [
+      {
+        "value": "2168-6777",
+        "type": "print"
+      },
+      {
+        "value": "2168-6785",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          12
+        ]
+      ]
+    }
+  }
+}

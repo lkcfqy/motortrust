@@ -1,0 +1,180 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2025-11-06T06:56:53Z",
+      "timestamp": 1762412213721,
+      "version": "build-2065373602"
+    },
+    "reference-count": 0,
+    "publisher": "The Korean Magnetics Society",
+    "issue": "4",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JMAG"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "DOI": "10.4283/jmag.2024.29.4.397",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2025-01-23T22:04:37Z",
+      "timestamp": 1737669877000
+    },
+    "page": "397-404",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Modular Winding Arrangement Design to Suppress Short-Circuit Current and Magnetic Coupling in PM Machines for Flywheel Battery"
+    ],
+    "prefix": "10.4283",
+    "volume": "29",
+    "author": [
+      {
+        "given": "Luting",
+        "family": "Miao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Meimei",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Qian",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "2816",
+    "container-title": [
+      "Journal of Magnetics"
+    ],
+    "original-title": [
+      ""
+    ],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12031240",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2025-11-06T06:52:04Z",
+      "timestamp": 1762411924000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE12031240"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4283/jmag.2024.29.4.397",
+    "relation": {},
+    "ISSN": [
+      "1226-1750",
+      "2233-6656"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1226-1750"
+      },
+      {
+        "type": "electronic",
+        "value": "2233-6656"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2026-09-29T18:16:13Z",
+      "timestamp": 1790705773532,
+      "version": "4.1.0"
+    },
+    "reference-count": 42,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2020-08-01T00:00:00Z",
+          "timestamp": 1596240000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2020-08-01T00:00:00Z",
+          "timestamp": 1596240000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Neurocomputing"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neucom.2020.05.014",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2020-05-08T11:51:44Z",
+      "timestamp": 1588938704000
+    },
+    "page": "409-420",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 191,
+    "special_numbering": "C",
+    "title": [
+      "Domain generalization in rotating machinery fault diagnostics using deep neural networks"
+    ],
+    "prefix": "10.1016",
+    "volume": "403",
+    "author": [
+      {
+        "given": "Xiang",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hui",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhong",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0005",
+        "first-page": "1",
+        "article-title": "A combined polynomial chirplet transform and synchroextracting technique for analyzing nonstationary signals of rotating machinery",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.engfailanal.2015.06.004",
+        "article-title": "Review on dynamics of cracked gear systems",
+        "volume": "55",
+        "author": "Ma",
+        "year": "2015",
+        "journal-title": "Eng. Fail. Anal."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0015",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Li, X. Li, H. Ma, Deep representation clustering-based fault diagnosis method with unsupervised data applied to rotating machinery, Mech. Syst. Signal Process.https://doi.org/10.1016/j.ymssp.2020.106825.",
+        "DOI": "10.1016/j.ymssp.2020.106825"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neucom.2020.05.014_b0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1007/s11071-019-05176-2",
+        "article-title": "Research on vibration performance of the nonlinear combined support-flexible rotor system",
+        "volume": "98",
+        "author": "Luo",
+        "year": "2019",
+        "journal-title": "Nonlinear Dyn."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1016/j.neucom.2019.04.010",
+        "article-title": "Generalization of deep neural network for bearing fault diagnosis under different working conditions using multiple kernel method",
+        "volume": "352",
+        "author": "An",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neucom.2020.05.014_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "1688",
+        "DOI": "10.1109/TII.2019.2927590",
+        "article-title": "Diagnosing rotating machines with weakly supervised data using deep transfer learning",
+        "volume": "16",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Industr. Inf."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1016/j.neucom.2018.05.024",
+        "article-title": "An intelligent diagnosis scheme based on generative adversarial learning deep neural networks and its application to planetary gearbox fault pattern recognition",
+        "volume": "310",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1016/j.sigpro.2016.07.028",
+        "article-title": "Fault diagnosis of rotary machinery components using a stacked denoising autoencoder-based health state identification",
+        "volume": "130",
+        "author": "Lu",
+        "year": "2017",
+        "journal-title": "Signal Processing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0045",
+        "first-page": "1",
+        "article-title": "Deep learning-based machinery fault diagnostics with domain adaptation across sensors at different places",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0050",
+        "unstructured": "G. Csurka, Domain adaptation for visual applications: a comprehensive survey, arXiv preprint arXiv:1702.05374."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "293",
+        "DOI": "10.1016/j.neucom.2019.02.013",
+        "article-title": "Supervised dictionary-based transfer subspace learning and applications for fault diagnosis of sucker rod pumping systems",
+        "volume": "338",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0060",
+        "unstructured": "M. Long, Y. Cao, J. Wang, M. Jordan, Learning transferable features with deep adaptation networks, in: Proceedings of 32nd International Conference on Machine Learning, vol. 37, 2015, pp. 97–105."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.1016/j.neucom.2019.12.033",
+        "article-title": "Intelligent cross-machine fault diagnosis approach with deep auto-encoder and domain adaptation",
+        "volume": "383",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.sigpro.2015.09.008",
+        "article-title": "An optimal fault detection threshold for early detection using Kullback-Leibler divergence for unknown distribution data",
+        "volume": "120",
+        "author": "Youssef",
+        "year": "2016",
+        "journal-title": "Signal Processing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0075",
+        "series-title": "27th International Conference on Neural Information Processing Systems",
+        "first-page": "3320",
+        "article-title": "How transferable are features in deep neural networks?",
+        "author": "Yosinski",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0080",
+        "first-page": "647",
+        "article-title": "DeCAF: a deep convolutional activation feature for generic visual recognition",
+        "volume": "32",
+        "author": "Donahue",
+        "year": "2014",
+        "journal-title": "31st International Conference on Machine Learning"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1016/j.sigpro.2019.03.019",
+        "article-title": "Understanding and improving deep learning-based rolling bearing fault diagnosis with attention mechanism",
+        "volume": "161",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Signal Processing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0090",
+        "series-title": "27th International Conference on Neural Information Processing Systems",
+        "first-page": "1898",
+        "article-title": "Flexible transfer learning under support and model shift",
+        "author": "Wang",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1016/j.inffus.2017.03.002",
+        "article-title": "Bias estimation for asynchronous multi-rate multi-sensor fusion with unknown inputs",
+        "volume": "39",
+        "author": "Geng",
+        "year": "2018",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0100",
+        "first-page": "1",
+        "article-title": "Target state and markovian jump ionospheric height bias estimation for OTHR tracking systems",
+        "author": "Geng",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Syst., Man, Cybern.: Syst."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.1016/j.neucom.2018.05.021",
+        "article-title": "A robust intelligent fault diagnosis method for rolling element bearings based on deep distance metric learning",
+        "volume": "310",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.neucom.2020.05.014_b0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "3137",
+        "DOI": "10.1109/TIE.2016.2519325",
+        "article-title": "An intelligent fault diagnosis method using unsupervised feature learning towards mechanical big data",
+        "volume": "63",
+        "author": "Lei",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1016/j.sigpro.2018.12.005",
+        "article-title": "Multi-layer domain adaptation method for rolling bearing fault diagnosis",
+        "volume": "157",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Signal Processing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0120",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Li, X. Jia, Q. Yang, J. Lee, Quality analysis in metal additive manufacturing with deep learning, J. Intell. Manuf.https://doi.org/10.1007/s10845-020-01549-2.",
+        "DOI": "10.1007/s10845-020-01549-2"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "295",
+        "DOI": "10.1016/j.isatra.2018.12.025",
+        "article-title": "Deep residual learning-based fault diagnosis method for rotating machinery",
+        "volume": "95",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "ISA Trans."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "208",
+        "DOI": "10.1016/j.ress.2018.11.011",
+        "article-title": "Deep learning-based remaining useful life estimation of bearings using multi-scale feature extraction",
+        "volume": "182",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "Reliab. Eng. Syst. Saf."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1016/j.neucom.2017.02.045",
+        "article-title": "A recurrent neural network based health indicator for remaining useful life prediction of bearings",
+        "volume": "240",
+        "author": "Guo",
+        "year": "2017",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "799",
+        "DOI": "10.1016/j.ymssp.2017.11.016",
+        "article-title": "Machinery health prognostics: A systematic review from data acquisition to rul prediction",
+        "volume": "104",
+        "author": "Lei",
+        "year": "2018",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neucom.2020.05.014_b0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "1350",
+        "DOI": "10.1109/TII.2017.2672988",
+        "article-title": "Convolutional discriminative feature learning for induction motor fault diagnosis",
+        "volume": "13",
+        "author": "Sun",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0150",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.measurement.2019.107377",
+        "article-title": "Machinery fault diagnosis with imbalanced data using deep generative adversarial networks",
+        "volume": "152",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Measurement"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.neucom.2020.05.014_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "7316",
+        "DOI": "10.1109/TIE.2018.2877090",
+        "article-title": "Deep convolutional transfer learning network: a new method for intelligent fault diagnosis of machines with unlabeled data",
+        "volume": "66",
+        "author": "Guo",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/ACCESS.2018.2873804",
+        "article-title": "Intelligent fault diagnosis under varying working conditions based on domain adaptive convolutional neural networks",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neucom.2020.05.014_b0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "2296",
+        "DOI": "10.1109/TIE.2016.2627020",
+        "article-title": "Deep model based domain adaptation for fault diagnosis",
+        "volume": "64",
+        "author": "Lu",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.neucom.2020.05.014_b0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "5525",
+        "DOI": "10.1109/TIE.2018.2868023",
+        "article-title": "Cross-domain fault diagnosis of rolling element bearings using deep generative neural networks",
+        "volume": "66",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Ind. Electron."
+      },
+      {
+        "issue": "99",
+        "key": "10.1016/j.neucom.2020.05.014_b0175",
+        "first-page": "1",
+        "article-title": "A new deep transfer learning based on sparse auto-encoder for fault diagnosis",
+        "volume": "PP",
+        "author": "Wen",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Syst. Man Cybern.: Syst."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "692",
+        "DOI": "10.1016/j.ymssp.2018.12.051",
+        "article-title": "An intelligent fault diagnosis approach based on transfer learning from laboratory bearings to locomotive bearings",
+        "volume": "122",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Mech. Syst. Signal Process."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0185",
+        "unstructured": "I. Goodfellow, J. Pouget-Abadie, M. Mirza, B. Xu, D. Warde-Farley, S. Ozair, A. Courville, Y. Bengio, Generative Adversarial Nets, Curran Associates Inc, 2014."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0190",
+        "unstructured": "Y. Ganin, V. Lempitsky, Unsupervised domain adaptation by backpropagation, arXiv preprint arXiv:1409.7495."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0195",
+        "series-title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "first-page": "2962",
+        "article-title": "Adversarial discriminative domain adaptation",
+        "author": "Tzeng",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0200",
+        "series-title": "Proceedings of IEEE International Conference on Acoustics, Speech and Signal Processing",
+        "first-page": "8609",
+        "article-title": "Improving deep neural networks for LVCSR using rectified linear units and dropout",
+        "author": "Dahl",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0205",
+        "first-page": "207",
+        "article-title": "Distance metric learning for large margin nearest neighbor classification",
+        "volume": "10",
+        "author": "Weinberger",
+        "year": "2009",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.neucom.2020.05.014_b0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1016/j.ymssp.2015.04.021",
+        "article-title": "Rolling element bearing diagnostics using the Case Western Reserve University data: a benchmark study",
+        "volume": "64–65",
+        "author": "Smith",
+        "year": "2015",
+        "journal-title": "Mech. Syst. Signal Process."
+      }
+    ],
+    "container-title": [
+      "Neurocomputing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0925231220308092?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0925231220308092?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2025-10-13T19:16:29Z",
+      "timestamp": 1760382989000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0925231220308092"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "references-count": 42,
+    "alternative-id": [
+      "S0925231220308092"
+    ],
+    "URL": "https://doi.org/10.1016/j.neucom.2020.05.014",
+    "relation": {},
+    "ISSN": [
+      "0925-2312"
+    ],
+    "issn-type": [
+      {
+        "value": "0925-2312",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Domain generalization in rotating machinery fault diagnostics using deep neural networks",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Neurocomputing",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.neucom.2020.05.014",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2020 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

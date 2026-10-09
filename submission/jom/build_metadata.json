@@ -1,0 +1,132 @@
+{
+  "journal": "Journal of Magnetics",
+  "checked_date": "2026-10-09",
+  "status": "author review preparation; author inputs and official forms pending",
+  "interpreter": "/Users/lkc/miniforge3/envs/motortrust/bin/python",
+  "documents": {
+    "Main_Manuscript_AUTHOR_INPUT_REQUIRED": {
+      "figures": 6,
+      "tables": 3,
+      "references": 30,
+      "sha256": "f44d9bc648570c1d009d18fc68c4fb7c1951462eac29f7b6b5e4f3188a1750c3"
+    },
+    "Supplementary_Material": {
+      "figures": 5,
+      "tables": 31,
+      "references": 4,
+      "sha256": "5ced164f53e4d7c2bea3d1f93f731f4b63395b4e0d30a746bc3ff6ff49afa6cd"
+    },
+    "Cover_Letter_AUTHOR_INPUT_REQUIRED": {
+      "figures": 0,
+      "tables": 0,
+      "references": 0,
+      "sha256": "0b6d419e6e13e009b4e495eb3bd85b014d6ea6f41f10ba94524a5980d60b80d5"
+    }
+  },
+  "pdfs": {
+    "Main_Manuscript_AUTHOR_INPUT_REQUIRED": {
+      "pages": 29,
+      "pngs": 29,
+      "sha256": "cf05a1e959824ffeb2e57c77a0a3280a7640ee646fcc392466845d6d65cd6d8e",
+      "visual_review": "requires explicit page-image inspection",
+      "minimum_text_characters": 10
+    },
+    "Supplementary_Material": {
+      "pages": 23,
+      "pngs": 23,
+      "sha256": "3544635776187c7b28f9a9da03873d01530cd1e20a440f0fab7848119ed3ce68",
+      "visual_review": "requires explicit page-image inspection",
+      "minimum_text_characters": 1211
+    },
+    "Cover_Letter_AUTHOR_INPUT_REQUIRED": {
+      "pages": 1,
+      "pngs": 1,
+      "sha256": "76823513cc46f40c1819331b8a6b499953bab0362e268e72d05c31188c8fbcad",
+      "visual_review": "requires explicit page-image inspection",
+      "minimum_text_characters": 2839
+    }
+  },
+  "figures": [
+    {
+      "number": 1,
+      "source": "paper/figures/protocol_overview.pdf",
+      "caption": "Exploratory motor holdout, chronological target-health roles, and Log-Euclidean scoring flow. The same 0.2 s windows and 3 s block maximum are retained externally, where target-health roles instead use separate load records (Table I). Blocks and windows remain dependent within records.",
+      "files": [
+        "Fig1.pdf",
+        "Fig1.png",
+        "Fig1.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately"
+    },
+    {
+      "number": 2,
+      "source": "paper/figures/method_performance.pdf",
+      "caption": "Exploratory KAIST covariance comparison: per-motor fault detection and healthy false-alarm intervals. Three physical motors are held out in turn, with 14 later-time health blocks per motor. Wilson intervals are descriptive; the target faults were inspected during development.",
+      "files": [
+        "Fig2.pdf",
+        "Fig2.png",
+        "Fig2.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately"
+    },
+    {
+      "number": 3,
+      "source": "paper/figures/external_method_performance.pdf",
+      "caption": "Complete frozen external comparison on one dual-three-phase motor. Detection intervals resample 48 complete fault records within fixed turn--phase strata (384 ordered blocks). Health intervals summarize four held-out load records (32 blocks). H1 limits are 12% for the pooled Wilson upper bound and 15% for the maximum-load empirical false-alarm rate. The solid highlighted bar identifies the observed comparator leader; the hatched bar identifies the unchanged frozen primary. Neither interval represents independent motor replication.",
+      "files": [
+        "Fig3.pdf",
+        "Fig3.png",
+        "Fig3.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately"
+    },
+    {
+      "number": 4,
+      "source": "paper/figures/external_condition_drift.pdf",
+      "caption": "Post-reveal primary-score and alarm trajectories over eight ordered 3 s external blocks, using unchanged scores and thresholds. Score medians and interquartile ranges summarize 48 fault and four held-out healthy records per position. Approximate healthy speed rises with position; both axes are associated operating descriptions rather than evidence of an isolated causal speed effect.",
+      "files": [
+        "Fig4.pdf",
+        "Fig4.png",
+        "Fig4.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately"
+    },
+    {
+      "number": 5,
+      "source": "paper/figures/external_proposed_heatmap.pdf",
+      "caption": "Frozen primary alarm fractions across six fixed turn--phase conditions and eight loads. Each cell describes one physical record containing eight ordered blocks; 12.5% means one alarmed block. Turns 1/3/5/6 use phase U and turns 2/4 phase V, preventing separate turn and phase inference. The grid belongs to one motor.",
+      "files": [
+        "Fig5.pdf",
+        "Fig5.png",
+        "Fig5.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately"
+    },
+    {
+      "number": 6,
+      "source": "paper/figures/external_feature_geometry.pdf",
+      "caption": "Post-reveal feature discrimination and score allocation. Direction-free AUROC, max(AUROC, 1\u2212AUROC), pools 64 healthy and 384 fault subsystem-block means at four common loads. Matched dz separately pairs load, subsystem, and block, reusing health six times. Absolute allocations average winning-window fractions from 32 healthy and 384 fault system blocks, with all eight fault loads. Different units and supports preclude an ablation interpretation; no feature or threshold changed. Allocation is coordinate dependent and non-causal.",
+      "files": [
+        "Fig6.pdf",
+        "Fig6.png",
+        "Fig6.tif"
+      ],
+      "publication_exports": "grayscale; original colour vector sources retained separately",
+      "publication_label_correction": "Panel (a): Single-feature discrimination; data, axes and selected features unchanged",
+      "publication_vector_source": "figure_sources/JOM_external_feature_geometry.pdf"
+    }
+  ],
+  "legacy_doc": {
+    "file": "Main_Manuscript_AUTHOR_INPUT_REQUIRED.doc",
+    "bytes": 761856,
+    "sha256": "0f522ef8740b4bbf253bc4f492ac9cb8b8a7566098907894e25bf00ea5243853",
+    "native_word_review_required": true
+  },
+  "zip": {
+    "file": "Paper1_Reproducibility_Code.zip",
+    "files": 569,
+    "bytes": 7543253,
+    "sha256": "3a25d7f35b99311d9584c789dd85d61a967cd959d7f47ce01f0357e2a0de18df",
+    "crc_and_manifest": "pass"
+  }
+}

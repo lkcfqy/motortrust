@@ -1,0 +1,968 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2026-01-19T07:27:09Z",
+      "timestamp": 1768807629784,
+      "version": "3.49.0"
+    },
+    "reference-count": 65,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2022-09-01T00:00:00Z",
+          "timestamp": 1661990400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100003170",
+        "name": "Stiftelsen för Kunskaps- och Kompetensutveckling",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "20160103"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "20160103"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003170",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Expert Systems with Applications"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.eswa.2022.116864",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2022-03-31T11:48:44Z",
+      "timestamp": 1648727324000
+    },
+    "page": "116864",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "special_numbering": "C",
+    "title": [
+      "A conformal anomaly detection based industrial fleet monitoring framework: A case study in district heating"
+    ],
+    "prefix": "10.1016",
+    "volume": "201",
+    "author": [
+      {
+        "given": "Shiraz",
+        "family": "Farouq",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Byttner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Mohamed-Rafik",
+        "family": "Bouguelia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Henrik",
+        "family": "Gadd",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "2",
+        "key": "10.1016/j.eswa.2022.116864_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1145/2481244.2481252",
+        "article-title": "Outlier ensembles: Position paper",
+        "volume": "14",
+        "author": "Aggarwal",
+        "year": "2013",
+        "journal-title": "SIGKDD Explorations Newsletter"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b2",
+        "series-title": "Outlier ensembles: an introduction",
+        "author": "Aggarwal",
+        "year": "2017"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eswa.2022.116864_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "93",
+        "DOI": "10.1145/335191.335388",
+        "article-title": "LOF: Identifying density-based local outliers",
+        "volume": "29",
+        "author": "Breunig",
+        "year": "2000",
+        "journal-title": "SIGMOD Record"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1016/j.autcon.2018.10.020",
+        "article-title": "Data analytics to improve building performance: A critical review",
+        "volume": "97",
+        "author": "Burak Gunay",
+        "year": "2019",
+        "journal-title": "Automation in Construction"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.eswa.2022.116864_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "833",
+        "DOI": "10.1016/j.engappai.2011.03.002",
+        "article-title": "Consensus self-organized models for fault detection (COSMO)",
+        "volume": "24",
+        "author": "Byttner",
+        "year": "2011",
+        "journal-title": "Engineering Applications of Artificial Intelligence"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b6",
+        "series-title": "Artificial intelligence applications and innovations",
+        "first-page": "231",
+        "article-title": "Aggregated conformal prediction",
+        "author": "Carlsson",
+        "year": "2014"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eswa.2022.116864_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1007/s10994-018-5752-y",
+        "article-title": "Majority vote ensembles of conformal predictors",
+        "volume": "108",
+        "author": "Cherubin",
+        "year": "2019",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eswa.2022.116864_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.4018/IJACI.2021040101",
+        "article-title": "Testing exchangeability with martingale for change-point detection",
+        "volume": "12",
+        "author": "Dai",
+        "year": "2021",
+        "journal-title": "International Journal of Ambient Computing and Intelligence (IJACI)"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b9",
+        "series-title": "Proceedings of the 16th ACM SIGKDD international conference on knowledge discovery and data mining",
+        "first-page": "47",
+        "article-title": "Multiple kernel learning for heterogeneous anomaly detection: Algorithm and aviation safety case study",
+        "author": "Das",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/dce.2020.19",
+        "article-title": "Anomaly detection in a fleet of industrial assets with hierarchical statistical modeling",
+        "volume": "1",
+        "author": "Dhada",
+        "year": "2020",
+        "journal-title": "Data-Centric Engineering"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "447",
+        "DOI": "10.1016/j.procs.2015.07.322",
+        "article-title": "Evaluation of self-organized approach for predicting compressor faults in a city bus fleet",
+        "volume": "53",
+        "author": "Fan",
+        "year": "2015",
+        "journal-title": "Procedia Computer Science"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "591",
+        "DOI": "10.1016/j.neucom.2021.08.016",
+        "article-title": "Mondrian conformal anomaly detection for fault sequence identification in heterogeneous fleets",
+        "volume": "462",
+        "author": "Farouq",
+        "year": "2021",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.engappai.2020.103492",
+        "article-title": "Large-scale monitoring of operationally diverse district heating substations: A reference-group based approach",
+        "volume": "90",
+        "author": "Farouq",
+        "year": "2020",
+        "journal-title": "Engineering Applications of Artificial Intelligence"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "236",
+        "DOI": "10.1016/j.egypro.2018.08.188",
+        "article-title": "Towards understanding district heating substation behavior using robust first difference regression",
+        "volume": "149",
+        "author": "Farouq",
+        "year": "2018",
+        "journal-title": "Energy Procedia"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b15",
+        "series-title": "Proceedings of the 12th international conference on information processing in sensor networks",
+        "first-page": "129",
+        "article-title": "Strip, bind, and search: A method for identifying abnormal energy consumption in buildings",
+        "author": "Fontugne",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "176",
+        "DOI": "10.1016/j.apenergy.2013.02.062",
+        "article-title": "Heat load patterns in district heating substations",
+        "volume": "108",
+        "author": "Gadd",
+        "year": "2013",
+        "journal-title": "Applied Energy"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1016/j.apenergy.2015.07.061",
+        "article-title": "Fault detection in district heating substations",
+        "volume": "157",
+        "author": "Gadd",
+        "year": "2015",
+        "journal-title": "Applied Energy"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "840",
+        "DOI": "10.1016/j.enconman.2018.03.015",
+        "article-title": "Clustering-based analysis for residential district heating data",
+        "volume": "165",
+        "author": "Gianniou",
+        "year": "2018",
+        "journal-title": "Energy Conversion and Management"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b19",
+        "series-title": "Proceedings of the 33rd international conference on international conference on machine learning - Volume 48",
+        "first-page": "2712",
+        "article-title": "Robust random cut forest based anomaly detection on streams",
+        "author": "Guha",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ymssp.2019.106585",
+        "article-title": "A general anomaly detection framework for fleet-based condition monitoring of machines",
+        "volume": "139",
+        "author": "Hendrickx",
+        "year": "2020",
+        "journal-title": "Mechanical Systems and Signal Processing"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.eswa.2022.116864_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2113",
+        "DOI": "10.1109/TPAMI.2010.48",
+        "article-title": "A martingale framework for detecting changes in data streams by testing exchangeability",
+        "volume": "32",
+        "author": "Ho",
+        "year": "2010",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b22",
+        "series-title": "Proceedings of the sixth workshop on conformal and probabilistic prediction and applications",
+        "first-page": "213",
+        "article-title": "Conformal k-NN anomaly detector for univariate data streams",
+        "volume": "vol. 60",
+        "author": "Ishimtsev",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1007/s10994-014-5453-0",
+        "article-title": "Regression conformal prediction with random forests",
+        "volume": "97",
+        "author": "Johansson",
+        "year": "2014",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b24",
+        "series-title": "Fault detection in a network of similar machines using clustering approach",
+        "author": "Lapira",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b25",
+        "series-title": "2015 IEEE 14th international conference on machine learning and applications",
+        "first-page": "38",
+        "article-title": "Evaluating real-time anomaly detection algorithms – the numenta anomaly benchmark",
+        "author": "Lavin",
+        "year": "2015"
+      },
+      {
+        "issue": "39",
+        "key": "10.1016/j.eswa.2022.116864_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1504",
+        "DOI": "10.21105/joss.01504",
+        "article-title": "STUMPY: A Powerful and scalable python library for time series data mining",
+        "volume": "4",
+        "author": "Law",
+        "year": "2019",
+        "journal-title": "The Journal of Open Source Software"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b27",
+        "series-title": "Conformal anomaly detection: Detecting abnormal trajectories in surveillance applications",
+        "author": "Laxhammar",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1016/j.measurement.2017.02.017",
+        "article-title": "A data-driven prognostic approach based on statistical similarity: An application to industrial circuit breakers",
+        "volume": "108",
+        "author": "Leone",
+        "year": "2017",
+        "journal-title": "Measurement"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1016/j.neucom.2019.07.113",
+        "article-title": "Efficient conformal predictor ensembles",
+        "volume": "397",
+        "author": "Linusson",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b30",
+        "series-title": "Proceedings of the sixth workshop on conformal and probabilistic prediction and applications",
+        "first-page": "154",
+        "article-title": "On the calibration of aggregated conformal predictors",
+        "volume": "vol. 60",
+        "author": "Linusson",
+        "year": "2017"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/2133360.2133363",
+        "article-title": "Isolation-based anomaly detection",
+        "volume": "6",
+        "author": "Liu",
+        "year": "2012",
+        "journal-title": "ACM Transactions on Knowledge Discovery from Data"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b32",
+        "series-title": "2019 IEEE international conference on prognostics and health management",
+        "first-page": "1",
+        "article-title": "Unsupervised fault detection in varying operating conditions",
+        "author": "Michau",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Michau, G., Palmé, T., & Fink, O. (2018). Fleet PHM for Critical Systems: Bi-level Deep Learning Approach for Fault Detection. In Proceedings of the European conference of the PHM society. Vol. 4. No. 1 (p. 403). Utrecht, The Netherlands: http://dx.doi.org/10.3929/ethz-b-000317515, URL:.",
+        "DOI": "10.36001/phme.2018.v4i1.403"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/en12010113",
+        "article-title": "Automated statistical methods for fault detection in district heating customer installations",
+        "volume": "12",
+        "author": "Månsson",
+        "year": "2019",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "163",
+        "DOI": "10.1016/j.energy.2019.04.220",
+        "article-title": "Faults in district heating customer installations and ways to approach them: Experiences from Swedish utilities",
+        "volume": "180",
+        "author": "Månsson",
+        "year": "2019",
+        "journal-title": "Energy"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "226",
+        "DOI": "10.1016/j.egypro.2018.08.187",
+        "article-title": "A machine learning approach to fault detection in district heating substations",
+        "volume": "149",
+        "author": "Månsson",
+        "year": "2018",
+        "journal-title": "Energy Procedia"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b37",
+        "series-title": "Information, communication and computing technology",
+        "first-page": "284",
+        "article-title": "Homogeneous pools to heterogeneous ensembles for unsupervised outlier detection",
+        "author": "Mukhriya",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b38",
+        "series-title": "Proceedings of the 1st ACM conference on embedded systems for energy-efficient buildings",
+        "first-page": "50",
+        "article-title": "Data driven investigation of faults in HVAC systems with model, cluster and compare (MCC)",
+        "author": "Narayanaswamy",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b39",
+        "article-title": "Machine learning applied on the district heating and cooling sector: a review",
+        "author": "Ntakolia",
+        "year": "2021",
+        "journal-title": "Energy Systems"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b40",
+        "series-title": "Machine learning and knowledge discovery for engineering systems health management",
+        "article-title": "3 - anomaly detection in a fleet of systems",
+        "author": "Oza",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b41",
+        "series-title": "Anomaly detection in a fleet of systems",
+        "author": "Oza",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b42",
+        "series-title": "Fault diagnosis methods for district heating substations, Research Notes 1780",
+        "author": "Pakanen",
+        "year": "1996"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b43",
+        "series-title": "Fault detection with hourly district energy data - probabilistic methods and heuristics for automated detection and ranking of anomalies",
+        "author": "Sandin",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b44",
+        "series-title": "Proceedings of the 2012 SIAM international conference on data mining",
+        "first-page": "1047",
+        "article-title": "On evaluation of outlier rankings and outlier scores",
+        "author": "Schubert",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b45",
+        "series-title": "The efficiency of conformal predictors for anomaly detection",
+        "author": "Smith",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b46",
+        "series-title": "Dynamical systems and turbulence, Warwick 1980",
+        "first-page": "366",
+        "article-title": "Detecting strange attractors in turbulence",
+        "author": "Takens",
+        "year": "1981"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b47",
+        "series-title": "PHM society European conference. Vol. 6. No. 1",
+        "first-page": "11",
+        "article-title": "Fault detection and condition monitoring in district heating using smart meter data",
+        "author": "Theusch",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b48",
+        "series-title": "Proceedings of the sixth workshop on conformal and probabilistic prediction and applications",
+        "first-page": "39",
+        "article-title": "Combination of conformal predictors for classification",
+        "volume": "vol. 60",
+        "author": "Toccaceli",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1016/j.enbuild.2018.10.009",
+        "article-title": "Clustering district heat exchange stations using smart meter consumption data",
+        "volume": "182",
+        "author": "Tureczek",
+        "year": "2019",
+        "journal-title": "Energy and Buildings"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b50",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1007/s10994-017-5686-9",
+        "article-title": "The online performance estimation framework: heterogeneous ensemble learning for data streams",
+        "volume": "107",
+        "author": "van Rijn",
+        "year": "2018",
+        "journal-title": "Machine Learning"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b51",
+        "series-title": "Proceedings of the Asian conference on machine learning",
+        "first-page": "475",
+        "article-title": "Conditional validity of inductive conformal predictors",
+        "volume": "vol. 25",
+        "author": "Vovk",
+        "year": "2012"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1007/s10472-013-9368-4",
+        "article-title": "Cross-conformal predictors",
+        "volume": "74",
+        "author": "Vovk",
+        "year": "2015",
+        "journal-title": "Annals of Mathematics and Artificial Intelligence"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b53",
+        "series-title": "Algorithmic learning in a random world",
+        "author": "Vovk",
+        "year": "2005"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eswa.2022.116864_b54",
+        "doi-asserted-by": "crossref",
+        "first-page": "791",
+        "DOI": "10.1093/biomet/asaa027",
+        "article-title": "Combining p-values via averaging",
+        "volume": "107",
+        "author": "Vovk",
+        "year": "2020",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b55",
+        "series-title": "Admissible ways of merging p-values under arbitrary dependence",
+        "author": "Vovk",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b56",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.rser.2021.110929",
+        "article-title": "Practical issues in implementing machine-learning models for building energy efficiency: Moving beyond obstacles",
+        "volume": "143",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Renewable and Sustainable Energy Reviews"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b57",
+        "series-title": "Challenges at the interface of data analysis, computer science, and optimization",
+        "first-page": "453",
+        "article-title": "Fault mining using peer group analysis",
+        "author": "Weston",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.enbuild.2020.110161",
+        "article-title": "Machine learning-based leakage fault detection for district heating networks",
+        "volume": "223",
+        "author": "Xue",
+        "year": "2020",
+        "journal-title": "Energy and Buildings"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b59",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1016/j.apenergy.2017.08.035",
+        "article-title": "Fault detection and operation optimization in district heating substations based on data mining techniques",
+        "volume": "205",
+        "author": "Xue",
+        "year": "2017",
+        "journal-title": "Applied Energy"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b60",
+        "series-title": "2016 IEEE 16th international conference on data mining",
+        "first-page": "1317",
+        "article-title": "Matrix profile I: All pairs similarity joins for time series: A unifying view that includes motifs, discords and shapelets",
+        "author": "Yeh",
+        "year": "2016"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b61",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1007/s10618-017-0519-9",
+        "article-title": "Time series joins, motifs, discords and shapelets: a unifying view that exploits the matrix profile",
+        "volume": "32",
+        "author": "Yeh",
+        "year": "2018",
+        "journal-title": "Data Mining and Knowledge Discovery"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b62",
+        "series-title": "Licentiate thesis / luleå university of technology",
+        "first-page": "95",
+        "article-title": "Fault detection in district heating substations",
+        "author": "Yliniemi",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.eswa.2022.116864_b63",
+        "series-title": "2020 15th IEEE conference on industrial electronics and applications",
+        "first-page": "153",
+        "article-title": "Anomaly detection of heat energy usage in district heating substations using LSTM based variational autoencoder combined with physical model",
+        "author": "Zhang",
+        "year": "2020"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eswa.2022.116864_b64",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1145/2594473.2594476",
+        "article-title": "Ensembles for unsupervised outlier detection: Challenges and research questions a position paper",
+        "volume": "15",
+        "author": "Zimek",
+        "year": "2014",
+        "journal-title": "SIGKDD Explorations Newsletter"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.eswa.2022.116864_b65",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/widm.1280",
+        "article-title": "There and back again: Outlier detection between statistical reasoning and data mining algorithms",
+        "volume": "8",
+        "author": "Zimek",
+        "year": "2018",
+        "journal-title": "WIREs Data Mining and Knowledge Discovery"
+      }
+    ],
+    "container-title": [
+      "Expert Systems with Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S095741742200313X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S095741742200313X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2025-10-17T05:47:08Z",
+      "timestamp": 1760680028000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S095741742200313X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "references-count": 65,
+    "alternative-id": [
+      "S095741742200313X"
+    ],
+    "URL": "https://doi.org/10.1016/j.eswa.2022.116864",
+    "relation": {},
+    "ISSN": [
+      "0957-4174"
+    ],
+    "issn-type": [
+      {
+        "value": "0957-4174",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A conformal anomaly detection based industrial fleet monitoring framework: A case study in district heating",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Expert Systems with Applications",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.eswa.2022.116864",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2022 Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "116864"
+  }
+}
